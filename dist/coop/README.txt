@@ -1,13 +1,12 @@
 DREAD DAWN CO-OP MOD  (2 players, e.g. over Radmin VPN)
 =======================================================
-Version 1.2
+Version 1.2 - made for Dread Dawn game version 2026.9.30.1085.CV
 
 INSTALLATION (the same for both players)
 ----------------------------------------
 1. Copy the contents of this package into the Dread Dawn folder, i.e. where the folder
    "Word" is. Afterwards it contains:
-     - Dread Dawn COOP.bat
-     - Dread Dawn COOP (Fenster 800x600).bat   (small window, e.g. for testing)
+     - Dread Dawn COOP.bat   (starts the game with the mod)
      - coop\coop-mod.jar
 2. Both players need the same game version and exactly the same coop-mod.jar (version 1.2).
    Other versions are rejected with a message when connecting.
@@ -62,7 +61,7 @@ GOOD TO KNOW
 
 REMOVING
 --------
-Delete the two .bat files and the folder "coop" (on the friend's PC also "Save\coop").
+Delete "Dread Dawn COOP.bat" and the folder "coop" (on the friend's PC also "Save\coop").
 Nothing else was changed.
 
 Made with Claude Opus 5.5 (Anthropic) for Minnteee - https://github.com/Minnteee

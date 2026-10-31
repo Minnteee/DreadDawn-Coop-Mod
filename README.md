@@ -2,7 +2,7 @@
 
 This mod lets you play **Dread Dawn together in the same world**: one player hosts, a friend joins. You connect over the network, for example with **Radmin VPN** or in a LAN.
 
-- **Version:** 1.2
+- **Version:** 1.2 – made for Dread Dawn game version **2026.9.30.1085.CV**
 - **No original file is changed.** On start the mod reads the installed game and builds the co-op version from it in `coop\cache`. After a game update this happens again automatically.
 - **No extra Java needed.** The start files use the Java that comes with the game.
 - **Optional German language pack** that translates the whole game (see below).
@@ -11,12 +11,11 @@ This mod lets you play **Dread Dawn together in the same world**: one player hos
 
 1. Download `DreadDawn-Coop-Mod-1.2.zip` from **[Releases](https://github.com/Minnteee/DreadDawn-Coop-Mod/releases/latest)**.
 2. Unpack it into the Dread Dawn folder, i.e. where the folder `Word` is. Afterwards it contains:
-   - `Dread Dawn COOP.bat` (normal start)
-   - `Dread Dawn COOP (Fenster 800x600).bat` (small window, e.g. for testing)
+   - `Dread Dawn COOP.bat` (starts the game with the mod)
    - the folder `coop` with `coop-mod.jar`, instructions (`README.txt`), the co-op list and the license
 3. Both players need the same game version and exactly the same `coop-mod.jar`. Otherwise the connection is rejected with a message.
 
-**Removing:** delete the two `.bat` files and the `coop` folder (on the friend's PC also `Save\coop`).
+**Removing:** delete `Dread Dawn COOP.bat` and the `coop` folder (on the friend's PC also `Save\coop`).
 
 ## Playing
 
