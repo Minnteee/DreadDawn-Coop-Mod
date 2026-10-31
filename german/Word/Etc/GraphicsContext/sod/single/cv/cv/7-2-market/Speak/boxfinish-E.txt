@@ -1,0 +1,20 @@
+2
+1
+Gut gemacht, saubere Arbeit. Hier bist du fertig.
+@
+2
+1
+Du kannst jetzt zurückgehen.
+@
+0
+0
+Verstanden. Und was ist mit der Evakuierung?
+@
+2
+1
+Darüber musst du dir keine Gedanken machen. Wenn es so weit ist, sagen wir dir Bescheid.
+@
+0
+0
+Alles klar.
+@

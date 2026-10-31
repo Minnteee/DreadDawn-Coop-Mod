@@ -1,0 +1,24 @@
+18,120,330,0.5
+Wie konnte das Rohr nur platzen?
+@
+18,120,630,0.5
+Was machen wir denn jetzt?
+@
+18,120,130,0.5
+Haben wir jetzt etwa bald kein Wasser mehr?
+@
+18,120,330,0.5
+Verdammt.
+@
+18,120,730,0.5
+Mann!
+@
+18,120,330,0.5
+Warum? Warum? Warum?
+@
+18,120,330,0.5
+Das nervt echt.
+@
+18,120,430,0.5
+.....
+@

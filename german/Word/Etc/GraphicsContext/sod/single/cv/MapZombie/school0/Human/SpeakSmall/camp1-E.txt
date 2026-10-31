@@ -1,0 +1,24 @@
+0,310,300,0.5
+Hey, wie läuft’s an der Schule?
+@
+0,310,300,0.5
+Gibt’s da drüben viele Zombies?
+@
+-1,310,300,0.5
+Geht so. Wir haben da eine Verteidigungslinie aufgebaut
+@
+-1,310,300,0.5
+Nur das Essen wird knapp
+@
+1,300,300,0.5
+Bei uns wird das Essen auch knapp
+@
+1,300,300,0.5
+Wir wollten eigentlich zu euch rüber, aber jetzt wohl eher nicht
+@
+0,310,300,0.5
+Sieht aus, als müssten wir später woanders hin
+@
+-1,310,30000,0.5
+Viel Glück euch allen.
+@

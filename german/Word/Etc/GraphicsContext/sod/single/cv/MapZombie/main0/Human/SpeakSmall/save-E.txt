@@ -1,0 +1,42 @@
+0,400,300,0.5
+Hilfe!!
+@
+0,200,200,0.5
+Bitte, irgendwer, helft mir!!
+@
+-1,300,300,0.5
+????
+@
+-1,300,200,0.5
+Du siehst aus, als bräuchtest du Hilfe?
+@
+0,300,300,0.5
+Ja!! Kannst du mir helfen?
+@
+-1,300,300,0.5
+Ich denke schon? Vielleicht?
+@
+0,300,300,0.5
+Ich hab im Gras vor deinen Füßen eine Waffe versteckt.
+@
+0,300,300,0.5
+Schieb einfach das Gras beiseite, dann findest du sie.
+@
+0,300,300,0.5
+Sie liegt genau da, im Gras vor deinen Füßen.
+@
+0,200,200,0.5
+Ich trau mich nicht raus!
+@
+0,200,200,0.5
+Hol mich hier raus!!
+@
+-1,300,300,0.5
+Halt durch!!!
+@
+0,200,300,0.5
+Beeil dich.
+@
+0,200,3300,0.5
+.............
+@

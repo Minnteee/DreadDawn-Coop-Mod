@@ -1,0 +1,12 @@
+234,180,180,0.5
+Ah~
+@
+234,180,400,0.5
+Du massierst echt gut!
+@
+235,180,180,0.5
+Du solltest in Zukunft mehr Sport machen.
+@
+235,180,480,0.5
+Deine Schultern sind total verspannt.
+@

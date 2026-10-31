@@ -1,0 +1,18 @@
+3
+1
+(Funkgerät von Anführerin Amy)
+Alles erledigt, Jack?
+@
+0
+0
+Alle sind evakuiert. Können wir jetzt mit unserem Plan loslegen?
+@
+3
+1
+(Funkgerät von Anführerin Amy)
+Gut, geh in die Klassenzimmer der Schule und warte dort auf mich. Wir kommen heute Abend.
+@
+0
+0
+Alles klar.
+@

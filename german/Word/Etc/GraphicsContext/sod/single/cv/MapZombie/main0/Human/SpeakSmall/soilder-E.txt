@@ -1,0 +1,51 @@
+1,300,300,0.5
+Warum hast du gestern nicht Alarm geschlagen?
+@
+0,300,300,0.5
+Welcher Alarm? Alter ...
+@
+0,300,300,0.5
+Willst du, dass die Zombies hier auch alles überrennen?
+@
+1,300,300,0.5
+Und was ist mit dem Lager hier in der Nähe? Ist dir das egal?
+@
+0,300,300,1
+Was spielst du dich so als Heiliger auf?
+@
+0,300,300,1
+Ich sollte lieber fragen, wo du gestern warst.
+@
+0,300,300,1
+Jedes Mal, wenn was los ist, stellst du dich tot.
+@
+0,300,300,0.5
+Bauchweh, Kopfweh, Fußschmerzen, „Periode“.
+@
+1,300,300,1
+Quatsch, wann hab ich je gesagt, dass ich meine Periode hab?
+@
+0,300,300,0.5
+Die Ausrede ist immer noch besser als deine „Gehirnentzündung“.
+@
+1,300,100,1
+Willst du Ärger? Willst du dich prügeln?
+@
+0,300,100,1
+Na komm, na komm, los geht’s!
+@
+2,300,300,1
+Stopp, stopp! Leute, beruhigt euch.
+@
+2,300,300,0.5
+Ihr macht mir Kopfschmerzen.
+@
+2,300,300,0.5
+In Zeiten wie diesen müssen wir zusammenhalten.
+@
+1,300,300,1
+.....
+@
+0,300,3000,1
+.....
+@

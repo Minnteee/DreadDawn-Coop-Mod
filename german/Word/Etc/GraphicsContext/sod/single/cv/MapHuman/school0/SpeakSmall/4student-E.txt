@@ -1,0 +1,57 @@
+8,150,190,0.5
+Letzte Nacht gab’s draußen richtig laute Schüsse.
+@
+8,150,190,0.5
+Die ganze Nacht lang.
+@
+5,120,150,0.5
+Hab ich auch gehört.
+@
+6,120,110,0.5
+Die waren so laut, dass ich nicht schlafen konnte.
+@
+7,120,200,0.5
+Ich auch nicht.
+@
+8,120,180,0.5
+Angeblich treibt sich drüben bei den Unterrichtsgebäuden irgendein Monster rum.
+@
+8,120,180,0.5
+Da drüben ist ein Schüler gestorben.
+@
+5,120,160,0.5
+Ein Monster? Ein Zombie?
+@
+8,120,150,0.5
+Keine Ahnung, ich hab gehört,
+@
+8,120,160,0.5
+man bekommt es kaum zu sehen.
+@
+8,120,170,0.5
+Wie ein Geist.
+@
+6,120,170,0.5
+Hör auf, du machst mir Angst.
+@
+8,120,160,0.5
+Ich hab auch Angst.
+@
+8,150,190,0.5
+Nachts hab ich immer das Gefühl, dass mich etwas beobachtet.
+@
+5,130,160,0.5
+Ich auch, vor allem, wenn ich Nachtwache habe.
+@
+5,150,190,0.5
+Dann hör ich etwas im Flur kreischen.
+@
+7,160,150,0.5
+Ehrlich gesagt hab ich’s auch gehört. Dieses Ding...
+@
+6,120,220,0.5
+Schluss! Hört auf! Ich hab Angst....
+@
+6,120,30000000,0.5
+......
+@

@@ -1,0 +1,75 @@
+5,240,240,0.5
+Boah, ist das langweilig.
+@
+5,240,240,0.5
+Eine Party auf dem Dachboden...
+@
+5,240,240,0.5
+Wessen bescheuerte Idee war das?
+@
+0,240,240,0.5
+Die hängen alle nur am Handy.
+@
+0,240,240,0.5
+Was soll daran Spaß machen?
+@
+2,140,140,0.5
+Hey, hey, hey, hilf mir mal!
+@
+2,140,140,0.5
+Ich lieg am Boden!
+@
+2,140,140,0.5
+Da ist ein Sniper auf dem Hügel!
+@
+1,140,140,0.5
+Schnell, schnell, knall ihn ab!
+@
+6,140,140,0.5
+Ich komme, ich komme!!
+@
+6,140,140,0.5
+Versteck dich, schnell!
+@
+6,140,140,0.5
+Stirb nicht!
+@
+6,240,240,0.5
+Scheiße!
+@
+2,140,140,0.5
+Schleich dich ran! Stich ihn ab!
+@
+1,140,140,0.5
+Ich komme, ich komme.
+@
+1,240,240,0.5
+Heb seine Sniper für mich auf.
+@
+2,140,140,0.5
+Langsam, ganz ruhig!!
+@
+5,240,240,0.5
+.....
+@
+0,240,240,0.5
+.....
+@
+1,140,140,0.5
+Schnell, schnell, knall ihn ab!
+@
+6,140,140,0.5
+Ich komme, ich komme!!
+@
+6,140,140,0.5
+Versteck dich, schnell!
+@
+6,140,140,0.5
+Stirb nicht!
+@
+5,240,240,0.5
+.....
+@
+0,240,240,0.5
+.....
+@

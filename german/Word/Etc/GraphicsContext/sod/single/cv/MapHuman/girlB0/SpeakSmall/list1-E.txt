@@ -1,0 +1,12 @@
+61,220,270,0.5
+Wie lange soll das denn noch dauern?
+@
+64,210,250,0.5
+Das geht so langsam...
+@
+67,230,280,0.5
+......
+@
+65,210,290,0.5
+Super effizient hier...
+@

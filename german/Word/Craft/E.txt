@@ -1,0 +1,139 @@
+Fähigkeit zu niedrig: Verbessere die passende Fähigkeit, indem du die Objekte im roten Kasten baust.
+Abbauen
+@
+bonfireC
+Lagerfeuer
+Hier kannst du Essen wie Huhn oder Zombiearme garen und Holz, Laub oder Papier zu Kohlepulver verbrennen.
+bonfirearmC
+Arm-Lagerfeuer
+Hier kannst du Essen wie Huhn oder Zombiearme garen und Holz, Laub oder Papier zu Kohlepulver verbrennen. (Bietet mehr Platz.)
+bonfirestoneC
+Stein-Lagerfeuer
+Hier kannst du Essen wie Huhn oder Zombiearme garen und Holz, Laub oder Papier zu Kohlepulver verbrennen. (Brennt doppelt so schnell und bietet mehr Platz.)
+sleepingbagC
+Schlafsack
+Damit kannst du deinen Schlafwert auffüllen, Zeit überspringen oder das Spiel speichern.
+boxC
+Kiste
+Darin kannst du Gegenstände lagern.
+torchC
+Fackel
+Spendet Licht und schmückt dein Lager.
+torcharmC
+Arm-Fackel
+Macht sich gut als Deko und spendet Licht.
+torchbeaconC
+Leuchtfeuer
+Zeigt seine Position auf dem Radar oben rechts an, damit du dich nicht verirrst.
+torchlookoutC
+Wachturm
+Von hier oben siehst du weiter und kannst die Umgebung aus der Ferne auskundschaften.
+logC
+Schwere Holzfalle
+Stolpern Zombies über den Draht, stürzen sie und werden zerquetscht – das verursacht massiven Schaden.
+macgun1C
+Stolperdraht-MG
+Stolpern Zombies über den Draht, feuert es automatisch und hält sie auf Abstand. (MG-Teile bekommst du vom Professor im Labor der Schule. Drück M, um die Karte zu öffnen und das Labor zu finden.)
+macgun2C
+Automatik-MG
+Erfasst Ziele automatisch und eröffnet das Feuer, um Zombies abzuwehren. (MG-Teile bekommst du vom Professor im Labor der Schule. Drück M, um die Karte zu öffnen und das Labor zu finden.)
+macgun3C
+Automatik-MG
+Erfasst Ziele automatisch und eröffnet das Feuer, um Zombies abzuwehren. (MG-Teile bekommst du vom Professor im Labor der Schule. Drück M, um die Karte zu öffnen und das Labor zu finden.)
+macgun4C
+Automatik-MG
+Erfasst Ziele automatisch und eröffnet das Feuer, um Zombies abzuwehren. (MG-Teile bekommst du vom Professor im Labor der Schule. Drück M, um die Karte zu öffnen und das Labor zu finden.)
+macgun5C
+Automatik-Flinte
+Eine Schrotflinte, die Ziele automatisch erfasst und Zombies mit Schrot eindeckt. (MG-Teile bekommst du vom Professor im Labor der Schule. Drück M, um die Karte zu öffnen und das Labor zu finden.)
+macgun6C
+Flammenwerfer
+Ein fest installiertes Geschütz, das Flammen speit. (MG-Teile bekommst du vom Professor im Labor der Schule. Drück M, um die Karte zu öffnen und das Labor zu finden.)
+macgun7C
+Steinarmbrust
+Eine Armbrust, die Steine verschießt. Muss von Hand nachgeladen werden.
+macgun9C
+Streu-Steinarmbrust
+Eine Armbrust, die Steine streut – praktisch gegen große Zombiehorden. Muss von Hand nachgeladen werden.
+macgun8C
+Pfeilarmbrust
+Eine Armbrust, die Pfeile verschießt. Muss von Hand nachgeladen werden. (Pfeile kannst du im Herstellungsmenü herstellen.)
+macgun10C
+Streu-Pfeilarmbrust
+Eine Armbrust, die Pfeile streut – praktisch gegen große Zombiehorden. Muss von Hand nachgeladen werden. (Pfeile kannst du im Herstellungsmenü herstellen.)
+macgun11C
+Mörser
+Verschießt Mörsergranaten, die Ziele auch hinter Hindernissen treffen – praktisch gegen große Zombiehorden. Muss von Hand nachgeladen werden und kann nicht in Gebäuden gebaut werden. (Mörsergranaten kannst du im Herstellungsmenü herstellen.)
+fenceC,fenceC1
+Holzzaun
+Versperrt Zombies den Weg. Geringe Verteidigung.
+fenceboneC,fenceboneC1
+Knochenzaun
+Versperrt Zombies den Weg. Mittlere Verteidigung.
+fencestoneC,fencestoneC1
+Steinzaun
+Versperrt Zombies den Weg. Hohe Verteidigung.
+fencestrongC
+Verstärkter Holzzaun
+Versperrt Zombies den Weg. Hohe Verteidigung.
+hinderC,hinderC1
+Hindernis
+Zombies, die darüberlaufen, stolpern und werden langsamer.
+tableC
+Werkbank
+Hier kannst du fortgeschrittene Gegenstände herstellen, zum Beispiel selbstgebaute Schusswaffen.
+roof1C
+Grasdach
+Eine Verteidigungsanlage, die Fernangriffe von Spezial-Infizierten abblockt und nebenbei deine Basis schmückt.
+roof2C
+Grasdach
+Eine Verteidigungsanlage, die Fernangriffe von Spezial-Infizierten abblockt und nebenbei deine Basis schmückt.
+roof3C
+Grasdach
+Eine Verteidigungsanlage, die Fernangriffe von Spezial-Infizierten abblockt und nebenbei deine Basis schmückt.
+roof4C
+Grasdach
+Eine Verteidigungsanlage, die Fernangriffe von Spezial-Infizierten abblockt und nebenbei deine Basis schmückt.
+nailC,nailC1
+Holz-Stachelfalle
+Verursacht anhaltenden Schaden bei Zombies, die darauftreten. Mittlere Stärke.
+nailstoneC,nailstoneC1
+Stein-Stachelfalle
+Verursacht anhaltenden Schaden bei Zombies, die darauftreten. Hohe Stärke.
+nailfireC
+Flammenfalle
+Macht aus vorbeilaufenden Zombies Grillgut.
+mineC
+Landmine
+Jagt jeden Zombie in die Luft, der darauftritt.
+barrelC
+Benzinfass
+Fügt Zombies Schaden zu, wenn es explodiert.
+bladeC
+Drehende Eisenstange
+Eine schnell rotierende Eisenstange – ideal gegen große Mengen Zombies.
+herbC
+Kräuter
+Können nach einer Wachstumszeit geerntet und als Medizin verwendet werden.
+cornC
+Mais
+Kann nach einer Wachstumszeit als Nahrung geerntet werden.
+wheatC
+Weizen
+Kann nach einer Wachstumszeit als Nahrung geerntet werden.
+collectC
+Tausammler
+Sammelt Tau, mit dem du Pflanzen gießen oder Feuer löschen kannst. Das Wasser ist auch trinkbar. Mit einem Becher kannst du Wasser aus dem Sammler schöpfen.
+cocktrapC
+Hühnerfalle
+Damit fängst du Hühner. Die Falle muss im Freien auf einer offenen Fläche stehen, damit Hühner hineingehen. (Fleischreste bekommst du im Herstellungsmenü. Drück B, um das Herstellungsmenü zu öffnen.)
+farmblockC
+Feld
+Hier kannst du Pflanzen anbauen.
+tallwallC
+Holzpalisade
+Hält Zombies und Menschen gleichermaßen auf und bietet hohe Verteidigung.
+tallwallstoneC
+Hohe Steinmauer
+Hält Zombies und Menschen gleichermaßen auf und bietet hohe Verteidigung.
+@

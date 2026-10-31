@@ -1,0 +1,42 @@
+0,500,500,0.5
+Du sagst also, Judy rennt ständig aufs Klo?
+@
+1,300,300,0.5
+Ja, sie schleicht sich oft aufs Klo.
+@
+2,300,300,0.5
+Stimmt, ich hab schon öfter gesehen, wie sie sich vor uns versteckt.
+@
+3,400,400,0.5
+Sie nimmt sogar ihren kleinen Freund mit, damit er Schmiere steht.
+@
+3,300,300,0.5
+Ich glaub, die führt was im Schilde.
+@
+1,300,300,0.5
+Da gibt’s gar keinen Zweifel, die führt garantiert was im Schilde.
+@
+0,300,300,0.5
+Kein Wunder, dass das Essen in letzter Zeit so schnell verschwindet.
+@
+2,300,100,0.5
+Verdammt, ich stell sie zur Rede, wenn sie rauskommt.
+@
+1,300,100,0.5
+Ja, wir wollen Antworten.
+@
+2,300,300,0.5
+Wir müssen sie uns richtig vorknöpfen.
+@
+0,500,500,0.5
+Gut, warten wir, bis sie rauskommt.
+@
+2,300,100,0.5
+Okay.
+@
+1,300,100,0.5
+Okay.
+@
+2,300,3000,0.5
+Okay.
+@

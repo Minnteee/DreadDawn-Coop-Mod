@@ -1,0 +1,23 @@
+2
+1
+Verängstigte Familie:
+Hey! Sind draußen noch Zombies?
+@
+0
+0
+Die hab ich gerade alle erledigt. Vor dem Restaurant ist es jetzt sicher.
+@
+2
+1
+Verängstigte Familie:
+Super! Du hast uns das Leben gerettet. Ich will dir was geben!
+@
+0
+0
+Nein, nein, nein, das ist zu nett. Das war doch nichts, nur eine Kleinigkeit.
+@
+2
+1
+Verängstigte Familie:
+Nimm schon!
+@

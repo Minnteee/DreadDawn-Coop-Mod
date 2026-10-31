@@ -1,0 +1,28 @@
+5
+1
+Jack, wir sind so weit. Das Boot ist startklar!
+@
+6
+1
+Das verdanken wir Amy von der Nachbarschule, die es repariert hat.
+@
+6
+1
+Ohne sie wäre das Boot nur noch Schrott.
+@
+0
+0
+Super, dann fahren wir mit dem Boot zum Strand bei der Schule.
+@
+0
+0
+Dabei testen wir gleich, ob das Boot was aushält.
+@
+5
+1
+Gut, los geht’s!
+@
+6
+1
+Ab auf Spritztour!
+@

@@ -1,0 +1,19 @@
+0
+0
+Hey, ich bin Jack, ich leite die Gruppe.
+@
+2
+1
+Student A
+Da bist du ja endlich! Jack! Wir haben über Funk von der Evakuierung gehört.
+@
+2
+1
+Student A
+Wir sind startklar!
+@
+2
+1
+Student B
+Los, los, los!
+@

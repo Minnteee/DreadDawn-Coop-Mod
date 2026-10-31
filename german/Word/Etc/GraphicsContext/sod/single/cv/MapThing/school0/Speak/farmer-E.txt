@@ -1,0 +1,40 @@
+0
+0
+Hey, Leute!
+@
+2
+1
+Brauchst du was?
+@
+0
+0
+Gibt es hier in der Gegend Vorräte?
+@
+2
+1
+Haha, da bist du bei uns genau richtig.
+@
+2
+1
+Links von dir ist unsere Farm.
+@
+0
+0
+Soll ich euch helfen?
+@
+2
+1
+Wenn du uns bei der Ernte hilfst, können wir dir ein paar Vorräte geben.
+@
+2
+1
+Was meinst du?
+@
+0
+0
+Klar, abgemacht.
+@
+2
+1
+Super, hol dir da drüben eine Sichel.
+@

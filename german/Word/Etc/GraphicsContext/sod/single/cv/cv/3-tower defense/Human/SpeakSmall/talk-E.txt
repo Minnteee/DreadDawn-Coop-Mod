@@ -1,0 +1,24 @@
+9,150,200,0.5
+Hier ist es nicht mehr sicher.
+@
+9,150,220,0.5
+Diese Dinger könnten jeden Moment hier einbrechen.
+@
+9,150,220,0.5
+Wir brauchen mehr Vorräte.
+@
+9,150,470,0.5
+Sonst können wir uns nicht verteidigen.
+@
+4,150,170,0.5
+Sir, wir könnten zur Basis zurück und welche holen.
+@
+9,150,170,0.5
+Du Idiot! Draußen ist es gerade viel zu gefährlich.
+@
+9,150,160,0.5
+Willst du etwa ein Selbstmordkommando?
+@
+4,150,570000,0.5
+..........
+@

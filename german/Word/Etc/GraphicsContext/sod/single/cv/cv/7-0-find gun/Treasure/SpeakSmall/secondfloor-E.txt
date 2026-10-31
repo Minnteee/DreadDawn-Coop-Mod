@@ -1,0 +1,6 @@
+-1,260,280,0.5
+Das muss das Obergeschoss sein, von dem der Glatzkopf geredet hat.
+@
+-1,260,25000000,0.5
+Mal sehen, wo die Waffenkammer ist.
+@

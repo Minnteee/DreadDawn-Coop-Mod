@@ -1,0 +1,114 @@
+0
+0
+Hört mal alle her. Wir werden die Schule in ein paar Tagen evakuieren.
+@
+2
+1
+Menge:
+Ist das ernst gemeint? Das wird doch nicht wieder wie letztes Mal, als man uns eine Evakuierung versprochen hat und dann nichts kam, oder?
+@
+2
+1
+Menge:
+Und die Soldaten sind doch alle zum Gefängnis abgezogen. Wie sollen wir da evakuiert werden?
+@
+0
+0
+Diesmal ist es anders. Wir organisieren die Evakuierung selbst.
+@
+0
+0
+Und die Soldaten haben versprochen, uns zu unterstützen.
+@
+2
+1
+Menge:
+JA!
+@
+2
+1
+Menge:
+Wahnsinn!!! Diese Zombieangriffe machen uns echt fertig.
+@
+2
+1
+Menge:
+Wenn sie noch mal kommen, sind wir erledigt.
+@
+0
+0
+Freut euch nicht zu früh. Wir müssen alle zusammen zum Resort am Strand.
+@
+2
+1
+Menge:
+Wie sollen wir da hinkommen?
+@
+2
+1
+Menge:
+Draußen wimmelt es von Zombies.
+@
+0
+0
+Keine Sorge, ich kenne mich mit Evakuierungen aus. Ich habe schon der Nachbarschule geholfen, sich in Sicherheit zu bringen.
+@
+0
+0
+Der Plan sieht so aus:
+@
+0
+0
+Ab sofort sammeln wir alle Vorräte, die wir finden können – jedes einzelne Teil.
+@
+0
+0
+Waffen, Munition, Essen, Medikamente – einfach alles, und zwar schnell.
+@
+0
+0
+Es sollte für etwa ein, zwei Tage reichen.
+@
+0
+0
+Aus allem, was wir sammeln, stellen wir Waffen her.
+@
+0
+0
+Sobald dann die Soldaten aus dem Gefängnis mit der versprochenen Unterstützung eintreffen, eskortieren sie uns zum Strand.
+@
+0
+0
+Aber sie werden zu wenige sein, also müssen wir uns während der Evakuierung selbst schützen können.
+@
+0
+0
+Wenn wir jetzt anfangen, sollten wir es schaffen. Dafür müssen alle mit anpacken.
+@
+0
+0
+Seid ihr dabei?
+@
+2
+1
+Menge:
+Besser, es zu versuchen, als nur abzuwarten.
+@
+2
+1
+Menge:
+Wir machen es so, wie du sagst!
+@
+2
+1
+Menge:
+Fangen wir sofort an!!!!
+@
+0
+0
+Sehr gut.
+@
+0
+0
+Los geht’s!!!
+@

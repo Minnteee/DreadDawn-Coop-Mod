@@ -1,0 +1,12 @@
+11,280,280,0.5
+Ich hab solchen Hunger!
+@
+9,280,280,0.5
+Ich auch.
+@
+28,280,280,0.5
+Das ist nicht auszuhalten.
+@
+11,280,1800,0.5
+Ich kann nicht mehr!
+@

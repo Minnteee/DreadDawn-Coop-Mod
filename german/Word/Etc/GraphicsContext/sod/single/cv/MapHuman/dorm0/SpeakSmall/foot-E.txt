@@ -1,0 +1,24 @@
+55,190,200,0.5
+Hey, nimm deine Füße weg, Mann.
+@
+55,240,270,0.5
+Die stinken echt übel.
+@
+56,200,200,0.5
+Als wären deine besser?
+@
+56,200,200,0.5
+Du hast Nerven, ausgerechnet über mich zu meckern.
+@
+56,180,190,0.5
+Nimm du deine zuerst weg.
+@
+55,230,240,0.5
+Kannst du dich nicht einfach andersrum hinlegen?
+@
+56,230,240,0.5
+Vergiss es, sonst denken die Leute noch, wir hätten was miteinander!
+@
+55,210,220000,0.5
+Schon gut, schon gut.
+@

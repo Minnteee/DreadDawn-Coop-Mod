@@ -1,0 +1,39 @@
+141,190,210,0.9
+Los, los, los! Beeilung!
+@
+144,180,190,0.9
+Ich komm hier rüber!!
+@
+143,200,200,0.9
+Moment noch.
+@
+141,180,220,0.9
+Ich bin gleich tot, schickt schnell jemanden her!
+@
+142,210,210,0.9
+Einer auf Mitte!
+@
+144,210,220,0.9
+Der ist tot, tot, kommt looten!
+@
+145,210,180,0.9
+Schnapp dir seine AK.
+@
+143,210,160,0.9
+Warte, ich komme!
+@
+142,200,150,0.9
+Beeilung!
+@
+144,200,190,0.9
+Komme! Komme!
+@
+145,200,210,0.9
+Stirb jetzt bloß nicht!
+@
+142,200,210,0.9
+Noch einer kommt über Mitte!
+@
+144,200,220,0.9
+Okay, okay, wartet kurz!
+@

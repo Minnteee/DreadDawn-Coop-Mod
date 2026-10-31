@@ -1,0 +1,30 @@
+0,300,300,0.5
+Du glaubst, die Zombies kommen nicht wieder rein, oder?
+@
+1,300,300,0.5
+Hier drin stinkt’s zwar, 
+@
+1,300,300,0.5
+aber es ist sicher.
+@
+0,300,300,0.5
+Hoffentlich.
+@
+0,300,300,0.5
+Gott, bitte lass das alles bald vorbei sein.
+@
+1,300,300,0.5
+Wenn wir ein Boot finden würden, das noch fährt,
+@
+1,300,300,0.5
+könnten wir zum Strand fahren.
+@
+1,300,300,0.5
+Da sollte es ziemlich sicher sein.
+@
+0,300,300,0.5
+Im Moment ist schon das Überleben schwer genug.
+@
+0,300,1000,0.5
+.......
+@

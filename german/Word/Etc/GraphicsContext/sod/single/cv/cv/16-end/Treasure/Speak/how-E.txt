@@ -1,0 +1,28 @@
+0
+0
+Ihr baut jetzt auch hier Verteidigungsanlagen auf?
+@
+2
+1
+Soldat:
+Uns bleibt keine Wahl. Die Zombies sind schon ein paarmal in die Schule eingedrungen. Bei der Verteidigung sind viele gestorben.
+@
+2
+1
+Soldat:
+Jetzt können Zombies jederzeit und überall auftauchen.
+@
+2
+1
+Soldat:
+Unser Verteidigungsring wird immer kleiner.
+@
+2
+1
+Soldat:
+Zur Sicherheit.
+@
+0
+0
+Diese verdammten Zombies hören einfach nie auf.
+@

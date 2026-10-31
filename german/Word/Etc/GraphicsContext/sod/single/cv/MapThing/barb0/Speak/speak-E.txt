@@ -1,0 +1,19 @@
+2
+1
+Zivilist:
+Hilf mir, hier rauszukommen!
+@
+2
+1
+Zivilist:
+Die Tür ist abgeschlossen, und meine Schlüssel liegen draußen vor der Bar.
+@
+2
+1
+Zivilist:
+Wenn du dich bei der Bar umsiehst, findest du sie.
+@
+0
+0
+Warte auf mich.
+@

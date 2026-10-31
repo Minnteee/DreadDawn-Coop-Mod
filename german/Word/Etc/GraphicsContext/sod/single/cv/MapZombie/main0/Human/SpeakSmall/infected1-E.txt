@@ -1,0 +1,18 @@
+0,300,300,0.5
+Mir geht’s echt mies.
+@
+1,300,100,0.5
+Halt durch, morgen geht’s dir besser.
+@
+2,300,300,0.5
+Du musst durchhalten, wir müssen erst mal hierbleiben.
+@
+0,200,200,0.5
+Uuuh~
+@
+1,200,200,0.5
+Ich weiß, dass hier in der Nähe ein Krankenhaus ist.
+@
+1,200,200,0.5
+Morgen sehen wir es uns an.
+@

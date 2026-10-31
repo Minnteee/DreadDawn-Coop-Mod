@@ -1,0 +1,18 @@
+0,310,200,0.5
+Wo kommst du her?
+@
+1,300,300,0.5
+Hast du ein Lager?
+@
+-1,310,350,0.5
+Ich komme von der Menghom-Universität. Wir haben da ein Lager.
+@
+1,300,300,0.5
+Die Menghom-Universität? Das ist ziemlich weit weg.
+@
+1,300,300,0.5
+Respekt, dass du es bis hierher geschafft hast.
+@
+0,310,300000,0.5
+Beeindruckend.
+@

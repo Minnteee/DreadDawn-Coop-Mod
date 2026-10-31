@@ -1,0 +1,15 @@
+-1,160,190,0.5
+Willst du Ärger?
+@
+0,120,130,0.5
+Ich...
+@
+0,150,150,0.5
+Ich hab nur Angst, dass die Zombies uns einholen...
+@
+-1,160,170,0.5
+Du!
+@
+-1,160,1900000,0.5
+Dich knöpf ich mir vor, wenn ich zurück bin!
+@

@@ -1,0 +1,6 @@
+31,240,380,0.5
+Die Zombies kommen doch nicht rein, oder?....
+@
+29,260,580,0.5
+Klingt, als würde da was schreien?......
+@

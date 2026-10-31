@@ -1,0 +1,20 @@
+2
+1
+Soldat
+Hey, Kleiner, das hast du vorhin ziemlich gut gemacht.
+@
+2
+1
+Soldat
+Du übernimmst die Zombies in Bereich A. Mach sie alle platt.
+@
+2
+1
+Soldat
+Pass auf und lass keinen übrig.
+@
+2
+1
+Soldat
+Hier, nimm das. Das ist deine Ausrüstung. Spreng dich nicht selbst in die Luft.
+@

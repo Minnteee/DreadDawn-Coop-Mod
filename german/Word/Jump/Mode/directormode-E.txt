@@ -1,0 +1,32 @@
+2
+0
+Willkommen im Regiemodus.
+@
+2
+0
+Im Regiemodus kannst du, ganz nach Belieben, verschiedene Bauwerke, hohe Mauern, Gegenstände, Waffen, Bäume, Gras, Flammen, Stromgitter und mehr platzieren.
+@
+2
+0
+Du kannst auch verschiedene Personen platzieren, etwa Banditen, Begleiter, Zivilisten und so weiter.
+@
+2
+0
+Außerdem kannst du verschiedene Zombies platzieren, etwa Riesenzombies, Tentakelmonster, Zombiehorden und mehr, um Kämpfe zwischen Zombies und Menschen zu inszenieren.
+@
+2
+0
+Der Regiemodus lässt sich als normaler Spielstand speichern,
+@
+2
+0
+sodass du damit eigene Level, Überlebendenlager und Ähnliches erstellen kannst, um sie mit anderen Spielern zu teilen.
+@
+2
+0
+Mit der Strg-Taste öffnest du das Steuerpult.
+@
+0
+0
+Verstanden.
+@

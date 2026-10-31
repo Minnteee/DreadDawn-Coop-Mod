@@ -1,0 +1,9 @@
+1,210,250,0.5
+Hey! Geh da nicht hin! Das ist gefährlich!
+@
+0,210,250,0.5
+Auf dem Dachboden versteckt sich irgendwas Unheimliches, pass bloß auf!
+@
+-1,200,200000,0.5
+Keine Sorge, ich pass auf.
+@

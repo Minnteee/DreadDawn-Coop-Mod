@@ -1,0 +1,27 @@
+Befehlsmodus aktiviert, drücke Q zum Beenden.
+Halte die rechte Maustaste gedrückt, um die Menge aufzuteilen.
+Handel erfolgreich.
+Du hast nicht genug Geld.
+Er hat nicht genug Geld.
+Befehlsmodus deaktiviert.
+Dein Rucksack ist voll.
+Du brauchst einen Dietrich.
+Du hast einen neuen Begleiter.
+In diesem Bereich darfst du nicht bauen.
+Drücke F zum Verlassen.
+Beschädigt.
+Das Gebiet ist gesäubert.
+Du bist eine Stufe aufgestiegen.
+Mit dem Mausrad auswählen, Linksklick zum Bestätigen.
+Du musst etwas essen.
+Du hast keine Fernbedienung für dieses Fahrzeug.
+Einer deiner Begleiter ist gestorben.
+Das kannst du nur in Erde pflanzen.
+Zu viel.
+Drücke ESC, um das Spiel zu beenden.
+Kochen nicht möglich.
+Keine freien Plätze mehr im Rucksack.
+Das kannst du nicht in den Fischteich legen.
+Du hast Aufgaben zu erledigen. Klicke auf das Aufgabensymbol, um die Mission zu starten.
+Du musst Wasser trinken.
+Du musst schlafen.

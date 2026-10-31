@@ -1,0 +1,69 @@
+0
+0
+Bist du Kim?
+@
+2
+1
+Kim:
+Woher kennst du meinen Namen?
+@
+0
+0
+Deine Freunde warten draußen. Sie haben mich reingeschickt, um nachzusehen, ob es dir gut geht.
+@
+2
+1
+Kim:
+Danke.
+@
+0
+0
+Warum versteckst du dich hier? Das ist gefährlich!
+@
+2
+1
+Kim:
+Ich, ich...
+@
+0
+0
+Was ist los?
+@
+2
+1
+Kim:
+Ich kann’s dir sagen, aber bitte behalt es für dich und sag meinen Freunden nichts!
+@
+0
+0
+Okay, schieß los.
+@
+2
+1
+Kim:
+Ich wurde von einem Zombie gebissen.
+@
+2
+1
+Kim:
+Verdammt, ich hätte nicht herkommen sollen!!!
+@
+2
+1
+Kim:
+Verdammter Nick!!! Das ist alles seine Schuld!!!
+@
+0
+0
+Beruhig dich!
+@
+2
+1
+Kim:
+Aber ich hab sie schon vergiftet, bald ist es aus mit ihnen!!!
+@
+2
+1
+Kim:
+Hahaha!
+@

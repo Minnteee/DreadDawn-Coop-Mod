@@ -1,0 +1,48 @@
+0,300,300,0.5
+An den U-Bahn-Gleisen entlanglaufen? Ist das nicht praktisch lebensmüde?
+@
+1,300,300,0.5
+Ich finde aber, wir sollten es versuchen.
+@
+2,300,300,0.5
+Nein! Nein! Nein! Nein!
+@
+2,300,300,0.5
+Ich finde, er hat recht, jetzt in die U-Bahn zu gehen ist Selbstmord.
+@
+3,300,300,0.5
+Wir sollten es versuchen, sonst warten wir hier nur auf den Tod.
+@
+0,300,300,0.5
+Warum gehst du nicht vor und erkundest den Weg?
+@
+3,300,300,0.5
+Ich? Nee, ich bin zu langsam.
+@
+2,300,300,0.5
+Wenn du gehen willst, geh voran.
+@
+2,300,300,0.5
+Ansonsten bleib einfach sitzen.
+@
+1,300,300,0.5
+Und was machen wir jetzt?
+@
+1,300,300,0.5
+Einfach hier warten?
+@
+1,300,300,0.5
+Wo sollen wir denn was zu essen finden?
+@
+2,300,300,0.5
+Besser, als da draußen draufzugehen!
+@
+0,300,300,0.5
+.....
+@
+1,300,300,0.5
+.....
+@
+3,300,3000,0.5
+.....
+@

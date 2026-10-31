@@ -1,0 +1,27 @@
+19,120,150,0.5
+Na, du.
+@
+-1,120,180,0.5
+Hallo.
+@
+-1,120,190,0.5
+Was gibt’s?
+@
+19,120,180,0.5
+Äh, es ist nur so...
+@
+-1,120,190,0.5
+Was ist denn?
+@
+19,120,180,0.5
+Es ist nur... mich juckt’s... ein bisschen...
+@
+19,120,180,0.5
+Ich könnte etwas Hilfe gebrauchen....
+@
+-1,120,190,0.5
+?
+@
+19,120,1800000,0.5
+Nein... ist schon gut....
+@

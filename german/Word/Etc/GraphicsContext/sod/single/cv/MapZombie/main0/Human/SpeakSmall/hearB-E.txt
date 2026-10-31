@@ -1,0 +1,12 @@
+0,310,300,0.5
+Hast du was gehört?
+@
+1,300,300,0.5
+Ja, klingt, als käme es von oben.
+@
+0,310,300,0.5
+Sind das etwa Zombies?
+@
+1,300,1000,0.5
+Wovor hast du Angst? Das ist weit weg von uns.
+@

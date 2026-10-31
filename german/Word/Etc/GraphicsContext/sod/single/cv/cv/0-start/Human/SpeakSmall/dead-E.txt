@@ -1,0 +1,21 @@
+4,210,210,0.5
+Ich... ich hab gesehen...
+@
+4,210,210,0.5
+Ich hab sie mit eigenen Augen gesehen...
+@
+4,210,210,0.5
+Ihr... ihr Hals wurde aufgerissen!
+@
+10,250,250,0.5
+Nein! Es ist aus, kann uns denn niemand helfen...
+@
+6,250,250,0.5
+Mein Mitbewohner ist noch im Wohnheim...
+@
+6,250,250,0.5
+Das Ding hat mich gebissen...
+@
+4,280,21000000,0.5
+Bitte, helft uns...
+@

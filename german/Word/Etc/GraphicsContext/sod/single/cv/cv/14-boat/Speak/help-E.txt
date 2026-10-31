@@ -1,0 +1,27 @@
+2
+1
+Anführerin der Nachbarschule:
+Du siehst aus, als bräuchtest du Hilfe.
+@
+0
+0
+Wir haben ein Boot gefunden. Vielleicht können wir damit fliehen.
+@
+0
+0
+Aber das Boot hat kaum noch Benzin. Habt ihr hier welches?
+@
+2
+1
+Anführerin der Nachbarschule:
+Benzin? Hier hab ich leider keins. Aber als ich eine Gruppe Studenten ins andere Lager gebracht habe, hab ich dort welches gesehen.
+@
+2
+1
+Anführerin der Nachbarschule:
+Es ist wohl nicht viel, aber es sollte reichen.
+@
+0
+0
+Gut, dann seh ich dort mal nach.
+@

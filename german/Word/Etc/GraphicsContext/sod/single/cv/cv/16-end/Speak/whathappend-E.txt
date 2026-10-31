@@ -1,0 +1,147 @@
+0
+0
+Was ist hier los? Warum liegen hier so viele Leichen?
+@
+2
+1
+Soldat:
+Während du weg warst, wurde die Schule von Zombies angegriffen. Sie kamen durch jede Lücke in den Schultoren und haben viele Leute totgebissen.
+@
+2
+1
+Soldat:
+Die meisten Toten sind Studenten.
+@
+2
+1
+Soldat:
+Sie strömen immer weiter von draußen herein, wir können sie nicht aufhalten.
+@
+0
+0
+Verdammte Zombies!!! Das ist doch Wahnsinn!
+@
+0
+0
+Warum habt ihr mir nicht Bescheid gesagt?
+@
+2
+1
+Soldat:
+Na ja, wir konnten dich nicht erreichen.
+@
+2
+1
+Soldat:
+Selbst wenn du hier gewesen wärst, hätte das nichts geändert. Die Zombieangriffe sind viel heftiger als früher, und sie kommen einer nach dem anderen.
+@
+0
+0
+Das ist doch irre!
+@
+2
+1
+Soldat:
+Ich habe das ungute Gefühl, dass der nächste Angriff noch größer und schneller wird, und dann können wir sie auf keinen Fall aufhalten.
+@
+2
+1
+Soldat:
+Wir sollten so schnell wie möglich evakuieren!
+@
+2
+1
+Soldat:
+Ich habe gehört, du hast ein Boot gefunden?
+@
+0
+0
+Ja, eine Jacht, auf die viele Leute auf einmal passen.
+@
+0
+0
+Damit will ich alle von der Schule auf eine nahe gelegene Insel bringen.
+@
+0
+0
+Ich bin mir nur nicht sicher, ob das bei so vielen Zombies unterwegs klappt.
+@
+2
+1
+Soldat:
+Keine Sorge, wir können bei der Evakuierung helfen. Ich melde mich beim Gefängnisdirektor, die schicken euch in ein paar Tagen Leute zur Unterstützung.
+@
+0
+0
+Und ihr? Geht ihr nicht von hier weg?
+@
+2
+1
+Soldat:
+Wir können jetzt nicht weg, und selbst wenn, würde das kaum etwas ändern.
+@
+2
+1
+Soldat:
+Die Zombies sind inzwischen nicht mehr nur in einer Stadt.
+@
+0
+0
+Was!?
+@
+2
+1
+Soldat:
+Mehrere Städte und Dörfer in der Umgebung sind gefallen.
+@
+2
+1
+Soldat:
+Deshalb habe ich gesagt, dass Weggehen nichts bringt. Wenn wir das nicht in den Griff kriegen, ist alles verloren.
+@
+2
+1
+Soldat:
+Aber ihr müsst an einen sicheren Ort.
+@
+0
+0
+Mann ...
+@
+2
+1
+Soldat:
+Ähm, 
+@
+2
+1
+Soldat:
+tut mir leid. Wir hatten versprochen, bei der Evakuierung zu helfen, aber am Ende waren wir selbst völlig überfordert.
+@
+0
+0
+Schon gut. In so einer Lage überhaupt in Sicherheit zu bleiben, ist schon ein Erfolg. Außerdem wart ihr die Ersten, die mich und meine Freunde gerettet haben, also sollte ich euch danken.
+@
+2
+1
+Soldat:
+Ich bin froh, dass du das verstehst. Ich will dir auch für alles danken, was du für uns getan hast. Ich hoffe, ihr kommt sicher hier weg.
+@
+0
+0
+Danke. Ihr seid die Helden der Schule.
+@
+2
+1
+Soldat:
+Du auch.
+@
+0
+0
+Gut, ich muss den anderen Bescheid sagen.
+@
+2
+1
+Soldat:
+Geh nur.
+@

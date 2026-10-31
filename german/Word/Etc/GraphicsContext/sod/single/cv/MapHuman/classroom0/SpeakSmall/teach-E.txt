@@ -1,0 +1,60 @@
+11,250,10,0.5
+Keine Ahnung, ich hab ihn nie gesehen.
+@
+3,230,10,0.5
+Nie gesehen.
+@
+12,260,10,0.5
+Kenn ich nicht.
+@
+4,270,290,0.5
+Wer ist das?
+@
+11,110,190,0.5
+Frag doch mal Jimmy.
+@
+12,110,230,0.5
+Ich weiß es auch nicht, frag mich nicht...
+@
+1,120,190,0.5
+Er ist vor Kurzem verschwunden.
+@
+1,120,190,0.5
+Manche sagen, er hat sich rausgeschlichen.
+@
+1,120,190,0.5
+Wenn ihn jemand sieht,
+@
+1,120,190,0.5
+sagt mir unbedingt Bescheid.
+@
+2,120,190,0.5
+Wenn du mich fragst, ist er wahrscheinlich tot.
+@
+2,120,190,0.5
+Rausgehen ist der sichere Tod.
+@
+4,120,1,0.5
+......
+@
+7,120,1,0.5
+......
+@
+14,120,1,0.5
+......
+@
+11,120,190,0.5
+......
+@
+-1,120,190,0.5
+Ich kann ihn suchen gehen.
+@
+2,120,190,0.5
+Wow, du traust dich ja was.
+@
+2,120,260,0.5
+Wenn du ihn zurückbringst, geb ich dir ein Bier aus.
+@
+-1,120,190000,0.5
+Wart’s ab...
+@

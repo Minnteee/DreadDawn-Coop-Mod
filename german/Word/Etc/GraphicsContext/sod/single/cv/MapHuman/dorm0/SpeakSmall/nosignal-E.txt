@@ -1,0 +1,12 @@
+30,200,230,0.5
+Warum hab ich kein Netz?
+@
+30,170,170,0.5
+Scheiße!
+@
+30,210,250,0.5
+Wo zum Teufel ist das Netz???
+@
+30,190,220000,0.5
+Was ist denn hier los?!
+@

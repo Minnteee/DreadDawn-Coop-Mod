@@ -1,0 +1,18 @@
+4,160,180,0.5
+Ahhhhhh…
+@
+5,160,190,0.5
+Hey, warum kommst du einfach so rein?
+@
+-1,160,250,0.5
+Tut mir leid.
+@
+6,160,190,0.5
+Du bist doch nicht zum Spannen reingekommen, oder?
+@
+-1,160,230,0.5
+Nein, nein…
+@
+4,160,1800000,0.5
+Hahaha…
+@

@@ -1,0 +1,39 @@
+0,300,300,0.5
+Wir sollten da besser nicht hingehen.
+@
+0,300,300,0.5
+Sieht aus, als wäre da eine Alarmanlage installiert.
+@
+2,300,300,0.5
+Wenn wir die auslösen und einen Haufen Zombies anlocken, sind wir erledigt.
+@
+2,300,300,0.5
+Wir haben nicht mal Waffen!
+@
+0,300,300,0.5
+Selbst wenn ich eine hätte, wüsste ich nicht, wie man damit umgeht.
+@
+1,300,300,1
+Hey, habt ihr was gehört?
+@
+2,300,100,0.5
+Was für ein Geräusch?
+@
+0,300,300,0.5
+Was? Was für ein Geräusch?
+@
+2,300,300,0.5
+Mach mir keine Angst!
+@
+2,300,300,0.5
+Ich bin schreckhaft!
+@
+1,300,300,0.5
+Wir sollten wohl besser leise sein.
+@
+0,300,100,0.5
+Ja, seid leise.
+@
+2,300,3000,0.5
+Sprich leiser.
+@

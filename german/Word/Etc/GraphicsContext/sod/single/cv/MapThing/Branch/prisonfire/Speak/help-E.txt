@@ -1,0 +1,32 @@
+2
+1
+Arzt:
+Hey! Kannst du mir einen Gefallen tun?
+@
+0
+0
+Was ist passiert?
+@
+2
+1
+Arzt:
+Ich hab die Antibiotika verloren, als ich von draußen zurückkam, und jetzt haben die Patienten starke Schmerzen.
+@
+2
+1
+Arzt:
+Wenn wir die Antibiotika nicht bald kriegen, überleben sie es vielleicht nicht.
+@
+0
+0
+Ich kann Ihnen helfen, die Antibiotika zurückzuholen.
+@
+2
+1
+Arzt:
+Wirklich? Dann vielen Dank!
+@
+0
+0
+Okay.
+@

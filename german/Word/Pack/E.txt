@@ -1,0 +1,102 @@
+Setz einen Helm auf, um deine Abwehr zu erhöhen.
+Zieh Handschuhe an, um schneller anzugreifen.
+Leg Knieschoner an, um deine Abwehr zu erhöhen.
+Leg eine Schutzweste an, um deine Abwehr zu erhöhen.
+Zieh Handschuhe an, um schneller anzugreifen.
+Zieh Schuhe an, um schneller zu laufen.
+Ein komplettes Set kann das Aussehen deiner Figur verändern.
+@
+*Name
+*Leben:
+*Hunger:
+*Ausdauer:
+*Rüstung:
+*Abwehr:
+*Angriffstempo:
+*Lauftempo:
+*Stufe:
+*Erfahrung:
+*Skillpunkte:
+*Durst:
+*Schlaf:
+@
+*Abwehr+
+*Angriffstempo+
+*Lauftempo+
+*
+@
+Benötigte Skillpunkte:
+@
+Schaden:
+Feuerrate:
+Rückstoß:
+Nachladetempo:
+Munition:
+Haltbarkeit:
+@
+Schaden:
+Reichweite:
+Tempo:
+Haltbarkeit:
+@
+Menge:
+Ausdauer:
+Leben:
+Durst:
+@
+Tempo:
+Haltbarkeit:
+@
+Tempo:
+Haltbarkeit:
+@
+Stückpreis: 
+@
+Menge: 
+@
+* Ansehen *
+@
+* Benutzen *
+@
+Gesamtpreis: 
+@
+Drücke E, um alles aufzuheben, und TAB, um den Rucksack zu schließen.
+@
+Nächste Zombiehorde in:
+@
+ Tg. 
+@
+Zum Handeln ziehen, rechte Maustaste halten, um Mengen aufzuteilen.
+@
+Dein Geld: 
+@
+Hier kannst du rohes Essen zum Kochen hineinlegen.
+@
+Halte R gedrückt, um die Waffe zu reparieren, oder lass sie beim Händler reparieren.
+Diese Waffe ist zu stark beschädigt und kann nicht repariert werden.
+Halte R gedrückt, um die Waffe zu reparieren. Kosten:
+@
+* Mission *
+@
+Im Fischteich kannst du Fische züchten.
+@
+* Fischteich *
+@
+Mo.
+Di.
+Mi.
+Do.
+Fr.
+Sa.
+So.
+@
+Drücke E, um diesen Gegenstand schnell zu verschieben.
+@
+* Munition entladen *
+@
+* Feld *
+@
+* Schnell sortieren *
+@
+* Trinken *
+@

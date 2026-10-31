@@ -1,0 +1,52 @@
+2
+1
+Warte!
+@
+0
+0
+? Was ist hinter der Tür?
+@
+2
+1
+Vorsicht! Dahinter sind Zombies!
+@
+0
+0
+Keine Sorge, ich hab schon einiges mitgemacht.
+@
+2
+1
+Sei dir da mal nicht zu sicher!
+@
+2
+1
+Einer von uns ist letzte Nacht reingegangen und seitdem nicht wieder rausgekommen.
+@
+2
+1
+Er heißt Kim, er war der Schnellste und Stärkste von uns.
+@
+2
+1
+Wenn du dem nicht gewachsen bist, verschwindest du besser gleich.
+@
+0
+0
+Ich hab doch gesagt, mach dir um mich keine Sorgen.
+@
+2
+1
+Du nimmst den Mund ganz schön voll, was? Also gut.
+@
+2
+1
+Geh rein und sieh nach, ob du Kim findest.
+@
+2
+1
+Oder seine Ausrüstung. Er hatte jede Menge Zeug dabei.
+@
+0
+0
+Verstanden.
+@

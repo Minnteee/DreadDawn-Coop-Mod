@@ -1,0 +1,30 @@
+0,300,200,0.5
+Das stinkt so widerlich.
+@
+1,300,300,0.5
+Nicht auszuhalten.
+@
+2,300,300,0.5
+Warum mussten wir unser Lager ausgerechnet neben einer Müllkippe aufschlagen?
+@
+0,300,300,0.5
+Wir haben nichts mehr zu essen, oder?
+@
+1,300,300,0.5
+Das Essen ist voller Maden, das stinkt furchtbar.
+@
+2,300,300,0.5
+Lasst uns morgen weiterziehen.
+@
+2,300,300,0.5
+Ich halt’s nicht mehr aus.
+@
+0,300,10,0.5
+...
+@
+1,300,10,0.5
+...
+@
+2,300,3000,0.5
+...
+@

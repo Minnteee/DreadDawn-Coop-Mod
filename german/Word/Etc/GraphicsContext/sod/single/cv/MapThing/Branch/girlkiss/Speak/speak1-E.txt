@@ -1,0 +1,55 @@
+2
+1
+Eingesperrtes Mädchen:
+Hey! Geh nicht weg, hilf mir!!
+@
+0
+0
+Was brauchst du?
+@
+2
+1
+Eingesperrtes Mädchen:
+Ich weiß nicht, wer mich hier eingesperrt hat, aber die Tür geht nicht auf. Wir brauchen einen Schlüssel.
+@
+2
+1
+Eingesperrtes Mädchen:
+Verdammt, wenn ich rausfinde, wer mich hier eingesperrt hat, dann bring ich die um, ich schwör’s!!!!
+@
+0
+0
+Hast du eine Ahnung, wer dich eingesperrt haben könnte?
+@
+2
+1
+Eingesperrtes Mädchen:
+Es war garantiert ein Mädchen. Ich hab ihr triumphierendes Lachen von Weitem gehört. Verdammt.
+@
+0
+0
+Okay, vergiss das fürs Erste. Wir holen dich erst mal hier raus.
+@
+2
+1
+Eingesperrtes Mädchen:
+Schau mal, ob du in der Nähe einen Schlüssel findest. Ich schätze, er ist in einem der Wohnheimzimmer versteckt.
+@
+0
+0
+Okay, ich versuch’s.
+@
+2
+1
+Eingesperrtes Mädchen:
+Bitte beeil dich, ich kann’s nicht mehr lange halten.
+@
+0
+0
+Heißt das, du musst aufs Klo?
+@
+2
+1
+Eingesperrtes Mädchen:
+Ahhh! Das ist doch egal! Such einfach in den Wohnheimzimmern nach dem Schlüssel!
+@

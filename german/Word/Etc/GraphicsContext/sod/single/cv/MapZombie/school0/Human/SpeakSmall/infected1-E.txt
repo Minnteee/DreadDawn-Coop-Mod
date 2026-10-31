@@ -1,0 +1,12 @@
+0,300,300,0.5
+Bleib weg, bleib weg!
+@
+0,300,300,0.5
+Mich hat was gebissen.
+@
+0,300,300,0.5
+Ich fühl mich nicht gut, bleib mir vom Leib.
+@
+0,300,300,0.5
+Geh, schnell!
+@

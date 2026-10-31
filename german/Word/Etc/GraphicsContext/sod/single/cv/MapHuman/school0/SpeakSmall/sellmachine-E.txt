@@ -1,0 +1,9 @@
+123,110,120,0.5
+Verdammter Automat.
+@
+123,110,120,0.5
+Warum kommt da nichts raus?
+@
+123,110,320,0.5
+Gib mir mein Geld zurück!
+@

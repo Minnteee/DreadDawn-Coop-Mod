@@ -1,0 +1,19 @@
+2
+1
+Mann:
+Danke, du bist echt ein guter Kerl.
+@
+2
+1
+Mann:
+Nimm das.
+@
+0
+0
+Nein, nein, nein. Du brauchst doch selbst was, um dich zu verteidigen.
+@
+2
+1
+Mann:
+Nimm schon. Du hast es dir verdient.
+@

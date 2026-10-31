@@ -1,0 +1,28 @@
+2
+1
+Ganove:
+Hey, keine Bewegung, her mit deinem Zeug!
+@
+0
+0
+Warum sollte ich? Ich geb dir gar nichts.
+@
+2
+1
+Ganove:
+Ach ja? Zwing mich nicht, ungemütlich zu werden.
+@
+2
+1
+Ganove:
+Ich geb dir eine letzte Chance. Rückst du es jetzt raus?
+@
+0
+0
+Verzieh dich, von mir kriegst du nichts.
+@
+2
+1
+Ganove:
+Na dann, friss das!!!
+@

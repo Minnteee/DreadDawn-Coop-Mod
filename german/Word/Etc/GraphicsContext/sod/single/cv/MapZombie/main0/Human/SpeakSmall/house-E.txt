@@ -1,0 +1,63 @@
+0,500,500,0.5
+Findet noch jemand, dass die Neue irgendwie komisch ist?
+@
+1,300,100,0.5
+Komisch? Wovon redest du?
+@
+2,300,300,0.5
+Find ich nicht. Mir kommt sie normal vor.
+@
+0,500,500,0.5
+Die ist echt seltsam, merkt ihr das nicht? Vor allem ihre Augen, die sind mir unheimlich.
+@
+1,300,200,0.5
+Ach, verstehe. Du meinst diesen verführerischen Blick.
+@
+2,300,300,0.5
+Ja, sie ist ziemlich attraktiv.
+@
+0,300,300,0.5
+Mann, darum geht’s doch gar nicht!!!
+@
+1,300,100,0.5
+Wovon redest du überhaupt?
+@
+2,300,300,0.5
+Worauf willst du hinaus?
+@
+1,300,100,0.5
+Ich wette, du bist bloß neidisch auf ihre Figur, haha.
+@
+2,300,300,0.5
+Hahaha!!
+@
+2,400,200,0.5
+Jetzt, wo du’s sagst, sie hat echt ordentlich Kurven!
+@
+0,300,300,1
+Ihr könnt mich mal, Rick! Louis!!
+@
+0,300,300,1
+Habt ihr Kerle eigentlich nur Schweinkram im Kopf?!
+@
+0,300,300,0.5
+Mit der Frau stimmt echt was nicht.
+@
+1,400,400,0.5
+Schon gut, schon gut, wenn du meinst, dass was nicht stimmt, warum fragst du sie nicht einfach aus?
+@
+2,300,300,0.5
+Genau, geh doch selbst nachforschen.
+@
+0,300,300,0.5
+...
+@
+0,300,300,0.5
+Ihr bringt uns noch alle um, ich schwör’s!
+@
+1,300,300,0.5
+...
+@
+2,300,300,0.5
+...
+@

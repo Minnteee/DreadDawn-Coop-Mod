@@ -1,0 +1,12 @@
+47,220,270,0.5
+Macht mal hin da vorne!
+@
+55,190,280,0.5
+Wie lange dauert das denn noch?
+@
+54,220,290,0.5
+.....
+@
+51,210,270,0.5
+Ich halt das nicht aus...
+@

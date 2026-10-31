@@ -1,0 +1,57 @@
+0,300,300,0.5
+Wo sind die Leute in den ABC-Schutzanzügen hin?
+@
+1,300,300,0.5
+Die sind reingegangen und noch nicht wieder rausgekommen.
+@
+0,300,300,0.5
+Sind die Soldaten auch rein?
+@
+1,300,300,0.5
+Ja, die sind mit den Leuten in den Schutzanzügen rein.
+@
+0,300,300,0.5
+Was machen die da drin?
+@
+1,300,300,0.5
+Sieht aus, als würden sie sich da drin verschanzen.
+@
+0,300,300,0.5
+Komisch, warum bleiben die da drin?
+@
+1,300,300,0.5
+Tja, das ist noch nicht alles.
+@
+1,300,300,0.5
+Das sind alles Deserteure!
+@
+0,300,300,0.5
+Deserteure!? Jetzt ergibt das Sinn.
+@
+0,400,400,0.5
+Kein Wunder, dass die keine Leute retten, totale Versager.
+@
+1,300,300,0.5
+Versager? Die wollen doch auch nur überleben.
+@
+1,400,400,0.5
+Ich hab im Radio gehört, dass das Militär in einem Gefängnis in der Nähe eine Zuflucht einrichten will.
+@
+1,300,300,0.5
+Aber da müssen sie erst mal jede Menge Zombies beseitigen.
+@
+0,300,300,0.5
+Verständlich, da würde ich auch nicht hinwollen.
+@
+1,300,300,0.5
+.....
+@
+1,300,300,0.5
+Wer weiß, wann dieser Albtraum endlich vorbei ist.
+@
+0,300,100,0.5
+...
+@
+1,300,3000,0.5
+.....
+@

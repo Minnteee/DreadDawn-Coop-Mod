@@ -1,0 +1,27 @@
+2
+1
+Polizist:
+Hey, keine Bewegung!
+@
+0
+0
+Was ist denn, Officer? Ich hab nichts geklaut.
+@
+2
+1
+Polizist:
+Mir ist scheißegal, ob du was geklaut hast oder nicht. Ich sag dir, fass das Ding nicht an!
+@
+0
+0
+Hä? Warum darf ich es nicht anfassen?
+@
+2
+1
+Polizist:
+Egal. Ich hab gesagt, du sollst es nicht anfassen, also lass es.
+@
+0
+0
+Schon gut, schon gut, ich fass es nicht an.
+@

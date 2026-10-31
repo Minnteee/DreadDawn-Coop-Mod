@@ -1,0 +1,9 @@
+201,180,190,0.5
+Wow~~~
+@
+193,200,220,0.5
+Das Feuerwerk ist echt wunderschön.
+@
+201,320,200000,0.5
+Das erinnert mich an meine Kindheit.
+@

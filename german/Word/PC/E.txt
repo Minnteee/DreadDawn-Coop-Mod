@@ -1,0 +1,16 @@
+Willst du das Spiel wirklich beenden?
+@
+Du hast verloren! Möchtest du es noch einmal versuchen?
+Deine Platzierung:
+@
+Glückwunsch, du hast gewonnen! Möchtest du noch einmal spielen?
+@
+Drücke F zum Sprinten.
+@
+Platz:
+Runden:
+@
+Du kannst gerade nicht spielen.
+@
+Du hast verloren! Möchtest du neu starten?
+@

@@ -1,0 +1,36 @@
+79,150,190,0.5
+Mann, jetzt kann ich nicht mehr nach Hause.
+@
+79,180,220,0.5
+Ich vermisse mein Bett so sehr.
+@
+79,160,190,0.5
+Nichts geht über ein Bett.
+@
+80,160,190,0.5
+Du denkst echt nur ans Schlafen, Schlafen, Schlafen.
+@
+81,150,150,0.5
+Schläfst du etwa nicht auch?
+@
+85,130,10,0.5
+Hahaha!
+@
+79,130,210,0.5
+Genau.
+@
+85,160,220,0.5
+Ehrlich gesagt will ich auch nach Hause.
+@
+85,160,220,0.5
+Ich hab’s satt, hier auf dem Boden zu schlafen.
+@
+81,130,10,0.5
+....
+@
+79,130,250,0.5
+....
+@
+81,170,10000000,0.5
+Ach! Kann uns nicht endlich jemand retten...
+@

@@ -1,0 +1,45 @@
+0
+0
+Ich hab die Medizin, die sie braucht!
+@
+2
+1
+Student:
+Super! Du bist der Wahnsinn! Andere haben es vor dir versucht und nicht geschafft, nur du!
+@
+0
+0
+Was? Andere haben es auch versucht?
+@
+2
+1
+Student:
+Ja, aber ich hab sie nicht zurückkommen sehen.
+@
+2
+1
+Student:
+Ob sie wohl... tot sind?
+@
+0
+0
+Möglich. Nein, eher nicht. Na ja, ich weiß es nicht...
+@
+0
+0
+Auf dem Basketballplatz waren jede Menge Zombies. Ein paar sahen aus wie Studenten. Hoffentlich waren das nicht sie.
+@
+2
+1
+Student:
+Oh mein Gott!!!!!!
+@
+0
+0
+Mach dir keine Vorwürfe, es ist nicht deine Schuld.
+@
+2
+1
+Student:
+Jedenfalls, nimm das hier als Dankeschön~
+@

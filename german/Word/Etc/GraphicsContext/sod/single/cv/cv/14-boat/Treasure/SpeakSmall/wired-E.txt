@@ -1,0 +1,6 @@
+-1,160,250,0.5
+Irgendwas stimmt hier nicht.
+@
+-1,160,25000000,0.5
+Wurden die Leute hier entführt?
+@

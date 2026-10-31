@@ -1,0 +1,21 @@
+10,120,220,0.5
+Los, los, los!!!
+@
+10,120,260,0.5
+Hackt schneller!
+@
+10,120,220,0.5
+Nicht aufhören!
+@
+10,120,470,0.5
+Schneller! Hört ihr schlecht?
+@
+10,120,270,0.5
+Verdammt! Geht’s auch schneller?
+@
+10,120,220,0.5
+Was trödelt ihr so rum?!
+@
+10,120,420,0.5
+Wollt ihr eins auf die Mütze?
+@

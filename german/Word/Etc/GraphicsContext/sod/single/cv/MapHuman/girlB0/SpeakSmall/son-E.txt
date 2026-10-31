@@ -1,0 +1,39 @@
+147,210,190,0.5
+Hey, bin wieder da!
+@
+146,180,180,0.5
+Hau ab!
+@
+146,210,220,0.5
+Was soll das denn?!
+@
+147,200,200,0.5
+Haha, mal sehen, was du so treibst.
+@
+146,210,220,0.5
+Runter von meinem Bett!
+@
+147,240,240,0.5
+Ach, so läuft das hier also, ja?
+@
+146,200,210,0.5
+Okay, okay, bleiben wir friedlich.
+@
+146,190,210,0.5
+Braver Junge, jetzt geh woanders spielen.
+@
+147,210,220,0.5
+Na gut, ich geh ins Bett.
+@
+147,190,210,0.5
+Du solltest auch schlafen gehen.
+@
+146,190,200,0.5
+Na los, verzieh dich.
+@
+147,200,210,0.5
+Ich bin dann weg, vermiss mich nicht.
+@
+146,190,200000,0.5
+Geh schon, werd ich nicht.
+@

@@ -1,0 +1,20 @@
+2
+1
+Student
+Von nebenan kommen ständig seltsame Geräusche.
+(Leertaste zum Fortfahren)
+@
+2
+1
+Student
+Keine Ahnung, was das ist.
+@
+0
+0
+Alter, nebenan ist das Mädchenwohnheim...
+@
+2
+1
+Student
+Hä???
+@

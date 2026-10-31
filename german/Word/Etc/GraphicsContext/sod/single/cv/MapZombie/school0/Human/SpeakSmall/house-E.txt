@@ -1,0 +1,12 @@
+0,210,250,0.5
+So hält sie nicht mehr lange durch.
+@
+1,200,100,0.5
+Wir müssen sie in ein richtiges Krankenhaus bringen.
+@
+2,210,200,0.5
+Ah~
+@
+1,200,100,0.5
+Sonst wird sie früher oder später auch so ein Ding.
+@

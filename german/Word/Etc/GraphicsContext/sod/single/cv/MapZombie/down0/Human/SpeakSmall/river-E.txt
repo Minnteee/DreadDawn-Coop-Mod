@@ -1,0 +1,18 @@
+0,300,300,0.5
+Die Landschaft hier ist echt wunderschön.
+@
+0,300,300,0.5
+Ich wünschte, es wäre wieder wie früher.
+@
+1,300,300,1
+Früher war ich oft zum Angeln hier.
+@
+1,300,300,1
+Angeln hat früher so viel Spaß gemacht.
+@
+1,300,300,1
+Jetzt will ich nur noch schnell hier weg.
+@
+0,300,3000,0.5
+......
+@

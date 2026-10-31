@@ -1,0 +1,30 @@
+0,300,300,0.5
+Wie lange dauert’s noch, bis sie zurück sind?
+@
+1,300,300,0.5
+Wart noch ein bisschen, letztes Mal hat’s auch lange gedauert.
+@
+2,300,300,0.5
+Und wenn was passiert ist?
+@
+0,300,300,0.5
+Kannst du mal aufhören, den Teufel an die Wand zu malen?
+@
+2,300,300,0.5
+Schon gut, mein Fehler.
+@
+1,300,300,0.5
+Nächstes Mal sollten wir mitgehen.
+@
+0,300,200,0.5
+Alle zusammen?
+@
+0,300,300,0.5
+Das würde einen Riesenlärm machen.
+@
+0,300,200,0.5
+Auf keinen Fall.
+@
+1,300,4000,0.5
+Na gut.
+@

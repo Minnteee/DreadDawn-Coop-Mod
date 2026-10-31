@@ -1,0 +1,21 @@
+42,200,210,0.5
+Ahhh!!!
+@
+42,220,260,0.5
+Ich hätte das Zeug, das du mir gegeben hast, echt nicht essen sollen.
+@
+43,210,230,0.5
+Ich wusste nicht, dass das vom letzten Jahr war.
+@
+43,210,230,0.5
+Ich dachte, das wär von gestern....
+@
+42,210,210,0.5
+....
+@
+44,210,230,0.5
+Hört auf zu reden, jetzt kann ich nicht mal mehr pinkeln.
+@
+44,210,2200000,0.5
+........
+@

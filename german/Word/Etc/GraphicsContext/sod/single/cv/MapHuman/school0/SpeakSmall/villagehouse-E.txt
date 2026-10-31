@@ -1,0 +1,12 @@
+110,300,300,0.5
+Ich hätte so gern eine Pizza.
+@
+110,300,300,0.5
+In diesem Drecksloch zu hocken ist echt ätzend.
+@
+111,300,300,0.5
+Spar dir die Kraft, unser Essen wird knapp.
+@
+112,300,300,0.5
+...................
+@

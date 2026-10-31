@@ -1,0 +1,47 @@
+Hauptfigur steuern
+Befehl wählen
+Halten: Figur wählen
+Befehl erteilen
+Lange drücken: Stapel teilen
+Herstellen
+Bauen
+Begleiter verwalten
+Begleiter befehligen
+Karte
+Dietrich drehen
+Lange drücken: Hauptfigur steuern
+Hupen
+Aussteigen
+Scrollen zum Zoomen
+Steuerpult
+Schnell bewegen
+Platzieren
+Entfernen
+Spiel beenden
+Mission
+Rechtsklick halten: Navigationspunkt setzen
+Rucksack schnell sortieren
+Schließen
+Heran-/Herauszoomen
+Lange drücken: Schnell erstellen
+Verlassen
+@
+Taste „E“ drücken
+Leertaste zum Springen
+Mittlere Maustaste zum Abbauen
+„F“ drücken zum Verlassen
+„E“ drücken zum Durchsuchen
+Mittlere Maustaste zum Einsammeln
+„E“ zum Verbinden
+„E“ zum Einsammeln
+Mittlere Maustaste zum Platzieren
+Durchsucht
+„E“ drücken zum Wassertrinken
+„E“ drücken zum Bauen
+@
+Mittlere Maustaste zum Entfernen
+„Q“ zum automatischen Durchsuchen
+„G“ zum Einsammeln
+„G“ zum Platzieren
+Rechte Maustaste zum Schieben
+„R“ drücken zum Wassertrinken

@@ -1,0 +1,28 @@
+2
+1
+(Soldat)
+Junge, du hast ein paar gute Moves drauf. Hast du mal trainiert?
+@
+0
+0
+Ja, ich hab mich früher nachts rausgeschlichen, um zu trainieren.
+@
+2
+1
+(Soldat)
+Gar nicht schlecht.
+@
+2
+1
+(Soldat)
+Hier, nimm das Geld und kauf dir im Laden was Schönes.
+@
+0
+0
+Danke, Sir.
+@
+2
+1
+(Soldat)
+Na los, beeil dich.
+@

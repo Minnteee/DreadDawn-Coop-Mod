@@ -1,0 +1,15 @@
+0,500,500,0.5
+John? Bist du noch da? Ich hab Angst!
+@
+1,300,300,0.5
+Keine Sorge, Schatz, ich bin hier.
+@
+0,300,300,0.5
+Pass gut auf und lass niemanden rein.
+@
+1,300,300,0.5
+Kein Problem, du kannst dich auf mich verlassen.
+@
+0,300,3000,0.5
+Gut, ich bin so froh, dass du da bist.
+@

@@ -1,0 +1,12 @@
+119,130,10,0.5
+Was soll ich dir herstellen?
+@
+120,320,20,0.5
+Was möchtest du kaufen?
+@
+121,380,10,0.5
+Erstklassige Ware vom Hof gibt’s bei mir.
+@
+122,350,999990,0.5
+Waffen? Bei uns gibt’s alles, was du brauchst.
+@

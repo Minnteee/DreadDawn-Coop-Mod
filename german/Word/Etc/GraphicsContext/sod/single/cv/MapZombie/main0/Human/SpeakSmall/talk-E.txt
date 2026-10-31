@@ -1,0 +1,42 @@
+0,310,300,0.5
+Wisst ihr was? Auf der anderen Flussseite gibt’s ein Gefängnis.
+@
+1,300,300,0.5
+Ein Gefängnis? Das Menghom-Gefängnis?
+@
+0,310,300,0.5
+Ja, das Menghom-Gefängnis.
+@
+2,300,300,0.5
+In den Nachrichten hieß es, es wäre richtig gut gesichert.
+@
+2,300,300,0.5
+Da kommen garantiert keine Zombies rein.
+@
+0,300,300,0.5
+Wie wär’s, wenn wir es uns mal ansehen?
+@
+1,300,300,0.5
+Aber das ist ziemlich weit weg. Wie sollen wir über die Brücke kommen?
+@
+1,300,300,0.5
+Auf der Brücke sind jede Menge Zombies.
+@
+0,300,300,0.5
+Mann, wenn wir doch nur einen Luftschlag anfordern könnten.
+@
+0,300,300,0.5
+Wie wär’s, wenn wir die Rauchgranate ausprobieren?
+@
+1,300,300,0.5
+Vergiss es, weck bloß nicht den Großen da auf.
+@
+2,300,300,0.5
+...
+@
+1,300,300,0.5
+...
+@
+0,300,300,0.5
+...
+@

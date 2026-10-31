@@ -1,0 +1,12 @@
+0,300,300,1
+Mach keinen Lärm, oben sind Zombies!
+@
+1,300,300,1
+Psst, nicht so laut!
+@
+0,300,300,1
+Ruhe!
+@
+1,300,300,1
+Hör auf, so einen Lärm zu machen!
+@

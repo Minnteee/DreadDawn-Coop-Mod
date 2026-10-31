@@ -1,0 +1,15 @@
+0,300,300,0.5
+Wir bleiben genau hier!
+@
+0,300,300,0.5
+Rausgehen ist keine gute Idee.
+@
+1,300,300,0.5
+Ich hab ein bisschen Angst, dass von draußen was reinkommt.
+@
+0,300,300,0.5
+Keine Sorge, ich beschütze dich.
+@
+1,300,3000,0.5
+Ich bin so froh, dass du da bist.
+@

@@ -1,0 +1,15 @@
+56,230,250,0.5
+Entschuldigung, der Herr, würden Sie bitte rausgehen?
+@
+58,150,100,0.5
+Ja, mach schnell, raus hier.
+@
+56,170,110,0.5
+Das ist die Damentoilette.
+@
+57,150,190,0.5
+Hast du dich verlaufen?
+@
+-1,150,1900000,0.5
+Sorry, ich hab mich wohl verlaufen.
+@

@@ -1,0 +1,24 @@
+0,210,250,0.5
+Ich fühl mich furchtbar.
+@
+0,210,250,0.5
+Wir hatten immer noch kein Wasser!
+@
+1,200,200,0.5
+Wir sollten uns bald irgendwo waschen, ich will mir keine Infektion holen.
+@
+2,210,200,0.5
+Ich geh jetzt bestimmt nicht raus.
+@
+0,210,250,0.5
+Sprich leiser, wer weiß, was da draußen ist.
+@
+1,200,200,0.5
+Hey, was glotzt du so?!
+@
+2,210,200,0.5
+Hau ab!
+@
+-1,210,25000,0.5
+Entschuldigung!
+@

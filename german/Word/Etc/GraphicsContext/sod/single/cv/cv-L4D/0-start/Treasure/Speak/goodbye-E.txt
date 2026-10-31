@@ -1,0 +1,28 @@
+2
+1
+Überlebender:
+Moment, ihr wollt schon los?
+@
+0
+0
+Ja, die Evakuierung beginnt. Wollt ihr nicht mitkommen?
+@
+2
+1
+Überlebender:
+Draußen ist es zu gefährlich, da sind überall Zombies.
+@
+2
+1
+Überlebender:
+Hier drin sind wir sicherer.
+@
+0
+0
+Wir müssen los, uns läuft die Zeit davon.
+@
+2
+1
+Überlebender:
+Dann viel Glück.
+@

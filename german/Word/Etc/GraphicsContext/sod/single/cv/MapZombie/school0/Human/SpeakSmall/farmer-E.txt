@@ -1,0 +1,36 @@
+0,400,400,0.5
+Wir könnten echt einfach hierbleiben.
+@
+0,300,300,0.5
+Es gibt jede Menge Vorräte und auch genug Verteidigungsanlagen.
+@
+2,300,300,0.5
+Aber ich mach mir Sorgen wegen dem da!
+@
+2,200,200,0.5
+Dem Ding da.
+@
+1,300,300,0.5
+Keine Angst, im Moment geht’s uns doch allen gut, oder?
+@
+0,200,200,0.5
+Kein Grund zur Sorge, mir geht’s auch gut.
+@
+0,200,200,0.5
+Juckt nur ein bisschen, das ist alles.
+@
+2,300,300,0.5
+Na gut, vielleicht mach ich mir nur zu viele Gedanken.
+@
+2,300,300,0.5
+Vielleicht wirkt das Ding ja eh nicht bei jedem.
+@
+1,200,200,0.5
+Lasst uns einfach früh schlafen gehen.
+@
+0,300,300,0.5
+Ja, schlafen wir, ich bin ein bisschen müde.
+@
+2,300,3000,0.5
+Mhm.
+@

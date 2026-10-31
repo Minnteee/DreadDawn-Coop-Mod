@@ -1,0 +1,36 @@
+0
+0
+Verdammt, das Boot hat schon wieder kein Benzin mehr.
+@
+6
+1
+Das hier sieht nach einem Resort aus. Vielleicht sind da drin noch Leute. Wir könnten sie fragen.
+@
+0
+0
+Ein Resort? Gibt’s in einem Resort überhaupt Benzin?
+@
+6
+1
+Keine Ahnung, vielleicht haben sie vor der Katastrophe mit Benzin den Grill angeheizt. Wir kommen hier sowieso nicht weg, also können wir genauso gut nachsehen.
+@
+0
+0
+Na gut, sehen wir nach.
+@
+6
+1
+Ich komm mit.
+@
+0
+0
+Hast du keine Angst mehr, dass du sie erschreckst? Warum bist du vorhin nicht mitgekommen? Ich glaub, du willst dir nur das Resort ansehen.
+@
+6
+1
+Ich hatte Angst, dass dir was passiert.
+@
+0
+0
+Na gut.
+@

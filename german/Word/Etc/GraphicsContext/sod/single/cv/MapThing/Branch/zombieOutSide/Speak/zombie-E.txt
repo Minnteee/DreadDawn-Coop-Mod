@@ -1,0 +1,25 @@
+0
+0
+Hey, alles okay bei euch?
+@
+2
+1
+Nicht wirklich, überall sind Zombies, wir wären da draußen fast draufgegangen!
+@
+2
+1
+Hey! Habt ihr das gehört?
+Klingt das nicht nach Zombies?
+@
+2
+1
+Verdammt! Da draußen kommt eine Zombiehorde!
+@
+2
+1
+Da draußen ist es echt gefährlich, geh bloß nicht raus!
+@
+0
+0
+Verdammt!
+@

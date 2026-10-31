@@ -1,0 +1,36 @@
+0,400,400,0.5
+Ich will hier nicht bleiben!
+@
+2,300,300,0.5
+Wovor hast du Angst? Solange ich da bin, musst du dir keine Sorgen machen!
+@
+1,300,300,0.5
+Die Zombies sind so laut, ich kann überhaupt nicht schlafen!
+@
+1,300,300,0.5
+Ich schwör, ich hör, wie die auf Knochen rumkauen!
+@
+2,300,200,0.5
+Haha, ihr seid echt solche Angsthasen!
+@
+2,300,200,0.5
+Ohne mich wärt ihr längst erledigt, haha!
+@
+3,300,300,0.5
+Schon gut, schon gut! Wir haben’s kapiert, du bist super! Hältst du jetzt mal die Klappe?
+@
+3,300,300,0.5
+Du lockst noch die Zombies an!
+@
+2,300,300,0.5
+Schon gut, schon gut, ich sag kein Wort mehr.
+@
+2,300,300,0.5
+.......
+@
+2,300,300,0.5
+...
+@
+2,300,1300,0.5
+...
+@

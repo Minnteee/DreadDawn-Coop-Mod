@@ -1,0 +1,23 @@
+2
+1
+Mädchen:
+Ich hab Angst, dass die Zombies hier einfach einbrechen.
+@
+0
+0
+Keine Angst, ich bin ja da. Die Zombies kommen nicht rein.
+@
+2
+1
+Mädchen:
+Du bist so ein guter Mensch, danke.
+@
+0
+0
+... Ich beschütze dich.
+@
+2
+1
+Mädchen
+...
+@

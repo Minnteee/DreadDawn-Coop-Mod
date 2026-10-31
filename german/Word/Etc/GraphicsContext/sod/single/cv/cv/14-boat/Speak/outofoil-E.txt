@@ -1,0 +1,28 @@
+0
+0
+Verdammt, das Boot hat kein Benzin mehr!
+@
+6
+1
+Mist!
+@
+0
+0
+Moment, das ist das Lager, in das wir die Studenten gebracht haben!
+@
+6
+1
+Super! Geh und frag sie!
+@
+0
+0
+Warum kommst du nicht mit?
+@
+6
+1
+Die kennen mich nicht, und ich will ihnen keine Angst machen.
+@
+0
+0
+Na gut, dann geh ich allein.
+@

@@ -1,0 +1,6 @@
+-1,260,280,0.5
+Tut mir leid.
+@
+-1,190,25000000,0.5
+Ich konnte euch nicht retten.
+@

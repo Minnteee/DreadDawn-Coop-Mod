@@ -1,0 +1,15 @@
+0,300,100,0.5
+Ich rate dir, dich hier schleunigst zu verpissen.
+@
+1,300,300,0.5
+Das ist unser Revier.
+@
+0,300,100,0.5
+Verschwinde!
+@
+0,300,100,0.5
+Sonst schieße ich!
+@
+1,300,300,0.5
+Verzieh dich!!
+@

@@ -1,0 +1,76 @@
+Erledige alle Infizierten hier.
+(Achte auf den roten Punkt auf dem Radar oben rechts)
+@
+Dein Rucksack ist voll, die Gegenstände wurden auf dem Boden abgelegt.
+@
+Diese Tür ist sehr stabil, du brauchst einen Schlüssel, um sie zu öffnen.
+@
+Du bist eine Stufe aufgestiegen.
+Skillpunkte +5
+Begleiterlimit +1
+Drücke TAB, um das Statusmenü zu öffnen und deine Attribute zu steigern.
+@
+Herstellungspunkte
+@
+Du hast nicht genug Geld.
+@
+Du brauchst folgende Gegenstände:
+@
+Du musst ein Skateboard ausrüsten.
+@
+Das Gebiet vor dir ist gefährlich. Löse den Alarm aus, um die Zombies anzulocken und zu erledigen.
+Folge der gelben Navigation zum Alarm.
+@
+Du brauchst noch Begleiter:
+@
+Du hast folgende Gegenstände erhalten:
+@
+Erfahrung
+@
+Skillpunkte
+@
+Achtung! Die Zombiewelle nähert sich der Schule, bereite schnell die Verteidigung gegen sie vor!
+@
+Achtung! Die Zombiewelle hat die Umgebung der Schule erreicht, lauf schnell zum Osttor der Schule und halte sie auf!
+@
+Nicht genug Vertrauen, du brauchst 100 Vertrauen, um sie mitzunehmen.
+@
+Die Tür scheint von etwas blockiert zu sein, du musst sie aufbrechen, um hineinzukommen. Im Herstellungsmenü kannst du einen Steinhammer herstellen, damit geht es schneller.
+@
+Wehre den Zombieangriff ab, lass sie nicht rein!!!
+@
+Nicht genug Geld. Halte die rechte Maustaste gedrückt, um die Menge aufzuteilen.
+@
+Begleiterlimit für diese Karte überschritten (30), einige Begleiter sind auf der vorherigen Karte geblieben.
+@
+Anheuern nicht möglich, du hast die maximale Anzahl an Begleitern erreicht:
+Durch Stufenaufstiege kannst du mehr Begleiter anheuern. (Drücke TAB, um links deine Stufe zu sehen – Zombies töten bringt Erfahrung)
+@
+Das ist ein Missionsbegleiter. Du kannst ihn nicht versorgen, da er nach der Mission wieder geht.
+@
+Du bist eine Stufe aufgestiegen.
+Skillpunkte +5
+Drücke TAB, um das Statusmenü zu öffnen und links deine Attribute zu steigern.
+@
+Du brauchst einen Dietrich. Im Herstellungsmenü (Taste B) kannst du einen herstellen.
+@
+Du hast einen Fisch gefangen:
+@
+Achtung! Die Zombiewelle hat sich gesammelt, bereite die Verteidigung gegen sie vor!
+Achtung! Die Zombiewelle kommt auf dich zu, bereite schnell die Verteidigung gegen sie vor!
+Wehre den Zombieangriff ab, lass dich nicht verletzen!!!
+@
+Diese Tür lässt sich nicht öffnen.
+@
+Die Zombiewelle greift die Schule an! Kehr schnell zur Schule zurück und wehre sie ab!
+@
+Animation überspringen?
+@
+Der Fisch ist entwischt.
+@
+Es sind Feinde in der Nähe. Du musst sie erst ausschalten, bevor du schlafen kannst.
+@
+Da liegt schon jemand im Bett.
+@
+*Zum festgelegten Verteidigungspunkt der Schule gehen?@(Du kannst auf die Turmverteidigung auch verzichten)
+@

@@ -1,0 +1,6 @@
+0,210,200,0.5
+Komm nicht näher! 
+@
+0,210,200,0.5
+Ich bring dich um!
+@

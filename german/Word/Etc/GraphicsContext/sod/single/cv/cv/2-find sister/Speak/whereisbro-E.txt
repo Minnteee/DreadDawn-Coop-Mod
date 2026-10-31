@@ -1,0 +1,20 @@
+5
+0
+Wo ist mein Cousin?
+@
+2
+1
+Er ist im Zimmer. Sieht nicht gut aus...
+@
+5
+0
+Was ist passiert?
+@
+2
+1
+Ein Zombie hat ihn gebissen, und jetzt hat er hohes Fieber...
+@
+5
+0
+Verdammt.
+@

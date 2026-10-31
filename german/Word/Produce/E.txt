@@ -1,0 +1,55 @@
+Versperrt Zombies den Weg und zwingt sie, außen herum zu laufen. (Holz bekommst du, wenn du Bäume fällst oder mit normalen Nahkampfwaffen auf Gras einschlägst.)
+Eine Barrikade aus Knochen. Versperrt Zombies den Weg und zwingt sie, außen herum zu laufen.
+Eine Barrikade aus Steinen. Versperrt Zombies den Weg und zwingt sie, außen herum zu laufen.
+Eine Befestigung, über die Zombies stolpern, was sie ausbremst. (Holz bekommst du, wenn du Bäume fällst oder mit normalen Nahkampfwaffen auf Gras einschlägst.)
+Verursacht anhaltenden Schaden bei Zombies, die darauftreten. Mittlere Stärke. (Holz bekommst du, wenn du Bäume fällst oder mit normalen Nahkampfwaffen auf Gras einschlägst.)
+Verursacht anhaltenden Schaden bei Zombies, die darauftreten. Hohe Stärke.
+Erhöht deine Rüstung um 10 und schützt dich vor Schaden durch Zombies.
+Erhöht deine Rüstung um 10 und schützt dich vor Schaden durch Zombies.
+Ein Molotowcocktail, mit dem du eine große Zombiegruppe in Brand setzen kannst.
+Explodiert bei der Landung. Hat eine gewisse Sprengkraft und kann eine Gruppe Zombies umwerfen. (Kohlepulver bekommst du, indem du Holz im Lagerfeuer verbrennst.)
+Eine Einweg-Nahkampfwaffe, die beim Treffer mit gewaltiger Wucht explodiert. Damit kannst du auch Türen aufbrechen.
+Lockt Zombies an, wenn du ihn wirfst.
+Eine Wurfwaffe für die Distanz, mit der du Zombies umwerfen kannst.
+Ein Dietrich, mit dem du bestimmte Kisten öffnen kannst.
+Ein Feuerwerk, das Zombies vorübergehend anlockt, wenn du es zündest.
+Eignet sich als Hühnerfutter – gut genährte Hühner legen Eier. (Du kannst es auch als Köder für Hühnerfallen nutzen.) Außerdem taugt es als Fischfutter, damit sich die Fische vermehren, oder als Dünger, der das Pflanzenwachstum beschleunigt.
+Eignet sich als Hühnerfutter – gut genährte Hühner legen Eier. (Du kannst es auch als Köder für Hühnerfallen nutzen.) Außerdem taugt es als Fischfutter, damit sich die Fische vermehren, oder als Dünger, der das Pflanzenwachstum beschleunigt.
+Wirf sie auf den Boden, damit vorbeikommende Gegner ausrutschen.
+Munition für Armbrüste. Eine Armbrust kannst du im Baumenü bauen. (Drück V, um das Baumenü zu öffnen.)
+Munition für Pistolen und Maschinenpistolen. (Kohlepulver bekommst du, indem du Holz im Lagerfeuer verbrennst.)
+Munition für Gewehre. (Kohlepulver bekommst du, indem du Holz im Lagerfeuer verbrennst.)
+Munition für Schrotflinten. (Kohlepulver bekommst du, indem du Holz im Lagerfeuer verbrennst.)
+Munition für Mörser. (Kohlepulver bekommst du, indem du Holz im Lagerfeuer verbrennst.) Einen Mörser kannst du im Baumenü bauen. (Drück V, um das Baumenü zu öffnen.)
+Füll ihn mit Wasser, um Pflanzen zu gießen oder Feuer zu löschen.
+Damit kannst du Waffen reparieren.
+Damit kannst du Bäume fällen oder sie als Nahkampfwaffe nutzen. (Holz bekommst du, wenn du Bäume fällst oder mit normalen Nahkampfwaffen auf Gras einschlägst.)
+Eine sehr schnelle einhändige Nahkampfwaffe, mit der du Türen aufbrechen kannst. (Holz bekommst du, wenn du Bäume fällst oder mit normalen Nahkampfwaffen auf Gras einschlägst.)
+Eine einhändige Nahkampfwaffe mit geringer Stärke und schlechter Haltbarkeit. (Holz bekommst du, wenn du Bäume fällst oder mit normalen Nahkampfwaffen auf Gras einschlägst.)
+Eine einhändige Nahkampfwaffe mit geringer Stärke und schlechter Haltbarkeit.
+Eine selbstgebaute Waffe mit geringer Kampfkraft, mit der du Feldfrüchte auf einer recht großen Fläche ernten kannst.
+@
+Zusammen mit Kohlepulver kannst du daraus Munition herstellen. (Kohlepulver bekommst du, indem du Holz im Lagerfeuer verbrennst.)
+Eine Fällaxt, mit der du Bäume schneller fällst als mit anderen Äxten.
+Eine starke Armbrust. Pfeile dafür kannst du im Herstellungsmenü herstellen.
+Ein selbstgebautes Gewehr – sei froh, wenn es dich nicht in die Luft jagt.
+Eine selbstgebaute Schrotflinte – sei froh, wenn sie dich nicht in die Luft jagt.
+Ein selbstgebautes Gewehr – sei froh, wenn es dich nicht in die Luft jagt.
+Eine selbstgebaute Schrotflinte – sei froh, wenn sie dich nicht in die Luft jagt.
+Ein selbstgebauter Flammenwerfer – sei froh, wenn er dich nicht bei lebendigem Leib verbrennt.
+@
+Ein Material, aus dem du MG-Geschütze bauen kannst.
+Eine Köderbombe, die mit lautem Piepsen Zombies anlockt, bevor sie explodiert.
+@
+Zusammen mit Kohlepulver kannst du daraus Munition herstellen. (Kohlepulver bekommst du, indem du Holz im Lagerfeuer verbrennst.)
+Eine Fällaxt, mit der du Bäume schneller fällst als mit anderen Äxten.
+Eine starke Armbrust. Pfeile dafür kannst du im Herstellungsmenü herstellen.
+Ein selbstgebautes Gewehr – sei froh, wenn es dich nicht in die Luft jagt.
+Eine selbstgebaute Schrotflinte – sei froh, wenn sie dich nicht in die Luft jagt.
+Ein selbstgebautes Gewehr – sei froh, wenn es dich nicht in die Luft jagt.
+Eine selbstgebaute Schrotflinte – sei froh, wenn sie dich nicht in die Luft jagt.
+Ein selbstgebauter Flammenwerfer – sei froh, wenn er dich nicht bei lebendigem Leib verbrennt.
+Ein Material, aus dem du MG-Geschütze bauen kannst.
+Eine Köderbombe, die mit lautem Piepsen Zombies anlockt, bevor sie explodiert.
+Damit kannst du Waffen reparieren.
+@

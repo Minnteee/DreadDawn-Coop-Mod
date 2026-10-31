@@ -1,0 +1,48 @@
+4,160,30,0.5
+Weiter! Gleich hast du die 100!
+@
+5,160,40,0.5
+Wow, beeindruckend!
+@
+3,180,150,0.5
+Du bist echt der Hammer!
+@
+3,120,150,0.5
+96!
+@
+3,120,150,0.5
+97!
+@
+3,120,150,0.5
+98!
+@
+3,120,150,0.5
+99!
+@
+3,120,30,0.5
+100!
+@
+5,180,5,0.5
+Juhu! Wahnsinn!
+@
+3,180,2,0.5
+Stark!
+@
+4,180,250,0.5
+Verdammt, nicht schlecht!
+@
+3,180,190,0.5
+Hast du was eingeworfen?
+@
+5,120,130,0.5
+Was?
+@
+5,120,190,0.5
+Willst du weitermachen?
+@
+4,180,250,0.5
+Pass auf, dass du’s nicht übertreibst.
+@
+2,180,250000,0.5
+Mir geht’s bestens, verschrei’s nicht.
+@

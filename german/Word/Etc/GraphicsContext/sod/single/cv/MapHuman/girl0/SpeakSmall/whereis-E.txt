@@ -1,0 +1,6 @@
+12,210,250,0.5
+Wo zum Teufel sind meine Klamotten?!
+@
+12,210,700,0.5
+SCHEISSE
+@

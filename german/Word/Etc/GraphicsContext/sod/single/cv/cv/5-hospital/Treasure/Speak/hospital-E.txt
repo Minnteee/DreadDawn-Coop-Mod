@@ -1,0 +1,18 @@
+2
+1
+Arzt:
+An dem Morgen wurde ein Haufen Patienten mit hohem Fieber eingeliefert, und ich habe sie alle in die Notaufnahme geschickt.
+@
+2
+1
+Arzt:
+Wir konnten sie nicht retten, verdammt.
+@
+2
+1
+Aber ich hätte nie gedacht, dass sie wieder zum Leben erwachen.
+@
+0
+0
+Das ist nicht Ihre Schuld.
+@

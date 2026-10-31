@@ -1,0 +1,36 @@
+29,180,180,0.5
+Uns geht schon wieder das Essen aus.
+@
+29,280,280,0.5
+Wenn das so weitergeht, kriegen wir echt Probleme.
+@
+19,280,280,0.5
+Wir müssen einen Weg finden, hier rauszukommen.
+@
+13,280,280,0.5
+Ich finde, wir gehen besser nicht raus.
+@
+5,280,280,0.5
+Die ganze Stadt ist jetzt abgeriegelt.
+@
+5,280,280,0.5
+Wohin sollen wir überhaupt fliehen?
+@
+19,280,280,0.5
+Ich hab gehört, Sandy hat draußen ein paar Lager gefunden.
+@
+19,280,280,0.5
+Vielleicht können wir uns aufteilen und in diese Lager gehen.
+@
+5,280,280,0.5
+Das wäre vielleicht keine schlechte Idee.
+@
+5,280,280,0.5
+In der Schule sind zu viele Leute, das lockt jede Menge Zombies an.
+@
+5,280,280,0.5
+Wir sollten uns aufteilen.
+@
+29,280,4800,0.5
+Hoffentlich kommt jemand und hilft uns.
+@

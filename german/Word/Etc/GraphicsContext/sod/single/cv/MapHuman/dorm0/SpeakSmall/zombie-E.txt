@@ -1,0 +1,63 @@
+25,200,210,0.5
+Hey, habt ihr die Nachrichten gesehen?
+@
+25,210,220,0.5
+Die Zombies sind schon in der Stadt.
+@
+25,200,200,0.5
+Die sind keine 2 Kilometer mehr von hier weg.
+@
+24,200,210,0.5
+Was? Ich wollte doch nach Hause...
+@
+24,190,200,0.5
+Wir sind erledigt.
+@
+22,190,200,0.5
+Bleib locker, Mann.
+@
+22,220,240,0.5
+Sind nicht gerade erst die Soldaten gekommen?
+@
+22,200,210,0.5
+Die Dinger kommen hier nicht rein.
+@
+24,210,220,0.5
+Aber was ist mit meiner Mama?
+@
+24,210,230,0.5
+Sie wartet zu Hause noch auf mich...
+@
+25,200,210,0.5
+Vielleicht ist sie schon evakuiert worden.
+@
+25,190,200,0.5
+Keine Sorge, Mann.
+@
+22,190,200,0.5
+Oder sie ist schon ein Zombie.
+@
+24,180,120,0.5
+Was? Nein! Mama!!!
+@
+25,200,200,0.5
+Hey! Pass auf, was du sagst!
+@
+25,210,210,0.5
+Was fällt dir ein, so mit meinem Kumpel zu reden?
+@
+22,210,220,0.5
+Oh, sorry, ich hab keine Familie.
+@
+22,190,200,0.5
+Kann ich nicht so nachvollziehen.
+@
+24,180,120,0.5
+Neeein!!!
+@
+25,190,200,0.5
+Hey, Mann, ignorier ihn einfach.
+@
+24,210,22000,0.5
+......
+@

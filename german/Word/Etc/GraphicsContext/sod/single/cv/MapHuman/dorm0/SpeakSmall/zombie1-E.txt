@@ -1,0 +1,39 @@
+7,230,240,0.5
+Habt ihr spät nachts auch so komische Geräusche gehört?
+@
+9,230,240,0.5
+Nö, ich hab nur Schnarchen gehört.
+@
+7,210,230,0.5
+Kann nicht sein! Das war so ein lautes, unheimliches Geräusch.
+@
+9,200,210,0.5
+Bist du sicher? Hast du dir das nicht eingebildet?
+@
+8,220,230,0.5
+Hey, im Ernst, ich hab’s auch gehört.
+@
+8,210,220,0.5
+Es klang, als käme es von unten.
+@
+9,180,190,0.5
+Was? Du hast es dir auch eingebildet?
+@
+8,210,220,0.5
+Nein, das war echt, wie das Heulen eines Geists.
+@
+7,220,230,0.5
+Genau! Es klang wie ein Geist.
+@
+9,190,200,0.5
+Bin ich etwa taub, oder was?
+@
+7,200,210,0.5
+Geh mal in die hinterste Kabine im Klo und hör hin.
+@
+7,230,240,0.5
+Da ist es richtig laut.
+@
+9,220,410000,0.5
+Na gut, ich schau’s mir später mal an.
+@

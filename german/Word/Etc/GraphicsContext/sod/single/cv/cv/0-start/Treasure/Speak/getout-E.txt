@@ -1,0 +1,6 @@
+2
+1
+(Lehrer)
+Was machst du hier? Raus mit dir.
+(Leertaste zum Fortfahren)
+@

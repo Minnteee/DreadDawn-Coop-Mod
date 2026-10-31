@@ -1,0 +1,28 @@
+0
+0
+Erledigt.
+@
+2
+1
+Gut, aber wir brauchen noch mehr Vorräte.
+@
+2
+1
+Sieh in den anderen Bereichen des Supermarkts nach. Wir brauchen noch drei solche Kisten.
+@
+0
+0
+?? So ein riesiger Supermarkt – woher soll ich wissen, wo was ist?
+@
+2
+1
+Hey! Jetzt hör mal zu! Faulpelze können wir hier nicht gebrauchen. Wenn du nicht helfen willst, kannst du gleich abhauen!
+@
+0
+0
+...N-nein, ich meine nur, der Supermarkt ist so groß, da gibt’s bestimmt jede Menge tolle Sachen. Hehe...
+@
+2
+1
+Dann beeil dich und such sie.
+@

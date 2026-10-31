@@ -1,0 +1,6 @@
+-1,220,220,0.5
+Wow~
+@
+-1,290,25000000,0.5
+Das sind ja echt tolle Sachen!
+@

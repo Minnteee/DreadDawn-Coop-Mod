@@ -1,0 +1,27 @@
+0
+0
+Wir haben euch das Benzin besorgt. Können wir jetzt gehen?
+@
+2
+1
+Lagerwache:
+Klar, aber vorher musst du uns noch bei ein paar Sachen helfen.
+@
+0
+0
+Was? Ich muss sofort los!
+@
+2
+1
+Lagerwache:
+Glaubt ihr echt, ihr kommt hier jetzt so einfach weg?
+@
+0
+0
+Wie bitte?
+@
+2
+1
+Lagerwache:
+Immer schön brav. Melde dich erst mal beim Boss, dann reden wir darüber, unter welchen Bedingungen ihr gehen dürft!
+@

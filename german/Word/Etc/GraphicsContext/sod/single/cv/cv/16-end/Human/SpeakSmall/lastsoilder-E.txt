@@ -1,0 +1,12 @@
+6,250,250,0.5
+Meine Hände zittern.
+@
+16,250,250,0.5
+Hey, keine Panik, ganz ruhig.
+@
+17,250,250,0.5
+Wir sterben hier draußen doch nicht, oder?
+@
+8,250,250,0.5
+Ich halt’s nicht mehr aus, es soll endlich vorbei sein.
+@

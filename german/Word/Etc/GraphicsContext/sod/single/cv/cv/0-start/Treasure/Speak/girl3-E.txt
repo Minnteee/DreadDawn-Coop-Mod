@@ -1,0 +1,29 @@
+2
+1
+(Jane)
+Jack?
+(Leertaste zum Fortfahren)
+@
+2
+1
+(Jane)
+Bist du wegen mir hier?
+@
+0
+0
+Äh, ich hab mich verlaufen.
+@
+2
+1
+(Jane)
+Verlaufen?
+@
+2
+1
+(Jane)
+Na ja, das ist eine ziemlich lahme Ausrede.
+@
+0
+0
+...Ich geh dann mal...
+@

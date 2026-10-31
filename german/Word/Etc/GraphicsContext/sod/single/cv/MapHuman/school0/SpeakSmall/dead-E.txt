@@ -1,0 +1,15 @@
+16,260,270,0.5
+Der Dünne ist gestern rausgegangen und immer noch nicht zurück.
+@
+16,250,260,0.5
+Draußen wimmelt es von Zombies, vielleicht ist er schon...
+@
+17,190,210,0.5
+Verdammt, sollen wir ihn suchen gehen?
+@
+16,190,280,0.5
+....
+@
+16,220,299990,0.5
+Bleiben wir lieber hier....
+@

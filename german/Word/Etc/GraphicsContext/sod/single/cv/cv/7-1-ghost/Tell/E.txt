@@ -1,0 +1,5 @@
+Geh zum Lehrgebäude.
+Durchsuche alle Räume und hol die Studenten raus.
+Verlass das Lehrgebäude.
+Spür die verdächtige Person auf.
+Entlarve den Verdächtigen.

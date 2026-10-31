@@ -1,0 +1,19 @@
+2
+1
+Zivilist:
+Hey! Da kommt jemand!
+@
+2
+1
+Zivilist:
+Kannst du ihr helfen? Ein alter Mann hat sie gebissen, und sie braucht sofort Medizin.
+@
+2
+1
+Zivilist:
+Wir wären dir so dankbar, wenn du Medizin besorgen könntest.
+@
+0
+0
+Oh, ich kann’s versuchen!
+@

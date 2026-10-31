@@ -20,6 +20,8 @@ GUT ZU WISSEN
 - Beim ersten Start baut das Paket einmalig die angepasste Spielversion (deutsch\cache).
   Nach einem Spiel-Update passiert das automatisch neu.
 - Texte, die im Spiel als Bild vorliegen (z. B. die Tastatur-Hilfe), bleiben englisch.
+- Was der Coop-Mod alles zwischen beiden Spielern abgleicht, steht auf Deutsch in
+  deutsch\COOP-LISTE.txt (Wiederbeleben mit E, Speichern für den Host, Minimap-Punkt usw.).
 - Entfernen: "Dread Dawn DEUTSCH.bat" und den Ordner "deutsch" löschen.
 
 Übersetzung und Mod erstellt mit Claude Opus 5.5 (Anthropic).

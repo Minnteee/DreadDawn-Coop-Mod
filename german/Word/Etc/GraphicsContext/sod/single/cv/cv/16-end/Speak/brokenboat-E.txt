@@ -1,0 +1,58 @@
+0
+0
+Verdammt! Was ist mit dem Boot los?!
+@
+2
+1
+Lehrer:
+Beim Luftangriff hat eine Bombe die Treibstoffleitung des Boots getroffen. Jetzt läuft es nicht mehr.
+@
+0
+0
+Was?! Wie konnte das passieren?!
+@
+0
+0
+Läuft das Boot überhaupt noch?
+@
+2
+1
+Lehrer:
+Nein. Ich sehe es mir mal an.
+@
+0
+0
+So ein Mist!
+@
+2
+1
+Lehrer:
+Hey, Moment mal.
+@
+2
+1
+Lehrer:
+Die Treibstoffleitung ist gar nicht so schlimm beschädigt. Das müsste ich reparieren können.
+@
+0
+0
+Echt jetzt???
+@
+0
+0
+Das wäre der Hammer!!!
+@
+2
+1
+Lehrer:
+Aber ich brauche etwas Zeit.
+@
+2
+1
+Lehrer:
+Ich krieg es bestimmt wieder zum Laufen!
+@
+0
+0
+Gut, dann ran ans Werk. Ich kontrolliere solange die Umgebung.
+@

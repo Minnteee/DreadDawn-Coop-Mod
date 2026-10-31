@@ -1,0 +1,36 @@
+0,220,220,0.5
+Von drinnen kommen unheimliche Geräusche.
+@
+1,220,220,0.5
+Sollen wir mal nachsehen?
+@
+2,220,290,0.5
+Vergiss es. Wenn schon, dann gehst du.
+@
+-1,220,220,0.5
+Was ist los?
+@
+0,220,0,0.5
+Sieh du doch nach.
+@
+1,220,0,0.5
+Schau doch selbst.
+@
+2,220,260,0.5
+Geh nicht rein, das ist echt gruselig.
+@
+-1,220,270,0.5
+??
+@
+0,220,110,0.5
+Da drin hat sich jemand umgebracht.
+@
+1,220,60,0.5
+Ich hör da drin so komische Beißgeräusche.
+@
+2,220,260,0.5
+Klingt nach irgendeinem Monster.
+@
+-1,220,270000,0.5
+Okay, ihr bleibt hier und kommt nicht rein.
+@

@@ -1,0 +1,18 @@
+0,300,100,0.5
+Wie bist du hier reingekommen?
+@
+1,300,100,0.5
+Wer bist du?
+@
+2,200,500,0.5
+Raus hier, sofort!
+@
+0,300,100,0.5
+Wer bist du?
+@
+1,300,100,0.5
+Wie bist du hier reingekommen?
+@
+2,200,400,0.5
+Was willst du?
+@

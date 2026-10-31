@@ -1,0 +1,32 @@
+0
+0
+Ich hab das Benzin.
+@
+2
+1
+Lagerwache:
+Nicht schlecht, du bist viel besser als die Idioten vor dir.
+@
+2
+1
+Lagerwache:
+Bring das Benzin erst mal da rein, dann komm zu mir.
+@
+0
+0
+Und danach können wir gehen?
+@
+2
+1
+Lagerwache:
+Nicht so eilig, wir haben noch was anderes für dich zu tun.
+@
+0
+0
+Was? Ich muss sofort los!
+@
+2
+1
+Lagerwache:
+Bring erst das Benzin da rein, dann komm zu mir.
+@

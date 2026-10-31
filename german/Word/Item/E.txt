@@ -1,0 +1,418 @@
+@
+AK-47
+Ein Sturmgewehr.
+M4
+Ein Sturmgewehr.
+Mac-10
+Eine Maschinenpistole.
+Flammenwerfer
+Ideal gegen große Zombiegruppen. Braucht Benzin als Treibstoff.
+XM102
+Eine halbautomatische Schrotflinte, ideal gegen große Zombiegruppen.
+SG-550
+Ein Sturmgewehr.
+Desert Eagle
+Eine Pistole.
+GK
+Eine Pistole.
+Killer
+Eine besonders starke Pistole.
+M15
+Ein besonders starkes Gewehr.
+UMP
+Eine Maschinenpistole.
+S-660
+Eine Schrotflinte, die selbst große Zombies umhaut.
+Doppelflinte
+Eine Schrotflinte, die selbst große Zombies umhaut.
+Eigenbau-Gewehr
+Ein improvisiertes Gewehr – sei einfach froh, wenn es dir nicht um die Ohren fliegt.
+Eigenbau-Flinte
+Eine improvisierte Schrotflinte – sei einfach froh, wenn sie dir nicht um die Ohren fliegt.
+Armbrust
+Eine starke Armbrust. Pfeile dafür kannst du im Herstellungsmenü herstellen.
+H-8
+Eine Pistole.
+M-1911
+Eine Pistole.
+Revolver
+Eine Handfeuerwaffe.
+TEC-9
+Eine Pistole mit hoher Feuerrate.
+MP
+Eine Maschinenpistole.
+MP5
+Eine Maschinenpistole.
+S200
+Eine Schrotflinte, die selbst große Zombies umhaut.
+SKS
+Ein Gewehr.
+M-21
+Ein Gewehr.
+HK
+Ein Sturmgewehr.
+M-16
+Ein Sturmgewehr.
+SCAR
+Ein Sturmgewehr mit enormer Durchschlagskraft.
+Eigenbau-Gewehr
+Ein improvisiertes Gewehr – sei einfach froh, wenn es dir nicht um die Ohren fliegt.
+Eigenbau-Flinte
+Eine improvisierte Schrotflinte – sei einfach froh, wenn sie dir nicht um die Ohren fliegt.
+Eigenbau-Flammenwerfer
+Ein improvisierter Flammenwerfer – sei einfach froh, wenn er dich nicht bei lebendigem Leib verbrennt.
+Granatwerfer
+Verschießt Mörsergranaten. Die kannst du im Herstellungsmenü herstellen.
+M249
+Ein leichtes Maschinengewehr, das Gewehrmunition verwendet.
+@
+Gewehrmunition
+Munition für Gewehre.
+Pistolenmunition
+Munition für Pistolen und Maschinenpistolen.
+Schrotmunition
+Munition für Schrotflinten.
+Benzin
+Munition für den Flammenwerfer.
+Pfeile
+Munition für Armbrüste. Pfeile kannst du im Herstellungsmenü herstellen.
+Mörsergranaten
+Munition für Mörser. Mörsergranaten kannst du im Herstellungsmenü herstellen.
+@
+Brot
+Ein Nahrungsmittel.
+Limo
+Ein Getränk.
+Menschenfleisch
+Nach dem Garen essbar.
+Gebratenes Fleisch
+Ein Nahrungsmittel.
+Brathähnchen
+Ein Nahrungsmittel.
+Eier
+Ein Nahrungsmittel, das gegart nahrhafter ist.
+Erste-Hilfe-Kasten
+Stellt Leben wieder her.
+Kräuter
+Stellen Leben wieder her und sind nach dem Garen essbar.
+Rohe Pilze
+Ein Nahrungsmittel, das gegart nahrhafter ist.
+Bier
+Trinkbar – oder du machst daraus Molotowcocktails.
+Essiggurken
+Ein Nahrungsmittel.
+Erdnussbutter
+Ein Nahrungsmittel.
+Mais
+Ein Nahrungsmittel, das gegart nahrhafter ist.
+Suppe
+Ein Nahrungsmittel.
+Gegrillter Arm
+Ein Nahrungsmittel, nicht besonders lecker.
+Huhn
+Du kannst Hühner halten, damit sie Eier legen (Hühnerfutter kannst du im Herstellungsmenü herstellen), oder sie garen und essen.
+Kakerlaken
+Ein Nahrungsmittel mit 6-mal so viel Eiweiß wie Rindfleisch.
+Weizen
+Ein Nahrungsmittel, das gegart nahrhafter ist.
+Zombiearm
+Der Arm eines Zombies. Du kannst ihn garen und essen oder als Hühnerfutter verwenden.
+Riesenarm
+Der Arm eines großen Zombies. Du kannst ihn garen und essen.
+Gekochte Eier
+Ein Nahrungsmittel.
+Roter Schnapper
+Ein frisch gefangener Fisch. Du kannst ihn im Fischteich der Schule züchten und so Fischeier gewinnen (Fischfutter kannst du im Herstellungsmenü herstellen) oder ihn garen und essen.
+Barsch
+Ein frisch gefangener Fisch. Du kannst ihn im Fischteich der Schule züchten und so Fischeier gewinnen (Fischfutter kannst du im Herstellungsmenü herstellen) oder ihn garen und essen.
+Spitzmaulbarsch
+Ein frisch gefangener Fisch. Du kannst ihn im Fischteich der Schule züchten und so Fischeier gewinnen (Fischfutter kannst du im Herstellungsmenü herstellen) oder ihn garen und essen.
+Gegrillter Fisch
+Gegrillter Fisch, bereit zum Essen.
+Fischeier
+Von Fischen gelegte Eier, ein Nahrungsmittel.
+Gegrillter Mais
+Ein Nahrungsmittel.
+Pilzsuppe
+Ein Nahrungsmittel.
+Trinkwasser
+Stillt deinen Durst.
+Weizenbrei
+Ein Nahrungsmittel.
+@
+Holzstock
+Eine schwache, leicht zerbrechliche einhändige Nahkampfwaffe.
+Feueraxt
+Eine zweihändige Nahkampfwaffe, mit der du auch Bäume fällen kannst.
+Eisenstab
+Eine einhändige Nahkampfwaffe.
+Vorschlaghammer
+Eine zweihändige Nahkampfwaffe.
+Protestschild
+Eine zweihändige Nahkampfwaffe.
+Baseballschläger
+Eine zweihändige Nahkampfwaffe.
+Katana
+Eine zweihändige Nahkampfwaffe.
+Dolch
+Eine einhändige Nahkampfwaffe.
+Schraubenzieher
+Eine einhändige Nahkampfwaffe.
+Hammer
+Eine einhändige Nahkampfwaffe.
+Schraubenschlüssel
+Eine einhändige Nahkampfwaffe.
+Hackbeil
+Eine einhändige Nahkampfwaffe.
+Machete
+Eine einhändige Nahkampfwaffe, mit der du auch Bäume fällen kannst.
+Steinaxt
+Eine einhändige Nahkampfwaffe, mit der du auch Bäume fällen kannst.
+Eisenhaken
+Eine einhändige Nahkampfwaffe.
+Kurze Axt
+Eine einhändige Nahkampfwaffe, mit der du auch Bäume fällen kannst.
+Schwerer Hammer
+Eine einhändige Nahkampfwaffe.
+Sichel
+Eine einhändige Nahkampfwaffe.
+Brecheisen
+Eine zweihändige Nahkampfwaffe.
+Metallrohr
+Eine zweihändige Nahkampfwaffe.
+Schaufel
+Eine zweihändige Nahkampfwaffe.
+Steinhammer
+Eine schnelle einhändige Nahkampfwaffe, mit der du Türen aufbrechen kannst.
+Aubergine
+Eine einhändige Nahkampfwaffe, die bei manchen Leuten „Schlafprobleme“ kuriert.
+Golfschläger
+Eine zweihändige Nahkampfwaffe.
+Gitarre
+Eine zweihändige Nahkampfwaffe, die beim Zuschlagen „wunderschön“ klingt.
+Spitzhacke
+Eine einhändige Nahkampfwaffe.
+Rostige Machete
+Eine einhändige Nahkampfwaffe.
+Bratpfanne
+Eine einhändige Nahkampfwaffe.
+Leichte Axt
+Eine zweihändige Nahkampfwaffe.
+Speer
+Eine zweihändige Nahkampfwaffe.
+Schlagstock
+Eine einhändige Nahkampfwaffe.
+Bohrmaschine
+Eine einhändige Nahkampfwaffe, die Zombies bluten lässt.
+Stachelkeule
+Eine zweihändige Nahkampfwaffe.
+Knochenmesser
+Eine schwache, leicht zerbrechliche einhändige Nahkampfwaffe.
+Fanggabel
+Eine zweihändige Nahkampfwaffe, mit der du Zombies mühelos zu Boden stößt.
+Mistgabel
+Eine zweihändige Nahkampfwaffe.
+Eisenspeer
+Eine zweihändige Nahkampfwaffe.
+Riesenschwert
+Eine mächtige zweihändige Nahkampfwaffe.
+Angelrute
+Damit kannst du am Fluss oder am Meer angeln (linke Maustaste gedrückt halten, um die Angel auszuwerfen). Gefangene Fische kannst du im Fischteich der Schule züchten und so Fischeier gewinnen.
+Schockgranate
+Eine Einweg-Nahkampfwaffe, die beim Aufprall mit enormer Wucht explodiert. Damit kannst du auch Türen aufbrechen.
+Leuchtfackel
+Eine Einweg-Nahkampfwaffe, die Zombies in Brand setzt.
+Fackel
+Eine Einweg-Nahkampfwaffe, die Zombies in Brand setzt.
+Lange Fackel
+Eine Einweg-Nahkampfwaffe, die Zombies in Brand setzt.
+Elektroschlagstock
+Versetzt Zombies einen Stromschlag und lähmt sie kurzzeitig.
+Donnerspeer
+Eine zweihändige Nahkampfwaffe, die Zombies einen Stromschlag versetzt und sie kurzzeitig lähmt.
+Riesensichel
+Eine zweihändige Nahkampfwaffe.
+Kukri
+Eine zweihändige Nahkampfwaffe.
+Feuerwerksstab
+Eine Einweg-Nahkampfwaffe. Ausgerüstet kannst du sie anzünden und damit Zombies in Brand setzen.
+Lasso
+Damit fängst du Zombies, Menschen, MG-Geschütze und Fässer ein. Mittlere Maustaste oder G drücken, um das Lasso einzuholen; gedrückt halten, um es festzumachen.
+SSS
+SSSSSSSS
+Taser
+Verpasst Zombies oder Menschen aus der Distanz einen starken Stromschlag.
+Kettensäge
+Eine einhändige Nahkampfwaffe, die Zombies bluten lässt.
+Eigenbau-Großmesser
+Eine zweihändige Nahkampfwaffe.
+Löschschlauch
+Wird an einen Hydranten am Straßenrand angeschlossen und verspritzt einen Hochdruckstrahl, der Zombies und Menschen umwirft. Damit kannst du auch Zombies, Menschen, MG-Geschütze und Fässer einfangen – mittlere Maustaste oder G zum Einholen.
+Eigenbau-Sichel
+Eine selbstgebaute Waffe mit geringer Kampfkraft, mit der du Feldfrüchte auf einer recht großen Fläche ernten kannst.
+Fällaxt
+Eine Fällaxt, mit der du Bäume schneller fällst als mit anderen Äxten.
+@
+Lockgranate
+Eine Granate, die Zombies anlockt und dann explodiert. (Manche Zombies lassen sich davon nicht anlocken.)
+Infizierte Drüse
+Eine infizierte Drüse, die eine stark ätzende Flüssigkeit absondert. Geworfen schadet sie dem menschlichen Körper.
+Granate
+Unglaubliche Sprengkraft.
+Molotowcocktail
+Setzt Zombies in Brand.
+Stein
+Damit kannst du Zombies umwerfen oder Gegenstände herstellen.
+Eigenbau-Bombe
+Explodiert beim Aufprall. Die Sprengkraft ist eher gering, reicht aber für eine Gruppe Zombies.
+Blutköder
+Lockt Zombies an, wenn du ihn wirfst.
+Wurfstein
+Eine Wurfwaffe für die Distanz, mit der du Zombies umwerfen kannst.
+Rauchgranate
+Wirf sie, um einen Luftangriff mit verheerender Zerstörungskraft anzufordern.
+Wurfobjekt
+Wirf es, um Gegner umzuwerfen.
+@
+Holzbarrikade
+Eine Verteidigungsanlage, die Zombies den Weg versperrt.
+Knochenbarrikade
+Eine Verteidigungsanlage, die Zombies den Weg versperrt.
+Laub
+Blockt Fernangriffe von Spezial-Infizierten und dient außerdem als Brennstoff fürs Lagerfeuer.
+Laub
+Blockt Fernangriffe von Spezial-Infizierten und dient außerdem als Brennstoff fürs Lagerfeuer.
+Laub
+Blockt Fernangriffe von Spezial-Infizierten und dient außerdem als Brennstoff fürs Lagerfeuer.
+Laub
+Blockt Fernangriffe von Spezial-Infizierten und dient außerdem als Brennstoff fürs Lagerfeuer.
+Kräutersamen
+Kräutersamen, die an bestimmten Stellen gepflanzt werden müssen.
+Maissamen
+Maissamen, die an bestimmten Stellen gepflanzt werden müssen.
+Benzinfass
+Schieß darauf, um Zombies massiven Schaden zuzufügen.
+Holz-Stachelfalle
+Verursacht anhaltenden Schaden bei Zombies, die darauftreten. Durchschnittliche Stärke.
+Stein-Stachelfalle
+Verursacht anhaltenden Schaden bei Zombies, die darauftreten. Höhere Stärke.
+Feuerwerk
+Lenkt die Aufmerksamkeit von Zombies auf sich.
+Weizensamen
+Weizensamen, die an bestimmten Stellen gepflanzt werden müssen.
+Hindernis
+Eine Verteidigungsanlage, über die Zombies stolpern.
+Steinbarrikade
+Eine Verteidigungsanlage, die Zombies den Weg versperrt – widerstandsfähiger als Holzbarrikaden.
+Defibrillator
+Einmal verwendbar: Damit kannst du einen kampfunfähigen Begleiter oder eine andere Person wiederbeleben.
+@
+Stoff
+Ein Material, aus dem du verschiedene Gegenstände herstellen kannst.
+Taschenlampe
+Drück T, um sie einzuschalten.
+Bargeld
+Damit kannst du im Laden viele nützliche Dinge kaufen. Überzählige Gegenstände kannst du gegen Bargeld verkaufen.
+Rüstung
+Erhöht deinen Rüstungswert um 10 und schützt dich vor Schaden durch Zombies.
+Nägel
+Ein Material, aus dem du verschiedene Gegenstände herstellen kannst.
+Seil
+Ein Material, aus dem du verschiedene Gegenstände herstellen kannst.
+Dietrich
+Damit kannst du manche verschlossenen Kisten öffnen.
+Altpapier
+Dient als Brennstoff fürs Lagerfeuer.
+Altmetall
+Ein Material, aus dem du verschiedene Gegenstände herstellen kannst.
+Platine
+Ein Material, aus dem du verschiedene Gegenstände herstellen kannst.
+Kohlepulver
+Lässt sich mit Patronenhülsen zu Munition verarbeiten. Entsteht, wenn du im Lagerfeuer etwas verbrennst.
+Holz
+Ein Baumaterial für verschiedene Dinge wie Zäune und Lagerfeuer. Dient außerdem als Brennstoff fürs Lagerfeuer.
+Fleischreste
+Lässt sich als Dünger verwenden und beschleunigt das Wachstum von Pflanzen. Dient auch als Hühnerfutter – gut genährte Hühner legen Eier. (Du kannst es auch als Köder für Hühnerfallen nutzen.) Außerdem eignet es sich als Fischfutter und hilft Fischen beim Laichen.
+MG-Teile
+Ein Material, aus dem du ein MG-Geschütz bauen kannst.
+Knochen
+Ein Material, aus dem du verschiedene Dinge herstellen kannst, zum Beispiel Knochenbarrikaden.
+Patronenhülsen
+Mit Kohlepulver kannst du daraus Munition herstellen. Patronenhülsen kannst du auch selbst herstellen, wenn du eine Werkbank baust. Drück V, um das Baumenü zu öffnen und die Werkbank zu bauen.
+Holz
+Ein Baumaterial für verschiedene Dinge wie Zäune und Lagerfeuer. Dient außerdem als Brennstoff fürs Lagerfeuer.
+Holzbecher
+Füll ihn mit Wasser, um Pflanzen zu gießen oder Feuer zu löschen. Dafür brauchst du eine Wasserquelle. (Zum Beispiel fließendes Wasser oder ein Schwimmbecken – oder du baust einen Tausammler aus dem Baumenü.)
+Voller Holzbecher
+Damit kannst du Pflanzen gießen – sie brauchen genug Wasser zum Wachsen und welken, wenn sie zu trocken sind. Außerdem kannst du damit Feuer auf manchen Wegen löschen.
+Lebenstrank
+Erhöht dein maximales Leben.
+Stärketrank
+Erhöht die Höchstwerte für Stärke, Hunger und Durst.
+Rüstungseinlage
+Erhöht deinen maximalen Rüstungswert.
+Adrenalin
+Erhöht dein maximales Leben um 1.
+Murmeln
+Auf den Boden geworfen, bringen sie vorbeikommende Gegner zum Ausrutschen.
+Rucksack
+Erweitert deinen Rucksack um einen Platz.
+Ausdauerpillen
+Erhöht deine maximale Ausdauer um 1.
+Reparaturset
+Damit kannst du Waffen reparieren.
+Buch
+Gibt dir 2 Herstellungspunkte, mit denen du weitere Rezepte freischaltest. Drück B, um das Herstellungsmenü zu öffnen.
+Gold
+Wertvoll – lässt sich im Laden verkaufen.
+Goldarmband
+Ein wertvoller Luxusgegenstand, den du im Laden verkaufen kannst.
+Juwelenkette
+Ein wertvoller Luxusgegenstand, den du im Laden verkaufen kannst.
+Dreifarbiges Juwel
+Ein wertvoller Luxusgegenstand, den du im Laden verkaufen kannst.
+Rubin
+Ein wertvoller Luxusgegenstand, den du im Laden verkaufen kannst.
+Goldring
+Ein wertvoller Luxusgegenstand, den du im Laden verkaufen kannst.
+Goldene Taschenuhr
+Ein wertvoller Luxusgegenstand, den du im Laden verkaufen kannst.
+Perlenkette
+Ein wertvoller Luxusgegenstand, den du im Laden verkaufen kannst.
+@
+Foto
+Zeigt Momente aus dem Leben der Menschen vor der Katastrophe. Du kannst es im Laden verkaufen.
+Dokument
+Enthält allerlei Informationen über Menschen vor der Katastrophe. Du kannst es im Laden verkaufen.
+@
+Schlüssel
+Öffnet bestimmte verschlossene Türen. Drück die Benutzen-Taste, um dir den Weg zum Ziel zeigen zu lassen.
+@
+XF-30
+Ein ferngesteuertes Auto, das du selbst lenken kannst. Drück E, um zu hupen und Zombies anzulocken.
+F22
+Ein ferngesteuertes Auto, das du selbst lenken kannst. Drück E, um zu hupen und Zombies anzulocken.
+Wildman
+Ein ferngesteuertes Auto, das du selbst lenken kannst. Drück E, um zu hupen und Zombies anzulocken.
+Jeep
+Ein ferngesteuertes Auto, das du selbst lenken kannst. Drück E, um zu hupen und Zombies anzulocken.
+Fernbedienung
+Die Fernbedienung zum Steuern der ferngesteuerten Autos.
+@
+Schneemann-Skateboard
+Ein Skateboard, mit dem du richtig schnell unterwegs bist.
+Feuermann-Skateboard
+Ein Skateboard, mit dem du richtig schnell unterwegs bist.
+@
+Schuhe
+Erhöhen dein Lauftempo, wenn du sie trägst.
+Helm
+Erhöht deine Abwehr, wenn du ihn trägst.
+Knieschoner
+Erhöhen deine Abwehr, wenn du sie trägst.
+Schutzweste
+Erhöht deine Abwehr, wenn du sie trägst.
+Handschuhe
+Erhöhen dein Angriffstempo, wenn du sie trägst.
+Outfit
+Ändert das Aussehen deiner Figur, wenn du es trägst.

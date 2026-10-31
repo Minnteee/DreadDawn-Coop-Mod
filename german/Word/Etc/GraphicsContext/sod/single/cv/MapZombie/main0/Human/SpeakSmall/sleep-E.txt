@@ -1,0 +1,30 @@
+1,310,230,0.5
+Mann, wer läuft da rum?
+@
+0,200,230,0.5
+So laut, so nervig.
+@
+2,210,250,0.5
+Was ist denn los? Könnt ihr alle mal die Klappe halten?
+@
+1,310,230,0.5
+Kannst du nicht einfach still sein?
+@
+1,310,230,0.5
+So ein Pech, dass ich neben euch schlafen muss.
+@
+0,200,230,0.5
+.......zzzzz......
+@
+2,210,50,0.5
+????
+@
+1,210,250,0.5
+????
+@
+1,250,250,0.5
+Ist das sein Ernst? Schon wieder so schnell eingeschlafen?
+@
+2,310,2250,0.5
+........
+@

@@ -1,0 +1,42 @@
+2
+1
+Lagerwache:
+Halt!
+@
+2
+1
+Lagerwache:
+Ich hab gehört, du brauchst Benzin?
+@
+0
+0
+Ja, und zwar jede Menge.
+@
+2
+1
+Lagerwache:
+Und wofür brauchst du das Benzin?
+@
+0
+0
+Ich hab ein Boot, aber der Tank ist leer. Ohne Benzin krieg ich es nicht zum Laufen.
+@
+2
+1
+Lagerwache:
+Ein Boot? Du hast ein Boot? Alle Achtung.
+@
+2
+1
+Lagerwache:
+Aber ein guter Rat: Sei nächstes Mal nicht so ehrlich. Das ist das Ende der Welt, da weiß man nie, mit wem man es zu tun hat.
+@
+0
+0
+Hä?
+@
+2
+1
+Lagerwache:
+Komm rein, ich bring dich zu unserem Boss.
+@

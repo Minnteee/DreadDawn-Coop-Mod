@@ -1,0 +1,23 @@
+0
+0
+Kommandant! Kommandant! Es ist was Schlimmes passiert! Ein Infizierter hat sich in die Schule eingeschlichen!
+@
+2
+1
+Soldat:
+Was ist los?!
+@
+0
+0
+Ich hab gerade jemanden in Grün aus dem Lehrgebäude am Südcampus rennen sehen. Dort haben sich viele Leute in Zombies verwandelt!
+@
+2
+1
+Soldat:
+Verdammt, alle sollen sich sofort versammeln!
+@
+2
+1
+Soldat:
+Beeilung!
+@

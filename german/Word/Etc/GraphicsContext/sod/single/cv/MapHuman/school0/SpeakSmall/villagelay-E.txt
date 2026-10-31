@@ -1,0 +1,39 @@
+90,300,300,0.5
+Wär ich bloß nicht hier in den Urlaub gefahren.
+@
+90,300,300,0.5
+Jetzt kommen wir nicht mehr zurück.
+@
+92,300,300,0.5
+Wir sterben hier doch nicht, oder?
+@
+91,300,300,0.5
+Okay, okay, es ist alles meine Schuld.
+@
+91,300,300,0.5
+Ich hätte euch nicht herbringen sollen.
+@
+91,300,300,0.5
+Ich bin der Schuldige, zufrieden?
+@
+92,300,20,0.5
+.........
+@
+90,300,300,0.5
+.........
+@
+94,300,300,0.5
+In so einer Lage sollten wir zusammenhalten.
+@
+94,300,200,0.5
+Jetzt ist nicht die Zeit für gegenseitige Vorwürfe.
+@
+92,300,20,0.5
+.........
+@
+90,300,300,0.5
+.........
+@
+92,300,2000,0.5
+.........
+@

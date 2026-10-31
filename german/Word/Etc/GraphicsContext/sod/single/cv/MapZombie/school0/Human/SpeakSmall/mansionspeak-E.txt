@@ -1,0 +1,24 @@
+0,210,250,0.5
+1872?
+@
+0,210,250,0.5
+Oder war’s 1873?
+@
+2,200,200,0.5
+Falsch, falsch, beides stimmt nicht.
+@
+1,210,200,0.5
+Was ist es dann?
+@
+2,210,150,0.5
+Es ist 1888.
+@
+2,200,180,0.5
+1888.
+@
+2,200,180,0.5
+Merkt euch den Code: 1888.
+@
+2,210,1500,0.5
+Bald können wir uns die Waffen da drin holen.
+@

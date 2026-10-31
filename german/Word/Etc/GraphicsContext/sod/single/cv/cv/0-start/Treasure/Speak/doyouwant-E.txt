@@ -1,0 +1,32 @@
+2
+1
+Student:
+Hey! Willst du zu unserer Dachbodenparty kommen?
+@
+0
+0
+Dachbodenparty? So mit Tanzen auf dem Dachboden?
+@
+2
+1
+Student:
+Jep, und vielleicht gibt’s auch was zu trinken.
+@
+0
+0
+Alkohol? Der ist an der Schule verboten.
+@
+2
+1
+Student:
+Äh, also, hast du Lust?
+@
+0
+0
+Klingt ganz witzig, vielleicht schau ich später mal vorbei.
+@
+2
+1
+Student:
+Super, bis dann~
+@

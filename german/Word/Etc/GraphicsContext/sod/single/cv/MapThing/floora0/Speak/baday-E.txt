@@ -1,0 +1,54 @@
+0
+0
+Hey, alles okay?
+@
+2
+1
+Mädchen:
+Entschuldige, gehört dir dieses Haus?
+@
+0
+0
+Nein, ich bin nur auf der Durchreise.
+@
+2
+1
+Mädchen:
+Bitte tu mir nichts, alles in diesem Haus gehört dir... nimm dir, was du willst...
+@
+0
+0
+Keine Angst, ich tu dir nichts.
+@
+0
+0
+Wie bist du hier gelandet?
+@
+2
+1
+Mädchen:
+Vor ein paar Tagen waren mein Bruder und ich zu Hause. Es war Nacht, und ich hab geschlafen.
+@
+2
+1
+Mädchen:
+Dann sind ein paar seltsame Leute eingebrochen.
+@
+0
+0
+Die nennen wir jetzt Zombies.
+@
+2
+1
+Mädchen:
+Ja, ein paar Zombies sind eingebrochen und haben meinen Bruder gebissen.
+@
+2
+1
+Mädchen:
+Und dann... na ja, das war’s.
+@
+0
+0
+Okay, eine traurige Geschichte, verstehe.
+@

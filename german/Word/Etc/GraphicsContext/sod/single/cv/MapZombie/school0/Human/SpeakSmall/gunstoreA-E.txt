@@ -1,0 +1,18 @@
+0,270,270,0.5
+Du solltest lieber vorsichtig sein.
+@
+0,270,270,0.5
+Treib dich nicht in der Nähe von Hochhäusern rum.
+@
+0,270,270,0.5
+Da können Zombies runterfallen.
+@
+1,270,270,0.8
+Ja, ja, hab’s kapiert. Du redest zu viel.
+@
+0,270,270,0.8
+Ich mein’s doch nur gut mit dir.
+@
+1,270,2000,0.8
+.....
+@

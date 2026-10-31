@@ -1,0 +1,12 @@
+0,500,500,0.5
+Vielleicht können wir mit einem Boot von hier verschwinden.
+@
+0,310,200,0.5
+Bis zum Strand ist es ja nicht weit.
+@
+1,200,200,0.5
+Dafür bräuchten wir erst mal ein Boot.
+@
+1,200,2500,0.5
+Alle Boote, die noch funktionieren, sind wahrscheinlich längst weg.
+@

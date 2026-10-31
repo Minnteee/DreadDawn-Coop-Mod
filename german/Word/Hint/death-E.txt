@@ -1,0 +1,12 @@
+Tipp: 
+@
+Halte die linke Maustaste gedrückt für einen schweren Angriff, der Zombies umwirft.
+An der Werkbank kannst du Schusswaffen, Armbrüste und mehr herstellen.
+Halte Alt und dreh am Mausrad, um heran- oder herauszuzoomen.
+Befehle gehen nur an ausgewählte Begleiter.#Halte die rechte Maustaste gedrückt, um Begleiter auszuwählen.
+Triffst du auf einen Gegner mit Schusswaffe,#nutze den Zoom und greif aus der Distanz an, damit er dich nicht sieht.
+Rechts auf der Seite siehst du die automatischen Speicherstände,#dort findest du auch frühere Spielstände.
+Im Baumenü kannst du Kisten zum Lagern bauen.#Drücke V, um das Baumenü zu öffnen.
+Mit Sprengstoff kannst du unerreichbare Generatoren ein- oder ausschalten.
+Geworfene Steine können Landminen zünden.
+Drücke M für die Karte: Sie zeigt Ressourcenpunkte in der Nähe,#an denen oft gute Waffen liegen.

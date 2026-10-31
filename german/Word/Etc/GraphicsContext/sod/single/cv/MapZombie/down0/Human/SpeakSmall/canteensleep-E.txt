@@ -1,0 +1,36 @@
+1,300,300,1
+Hey, hör endlich auf, hier rumzulaufen!!!
+@
+1,300,300,1
+Ich kann so nicht schlafen!!
+@
+0,300,300,0.5
+Ignorier ihn, lauf ruhig weiter.
+@
+0,300,300,0.5
+Ich hab den eh noch nie schlafen sehen.
+@
+1,300,300,0.5
+........
+@
+1,300,300,0.5
+Verdammt, jetzt bin ich wieder wach.
+@
+1,300,300,0.5
+Egal, gibt’s was Neues?
+@
+0,300,300,0.5
+Im Internet steht, dass die Zombies mutieren.
+@
+0,300,300,0.5
+Da standen auch ein paar Tipps, wie man mit ihnen fertig wird.
+@
+1,300,300,0.5
+Pff, noch mehr nutzloses Zeug.
+@
+1,300,300,0.5
+.....
+@
+1,300,1000,0.5
+Schlaf jetzt!
+@

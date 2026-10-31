@@ -1,0 +1,9 @@
+0,300,300,1
+Geh nicht rein!
+@
+1,300,300,1
+Da drin ist ein Monster!
+@
+2,300,600,1
+Gott steh uns bei!
+@

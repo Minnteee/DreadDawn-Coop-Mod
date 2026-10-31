@@ -1,0 +1,21 @@
+0,300,300,0.5
+Ich glaub, ich hab was gehört.
+@
+1,200,200,0.5
+Ein Geräusch? Ich glaub, ich hab’s auch gehört.
+@
+0,200,200,0.5
+Klingt nach zwei Monstern.
+@
+1,200,200,0.5
+Seh ich anders, ich glaub, es sind drei.
+@
+0,300,300,0.5
+Echt jetzt? Du musst mir auch immer widersprechen, was?
+@
+1,200,200,0.5
+Na ja, du tust ja immer so, als wüsstest du alles.
+@
+0,600,2600,0.5
+...
+@

@@ -1,0 +1,18 @@
+1,300,300,0.5
+Wann brechen wir auf?
+@
+0,300,300,0.5
+Warten wir noch ein paar Tage. Gerade ist keiner von uns in Topform.
+@
+1,300,300,0.5
+Hoffentlich schaffen wir es diesmal raus.
+@
+0,300,300,0.5
+Ruh dich lieber aus. Je fitter, desto besser die Chancen.
+@
+1,300,300,0.5
+Ich kann nicht schlafen.
+@
+0,300,3000,0.5
+Entspann dich, Mann.
+@

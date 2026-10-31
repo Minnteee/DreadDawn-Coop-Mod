@@ -1,0 +1,28 @@
+0
+0
+Alles okay?
+@
+2
+1
+Mir ist so kalt.
+@
+2
+1
+Ich finde meine Klamotten nicht, kannst du mir helfen?
+@
+0
+0
+Warum holst du sie nicht einfach selbst?
+@
+2
+1
+Meine Beine tun so weh, ich kann nicht laufen.
+@
+0
+0
+Okay, Moment.
+@
+2
+1
+Die sind in dem Zimmer da drüben.
+@

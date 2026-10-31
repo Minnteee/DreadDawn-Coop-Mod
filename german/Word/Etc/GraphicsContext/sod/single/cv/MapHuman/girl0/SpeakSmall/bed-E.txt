@@ -1,0 +1,15 @@
+-1,260,190,0.5
+Geht’s dir besser?
+@
+0,120,10,0.5
+Geht schon.
+@
+1,120,190,0.5
+Ich werd schon nicht sterben.
+@
+-1,120,190,0.5
+Gut zu hören.
+@
+-1,120,1900000,0.5
+Ruht euch gut aus.
+@

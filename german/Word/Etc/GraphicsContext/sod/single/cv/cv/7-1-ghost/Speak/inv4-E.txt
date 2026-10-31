@@ -1,0 +1,26 @@
+0
+0
+Herr Offizier, ich weiß, wer es ist!
+@
+0
+0
+Es ist der Typ mit dem Hut!
+@
+2
+1
+Student mit Hut:
+Hey, hey, hey! Ich war die ganze Zeit in der Sporthalle und bin nie rausgegangen! Die anderen können das bezeugen!
+@
+2
+1
+Student A:
+Stimmt, Herr Offizier, er hat sich die ganze Zeit mit uns unterhalten und war nicht weg.
+@
+0
+0
+Äh...
+@
+0
+0
+Ich muss noch mal nachdenken...
+@

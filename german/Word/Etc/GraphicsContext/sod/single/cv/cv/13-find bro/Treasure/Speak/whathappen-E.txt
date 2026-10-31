@@ -1,0 +1,56 @@
+2
+1
+Stehen bleiben! Wer bist du???
+@
+0
+0
+Hä??? Ich... ich bin neu hier...
+@
+2
+1
+Neu? Ich hab hier noch nie neue Gesichter gesehen!
+@
+0
+0
+Echt jetzt, ich bin gerade erst angekommen...
+@
+2
+1
+Und was willst du dann hier drin?!
+@
+0
+0
+Ich soll den Schlüssel holen. Der Boss hat mich geschickt.
+@
+2
+1
+Den Schlüssel? Im Lagerhaus wimmelt es von Zombies, bist du lebensmüde?
+@
+2
+1
+Und was soll die ganze Ballerei da draußen?
+@
+0
+0
+Äh, ähm, die... die räumen gerade das Lagerhaus...
+@
+2
+1
+Hey, du kleiner Scheißer, du lügst mich doch nicht etwa an?!
+@
+0
+0
+Nein... nein, wenn du mir nicht glaubst, kannst du... kannst du ja selbst mithelfen...
+@
+2
+1
+Mithelfen? ...Mithelfen... Vergiss es...
+@
+2
+1
+Beeil dich, aber zackig! Trödel nicht rum!
+@
+0
+0
+Schon gut, schon gut...
+@

@@ -1,0 +1,12 @@
+28,230,280,0.5
+Habt ihr das auch gehört?
+@
+23,230,370,0.5
+Hör auf, mir Angst zu machen...
+@
+27,250,310,0.5
+Warum sind die noch nicht zurück?
+@
+23,210,510,0.5
+.........
+@

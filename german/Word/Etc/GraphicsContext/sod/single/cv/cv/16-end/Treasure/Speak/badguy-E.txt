@@ -1,0 +1,209 @@
+0
+0
+Bist du bereit, Glatze?
+@
+2
+1
+Glatze:
+Bereit, ich bin bereit.
+@
+0
+0
+Du wirkst in letzter Zeit ziemlich abwesend.
+@
+2
+1
+Glatze:
+Jack, ich muss dir etwas sagen.
+@
+0
+0
+??
+@
+2
+1
+Glatze:
+Ich, ich …
+@
+2
+1
+Glatze:
+Weißt du noch, wie du mich aus der Polizeiwache gerettet hast?
+@
+0
+0
+Ja, klar. Was ist damit?
+@
+2
+1
+Glatze:
+Außer mir, dir, James und deiner Schwester war da noch eine Frau.
+@
+0
+0
+Ja, ich weiß. Die Arme. Aber es war nicht deine Schuld, dass wir sie nicht retten konnten.
+@
+2
+1
+Glatze:
+Doch, eigentlich schon. Als mich die Zombies fast eingeholt hatten, habe ich sie zu Boden gestoßen.
+@
+2
+1
+Glatze:
+Die Zombies haben sich auf sie gestürzt, und so bin ich entkommen.
+@
+0
+0
+Oh mein Gott, ist das wahr?
+@
+2
+1
+Glatze:
+Ja, es ist wahr.
+@
+0
+0
+Es gehört Mut dazu, die Wahrheit zuzugeben.
+@
+2
+1
+Glatze:
+Seit du mich aus der Wache gerettet hast,
+@
+2
+1
+Glatze:
+ist mir langsam klar geworden, dass ich immer ein selbstsüchtiger Mistkerl war.
+@
+2
+1
+Glatze:
+Ich hab immer nur an mich selbst gedacht.
+@
+2
+1
+Glatze:
+Damals dachte ich nur:
+@
+2
+1
+Glatze:
+Um mich schert sich eh keiner, also warum sollte ich nett zu den anderen sein?
+@
+2
+1
+Glatze:
+Jetzt sind meine Kumpels und meine Freundin alle tot.
+@
+2
+1
+Glatze:
+Sie waren meine Familie – die beste und einzige, die ich hatte.
+@
+2
+1
+Glatze:
+Ich glaube, das ist vielleicht Gottes Strafe für mich.
+@
+2
+1
+Glatze:
+Aber viel, worum ich mir Sorgen machen müsste, gibt es nicht mehr. Seit alles den Bach runtergegangen ist, sind alle, die ich kannte, tot.
+@
+2
+1
+Glatze:
+Es gibt niemanden mehr auf dieser Welt, der mir etwas bedeutet.
+@
+2
+1
+Glatze:
+Ich hab das Gefühl, dass diese Evakuierung schiefgeht, und wenn ich es jetzt nicht sage, bekomme ich vielleicht keine Gelegenheit mehr dazu.
+@
+0
+0
+Hör zu, in einer Krise trifft jeder seine eigenen Entscheidungen.
+@
+0
+0
+Manche entscheiden sich für sich selbst, manche für andere. Hättest du es nicht getan, hätte sie vielleicht überlebt, aber dann wärst du dort gestorben.
+@
+2
+1
+Glatze:
+Ich glaube, ich lag falsch. Ich hätte dort sterben sollen, nicht sie.
+@
+0
+0
+Sag so was nicht.
+@
+0
+0
+Vielleicht kannst du jetzt etwas tun, das wirklich zählt.
+@
+2
+1
+Glatze:
+Ja, ich muss etwas tun.
+@
+0
+0
+Konzentrieren wir uns auf die bevorstehende Evakuierung.
+@
+2
+1
+Glatze:
+Ja, die Evakuierung. Das, was als Nächstes kommt.
+@
+0
+0
+Die Evakuierung ist wichtig. Wir alle brauchen dich.
+@
+2
+1
+Glatze:
+Ich glaube, du hast recht.
+@
+2
+1
+Glatze:
+Ich …
+@
+2
+1
+Glatze:
+Ehrlich gesagt wundert es mich, dass du mich nach all dem Ärger, den ich James und Zoey gemacht habe, überhaupt noch respektierst.
+@
+2
+1
+Glatze:
+Ich …
+@
+2
+1
+Glatze:
+Bin ich noch dein Freund? Ich meine … oder?
+@
+0
+0
+Klar, Mann, unsere Truppe ist unschlagbar! Haha.
+@
+2
+1
+Glatze:
+Haha, danke.
+@
+0
+0
+Gut so, Kopf hoch.
+@
+0
+0
+Ich sehe mal nach den anderen, ob sie bereit sind.
+@
+2
+1
+Glatze:
+Alles klar.
+@

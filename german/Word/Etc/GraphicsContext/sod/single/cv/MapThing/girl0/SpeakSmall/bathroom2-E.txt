@@ -1,0 +1,6 @@
+-1,120,190,0.5
+Warum stehen hier so viele Leute an?
+@
+-1,120,19000000,0.5
+Ist der Wasserhahn kaputt?
+@

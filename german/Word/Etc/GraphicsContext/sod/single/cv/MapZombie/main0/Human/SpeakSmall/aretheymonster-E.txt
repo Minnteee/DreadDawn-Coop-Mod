@@ -1,0 +1,45 @@
+0,500,500,0.5
+Die Leute von nebenan sind echt seltsam.
+@
+0,400,400,0.5
+Nachts hör ich aus ihrem Haus immer komische Geräusche.
+@
+1,300,100,0.5
+Hab ich auch gehört.
+@
+2,300,300,0.5
+Ich glaub, ich hab’s auch gehört.
+@
+1,300,300,0.5
+Vor ein paar Tagen hab ich das Haus heimlich beobachtet.
+@
+1,500,500,0.5
+Die nehmen oft Fremde mit rein, aber ich hab noch nie jemanden rauskommen sehen.
+@
+2,300,300,0.5
+Ob das ein Raubüberfall ist?
+@
+0,300,300,0.5
+Raubüberfall? Aber warum kommen die Leute dann nicht wieder raus?
+@
+0,300,300,0.5
+Ich wette, die bringen sie um und fressen sie vielleicht sogar!
+@
+2,300,150,0.5
+Ach du Schande!! Das könnte es sein!!!
+@
+2,300,300,0.5
+Nachts hör ich auch Kaugeräusche.
+@
+1,300,300,1
+Nicht dein Ernst! Wirklich?
+@
+1,300,300,1
+Von denen halten wir uns besser fern!!!
+@
+2,300,300,0.5
+Ich überleg, morgen von hier abzuhauen, das ist mir zu unheimlich.
+@
+0,300,3000,0.5
+Hoffentlich sind nicht wir die Nächsten!!
+@

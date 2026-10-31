@@ -1,0 +1,67 @@
+2
+1
+Reich wirkender Mann:
+Hey, hallo!
+@
+0
+0
+Was brauchst du?
+@
+2
+1
+Reich wirkender Mann:
+Du bist viel unterwegs, oder?
+@
+0
+0
+Ja, ich helfe ständig Leuten in der Schule, deshalb bin ich viel unterwegs.
+@
+2
+1
+Reich wirkender Mann:
+Großartig! Dann möchte ich dich um einen Gefallen bitten.
+@
+2
+1
+Reich wirkender Mann:
+Könntest du mir eine Gitarre aus einem Lager hier in der Nähe holen? Sie liegt in einem blauen Zelt.
+@
+0
+0
+Ich helfe ja gern, aber das hier, so eine –
+@
+0
+0
+So eine Lappalie, und dafür soll ich mein Leben riskieren? Das ist schon ein bisschen beleidigend, findest du nicht?
+@
+2
+1
+Reich wirkender Mann:
+Die Gitarre bedeutet mir sehr viel. Sie hat meiner Frau gehört.
+@
+0
+0
+Lass mich raten: Deine Frau ist gestorben, hatte einen Traum von der Musik, und du hast eine herzzerreißende Geschichte parat, bei der sich meine Tante die Augen ausheulen würde, was?
+@
+2
+1
+Reich wirkender Mann:
+Musst du so herzlos sein?
+@
+0
+0
+Sorry, ich hab in letzter Zeit zu viele solche Geschichten gehört.
+@
+2
+1
+Reich wirkender Mann:
+Aber du hast recht. Ich sollte dir etwas Handfestes bieten. Wie wär’s damit: Wenn du mir die Gitarre besorgst, bekommst du eine schöne Belohnung. Was sagst du?
+@
+0
+0
+Na also, geht doch.
+@
+0
+0
+Warte auf gute Nachrichten.
+@

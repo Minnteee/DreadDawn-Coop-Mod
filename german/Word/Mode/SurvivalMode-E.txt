@@ -1,0 +1,27 @@
+* Charakter wählen *
+* Waffe wählen *
+* Anpassen *
+@
+Zurück
+Weiter
+Starten
+@
+Zombiedichte:
+Anteil Rennzombies:
+Zombie-Leben:
+Materialfaktor:
+Horden-Intervall:
+Menschendichte:
+Tentakelzombies nachts:
+
+Zeit:
+Regen:
+Rennende Zombies nachts:
+
+@
+Aus
+@
+Zufällig,Früher Morgen,Morgen,Mittag,Nachmittag,Abend,Nacht,Mitternacht
+@
+Zufällig,Kein Regen,Leichter Regen,Mäßiger Regen,Starker Regen,Wolkenbruch
+@

@@ -1,0 +1,39 @@
+105,160,200,0.5
+Boah, das nervt so.
+@
+105,190,220,0.5
+Hier festzusitzen ist echt unpraktisch.
+@
+105,170,210,0.5
+Ich kann nicht mal duschen.
+@
+106,230,270,0.5
+Duschen? Gibt’s neben der Umkleide nicht Duschen?
+@
+105,220,260,0.5
+Ich... ich will nicht duschen, wenn andere dabei sind...
+@
+106,160,200,0.5
+Was denn? Bist du etwa schüchtern?
+@
+105,150,190,0.5
+Du!... Ich...
+@
+105,150,190,0.5
+Und dann noch das...
+@
+106,160,190,0.5
+Das? Was denn?
+@
+105,230,250,0.5
+Lass uns später darüber reden, ich glaube, da lauscht jemand...
+@
+106,190,220,0.5
+Lauschen? Wer? Ein Perverser?
+@
+105,150,160,0.5
+Warten wir, bis er weg ist...
+@
+106,150,1900000,0.5
+....
+@

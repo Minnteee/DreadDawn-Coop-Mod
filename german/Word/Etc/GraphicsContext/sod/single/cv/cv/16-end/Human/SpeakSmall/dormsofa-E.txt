@@ -1,0 +1,6 @@
+4,250,250,0.5
+Schnell, schnell, schnell!!
+@
+14,250,250,0.5
+Beeilung!!
+@

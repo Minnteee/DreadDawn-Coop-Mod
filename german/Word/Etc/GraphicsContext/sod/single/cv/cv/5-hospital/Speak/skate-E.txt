@@ -1,0 +1,54 @@
+2
+1
+Na, Kumpel, wie geht’s?
+@
+0
+0
+Gar nicht gut. Ein Monster ist eingebrochen und hat meine Freunde und Zoey verletzt.
+@
+0
+0
+Sie sind schwer verletzt! Wir brauchen Medikamente.
+@
+2
+1
+Tut mir leid, wir haben selbst keine Medikamente mehr und können dir nicht helfen.
+@
+0
+0
+Schon okay, ich will ja nicht eure Medikamente.
+Ich brauche nur jemanden, der mir hilft, welche aus dem Krankenhaus zu holen.
+@
+2
+1
+Das Krankenhaus? Soll das ein Witz sein?
+Das ist zwei Kilometer weit weg, und der Weg ist voller Infizierter.
+@
+2
+1
+Zum Krankenhaus kommst du nur über den U-Bahnhof. Da kommen wir her, und da ist echt die Hölle los.
+@
+2
+1
+Ich würde dir gern helfen, aber ich kann meine Leute nicht in Gefahr bringen.
+@
+2
+1
+Du musst dich auf dich selbst verlassen.
+@
+2
+1
+Ehrlich gesagt will ich nicht, dass dir was passiert – wir kennen uns ja schon so lange.
+@
+2
+1
+Ich hab eine Idee: Mit einem Skateboard bist du schneller dort.
+@
+0
+0
+Ein Skateboard? Ich bin noch nie Skateboard gefahren. Soll das ein Witz sein?
+@
+2
+1
+Kein Witz. Hier, nimm das Skateboard und üb erst mal hier in der Gegend.
+@

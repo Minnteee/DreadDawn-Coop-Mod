@@ -1,0 +1,19 @@
+0
+0
+Alles klar, wir können los.
+@
+2
+1
+Zack:
+Alle bereit?
+@
+2
+1
+Alle:
+Bereit!!!
+@
+2
+1
+Zack:
+Los geht’s!
+@

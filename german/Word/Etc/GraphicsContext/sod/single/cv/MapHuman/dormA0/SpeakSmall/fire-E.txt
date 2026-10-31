@@ -1,0 +1,9 @@
+12,210,160,0.5
+Wann haben wir endlich wieder Netz?
+@
+35,210,160,0.5
+Seufz.
+@
+34,210,760,0.5
+Verdammt.
+@

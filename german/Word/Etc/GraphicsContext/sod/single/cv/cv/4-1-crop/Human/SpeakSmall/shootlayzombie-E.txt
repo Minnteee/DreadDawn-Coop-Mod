@@ -1,0 +1,6 @@
+-1,120,120,0.5
+Was ist hier los?
+@
+-1,220,26000,0.5
+Diese Leute haben sich in Zombies verwandelt!
+@

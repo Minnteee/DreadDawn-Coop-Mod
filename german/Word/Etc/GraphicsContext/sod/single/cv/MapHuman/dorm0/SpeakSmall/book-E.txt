@@ -1,0 +1,18 @@
+15,160,310,0.5
+Ich kann nicht schlafen, ich kann einfach nicht.
+@
+15,160,320,0.5
+Dieser Lärm macht mich wahnsinnig, ich komm nicht zur Ruhe.
+@
+15,160,300,0.5
+Das ist doch irre.
+@
+15,160,360,0.5
+Mir läuft’s kalt den Rücken runter...
+@
+15,160,320,0.5
+......
+@
+15,160,360,0.5
+Klingt wie das Heulen eines Monsters.
+@

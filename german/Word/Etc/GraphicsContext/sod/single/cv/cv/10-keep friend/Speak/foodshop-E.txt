@@ -1,0 +1,56 @@
+6
+1
+Wow, das ist ja eine ordentliche Ausbeute.
+@
+5
+1
+Ja, alles gutes Zeug, hehe...
+@
+6
+1
+Du kannst immer noch was essen? Mir wird gleich schlecht...
+@
+0
+0
+Meint ihr, der Besitzer wird sauer, wenn wir das alles mitnehmen?
+@
+6
+1
+Glaub ich nicht. Der Besitzer ist bestimmt schon tot. Wahrscheinlich war er einer von den Zombies, die wir erledigt haben.
+@
+0
+0
+Ich meine, lösen wir vielleicht irgendeinen Alarm aus?
+@
+6
+1
+Ist schon so lange her, die Alarmanlage ist bestimmt längst kaputt.
+@
+5
+1
+Ja, nach all der Zeit dürfte die hinüber sein.
+@
+6
+1
+Außerdem klaue ich seit Jahren und wurde nie erwischt.
+@
+0
+0
+„Nie erwischt“, hahaha, und wie bist du dann im Knast gelandet?
+@
+6
+1
+Hey, daran war mein Bruder schuld! Wenn ich nur daran denke, krieg ich schon wieder die Wut!
+@
+0
+0
+Schon gut, schon gut, ich glaub dir ja.
+@
+0
+0
+Kommt, wir müssen weiter nach Vorräten suchen.
+@
+5
+1
+Los, los, los.
+@

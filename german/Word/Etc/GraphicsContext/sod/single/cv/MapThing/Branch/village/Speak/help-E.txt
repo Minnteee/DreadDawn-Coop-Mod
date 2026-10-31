@@ -1,0 +1,33 @@
+2
+1
+Zivilist:
+Hey! Kannst du mir bei etwas helfen?
+@
+0
+0
+Was ist los?
+@
+2
+1
+Zivilist:
+Ein Freund von mir sitzt in einer Bar am Strand fest.
+@
+2
+1
+Zivilist:
+Ich hab ein paarmal versucht, ihn zu retten, aber es hat nicht geklappt, und jetzt bin ich verletzt und kann mich nicht bewegen. Ich mach mir echt Sorgen um ihn.
+@
+2
+1
+Zivilist:
+Wenn du ihn rettest, belohne ich dich.
+@
+0
+0
+Kein Problem, ich versuch’s.
+@
+2
+1
+Zivilist:
+Ich zähl auf dich!
+@

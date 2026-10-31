@@ -1,0 +1,9 @@
+0,300,300,1
+Was ist das für ein Geräusch!?
+@
+0,300,300,1
+Sind das etwa Zombies?
+@
+0,300,300,1
+Gott steh uns bei!
+@

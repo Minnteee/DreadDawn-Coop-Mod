@@ -1,0 +1,24 @@
+2
+1
+Lagerwache:
+Hey! Stehen bleiben!
+@
+2
+1
+Lagerwache:
+Was willst du hier?
+@
+0
+0
+Ich brauche Benzin. Wenn ihr welches habt, kann ich euch was dafür geben.
+@
+2
+1
+Lagerwache:
+Benzin, was? Da bist du hier richtig. Geh rein und frag unseren Boss, vielleicht gibt er dir was.
+@
+2
+1
+Lagerwache:
+Na los, rein mit dir.
+@

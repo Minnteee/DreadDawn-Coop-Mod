@@ -1,0 +1,12 @@
+0,300,300,1
+Warum machst du so einen Lärm?
+@
+1,300,300,1
+Lock nicht die Zombies an.
+@
+0,300,300,1
+Tritt leiser auf.
+@
+1,300,3000,1
+Pass auf, wo du hintrittst.
+@

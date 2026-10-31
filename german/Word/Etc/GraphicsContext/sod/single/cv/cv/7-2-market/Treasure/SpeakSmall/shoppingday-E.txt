@@ -1,0 +1,9 @@
+-1,220,220,1
+Heute ist Shoppingtag!
+@
+-1,390,390,1
+10 % auf alles!
+@
+-1,290,290000000,1
+Wo fangen wir an?
+@

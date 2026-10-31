@@ -1,0 +1,37 @@
+2
+1
+Soldat:
+Du siehst aus, als bräuchtest du eine Waffe.
+@
+0
+0
+Ja, ich muss raus aus der Schule. Eine Waffe wäre super.
+@
+2
+1
+Soldat:
+Ich hab da einen guten Tipp für dich.
+@
+2
+1
+Soldat:
+Auf dem Weg hierher hab ich einen Waffenladen gesehen, gleich vor der Schule.
+@
+0
+0
+Einen Waffenladen? Echt?
+@
+2
+1
+Soldat:
+Ja, sieh mal nach. Vielleicht findest du da ein paar automatische Waffen.
+@
+0
+0
+Danke, ich mach mich gleich auf den Weg.
+@
+2
+1
+Soldat:
+Viel Glück, du schaffst das.
+@

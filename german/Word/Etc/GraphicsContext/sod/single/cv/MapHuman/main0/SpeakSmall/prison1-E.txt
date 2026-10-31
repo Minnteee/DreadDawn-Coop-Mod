@@ -1,0 +1,51 @@
+12,190,220,0.5
+Warum schlaft ihr zwei zusammen?
+@
+13,190,230,0.5
+Haha, ganz schön kuschelig.
+@
+12,150,150,0.5
+Heiratet doch gleich.
+@
+19,160,180,0.5
+Verpiss dich.
+@
+19,180,230,0.5
+Der Typ wollte sich unbedingt mit reinquetschen.
+@
+20,180,210,0.5
+Hey! Guckt nicht mich an!
+@
+20,200,220,0.5
+Ich wollte doch gar nicht hier sein!
+@
+20,230,240,0.5
+Zu meinem Zimmergenossen will ich garantiert nicht!
+@
+20,200,210,0.5
+Der Typ ist viel zu laut!
+@
+12,170,190,0.5
+Schon gut, schon gut, hab’s kapiert.
+@
+12,210,100,0.5
+Vergesst nicht, mich zur Hochzeit einzuladen.
+@
+13,210,10,0.5
+Hahahaha!
+@
+-1,210,50,0.5
+Haha!
+@
+20,180,190,0.5
+Halt’s Maul!
+@
+12,210,60,0.5
+Okay, verstanden.
+@
+13,210,160,0.5
+Haha, ich kann nicht mehr...
+@
+20,180,190000,0.5
+..........
+@

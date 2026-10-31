@@ -1,0 +1,12 @@
+-1,250,260,0.5
+Zoey.
+@
+0,200,220,0.5
+Jack, du bist zurück.
+@
+0,210,210,0.5
+Du bist doch nicht verletzt, oder?
+@
+-1,190,230000,0.5
+Alles gut, ich lebe noch.
+@

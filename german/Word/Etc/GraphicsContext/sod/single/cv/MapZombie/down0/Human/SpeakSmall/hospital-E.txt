@@ -1,0 +1,21 @@
+-1,300,300,0.5
+Wie sieht’s hier aus?
+@
+0,300,300,0.5
+In unserem Krankenhaus gab es früher viele Patienten.
+@
+0,300,300,0.5
+Jetzt sind sie alle zu Zombies geworden.
+@
+1,300,300,0.5
+Aber keine Sorge.
+@
+1,300,300,0.5
+Die meisten sind oberhalb des fünften Stocks eingesperrt.
+@
+0,300,300,0.5
+Sei trotzdem vorsichtig. Es könnten welche aus den oberen Stockwerken runterfallen.
+@
+-1,300,3000,0.5
+Alles klar, danke.
+@

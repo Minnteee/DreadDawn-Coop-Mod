@@ -1,0 +1,27 @@
+1,310,300,0.5
+Auf der anderen Flussseite gibt’s ein Gefängnis. Das ließe sich super verteidigen.
+@
+0,200,250,0.5
+Woher weißt du, dass es auf der anderen Flussseite ein Gefängnis gibt?
+@
+1,250,250,0.5
+Ich …
+@
+1,250,250,0.5
+Ich hab da ein paar Monate gesessen.
+@
+0,250,250,0.5
+Sieh mal einer an, weswegen warst du drin?
+@
+1,250,250,0.5
+Äh, das ist mir irgendwie peinlich.
+@
+0,250,250,0.5
+Komm schon, erzähl.
+@
+1,250,250,0.5
+Nur ein paar kleine Diebstähle, weißt du.
+@
+0,250,2500,0.5
+...
+@

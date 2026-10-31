@@ -1,0 +1,13 @@
+Baue Verteidigungen, damit keine Zombies in die Schule kommen!
+Die Zombiehorde rückt an!
+Dieser Ort wurde zu den Teleportpunkten hinzugefügt, du findest ihn auf der Teleportkarte.
+Du musst auf einem Feld pflanzen, folge der gelben Navigation dorthin.
+* Weltkarte *
+@
+*Offenes Gebiet*
+*Gefahrenzone*
+*Sperrgebiet*
+*Laden*
+*Labor*
+*Unerforschtes Gebiet*
+*Sichere Zone*

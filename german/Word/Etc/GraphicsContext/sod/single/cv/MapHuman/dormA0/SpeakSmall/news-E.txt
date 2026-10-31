@@ -1,0 +1,15 @@
+1,210,90,0.5
+Redwood-Viertel
+@
+1,210,90,0.5
+Rust-Viertel
+@
+1,210,90,0.5
+Beide sind abgeriegelt.
+@
+0,210,260,0.5
+Seufz.
+@
+1,210,1760,0.5
+Das sieht nicht gut aus.
+@

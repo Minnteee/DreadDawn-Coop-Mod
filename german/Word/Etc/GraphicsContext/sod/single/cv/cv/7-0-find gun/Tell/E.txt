@@ -1,0 +1,9 @@
+Geh zur Polizeiwache.
+Geh zur Waffenkammer im Obergeschoss.
+Finde den Code und öffne die Waffenkammer.
+Geh zur Bar.
+Finde das Hinterzimmer der Bar.
+Finde den Schlüssel und schließ auf.
+Suche nach Schusswaffen.
+Wehre die Zombiehorde ab.
+Kehre zur Schule zurück.

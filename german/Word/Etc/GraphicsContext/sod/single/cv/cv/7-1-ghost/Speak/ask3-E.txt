@@ -1,0 +1,50 @@
+0
+0
+Hey, habt ihr jemanden in Grün in die Sporthalle gehen sehen?
+@
+2
+1
+Student:
+Warum fragst du?
+@
+0
+0
+Jemand in Grün ist infiziert! Er ist gerade hier in der Schule. Wir müssen ihn schnell finden, sonst gibt’s richtig Ärger!
+@
+2
+1
+Student:
+Das ist kein Witz, oder?
+@
+0
+0
+Warum sollte ich dich anlügen?!
+@
+2
+1
+Student:
+Was?! Scheiße, was sollen wir jetzt machen?!
+@
+2
+1
+Student:
+In der Sporthalle gehen ständig Leute ein und aus, und ziemlich viele davon tragen Grün.
+@
+2
+1
+Student:
+Sollen wir den Soldaten Bescheid sagen, damit sie ihn suchen?
+@
+0
+0
+Beeilung, er darf uns nicht entkommen.
+@
+2
+1
+Student:
+Die Soldaten sind am Basketballplatz. Geh da hin.
+@
+0
+0
+Okay, halt hier die Augen offen. Ich hole die Soldaten.
+@

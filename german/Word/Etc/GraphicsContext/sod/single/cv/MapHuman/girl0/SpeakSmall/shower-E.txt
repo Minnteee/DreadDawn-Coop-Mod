@@ -1,0 +1,15 @@
+0,120,230,0.5
+Ich weiß nicht, warum.
+@
+0,120,230,0.5
+Mein ganzer Körper juckt total.
+@
+0,120,230,0.5
+Als würden überall Käfer auf mir rumkrabbeln.
+@
+1,120,230,0.5
+Du wurdest doch nicht gebissen, oder?
+@
+0,120,1230,0.5
+Mach mir keine Angst, ich bin total schreckhaft...
+@

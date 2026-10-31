@@ -1,0 +1,32 @@
+0
+0
+Habt ihr hier irgendwelche Vorräte?
+@
+2
+1
+Student:
+Vorräte? Da kommst du zu spät.
+@
+2
+1
+Student:
+Unser altes Lager wurde von Zombies überrannt. Wenn du Vorräte willst, musst du erst an denen vorbei.
+@
+0
+0
+Wie viele Zombies?
+@
+2
+1
+Student:
+So ein paar Dutzend, meistens Studenten von der Schule.
+@
+0
+0
+Sag mir, wo es ist.
+@
+2
+1
+Student:
+Da drüben.
+@

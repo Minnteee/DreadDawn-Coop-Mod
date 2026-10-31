@@ -1,0 +1,12 @@
+1,210,250,0.5
+Hey! Ruhe, ich hör was Komisches.
+@
+0,210,250,0.5
+Wo ist Tom? Ich seh ihn nirgends.
+@
+2,210,250,0.5
+Der ist vor einer Weile nach oben und noch nicht zurück.
+@
+1,210,250000,0.5
+Seien wir leise, da oben stimmt was nicht.
+@

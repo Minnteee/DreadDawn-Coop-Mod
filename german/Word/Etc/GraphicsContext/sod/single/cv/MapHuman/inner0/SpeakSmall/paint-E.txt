@@ -1,0 +1,27 @@
+10,160,200,0.5
+Ich krieg diese Kugel einfach nicht hin.
+@
+10,160,250,0.5
+Das ist so schwer.
+@
+9,160,290,0.5
+Drei Jahre, drei Jahre…
+@
+9,160,220,0.5
+Und es sieht immer noch so grauenhaft aus…
+@
+9,160,260,0.5
+Vielleicht bin ich einfach nicht zum Zeichnen gemacht…
+@
+-1,160,200,0.5
+Immerhin erkennt man noch, dass es ein Mensch ist, oder?
+@
+8,160,200,0.5
+Ähem… ähem…
+@
+8,160,250,0.5
+Ähem…
+@
+8,160,2500000,0.5
+Mhm~
+@

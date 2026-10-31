@@ -1,0 +1,49 @@
+0
+0
+Deine Verletzung sieht ziemlich ernst aus. Bis die verheilt ist, kann es eine Weile dauern.
+@
+2
+1
+Verletzter:
+Mach dir um mich keine Sorgen. Ich komm schon klar. Ich muss meine Tochter finden. Wir wurden getrennt, als wir aus dieser Richtung kamen.
+@
+2
+1
+Verletzter:
+Hilf mir hoch, dann suchen wir sie zusammen.
+@
+2
+1
+Verletzter:
+Wenn du mir hilfst, meine Tochter zu finden, kann ich dir ein paar wertvolle Sachen geben.
+@
+0
+0
+Ich kann helfen, aber
+@
+0
+0
+Mit deiner Verletzung bringt es nichts, wenn du mitkommst. Du würdest mich nur aufhalten.
+@
+0
+0
+Bleib hier und warte. Ich geh rüber und schau, ob ich deine Tochter finde.
+@
+2
+1
+Verletzter:
+Vielen Dank!
+@
+0
+0
+Bedank dich noch nicht. Ich kann nicht versprechen, dass ich sie finde. Die Kanalisation ist riesig.
+@
+2
+1
+Verletzter:
+Ich glaube an dich.
+@
+0
+0
+Bis bald.
+@

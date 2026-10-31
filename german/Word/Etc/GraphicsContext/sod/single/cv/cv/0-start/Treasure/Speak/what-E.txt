@@ -1,0 +1,24 @@
+0
+0
+Alter, was ist denn hier los?
+(Leertaste zum Fortfahren)
+@
+2
+1
+Student
+Ich bezahl die Wasserrechnung.
+@
+2
+1
+Student
+Seit Stunden schon, und es ist immer noch nicht durch.
+@
+2
+1
+Student
+So verdammt langsam...
+@
+0
+0
+Na dann, viel Glück.
+@

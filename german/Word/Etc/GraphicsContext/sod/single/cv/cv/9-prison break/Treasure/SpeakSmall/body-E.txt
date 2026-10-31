@@ -1,0 +1,6 @@
+-1,210,250,0.5
+Was ist hier los?
+@
+-1,210,300000,0.5
+Hier liegen so viele Leichen!
+@

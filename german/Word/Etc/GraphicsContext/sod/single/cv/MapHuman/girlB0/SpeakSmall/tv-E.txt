@@ -1,0 +1,24 @@
+15,200,250,0.5
+So langweilig, lass uns umschalten.
+@
+18,190,260,0.5
+Nicht umschalten, ich find’s interessant.
+@
+14,200,280,0.5
+Hahaha...
+@
+21,210,260,0.5
+.....
+@
+15,190,250,0.5
+Lass uns Nachrichten gucken.
+@
+18,210,250,0.5
+Nee, das ist langweilig.
+@
+20,200,280,0.5
+Hmm....
+@
+16,190,270,0.5
+zzz....
+@

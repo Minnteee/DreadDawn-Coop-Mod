@@ -1,0 +1,48 @@
+95,120,130,0.5
+10!
+@
+95,120,130,0.5
+11!
+@
+95,120,130,0.5
+12!
+@
+95,120,130,0.5
+13!
+@
+95,220,250,0.5
+Wenn ich 100 geschafft hab, darf ich nach Hause!
+@
+96,220,230,0.5
+Bei deiner Statur kommst du wohl nie nach Hause.
+@
+96,180,200,0.5
+Schau lieber mir bei meiner Show zu.
+@
+92,230,260,0.5
+Spar dir die Kraft, mach’s wie ich, das ist viel bequemer.
+@
+95,190,120,0.5
+Ich will nicht so fett werden wie du.
+@
+91,170,10,0.5
+Hahaha!
+@
+94,170,210,0.5
+Hahahaha!
+@
+92,180,220,0.5
+Ach komm, uns geht eh bald das Essen aus.
+@
+92,190,230,0.5
+Dann wirst du sowieso dürr wie ein Stock.
+@
+91,230,190,0.5
+Ja, spar dir die Kraft.
+@
+95,170,210,0.5
+Mann, was geht dich das an?
+@
+91,170,2100000,0.5
+Schon gut, schon gut... ich lass dich ja in Ruhe.
+@

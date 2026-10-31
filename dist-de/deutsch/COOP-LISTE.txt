@@ -1,0 +1,111 @@
+DREAD DAWN COOP - WAS IST SYNCHRONISIERT?   (Version 1.2, deutsche Fassung der COOP-LIST.txt)
+Format:  Nr. Thema  |  Einzelspieler  ->  Coop
+[NEU] = in Version 1.2 neu oder verbessert.
+
+VERBINDUNG & MENÜ
+ 1. Hauptmenü | Fortsetzen/Neues Spiel/Laden/... -> zusätzlich "Coop hosten" und "Coop beitreten"
+    (Fenster: Name, IP, Port 7777; der Host sieht seine Radmin-IP 26.x).
+ 2. Beitreten | - -> der Host speichert und schickt seine ganze Welt; der Gast lädt sie in Save\coop
+    (seine eigenen Spielstände bleiben unberührt) und steht neben dem Host.
+ 3. Einstellungen | jeder eigene -> Schwierigkeit und Zombie-Anzahl des Hosts gelten für beide.
+ 4. Versionen | - -> gleiche Spiel- und Mod-Version nötig, sonst Abweisung mit Meldung.
+ 5. [NEU] Texte | - -> der Mod spricht Englisch, mit installiertem Deutsch-Paket Deutsch.
+
+SPIELER
+ 6. Sich sehen | - -> Figur des anderen mit Laufen/Rennen/Springen/Hinfallen, Blickrichtung, Waffe,
+    Schuss-/Schlag-Animation, Mündungsfeuer, Waffensound, Taschenlampe.
+    [NEU] Viel flüssiger übers Internet: die Bewegung wird mit der Zeit des Absenders abgespielt
+    (VPN-Leitungen liefern stoßweise), die Beine laufen in Laufrichtung, kurze Stockungen schalten
+    nicht mehr zwischen Gehen und Stehen um, Stürze laufen einmal sauber ab. Kein Zittern mehr.
+ 7. Name über dem Kopf | - -> Name + Lebensbalken über dem Mitspieler, "(tot)" wenn tot.
+ 8. [NEU] Mitspieler auf der Karte | - -> gelber Punkt auf der Minimap (bleibt am Rand, wenn er weit weg
+    ist) und auf der großen Karte; ist er außerhalb des Bildschirms, zeigt ein gelber Pfeil mit Name
+    und Entfernung zu ihm.
+ 9. Aussehen | -> der Gast hat ein eigenes zufälliges Aussehen (bleibt gespeichert).
+10. Charakter des Gasts | - -> Inventar, Ausrüstung, Werte, Level gehören dem Gast und werden im
+    Spielstand des Hosts gespeichert. Startausrüstung wie im Einzelspieler, nur beim ersten Beitritt.
+    [NEU] Der Charakter des Gasts wird sofort gesendet, wenn sich seine Tasche ändert, bevor er zu
+    Boden geht und bei jedem Kartenwechsel (auch wenn er tot ist) - es geht nichts mehr verloren.
+11. Schaden | jeder sein eigenes Leben; Treffer auf den Gast berechnet der Host.
+12. EP / Kills | auch der Gast bekommt EP (eigene EP, eigenes Level).
+13. Kein Friendly Fire.
+14. Kugeln | jede Kugel des anderen Rechners fliegt als sichtbare Linie; Schaden zählt einmal.
+15. Sprechblasen | Sätze über den Köpfen sehen beide.
+
+AM BODEN, TOD, WIEDERBELEBEN  [NEU]
+16. Am Boden | Todesbildschirm -> bei 0 Leben liegt man am Boden. Über dem Körper läuft ein Countdown
+    von 15 s, der Mitspieler sieht daneben "[E] Wiederbeleben" und holt einen mit E zurück
+    (man steht mit 30 % Leben auf). Ohne Hilfe ist man nach 15 s tot.
+17. Tot | - -> man schaut dem Mitspieler zu (Kamera folgt ihm) und kann die Karte öffnen. Der Körper
+    kann nie geplündert werden. Man kommt beim nächsten Kartenwechsel (mit der ganzen Tasche) oder
+    beim Start einer Zwischensequenz zurück - als Host genauso wie als Gast.
+18. Niemand mehr auf den Beinen | - -> beide am Boden/tot (oder Mission verloren): normaler
+    Todesbildschirm, der Host drückt Leertaste -> letzter Autosave, der Gast lädt mit.
+19. Behoben: ein toter Host kam nie zurück; ein toter Host konnte nach einem Speichern oder einer
+    Zwischensequenz springen, aber nicht laufen; ein toter Host verlor beim Kartenwechsel seine Tasche.
+
+ZOMBIES & MENSCHEN
+20. Zombies | nur der Host simuliert sie; der Gast sieht alle Zombies in seiner Nähe 20x/s.
+21. Zombies jagen beide Spieler.
+22. Treffer des Gasts zählen beim Host; brennende Zombies brennen auch beim Gast.
+23. Zombie-KI beim Gast | der Bereich um den Gast wird beim Host wie der eigene Bildschirm behandelt.
+24. NPC-Menschen | nur der Host simuliert sie, der Gast sieht sie mit Waffen, Schüssen und Sätzen.
+25. Handeln | der Gast handelt selbst (Kaufen, Verkaufen, Reparieren).
+26. Begleiter | der Gast kann anheuern (ab Stufe 2), entlassen, kommandieren (Q) und das
+    Begleiter-Menü (C) nutzen. [NEU] Die Begleiter des Gasts reisen beim Kartenwechsel mit.
+27. [NEU] Befehlsmodus (Q) und Baumodus für den Gast | die eigene Figur läuft wie im Einzelspieler
+    zum Halte- bzw. Bauplatz (vorher lief sie weg und Bauen ging nicht).
+28. Granaten, Steine, Molotows, Rauch, Flammenwerfer, Säure | beide sehen sie, Schaden beim Host.
+29. Explosionen, Fässer, Boomer-Gas | beide sehen sie, Schaden zählt einmal.
+30. Fallen | Klingen-, Nagel-, Minen- und Baumstamm-Fallen verletzen nur einmal.
+    [NEU] Die Figur des Mitspielers löst nie Fallen aus.
+31. Flammendüsen | brennen auch, wenn nur der Gast davor steht.
+32. RC-Autos und Skateboards | wer fährt, steuert selbst; der andere sieht es flüssig.
+33. Hühner | Zustand vom Host.
+
+STORY & MISSIONEN
+34. Zwischensequenzen | laufen bei beiden gleichzeitig; Überspringen erst, wenn BEIDE gedrückt haben.
+    [NEU] Der Gast verpasst nach Kartenwechseln keine Szenen mehr: die Story wartet, bis der Gast die
+    neue Karte geladen hat (höchstens 45 s), dann startet die Szene bei beiden. Die Frage "Szene
+    ansehen oder überspringen?" kommt im Coop nicht (beide sehen sie, Überspringen per Abstimmung).
+35. Story-Dialoge | bei beiden, die nächste Zeile erst, wenn beide Leertaste gedrückt haben.
+    [NEU] Überspringt der Host den Prolog, schließt sich der Dialog auch beim Gast.
+36. Story-Bilder, -Hinweise, -Töne | bei beiden.
+37. Story & Missionen | der Host führt die Story; Ziele und Ereignisse kann auch der Gast auslösen;
+    Belohnungen und Rasten für beide.
+38. Gelber Ziel-Pfeil, Missionsliste, Zombie-Gebiet, Abwurf, Lager-Belagerung | bei beiden.
+
+WELT
+39. Tageszeit & Wetter | der Host bestimmt.
+40. Schlafen | die Zeit springt nur, wenn BEIDE geschlafen haben (innerhalb einer Minute).
+41. Kartenwechsel | immer gemeinsam. [NEU] Der Gast erfährt sofort, wenn der Host die Karte verlässt;
+    offene Kisten schließen sich, damit nichts in eine Kiste wandert, die es schon nicht mehr gibt.
+42. Items am Boden | aufheben/ablegen von beiden, für beide sichtbar.
+43. Kisten, Schränke, Leichen, Airdrops | nur der Host würfelt den Inhalt aus; geöffnete Behälter
+    haben bei beiden denselben Inhalt.
+    [NEU] Überarbeitet: Änderungen des Gasts werden Platz für Platz in die Kiste des Hosts übernommen
+    (nichts wird mehr überschrieben), Aktualisierungen kommen nie, während man ein Item zieht -
+    Items gehen nicht mehr verloren.
+44. Schlösser, Schlüssel, Türen, Stromleitungen | für beide.
+45. Bauen & Abreißen, Bäume, Ernten, Lagerfeuer, Füttern & Gießen, Regentonnen | für beide.
+
+PAUSE & SPEICHERN
+46. Pausemenü / Inventar offen | die Welt läuft weiter (sonst friert der andere ein). Die Story wartet,
+    solange beim Host ein Bild, eine Meldung oder das Inventar offen ist.
+47. Speichern | der Host speichert (Autosave, F5, Speicherplätze).
+    [NEU] Der Gast kann für den Host speichern (F5 oder "Speichern" im Pausemenü): der Host speichert in
+    den Slot, den er zuletzt geladen oder gespeichert hat, sonst in den Autosave. Auch ein toter Host
+    kann speichern; wer tot speichert, wird lebend neben dem Mitspieler gespeichert.
+48. Verbindungsabbruch | der Host spielt weiter; der Gast kommt ins Hauptmenü.
+
+ALLGEMEIN
+49. "Wenig FPS"-Warnung (schließt das Spiel) | im Coop aus.
+50. Mauszeiger-Sprung nach Zwischensequenzen | immer aus.
+51. Absturzschutz | ein Fehler beim Zeichnen stoppt das Spiel nicht mehr.
+52. Minispiele | PC-Spiele, Fußball, Autorennen, Freundin-Szene -> im Coop gesperrt (sie wechseln auf
+    eine eigene Karte); es kommt ein Hinweis.
+
+NOCH NICHT SYNCHRON (bekannte Grenzen)
+ - Zombies erscheinen beim Gast mit etwa 50-100 ms Verzögerung (durch die Vorhersage kaum sichtbar).
+ - Seil, Taser und Feuerwehrschlauch sieht nur, wer sie benutzt; Zombie festbinden klappt nur beim Host.
+ - Angeln: jeder angelt für sich.

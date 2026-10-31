@@ -1,0 +1,123 @@
+5,0
+Begleiter (Drücke C, um das Begleitermenü zu öffnen)
+Ihm Vorräte geben.
+Fragen, wie es ihm geht.
+Entlassen.
+Reden.
+Gehen.
+@0
+6,0
+/
+Name:
+Leben:
+Hunger:
+Ausdauer:
+Rüstung:
+Zurück.
+@1
+3,0
+Händler
+Handeln.
+Waffen reparieren.
+Gehen.
+@2
+5,0
+Fernseher
+Fußballspiel starten.
+Rennspiel starten.
+Abenteuerspiel starten.
+Uhrzeit anzeigen.
+Gehen.
+@3
+1,0
+Aktuelle Uhrzeit:
+Zurück.
+@4
+3,0
+Überlebender
+Handeln.
+Ihn anheuern.
+Gehen.
+@5
+4,0
+/
+Ihn anzuheuern kostet $
+Bist du sicher?
+Ja.
+Nein.
+@6
+2,1
+Alarm auslösen? Das lockt eine Zombiehorde an.
+Ja.
+Nein.
+@7
+2,0
+Professor
+Herstellen.
+Gehen.
+@8
+4,0
+Missionsbegleiter
+Nach seinem Zustand fragen.
+Ihm Vorräte geben.
+Reden.
+Gehen.
+@9
+@10
+5,0
+Computer
+Im Internet surfen.
+Fußballspiel starten.
+Rennspiel starten.
+Abenteuerspiel starten.
+Gehen.
+@11
+5,0
+Frau:
+Vertrauen:
+Reden.
+Ihr Essen geben.
+Sie mitnehmen.
+Gehen.
+@12
+5,0
+Freundin:
+Ihr Vorräte geben.
+Fragen, wie es ihr geht.
+Reden.
+Sie zurückschicken.
+Gehen.
+@13
+2,1
+Abwurf-Alarm auslösen? Das lockt eine Zombiehorde an.
+Ja.
+Nein.
+@14
+3,0
+Schlafsack
+Schlafen.
+Fortschritt speichern.
+Gehen.
+@15
+2,0
+Kumpel
+Zusammen Basketball spielen.
+Gehen.
+@16
+2,1
+Wirklich entlassen?
+Ja.
+Nein.
+@17
+3,0
+Mädchen:
+Sie herausfordern. (Fußballspiel)
+Sie herausfordern. (Rennspiel)
+Gehen.
+@18
+3,0
+Bett
+Schlafen.
+Fortschritt speichern.
+Gehen.
+@19

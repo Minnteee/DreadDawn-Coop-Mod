@@ -1,0 +1,27 @@
+2,150,150,0.5
+Bitte, verschon mich!
+@
+2,150,150,0.5
+Ich halt’s nicht mehr aus!
+@
+0,150,150,0.5
+Was soll das? Steh auf!
+@
+0,250,250,0.5
+Sonst setzt’s was!
+@
+-1,250,250,0.5
+Was ist hier los?
+@
+2,250,250,0.5
+Buhuhu!
+@
+0,250,250,0.5
+Hahaha!
+@
+2,250,250,0.5
+Buhuhu!
+@
+2,250,250,0.5
+Buhuhu!
+@

@@ -1,0 +1,39 @@
+0,300,300,0.5
+Wir sollten jetzt lieber los.
+@
+0,300,300,0.5
+Wenn wir zu lange warten, ist vielleicht alles weg.
+@
+2,300,300,0.5
+Wovor hast du Angst? Mein Laden ist bestens gesichert.
+@
+2,300,300,0.5
+Er hat ein einbruchsicheres Codeschloss.
+@
+2,300,300,0.5
+Und drinnen sind Waffen, die ich gekauft hab.
+@
+1,300,300,0.5
+Wie war noch mal der Code?
+@
+1,300,300,0.5
+War’s 1567 oder 1778?
+@
+1,300,300,0.5
+Müsste 1567 sein, oder?
+@
+0,300,300,0.5
+1567, ganz sicher 1567.
+@
+0,300,300,0.5
+Ich hab ihn gesehen, als wir letztes Mal den Ladendieb geschnappt haben.
+@
+2,300,300,0.5
+Ruhe! Siehst du nicht, dass jemand in der Nähe ist?
+@
+0,300,300,0.5
+Hey! Aus dem Weg!!!
+@
+-1,300,3000,0.5
+Oh, Entschuldigung!!!
+@

@@ -1,0 +1,87 @@
+0
+0
+Hey Leute, ich bin Jack, euer Anführer. Amy hat mich geschickt.
+@
+0
+0
+Sie hat mich gebeten, euch anzuführen und euch alle hier rauszubringen.
+@
+2
+1
+Student A
+Du? Mit deinem mickrigen Körper? An dir werden ja nicht mal die Zombies satt. Und kennst du überhaupt den Weg zum Lager?
+@
+2
+1
+Student B
+Genau, kennst du überhaupt den Weg zum Lager?
+@
+2
+1
+Student C
+Will Amy uns etwa als Zombiefutter rausschicken?
+@
+2
+1
+Student B
+....
+@
+0
+0
+Na klar kenne ich den Weg! Ich pendle ständig zwischen der Menghom-Universität und eurer Schule hin und her, helfe den Soldaten im Gefängnis und räume Zombies weg. Ich bau sogar Maschinengewehre selbst. Und ihr glaubt, ich krieg das nicht hin?
+@
+2
+1
+Student C
+Alter, das klingt ziemlich krass.
+@
+2
+1
+Student B
+Ja, klingt echt knallhart...
+@
+2
+1
+Student A
+Ich, ich will mit dir gehen. Genauer gesagt will ich mich dir anschließen.
+@
+2
+1
+Student A
+Du siehst echt zuverlässig aus.
+@
+0
+0
+Hör auf zu schleimen. Wir gehen jetzt los. So viele, wie wir sind, müssen wir vor Zombies keine Angst haben.
+@
+0
+0
+Also gut! Will jemand hierbleiben?
+@
+2
+1
+Studenten
+Nein, nein, los geht’s!!!
+@
+0
+0
+Sind noch mehr Leute in der Schule?
+@
+2
+1
+Studenten
+Ja, auf dem Südcampus, in den Wohnheimen und in den Lehrgebäuden.
+@
+0
+0
+Okay, wir holen sie gruppenweise raus und bringen sie in verschiedene Lager.
+@
+0
+0
+Los, bewegt euch!
+@
+2
+1
+Studenten
+Los, los, los!
+@

@@ -1,0 +1,15 @@
+23,280,80,0.5
+Hallo
+@
+24,280,280,0.5
+Wieso hab ich dich hier noch nie gesehen?
+@
+-1,280,280,0.5
+Ich bin von der Schule nebenan, nicht von hier.
+@
+24,280,280,0.5
+Wow, du hast es echt so weit hierher geschafft!
+@
+23,280,28880,0.5
+Respekt
+@

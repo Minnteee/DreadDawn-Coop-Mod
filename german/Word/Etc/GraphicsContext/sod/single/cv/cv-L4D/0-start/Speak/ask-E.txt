@@ -1,0 +1,37 @@
+2
+1
+Soldat:
+Halt! Wer seid ihr?! Noch eine Bewegung und wir eröffnen das Feuer!
+@
+0
+0
+Nicht schießen! Nicht schießen! Bitte! Wir sind friedlich!
+@
+2
+1
+Soldat:
+Woher kommt ihr?!
+@
+0
+0
+Wir kommen aus Red Shirt City. Dort gibt es keine Überlebenden mehr. Im Radio hieß es, dass hier Soldaten bei der Evakuierung in die sichere Zone helfen, also sind wir hergekommen.
+@
+2
+1
+Soldat:
+Aus Red Shirt City? Das ist Hunderte Kilometer von hier entfernt. Seid ihr die ganze Strecke gefahren?
+@
+0
+0
+Ja, aber dann hatten wir eine Panne. Jetzt geht’s nur noch zu Fuß weiter.
+@
+2
+1
+Soldat:
+Kommt schnell und greift zu den Waffen, die Evakuierung beginnt bald.
+@
+2
+1
+Soldat A:
+Schnell, rein mit euch!
+@

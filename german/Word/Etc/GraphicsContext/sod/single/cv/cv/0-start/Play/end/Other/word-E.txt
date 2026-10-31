@@ -1,0 +1,8 @@
+0.5,0.5,60
+An diesem Tag überrollte eine Zombiehorde die ganze Stadt.
+0.5,0.5,60
+Zwei Millionen Menschen kamen bei der Katastrophe ums Leben.
+0.5,0.5,60
+Das Erschreckende daran: Sie waren nicht wirklich tot...
+0.5,0.5,60
+Sondern...

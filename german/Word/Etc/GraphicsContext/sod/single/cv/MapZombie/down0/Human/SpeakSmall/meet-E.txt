@@ -1,0 +1,33 @@
+1,300,300,1
+Dieser verdammte Mistkerl, wir müssen ihn irgendwie ausschalten!
+@
+1,300,300,1
+Das ist schon das dritte Mal diese Woche, dass er Schutzgeld kassieren kommt.
+@
+0,300,200,0.5
+Beruhig dich.
+@
+0,300,300,0.5
+Uns fehlen echt Leute.
+@
+0,300,300,0.5
+Wir können da nicht einfach reinstürmen.
+@
+0,300,300,0.5
+Vielleicht können wir an der Schule Leute anwerben.
+@
+0,300,300,0.5
+Oder wir hauen ab, irgendwohin weit weg.
+@
+0,300,300,0.5
+Alles ist besser, als uns direkt mit denen anzulegen.
+@
+1,300,300,1
+Ich würde ja gern abhauen, aber die Flussmündung haben jetzt die unter Kontrolle.
+@
+0,300,300,0.5
+Keine Sorge, irgendeinen Weg gibt’s immer.
+@
+1,300,3000,1
+Du bist echt optimistisch.
+@

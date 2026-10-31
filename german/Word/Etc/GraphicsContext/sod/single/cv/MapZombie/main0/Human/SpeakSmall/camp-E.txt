@@ -1,0 +1,27 @@
+0,310,300,0.5
+Was machen wir mit Zacks Leiche?
+@
+1,200,300,0.5
+Zack sieht inzwischen irgendwie komisch aus.
+@
+1,200,300,0.5
+Wir sollten die Leiche lieber nicht anrühren.
+@
+2,200,350,0.5
+Ich will heute Nacht nicht neben dem Ding schlafen.
+@
+2,200,350,0.5
+Lasst uns das Ding einfach schnell loswerden.
+@
+0,310,300,0.5
+Zack war unser Freund, wir sollten ihn wenigstens anständig begraben.
+@
+2,200,350,0.5
+Oh, wie edel von dir. Wie wär’s, wenn du das selbst machst?
+@
+0,310,300,0.5
+Dafür fehlt mir der Mumm.
+@
+2,200,350,0.5
+...
+@

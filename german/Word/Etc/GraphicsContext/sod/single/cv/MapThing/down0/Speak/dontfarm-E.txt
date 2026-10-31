@@ -1,0 +1,16 @@
+2
+1
+Hey! Pass auf!
+@
+2
+1
+Denk nicht mal dran, auf unserem Feld zu klauen!
+@
+2
+1
+Wenn du dich dem Feld auch nur näherst, wirst du es bereuen!
+@
+0
+0
+Sorry, schon verstanden!
+@

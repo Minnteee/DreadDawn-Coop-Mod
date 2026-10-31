@@ -1,0 +1,41 @@
+2
+1
+Obdachloser:
+Perfekt, damit müssen wir uns ums Essen keine Sorgen mehr machen.
+@
+2
+1
+Obdachloser:
+Du kannst die Pflanzen düngen, dann wachsen sie schneller.
+@
+0
+0
+Wie kommen wir an Dünger?
+@
+2
+1
+Obdachloser:
+Hast du die ganzen Zombies da draußen nicht gesehen? Die geben guten Dünger ab, damit wächst alles schneller.
+@
+0
+0
+...Ähm.
+@
+2
+1
+Obdachloser:
+Oder soll ich ein bisschen Kacke besorgen?
+@
+0
+0
+...Nein... lass mal gut sein.
+@
+0
+0
+...Na gut, vielen Dank für deine Hilfe.
+@
+2
+1
+Obdachloser:
+Haha, die Schule hat sich so viele Jahre um mich gekümmert, da geb ich eben was zurück.
+@

@@ -1,0 +1,21 @@
+0,310,100,0.5
+Hey, hallo!!
+@
+1,300,300,0.5
+Hi!!
+@
+-1,310,330,0.5
+Hallo.
+@
+1,300,300,0.5
+Brauchst du was?
+@
+-1,310,330,0.5
+Nein, ich seh mich nur um, sorry.
+@
+1,300,300,0.5
+Kein Problem, bei uns ist jeder willkommen.
+@
+0,300,3000,0.5
+Oh, sieh dich ruhig um.
+@

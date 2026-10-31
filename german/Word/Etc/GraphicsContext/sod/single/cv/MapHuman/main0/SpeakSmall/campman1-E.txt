@@ -1,0 +1,36 @@
+3,220,220,0.5
+Früher oder später verhungern wir hier.
+@
+3,220,220,0.5
+Ich finde, wir sollten meinen Mann fragen, ob er mit uns zu der Insel kommt.
+@
+4,220,220,0.5
+Die Touristeninsel?
+@
+5,220,220,0.5
+Da war ich schon mal.
+@
+5,220,220,0.5
+Der perfekte Ort für einen Unterschlupf.
+@
+3,180,230,0.5
+Ich glaube, wir haben eine Chance.
+@
+4,180,230,0.5
+Von hier ist es nicht weit bis zur Küste.
+@
+5,220,220,0.5
+Dann müssen wir schnell handeln.
+@
+-1,220,220,0.5
+Wie ich sehe, redet ihr alle über diese Insel.
+@
+4,180,230,0.5
+Ja, das ist ein guter Ort.
+@
+4,180,230,0.5
+Wenn’s geht, könnten wir ja zusammen hin.
+@
+-1,220,22000,0.5
+Ich kann euch helfen.
+@

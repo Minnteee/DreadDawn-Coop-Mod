@@ -1,0 +1,72 @@
+0
+0
+Was ist passiert? Sie sieht aus, als bräuchte sie Hilfe.
+@
+2
+1
+Sie wurde vorhin von einem Irren gebissen, wir behandeln sie gerade.
+@
+2
+1
+Wir brauchen dringend Medizin.
+@
+2
+1
+Aber unsere Medizin liegt im Zelt bei dem Haus auf der anderen Straßenseite.
+@
+2
+1
+Wir haben früher in dem Haus gewohnt.
+@
+2
+1
+Letzte Nacht hat sich einer unserer Freunde in einen Zombie verwandelt, keine Ahnung, wie das passiert ist.
+@
+2
+1
+Er hat sogar andere gebissen.
+@
+2
+1
+Die meisten Gebissenen sind jetzt noch dort drüben.
+@
+2
+1
+Und das Schlimmste: Unsere Medizin ist auch noch da, verdammt!!
+@
+0
+0
+Ich kann euch helfen, die Medizin zurückzuholen.
+@
+2
+1
+Echt? Bist du sicher, dass du da hinwillst?
+@
+0
+0
+Kein Problem, überlass das mir.
+@
+2
+1
+Okay, du bist ein guter Mensch.
+@
+2
+1
+Übrigens...
+@
+2
+1
+Hast du schon mal von einem Ding mit Tentakeln gehört oder so was gesehen?
+@
+0
+0
+Tentakel? So wie bei einem Oktopus?
+@
+2
+1
+Ja, genau so. Wenn du so was siehst, halt dich fern. Einen Freund von mir hat so ein Ding in zwei Hälften gerissen. Echt furchtbar.
+@
+0
+0
+Oh, das tut mir echt leid.
+@

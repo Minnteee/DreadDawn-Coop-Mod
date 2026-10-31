@@ -1,0 +1,72 @@
+127,200,210,0.5
+Komm schon! Lass mich nur mal kurz gucken...
+@
+128,210,220,0.5
+Komm mir nicht zu nahe.
+@
+127,190,190,0.5
+Nur ganz kurz!
+@
+128,210,220,0.5
+Komm nicht auf mein Bett!
+@
+127,190,200,0.5
+Lass mich gucken, dann geh ich auch wieder.
+@
+128,170,170,0.5
+Nein!
+@
+127,190,190,0.5
+Nur ganz kurz.
+@
+128,210,220,0.5
+Das ist privat, auf keinen Fall...
+@
+127,200,210,0.5
+Bitte, ich geh auch gleich danach.
+@
+128,200,200,0.5
+Verschwinde...
+@
+127,190,190,0.5
+Bitteee...
+@
+128,190,190,0.5
+Na gut, du darfst eine Sekunde gucken.
+@
+128,180,180,0.5
+Nur eine Sekunde.
+@
+127,200,200,0.5
+Juhu, du bist super!
+@
+128,210,210,0.5
+So, fertig geguckt?
+@
+127,200,210,0.5
+??? Warum hast du das abgeschickt?
+@
+128,200,200,0.5
+Hä? Ich hab mich verdrückt!
+@
+128,200,200,0.5
+Ahhh! Falsche Taste!
+@
+127,190,190,0.5
+Löschen! Löschen!
+@
+128,190,190,0.5
+Wie lösch ich das?
+@
+127,180,180,0.5
+Oben links!
+@
+128,210,220,0.5
+Ich hätte es dir nie zeigen sollen!
+@
+127,200,210,0.5
+......
+@
+128,210,220000,0.5
+Das ist eine Katastrophe...
+@

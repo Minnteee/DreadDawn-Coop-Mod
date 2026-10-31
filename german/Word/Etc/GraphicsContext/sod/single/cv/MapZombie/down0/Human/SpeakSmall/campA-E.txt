@@ -1,0 +1,18 @@
+0,300,300,0.5
+Wann brechen wir auf?
+@
+1,300,300,1
+Warte, die sollten bald zurück sein.
+@
+0,300,300,0.5
+Bald? Die sind doch nicht etwa abgehauen?
+@
+0,300,300,0.5
+Und lassen uns hier zurück, verdammt!
+@
+1,300,300,1
+Psst, leise.
+@
+0,300,3000,0.5
+........
+@

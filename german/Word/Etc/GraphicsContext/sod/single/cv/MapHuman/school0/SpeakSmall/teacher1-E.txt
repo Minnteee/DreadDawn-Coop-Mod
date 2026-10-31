@@ -1,0 +1,141 @@
+215,180,180,0.5
+Was nehmen wir bei der nächsten Frage?
+@
+223,120,60,0.5
+B!!!
+@
+216,180,10,0.5
+A
+@
+217,180,10,0.5
+A
+@
+218,200,10,0.5
+A
+@
+219,320,10,0.5
+A
+@
+220,320,10,0.5
+A
+@
+221,320,10,0.5
+A
+@
+222,320,10,0.5
+A
+@
+223,160,90,0.5
+B
+@
+223,90,90,0.5
+A
+@
+223,120,120,0.5
+Natürlich A
+@
+223,120,120,0.5
+Die kann ich
+@
+215,180,180,0.5
+Was redest du denn da?
+@
+215,180,180,0.5
+Du musst die Frage genau lesen!
+@
+215,180,180,0.5
+Wenn du so eine Frage wieder siehst,
+@
+215,180,280,0.5
+mach es nächstes Mal nicht falsch.
+@
+215,80,80,0.5
+Gut
+@
+215,180,180,0.5
+Was nehmen wir bei der nächsten Frage?
+@
+223,120,60,0.5
+C!!!
+@
+216,180,10,0.5
+D
+@
+217,180,10,0.5
+D
+@
+218,200,10,0.5
+D
+@
+219,320,10,0.5
+D
+@
+220,320,10,0.5
+D
+@
+221,320,10,0.5
+D
+@
+222,320,10,0.5
+D
+@
+223,160,90,0.5
+C
+@
+223,90,90,0.5
+D
+@
+223,120,120,0.5
+Also D
+@
+223,120,120,0.5
+Ich hab mich verlesen
+@
+215,180,180,0.5
+Komm nach dem Unterricht in mein Büro
+@
+215,180,180,0.5
+Ich warte auf dich
+@
+223,90,90,0.5
+Nein
+@
+223,90,90,0.5
+Bitte nicht
+@
+223,140,140,0.5
+Ich hab mich nur verlesen
+@
+223,140,140,0.5
+Eigentlich hatte ich es richtig
+@
+215,180,180,0.5
+Komm nach dem Unterricht in mein Büro
+@
+215,180,180,0.5
+Hast du mich verstanden?
+@
+223,140,40,0.5
+......
+@
+216,180,10,0.5
+Haha
+@
+217,180,10,0.5
+Haha
+@
+218,200,10,0.5
+Haha
+@
+219,320,10,0.5
+Haha
+@
+220,320,10,0.5
+Haha!
+@
+221,320,10,0.5
+Haha
+@
+222,320,1000,0.5
+Haha!
+@

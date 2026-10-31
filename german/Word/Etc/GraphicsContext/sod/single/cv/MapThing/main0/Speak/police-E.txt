@@ -1,0 +1,88 @@
+0
+0
+Hey, Officer.
+@
+2
+1
+Polizist:
+Hey, brauchst du was?
+@
+2
+1
+Polizist:
+Ist gerade nicht die beste Zeit, um irgendwas anzuzeigen.
+@
+0
+0
+Keine Sorge, ich seh mich nur ein bisschen um.
+@
+0
+0
+Das hier sieht aus wie ein Lager, oder?
+@
+2
+1
+Polizist:
+Früher war das ein Schrottplatz. Unser Lager hatten wir eigentlich in der Polizeiwache bei der U-Bahn.
+@
+2
+1
+Polizist:
+Am 13. haben sich Leute vor dem Eingang der Wache versammelt und verlangt, dass wir ihnen Waffen geben.
+@
+2
+1
+Polizist:
+Tja, das kam natürlich nicht infrage.
+@
+2
+1
+Polizist:
+Dann haben sie die Wache umstellt, die Türen blockiert und angefangen, dagegen zu rammen. Bis dahin hatten wir die Lage noch im Griff.
+@
+0
+0
+Und dann wurde es schlimmer?
+@
+2
+1
+Polizist:
+Dann hat irgendein Idiot gebrüllt, wir hätten jemanden erschossen, was überhaupt nicht stimmte.
+@
+2
+1
+Polizist:
+Es gab eine Massenpanik, das totale Chaos. Der Lärm muss die Zombies angelockt haben, denn bei Einbruch der Nacht wimmelte der Platz von ihnen.
+@
+2
+1
+Polizist:
+Es war ein Albtraum. Wer noch dort ist, ist inzwischen wohl Zombiefutter.
+@
+2
+1
+Polizist:
+Danach hab ich alle, die noch übrig waren, hierhergebracht. Ich hab ihnen Waffen gegeben... Hätte ich das früher getan, wären die Leute vielleicht nicht gestorben.
+@
+0
+0
+Das ist nicht Ihre Schuld.
+@
+2
+1
+Polizist:
+verdammt
+@
+0
+0
+Machen Sie sich keine Vorwürfe.
+@
+2
+1
+Polizist:
+Wenn du nichts zu tun hast, sieh dich ein bisschen um. Manche Leute brauchen vielleicht Hilfe, und du kannst dafür eine Belohnung verlangen.
+@
+0
+0
+Okay, ich seh mich mal um.
+@

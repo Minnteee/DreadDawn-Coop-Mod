@@ -1,0 +1,6 @@
+-1,210,220,0.5
+Ich muss schnell zum Lager draußen und den anderen Bescheid sagen...
+@
+-1,210,250000,0.5
+Hoffentlich komme ich nicht zu spät.
+@

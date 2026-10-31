@@ -1,0 +1,41 @@
+Angriff!
+Stellung halten!
+Mir nach!
+Freie Bewegung!
+Feuer frei!
+Feuer einstellen!
+@
+Mit diesem Befehl stürmen die ausgewählten Begleiter zum markierten Ort.
+Mit diesem Befehl halten die ausgewählten Begleiter am markierten Ort die Stellung.
+Mit diesem Befehl folgen dir die ausgewählten Begleiter.
+Mit diesem Befehl bewegen sich die ausgewählten Begleiter frei.
+Mit diesem Befehl schießen die ausgewählten Begleiter nach eigenem Ermessen.
+Mit diesem Befehl hören die ausgewählten Begleiter auf, nach eigenem Ermessen zu schießen.
+@
+Du hast derzeit keine Begleiter.
+Auf den Straßen kannst du Überlebende anheuern.
+@
+Missionsbegleiter
+Rucksack
+Teleport
+Freundin:
+@
+Leben : 
+Rüstung : 
+Hunger : 
+Ausdauer : 
+Durst : 
+@
+Missionsbegleiter kannst du während einer Mission nicht befehligen!
+@
+Hinweis: Diesen Befehl kannst du nur Personen erteilen, die du per Rechtsklick-Rahmen ausgewählt hast.
+@
+Alle teleportieren
+@
+Dieser Befehl wirkt nicht auf Begleiter, denen du bereits befohlen hast, dort stehen zu bleiben.
+@
+Losschicken
+Rückruf
+Suche nach Vorräten...
+Suche abgeschlossen!
+@

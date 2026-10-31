@@ -1,0 +1,6 @@
+-1,220,220,0.5
+Diese Leute haben sich das Leben genommen.
+@
+-1,220,1760,0.5
+Ruhet in Frieden!
+@

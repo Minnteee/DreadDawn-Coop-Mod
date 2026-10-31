@@ -1,0 +1,36 @@
+0,300,300,0.5
+Habt ihr’s gehört?
+@
+0,500,500,0.5
+Zone 0 wurde von einem Atomschlag getroffen, wisst ihr das?
+@
+1,300,300,0.5
+Hab ich letzte Nacht gesehen, ein riesiger Lichtblitz.
+@
+2,300,300,1
+Ich hab’s auch gesehen.
+@
+0,300,300,0.5
+Ich frag mich, ob wir als Nächstes dran sind.
+@
+2,300,300,0.5
+Wohl kaum, Zone 0 wurde als Erstes abgeriegelt.
+@
+2,300,300,0.5
+Da hat kaum jemand überlebt.
+@
+2,300,300,0.5
+Wo noch Überlebende wie wir sind, haben sie keinen Grund, Bomben zu werfen.
+@
+0,300,100,0.5
+Na, das ist ja beruhigend.
+@
+1,300,300,1
+Ich glaub, ich hör was Komisches.
+@
+2,300,300,1
+Ich hab’s auch gehört.
+@
+0,300,3000,0.5
+Psst, leise.
+@

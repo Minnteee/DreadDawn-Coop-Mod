@@ -1,0 +1,33 @@
+2
+1
+(Wohnheimaufsicht)
+Was hast du im Mädchenwohnheim zu suchen?!
+(Leertaste zum Fortfahren)
+@
+0
+0
+Entschuldigung... ich bin aus Versehen reingelaufen.
+@
+2
+1
+(Wohnheimaufsicht)
+Aus Versehen? Dann machst du zur Strafe 100 Liegestütze!
+@
+0
+0
+Ich mach’s nie wieder...
+@
+2
+1
+(Wohnheimaufsicht)
+Und nachher schreibst du mir eine schriftliche Erklärung, dass das nie wieder vorkommt! Verstanden?!
+@
+0
+0
+Okay...
+@
+2
+1
+(Wohnheimaufsicht)
+So, du kannst jetzt gehen.
+@

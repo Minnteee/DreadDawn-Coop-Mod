@@ -1,0 +1,18 @@
+0,300,300,1
+Klingt, als käme da draußen was.
+@
+1,300,300,1
+Verdammt! Gott steh mir bei.
+@
+0,300,300,1
+Nein! Nein!
+@
+0,300,300,1
+Verdammt, nie wieder versteck ich mich in einem Haus.
+@
+0,300,300,1
+Das war deine blöde Idee, verdammt.
+@
+1,300,300,1
+Halt die Klappe und lass dir lieber was einfallen!
+@

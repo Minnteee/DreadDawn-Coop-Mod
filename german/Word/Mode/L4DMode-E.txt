@@ -1,0 +1,19 @@
+* Charakter wählen *
+* Gegenstand wählen *
+* Anpassen *
+@
+Zurück
+Weiter
+Starten
+@
+Schwierigkeit:
+Zombiedichte:
+Sprinter-Anteil:
+Herstellungsfaktor:
+@
+Normal
+Schwer
+Experte
+@
+Spiel anpassen.
+@

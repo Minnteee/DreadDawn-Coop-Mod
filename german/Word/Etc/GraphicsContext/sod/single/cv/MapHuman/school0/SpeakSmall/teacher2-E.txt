@@ -1,0 +1,72 @@
+227,180,180,0.5
+Das ist so schwer.
+@
+227,180,180,0.5
+Wie soll man das bitte lösen?
+@
+224,180,80,0.5
+Bei so einer Aufgabe
+@
+224,180,80,0.5
+leitest du erst mal ab,
+@
+224,180,80,0.5
+dann quadrierst du,
+@
+224,180,80,0.5
+und schon hast du die Lösung.
+@
+224,120,60,0.5
+So kompliziert ist das nicht.
+@
+227,180,180,0.5
+??
+@
+224,160,160,0.5
+Addier die Ergebnisse beider Seiten.
+@
+227,180,180,0.5
+Welche Seiten?
+@
+232,180,10,0.5
+Die rechte Seite!
+@
+231,180,10,0.5
+Die rechte Seite!
+@
+230,180,10,0.5
+Die rechte Seite!
+@
+229,180,10,0.5
+Die rechte Seite!
+@
+228,180,10,0.5
+Die rechte Seite!
+@
+226,180,10,0.5
+Die rechte Seite!
+@
+225,180,180,0.5
+Die rechte Seite!
+@
+227,180,180,0.5
+Oh Mann.
+@
+227,180,180,0.5
+Mathe ist echt hart.
+@
+224,180,180,0.5
+Komm nach dem Unterricht ins Büro, dann erklär ich’s dir.
+@
+232,180,10,0.5
+..
+@
+230,180,10,0.5
+..
+@
+229,180,10,0.5
+...
+@
+226,180,1180,0.5
+...
+@

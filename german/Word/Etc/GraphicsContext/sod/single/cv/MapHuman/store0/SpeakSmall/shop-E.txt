@@ -1,0 +1,3 @@
+0,320,9999990,0.5
+Schau mal, ich hab leckeres Essen!
+@

@@ -1,0 +1,6 @@
+-1,210,220,0.5
+Oh nein!
+@
+-1,210,250000,0.5
+Da sind wirklich Zombies!!!
+@

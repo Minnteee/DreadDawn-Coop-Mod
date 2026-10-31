@@ -1,0 +1,67 @@
+5
+0
+Alter! Du lebst ja noch!!!
+@
+2
+1
+(Freund von James)
+Ich dachte, du wärst längst verreckt, verdammt... Wo warst du?
+@
+5
+0
+Hab mich in der Schule versteckt!!!
+@
+2
+1
+(Freund von James)
+Und warum kommst du dann raus? Hast du keine Angst zu sterben?
+@
+5
+0
+Ich suche meinen Cousin und Jacks Schwester.
+@
+5
+0
+Wo ist mein Cousin hin?
+@
+2
+1
+(Freund von James)
+Dein Cousin? Der ist zu seiner Freundin.
+@
+2
+1
+(Freund von James)
+Genau wie du – nie da, wenn man dich braucht.
+@
+5
+0
+Zu seiner Freundin? Bist du sicher?
+@
+2
+1
+(Freund von James)
+Nicht sicher, aber das hat er gesagt, als das Konzert anfing.
+@
+2
+1
+(Freund von James)
+Er hat noch was davon gefaselt, dass eine Liebesnacht mehr wert ist als Gold... Lässt seine Freunde für eine Frau sitzen, der Typ...
+@
+5
+0
+Danke. Pass auf dich auf und stirb mir ja nicht weg.
+@
+2
+1
+(Freund von James)
+Schon gut, mal den Teufel nicht an die Wand. Such lieber deinen Cousin. Der schuldet mir noch Geld, also darf er nicht draufgehen.
+@
+5
+0
+Jack, gehen wir.
+@
+0
+0
+Okay, los geht’s.
+@

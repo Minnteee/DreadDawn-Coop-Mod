@@ -1,0 +1,22 @@
+0
+0
+Hi, hast du jemanden in Grün hier rauslaufen sehen?
+@
+2
+1
+Student:
+Grüne Klamotten? Ich hab gerade jemanden aus dem Lehrgebäude stürmen sehen.
+@
+0
+0
+Wo ist er hin?
+@
+2
+1
+Student:
+Sah so aus, als wäre er Richtung Westgebäude gelaufen.
+@
+0
+0
+Okay, danke.
+@

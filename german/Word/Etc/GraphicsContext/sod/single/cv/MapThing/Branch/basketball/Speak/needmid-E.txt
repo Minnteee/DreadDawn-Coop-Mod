@@ -1,0 +1,32 @@
+0
+0
+Was ist los?
+@
+2
+1
+Student:
+Sie hat einen Asthmaanfall und braucht dringend ihr Asthmamittel.
+@
+2
+1
+Student:
+Aber sie hat ihre Medizin vor ein paar Tagen draußen auf dem Basketballplatz verloren.
+@
+2
+1
+Student:
+Wenn doch nur jemand die Medizin holen könnte. Aber draußen wimmelt es jetzt von Zombies.
+@
+0
+0
+Keine Sorge, ich kann versuchen, sie zu holen.
+@
+2
+1
+Student:
+Echt? Du bist so ein guter Mensch!
+@
+0
+0
+Bedank dich noch nicht. Erst mal hol ich die Medizin.
+@

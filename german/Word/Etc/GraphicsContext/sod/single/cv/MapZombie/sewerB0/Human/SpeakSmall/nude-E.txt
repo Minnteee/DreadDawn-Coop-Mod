@@ -1,0 +1,54 @@
+0,210,200,0.5
+Bitte, lasst mich einfach gehen!
+@
+0,210,200,0.5
+Ich bin doch nur Studentin!
+@
+1,300,200,0.5
+Haha, die sagt, sie ist Studentin.
+@
+2,310,300,0.5
+Hättest du nichts gesagt, hätte ich dich für eine Prostituierte gehalten. Haha.
+@
+2,170,170,0.5
+So, wie du angezogen bist.
+@
+2,270,170,0.5
+Wen willst du denn damit verführen?
+@
+1,300,10,0.5
+Hahaha
+@
+2,300,10,0.5
+Hahaha
+@
+3,300,300,0.5
+Hahaha
+@
+3,200,200,0.5
+Keine Sorge.
+@
+3,300,300,0.5
+Wir lassen dich gehen, sobald wir unseren Spaß hatten.
+@
+0,210,200,0.5
+Bitte, rette mich doch jemand.
+@
+0,610,300,0.5
+Buhuhuhuhu
+@
+1,300,10,0.5
+Hahaha
+@
+2,300,10,0.5
+Hahaha
+@
+3,300,300,0.5
+Hahaha
+@
+1,300,300,0.5
+Hier rettet dich keiner. Haha!!!
+@
+0,610,610,0.5
+Buhuhuhuhu
+@

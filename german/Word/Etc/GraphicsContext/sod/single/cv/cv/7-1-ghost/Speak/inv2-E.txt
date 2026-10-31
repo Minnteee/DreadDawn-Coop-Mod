@@ -1,0 +1,23 @@
+2
+1
+Student A:
+Vorhin wollte jemand, dass ich mit ihm in die Mensa gehe. Der Typ war komisch, er hatte Blutflecken an sich.
+@
+2
+1
+Student A:
+Ich hab Angst bekommen und bin nicht mitgegangen...
+@
+0
+0
+Was hatte er an?
+@
+2
+1
+Student A:
+Ich... ich weiß nicht mehr genau. Grün, glaube ich? Oder Gelb? Keine Ahnung.
+@
+0
+0
+Mist, vielleicht ist er zum Nordcampus gelaufen.
+@

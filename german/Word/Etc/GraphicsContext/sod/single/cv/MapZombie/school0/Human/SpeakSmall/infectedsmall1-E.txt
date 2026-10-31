@@ -1,0 +1,24 @@
+0,300,200,0.5
+Mir geht’s so mies.
+@
+0,300,300,0.5
+Fühlt sich an, als würde was auf mir rumkrabbeln.
+@
+1,300,300,0.5
+Mir auch, verdammt.
+@
+1,300,300,0.5
+Das liegt doch nicht etwa daran, dass uns Zombies gebissen haben?
+@
+1,300,300,0.5
+In Filmen wird man selbst zum Zombie, wenn einen einer beißt.
+@
+0,300,300,0.5
+Halt die Klappe! Mach mir keine Angst!!
+@
+0,300,300,0.5
+Uff~
+@
+0,300,1000,0.5
+Gott steh uns bei.
+@

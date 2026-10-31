@@ -1,0 +1,12 @@
+17,120,200,0.5
+Ahhhh!!!
+@
+17,120,220,0.5
+Ich halt’s nicht mehr aus!!!
+@
+17,120,220,0.5
+Verdammt...
+@
+17,120,570,0.5
+Keuch... Keuch... Keuch.......
+@

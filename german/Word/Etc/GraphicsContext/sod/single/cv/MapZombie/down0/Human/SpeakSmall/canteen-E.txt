@@ -1,0 +1,30 @@
+0,300,300,0.5
+Im Internet steht, dass sie jetzt an einem Heilmittel forschen.
+@
+1,300,300,0.5
+Ein Heilmittel? Im Ernst?
+@
+1,400,400,0.5
+Sogar ich mit meinen miesen Biokenntnissen weiß, dass das unmöglich ist.
+@
+1,400,400,0.5
+So ein Riesenzombie, verdammt.
+@
+1,300,300,0.5
+Wie zum Teufel wollen die so ein Ding wieder in einen Menschen verwandeln?
+@
+0,300,300,0.5
+Vielleicht meinen die einen Impfstoff oder so.
+@
+1,300,300,0.5
+Einen Impfstoff?
+@
+1,400,400,0.5
+Ich dachte, wer jetzt noch lebt, hat sowieso schon Antikörper.
+@
+0,300,300,0.5
+Das findest du nur raus, wenn du dich beißen lässt.
+@
+1,300,1000,0.5
+Vielleicht.
+@

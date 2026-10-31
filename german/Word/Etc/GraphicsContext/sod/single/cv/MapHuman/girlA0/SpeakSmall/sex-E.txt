@@ -1,0 +1,24 @@
+-1,130,150,0.5
+Hey, Zoey.
+@
+0,130,170,0.5
+Jack.
+@
+0,130,190,0.5
+Lust, mal was anderes auszuprobieren?
+@
+-1,130,150,0.5
+...Na ja, also...
+@
+-1,130,150,0.5
+Ich meine...
+@
+-1,130,220,0.5
+Vielleicht später?...
+@
+0,130,190,0.5
+Schon okay, ich warte hier auf dich.
+@
+-1,130,1900000,0.5
+Okay.
+@

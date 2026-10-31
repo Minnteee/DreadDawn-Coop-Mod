@@ -1,0 +1,12 @@
+0,200,200,0.5
+Uff, mir ist so übel.
+@
+0,200,200,0.5
+Mein Bauch tut so weh.
+@
+0,200,200,0.5
+Bestimmt lag’s an dem Zeug, das ich gegessen hab.
+@
+0,200,600,0.5
+Verdammt, so ein Pech.
+@

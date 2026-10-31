@@ -1,0 +1,15 @@
+1,310,350,0.5
+Hey! Hör auf, hier rumzulaufen, sei leise.
+@
+1,310,350,0.5
+Du lockst noch diese Dinger an.
+@
+0,210,250,0.5
+Jetzt halt endlich die Klappe.
+@
+0,210,250,0.5
+Du bist selbst auch nicht gerade leise.
+@
+-1,210,2500,0.5
+?
+@

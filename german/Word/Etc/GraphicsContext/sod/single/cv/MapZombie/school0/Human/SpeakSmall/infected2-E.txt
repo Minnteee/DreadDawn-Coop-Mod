@@ -1,0 +1,27 @@
+0,300,300,0.5
+Du siehst heute nicht so gut aus.
+@
+1,300,300,0.5
+Heute Morgen hat mich so ein komischer Typ gebissen.
+@
+0,300,300,0.5
+Was? Warum hast du das nicht früher gesagt?
+@
+1,300,200,0.5
+Das war doch nur ein Typ, kein Zombie.
+@
+1,300,300,0.5
+Mach dir um mich keine Sorgen, mir geht’s gut.
+@
+0,300,300,0.5
+Du solltest dich echt untersuchen lassen.
+@
+1,300,300,0.5
+Ich hab doch gesagt, mir geht’s gut!
+@
+0,300,300,0.5
+.....
+@
+1,300,1000,0.5
+.....
+@

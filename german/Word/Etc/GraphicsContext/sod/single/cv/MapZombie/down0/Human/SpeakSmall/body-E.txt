@@ -1,0 +1,18 @@
+0,300,300,0.5
+Wir müssen das Ding hierherholen!
+@
+1,300,300,0.5
+Bist du sicher? Mit den beiden Dingern ist nicht zu spaßen.
+@
+0,300,300,0.5
+Ich glaub, wir können uns langsam an ihnen vorbeischleichen.
+@
+1,300,300,0.5
+Wenn du’s versuchen willst, nur zu. Ich hab keinen Bock drauf.
+@
+0,300,300,0.5
+Und was jetzt?
+@
+1,300,3000,0.5
+Vergiss es, für das Ding lohnt sich das Risiko nicht.
+@

@@ -1,0 +1,32 @@
+0
+0
+Hey, ich bin Jack, ich leite die Gruppe.
+@
+2
+1
+Student A
+Super! Endlich kommen wir aus diesem verdammten Loch raus!
+@
+2
+1
+Student A
+Ich halt’s hier nicht mehr aus, jeden Tag dieses Gekreische von den verdammten Zombies!
+@
+2
+1
+Student B
+Hey, Jack, hat Amy dich geschickt?
+@
+0
+0
+Ja, sie bringt gerade woanders in der Schule Leute raus. Wir arbeiten zusammen.
+@
+0
+0
+Keine Sorge, ich hab schon eine Gruppe rausgebracht.
+@
+2
+1
+Student B
+Na gut, gehen wir.
+@

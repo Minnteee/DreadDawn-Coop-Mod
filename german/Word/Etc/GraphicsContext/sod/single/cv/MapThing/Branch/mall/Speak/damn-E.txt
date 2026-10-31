@@ -1,0 +1,20 @@
+2
+1
+Hey! Wie bist du hier reingekommen?
+@
+0
+0
+Ich bin auf der Suche nach Vorräten.
+@
+2
+1
+Klar, aber dann musst du uns helfen, die Zombies hier zu erledigen.
+@
+2
+1
+Dafür kann ich dir ein paar gute Sachen geben.
+@
+0
+0
+Okay, kein Problem.
+@

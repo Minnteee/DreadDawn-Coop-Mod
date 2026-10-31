@@ -1,0 +1,32 @@
+0
+0
+Hey?
+@
+2
+1
+Hm? Oh?
+@
+2
+1
+Hast du die ganzen Zombies von der Tür weggelockt?
+@
+0
+0
+Ja, ich hab sie gerade alle verjagt.
+@
+2
+1
+Oh mein Gott, vielen Dank! Ohne dich wäre ich hier wahrscheinlich gestorben.
+@
+0
+0
+Nichts zu danken, ich helfe einfach gern.
+@
+2
+1
+Es gibt also doch noch gute Menschen auf der Welt.
+@
+2
+1
+Danke!!!
+@

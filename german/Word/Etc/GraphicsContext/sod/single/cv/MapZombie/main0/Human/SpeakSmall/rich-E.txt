@@ -1,0 +1,51 @@
+0,300,300,0.5
+Die Villa von dem Typen ist echt riesig.
+@
+0,300,300,0.5
+Als ich letztes Mal mit ihm drin war,
+@
+0,300,300,0.5
+waren da auch jede Menge schöne Frauen.
+@
+1,300,300,0.5
+Die ist doch bestimmt Milliarden wert, oder?
+@
+1,300,300,0.5
+Der Unterschied zwischen Arm und Reich ist echt krass.
+@
+1,300,300,0.5
+Ich bin so neidisch auf ihn.
+@
+2,300,300,0.5
+Worauf willst du denn neidisch sein?
+@
+2,300,100,0.5
+Seine Villa gehört jetzt den Zombies.
+@
+0,300,10,0.5
+Haha.
+@
+1,300,100,0.5
+Haha, stimmt auch wieder.
+@
+2,300,100,0.5
+Haha.
+@
+1,300,300,0.5
+Jetzt geht’s mir gleich besser.
+@
+0,300,300,0.5
+Wartet, es kommt noch besser.
+@
+0,300,100,0.5
+Die Frauen in der Villa? Auch Zombies!
+@
+1,300,100,0.5
+Haha!
+@
+0,300,100,0.5
+Haha!
+@
+2,300,3000,0.5
+Haha!
+@

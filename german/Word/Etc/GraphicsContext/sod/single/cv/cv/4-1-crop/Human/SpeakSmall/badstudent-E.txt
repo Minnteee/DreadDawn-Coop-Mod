@@ -1,0 +1,15 @@
+6,250,250,0.5
+Klingt vielleicht falsch,
+@
+6,250,250,0.5
+aber ich hab’s diesen Zombies zu verdanken,
+@
+6,250,350,0.5
+sonst wär ich garantiert durch die Klausuren gefallen
+@
+6,220,220,0.5
+aber nachts sind die Monster echt unheimlich
+@
+6,220,960,0.5
+überall hört man sie heulen
+@

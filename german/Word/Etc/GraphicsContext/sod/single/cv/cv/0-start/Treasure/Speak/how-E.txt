@@ -1,0 +1,10 @@
+2
+1
+Studentin:
+Das ist das Mädchenwohnheim. Wie bist du hier reingekommen?
+(Leertaste zum Fortfahren)
+@
+0
+0
+Sorry, ich bin sofort weg.
+@

@@ -1,0 +1,12 @@
+13,250,250,0.5
+Ist das laut hier.
+@
+13,250,250,0.5
+Hör auf, hier rumzulaufen, okay!?
+@
+-1,250,250,0.5
+Oh, Entschuldigung.
+@
+13,250,750,0.5
+Das macht mich wahnsinnig.
+@

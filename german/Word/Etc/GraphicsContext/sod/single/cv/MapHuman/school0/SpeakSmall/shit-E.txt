@@ -1,0 +1,12 @@
+0,120,200,0.5
+Wann haben diese verdammten Tage endlich ein Ende?
+@
+0,120,220,0.5
+Ich hab es so satt, dass jeder Tag gleich ist.
+@
+0,120,220,0.5
+Als wär man selbst ein Zombie.
+@
+0,120,570,0.5
+Was unterscheidet uns noch von den Dingern da draußen?
+@

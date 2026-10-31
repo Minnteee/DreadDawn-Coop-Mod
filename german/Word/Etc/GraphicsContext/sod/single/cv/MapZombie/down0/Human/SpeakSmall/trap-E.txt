@@ -1,0 +1,24 @@
+0,300,300,0.5
+Leg bloß nicht den Stromschalter um.
+@
+0,300,300,0.5
+Am besten bleiben die da drin eingesperrt.
+@
+0,300,300,0.5
+Sollen sie doch verhungern.
+@
+0,300,300,0.5
+Dann machen sie uns wenigstens keinen Ärger mehr.
+@
+1,300,300,0.5
+Und wenn welche kommen und nach ihnen fragen?
+@
+0,300,300,0.5
+Nach ihnen fragen? Daran hab ich nicht gedacht.
+@
+1,300,300,0.5
+Ich finde, wir sollten abhauen.
+@
+0,300,3000,0.5
+Reden wir morgen darüber.
+@

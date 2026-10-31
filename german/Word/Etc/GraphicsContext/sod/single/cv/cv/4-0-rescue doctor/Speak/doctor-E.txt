@@ -1,0 +1,31 @@
+0
+0
+Hallo, Professor.
+@
+2
+1
+Professor:
+Hallo, junger Mann.
+@
+2
+1
+Professor:
+Was kann ich für dich tun?
+@
+0
+0
+Die Soldaten haben erzählt, dass Sie Waffen bauen können.
+@
+0
+0
+Wir brauchen Waffen, um die Schule zu schützen.
+@
+2
+1
+Professor:
+Kein Problem. Wie wär’s, wenn wir mit Maschinengewehren anfangen?
+@
+0
+0
+Klingt gut.
+@

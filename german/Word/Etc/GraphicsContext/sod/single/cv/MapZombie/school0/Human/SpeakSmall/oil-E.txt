@@ -1,0 +1,15 @@
+1,300,300,0.5
+Beeilung, Beeilung!!
+@
+0,300,300,0.5
+Was sollen wir mit den ganzen Benzinfässern, Chef?
+@
+1,300,300,0.5
+Hör auf zu fragen, wir brauchen sie bald.
+@
+1,300,200,1
+Und konzentrier dich bei der Arbeit.
+@
+1,300,300,1
+Jag nicht den ganzen Laden in die Luft!
+@

@@ -1,0 +1,21 @@
+0,300,300,0.5
+Warum schnarchst du so laut?
+@
+2,300,300,0.5
+Ich hab nicht geschnarcht.
+@
+0,300,300,0.5
+Was war dann das für ein Geräusch?
+@
+1,300,200,0.5
+Vielleicht hat mein Magen geknurrt.
+@
+2,300,10,0.5
+Hahaha
+@
+0,300,10,0.5
+Haha
+@
+1,300,1400,0.5
+Hahahahaha
+@

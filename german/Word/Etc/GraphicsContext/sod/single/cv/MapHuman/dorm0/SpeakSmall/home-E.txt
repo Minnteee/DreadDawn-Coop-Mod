@@ -1,0 +1,18 @@
+33,210,230,0.5
+Ich komm nicht mehr nach Hause, einfach nicht...
+@
+33,200,210,0.5
+Nein! Ich will nach Hause...
+@
+35,220,230,0.5
+Hey! Hör auf, wie ein Köter rumzukläffen!
+@
+35,230,200,0.5
+Merkst du nicht, wie du nervst?
+@
+33,200,230,0.5
+Nein! Nein! Nein!
+@
+35,200,230000,0.5
+Boah, ich hab echt die Schnauze voll...
+@

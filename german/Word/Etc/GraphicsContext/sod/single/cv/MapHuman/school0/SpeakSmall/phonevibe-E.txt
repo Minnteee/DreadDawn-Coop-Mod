@@ -1,0 +1,39 @@
+173,210,100,0.5
+Was ist das denn für ein Lied?
+@
+175,200,30,0.5
+Gib alles! Du bist der Hammer!
+@
+176,200,210,0.5
+LaLalAAAAAA~~~
+@
+167,200,100,0.5
+Wuhuu~~~
+@
+162,200,50,0.5
+Toll gesungen, ich liebe dich!
+@
+176,200,30,0.5
+LaLalAAAAAA~~~
+@
+168,150,150,0.5
+Gib alles!
+@
+181,150,160,0.5
+Klingt furchtbar...
+@
+176,200,30,0.5
+LaLalAAAAAA~~~
+@
+161,150,10,0.5
+Wer hat denn den Text geschrieben?...
+@
+183,150,160,0.5
+Mein kleiner Bruder singt besser...
+@
+176,200,30,0.5
+LaLalAAAAAA~~~
+@
+172,200,220,0.5
+Großartig!!!
+@

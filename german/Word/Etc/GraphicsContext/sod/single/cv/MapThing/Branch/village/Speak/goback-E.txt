@@ -1,0 +1,16 @@
+0
+0
+Du siehst okay aus. Schaffst du es allein zurück?
+@
+2
+1
+Kein Problem, ich schaff das allein.
+@
+0
+0
+Gut zu hören. Deine Freunde warten im Lager da drüben auf dich.
+@
+2
+1
+Danke!
+@

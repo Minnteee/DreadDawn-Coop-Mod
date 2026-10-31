@@ -1,0 +1,24 @@
+1,300,300,0.5
+Was zum Teufel ist das für ein Ding?
+@
+0,300,300,0.5
+Warum ist das so riesig?
+@
+0,300,300,0.5
+Ist das tot?
+@
+1,300,300,0.5
+Kann mir mal jemand sagen, was das ist?
+@
+-1,400,400,0.5
+Das ist ein Riesenzombie. Fass ihn lieber nicht an.
+@
+1,300,300,0.5
+Ach nee, das sieht man doch.
+@
+1,300,300,0.5
+Oh mein Gott, wie soll ich da bloß vorbeikommen?
+@
+0,300,2000,0.5
+Nicht bewegen.
+@

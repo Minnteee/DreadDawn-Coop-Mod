@@ -1,0 +1,43 @@
+2
+1
+Soldat:
+Du da ganz rechts in Grün, warst du gerade im Gebäude am Südcampus?
+@
+2
+1
+Student in Gelb:
+Herr Offizier, ich kann das nicht sein, ich trage Gelb!
+@
+2
+1
+Soldat:
+Gelb? Hältst du mich für blind?
+@
+0
+0
+Herr Offizier, er trägt wirklich Gelb...
+@
+2
+1
+Soldat:
+Gelb? Das ist ja gar nicht grün... ähem, das wusste ich. Ich fand ihn nur verdächtig, das ist alles...
+@
+2
+1
+Soldat:
+War einer von euch im Gebäude am Südcampus?
+@
+2
+1
+Studenten:
+Nein, wir waren die ganze Zeit in der Sporthalle und sind nie rausgegangen.
+@
+0
+0
+Herr Offizier, vielleicht sind sie es gar nicht. Der Typ könnte sich umgezogen haben.
+@
+2
+1
+Soldat:
+Na gut, dann frag die anderen.
+@

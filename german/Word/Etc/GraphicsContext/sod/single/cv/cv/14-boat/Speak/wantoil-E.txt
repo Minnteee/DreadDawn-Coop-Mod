@@ -1,0 +1,27 @@
+0
+0
+Hey, geht’s euch gut?
+@
+2
+1
+Lehrer der Nachbarschule:
+Es geht so. Hier ist es viel besser als in der Schule, auch wenn es immer noch gefährlich ist.
+@
+0
+0
+Ich brauche Benzin. Habt ihr welches?
+@
+2
+1
+Lehrer der Nachbarschule:
+Ja, im Nebenraum steht welches. Wenn du es brauchst, nimm ruhig alles mit.
+@
+0
+0
+Vielen Dank!
+@
+2
+1
+Lehrer der Nachbarschule:
+Das hast du dir verdient!
+@

@@ -1,0 +1,23 @@
+0
+0
+Wie ist die Lage?
+@
+2
+1
+Studentin:
+Verdammt! Sie wurde draußen von einem Verrückten gebissen und hat jetzt hohes Fieber, das einfach nicht sinkt.
+@
+2
+1
+Studentin:
+Es wäre toll, wenn jemand rausgehen und Medizin besorgen könnte.
+@
+2
+1
+Polizist:
+Nein, da draußen herrscht gerade das reinste Chaos, rauszugehen wäre Selbstmord...
+@
+0
+0
+Ah, verdammt, das ist echt verrückt!
+@

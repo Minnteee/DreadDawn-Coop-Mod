@@ -1,0 +1,12 @@
+-1,210,250,0.5
+Ist hier noch jemand?
+@
+1,200,100,0.5
+Wer bist du?
+@
+0,210,200,0.5
+Wer bist du?
+@
+-1,210,25000,0.5
+Keine Sorge, ich suche nur jemanden.
+@

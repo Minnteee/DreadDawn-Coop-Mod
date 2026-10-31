@@ -1,0 +1,18 @@
+0,300,300,0.5
+Hey, findest du das nicht komisch?
+@
+1,200,200,0.5
+Komisch? Was meinst du?
+@
+0,300,300,0.5
+Waren hier vorher nicht jede Menge Zombies in ABC-Schutzanzügen?
+@
+1,200,200,0.5
+Stimmt, wo sind die Zombies hin?
+@
+1,200,200,0.5
+Egal, lass uns schnell weiter!
+@
+0,200,2000,0.5
+Beeil dich!
+@

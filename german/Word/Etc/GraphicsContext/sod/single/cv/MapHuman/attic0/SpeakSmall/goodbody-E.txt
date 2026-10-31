@@ -1,0 +1,27 @@
+9,140,140,0.5
+Wow! Natine,
+@
+9,240,240,0.5
+deine Figur ist der Wahnsinn!!
+@
+8,240,240,0.5
+Oh? Wirklich?
+@
+9,240,240,0.5
+Ich bin so neidisch!
+@
+8,240,240,0.5
+Ich trainiere viel.
+@
+9,140,140,0.5
+Ah, das erklärt’s!
+@
+9,240,240,0.5
+Nimm mich nächstes Mal zum Training mit.
+@
+9,240,240,0.5
+So eine tolle Figur will ich auch.
+@
+8,240,2400,0.5
+Klar, nächstes Mal sag ich dir Bescheid.
+@

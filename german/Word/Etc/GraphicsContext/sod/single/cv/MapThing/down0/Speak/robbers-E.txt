@@ -1,0 +1,44 @@
+0
+0
+Hallo, darf ich reinkommen?
+@
+2
+1
+Hm?
+@
+2
+1
+Pass lieber auf.
+@
+2
+1
+Vor Kurzem wollte uns hier eine Banditenbande ausrauben.
+@
+2
+1
+Wir haben sie drinnen eingesperrt.
+@
+2
+1
+Sie haben hier auch ein paar Leute umgebracht.
+@
+2
+1
+Ich halte an der Tür Wache, damit sie nicht rauskommen.
+@
+0
+0
+Ich kann reingehen und nachsehen. Vielleicht kann ich mich um sie kümmern.
+@
+2
+1
+Echt?
+@
+2
+1
+Du bist ja ganz schön selbstbewusst.
+@
+2
+1
+Aber ich warte gern auf gute Nachrichten von dir!
+@

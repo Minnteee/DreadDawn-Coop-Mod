@@ -1,0 +1,15 @@
+-1,220,220,0.5
+Hallo!
+@
+-1,220,220,0.5
+Wisst ihr, was mit den Zellen da drüben los ist?
+@
+1,220,220,0.5
+Frag mich nicht.
+@
+1,220,260,0.5
+Die waren schon so, als wir herkamen.
+@
+2,220,2600000,1
+Pst, pst, stör mich nicht.
+@

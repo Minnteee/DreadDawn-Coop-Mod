@@ -1,0 +1,18 @@
+0,270,170,0.5
+Wer bist du?
+@
+1,270,170,0.8
+Was machst du hier?
+@
+2,300,270,0.7
+Raus hier, sofort!
+@
+1,300,170,0.5
+Was willst du hier?
+@
+1,300,170,0.5
+Komm nicht näher!
+@
+3,300,270,0.7
+Was soll das?!
+@

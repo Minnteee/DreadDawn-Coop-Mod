@@ -1,0 +1,12 @@
+0,300,300,1
+Pass auf die Landminen auf, Kumpel.
+@
+1,300,300,1
+Spreng dich nicht in die Luft.
+@
+0,300,300,1
+Sei vorsichtig.
+@
+1,300,3000,1
+Pass auf, wo du hintrittst.
+@

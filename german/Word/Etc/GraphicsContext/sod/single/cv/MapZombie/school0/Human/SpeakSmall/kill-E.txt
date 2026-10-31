@@ -1,0 +1,27 @@
+0,300,300,0.5
+Oh Mann, du hast ihn umgebracht!
+@
+0,300,300,0.5
+Mit einem einzigen Schlag!!!
+@
+0,300,300,0.5
+Dafür kommst du in den Knast!
+@
+1,300,300,0.5
+Ihr habt’s alle gesehen, er ist auf mich losgegangen.
+@
+1,300,300,0.5
+Und er hatte nicht mal was an.
+@
+2,300,300,0.5
+Nein! Nein! Nein! Nein!
+@
+2,300,300,0.5
+Ich fand den Typen auch echt komisch.
+@
+2,300,300,0.5
+Wir sollten die Leiche schnell loswerden.
+@
+2,300,2000,0.5
+Das darf keiner erfahren.
+@

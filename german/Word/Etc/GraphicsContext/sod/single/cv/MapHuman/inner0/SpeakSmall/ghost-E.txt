@@ -1,0 +1,36 @@
+0,160,200,0.5
+Habt ihr diesen komischen Schrei gehört?
+@
+1,160,10,0.5
+Ein bisschen.
+@
+2,160,200,0.5
+Ja, hab ich gehört.
+@
+-1,160,230,0.5
+Klingt, als käme es aus dem Obergeschoss.
+@
+0,160,210,0.5
+Ja, stimmt.
+@
+2,160,230,0.5
+Klingt wie das Heulen eines Geists.
+@
+1,190,310,0.5
+Wie diese Monsterschreie im Fernsehen.
+@
+-1,160,230,0.5
+Habt ihr keine Angst, hierzubleiben?
+@
+0,190,210,0.5
+Du unterschätzt uns vom Paranormal-Club.
+@
+1,190,210,0.5
+Wir vom Paranormal-Club sind hart im Nehmen.
+@
+2,160,230,0.5
+Genau.
+@
+2,160,2100000,0.5
+Ich würde sogar zu gern mal einen Geist sehen.
+@

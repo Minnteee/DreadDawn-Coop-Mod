@@ -1,0 +1,12 @@
+0,310,300,0.5
+Werden diese Idioten draußen beim Wacheschieben eigentlich nie müde?
+@
+1,300,300,0.5
+Die sollten sich mal die Ohren untersuchen lassen.
+@
+1,300,300,0.5
+Die reden dauernd von komischen Geräuschen oben. Da oben gibt’s nichts außer Ratten.
+@
+0,310,1000,0.5
+Sollen sich die Trottel doch kaputtmachen, wir machen es uns hier gemütlich.
+@

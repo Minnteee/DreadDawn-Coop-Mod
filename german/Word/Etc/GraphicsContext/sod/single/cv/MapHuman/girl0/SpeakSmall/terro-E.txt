@@ -1,0 +1,57 @@
+5,120,190,0.5
+Das ist so schrecklich.
+@
+5,120,180,0.5
+Ich hab gesehen, wie der Mensch zerfetzt wurde!
+@
+5,120,180,0.5
+So enden wir doch nicht auch, oder?
+@
+5,120,200,0.5
+Wääääh~
+@
+3,120,190,0.5
+Ich hab Angst vor Schmerzen. Es tut doch nicht so weh, oder?
+@
+3,120,160,0.5
+Warum passiert uns das?
+@
+4,120,150,0.5
+Haltet die Klappe, Leute. Warum habt ihr so eine Angst vorm Sterben?
+@
+4,120,150,0.5
+Ist das echt so furchtbar?
+@
+4,120,150,0.5
+Wir sind noch nicht mal gefressen worden und sterben schon vor Angst.
+@
+4,120,150,0.5
+Ihr seid solche Angsthasen.
+@
+3,120,10,0.5
+Hast du etwa keine Angst?
+@
+5,160,10,0.5
+Spiel hier nicht den Helden.
+@
+5,180,220,0.5
+Du hast sogar vor Spinnen Angst, aber spielst hier den Harten!
+@
+4,120,190,0.5
+.........
+@
+4,120,190,0.5
+Fick dich, halt die Klappe!
+@
+4,120,190,0.5
+Du musst immer widersprechen, was?
+@
+-1,120,190,0.5
+Hey, Leute, hört auf zu streiten.
+@
+-1,120,190,0.5
+Jetzt kommt es darauf an, dass wir zusammenhalten.
+@
+4,120,19000000,0.5
+..........
+@

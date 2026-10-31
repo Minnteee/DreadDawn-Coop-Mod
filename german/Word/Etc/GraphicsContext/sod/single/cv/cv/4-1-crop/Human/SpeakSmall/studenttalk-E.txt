@@ -1,0 +1,21 @@
+5,220,220,0.5
+Was soll das alles noch?
+@
+5,220,260,0.5
+Selbst wenn meine Noten super sind – na und?
+@
+5,250,250,0.5
+Ich bitte dich!
+@
+5,250,250,0.5
+Die Welt geht unter!
+@
+5,220,220,0.5
+Aber ich hab mich so angestrengt.
+@
+5,220,260,0.5
+Ich stehe jeden Morgen um 6:00 Uhr auf, um zu lernen.
+@
+5,250,650,0.5
+Nein, nein, nein.
+@

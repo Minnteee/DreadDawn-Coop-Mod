@@ -1,0 +1,32 @@
+0
+0
+Hi, hast du meine Schwester gesehen?
+@
+2
+1
+Hm, deine Schwester? Wer soll das sein?
+@
+0
+0
+Die in den grünen Klamotten, sie trägt gern Grün.
+@
+2
+1
+Grüne Klamotten? Moment, ich glaub, so jemanden hab ich gesehen.
+@
+2
+1
+Bei den Leuten, die im Klassenzimmer gegenüber festsitzen, ist jemand in Grün. Vielleicht ist das deine Schwester.
+@
+0
+0
+Okay, vielen Dank!
+@
+2
+1
+Warte, vor der Tür von dem Klassenzimmer sind jede Menge Zombies.
+@
+0
+0
+Dann lenk ich sie ab!
+@

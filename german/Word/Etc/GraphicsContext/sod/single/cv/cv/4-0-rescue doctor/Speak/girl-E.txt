@@ -1,0 +1,38 @@
+2
+1
+Professor:
+Gut gemacht.
+@
+2
+1
+Professor:
+Übrigens, bei einer Sache bräuchte ich noch deine Hilfe.
+@
+0
+0
+Worum geht’s?
+@
+2
+1
+Professor:
+Meine Tochter Zoey traut sich nicht allein ins Wohnheim und möchte, dass jemand sie begleitet.
+@
+2
+1
+Professor:
+Du weißt ja, ich habe sehr viel zu tun und kann nicht mitgehen.
+@
+0
+0
+Kein Problem, Professor, das übernehme ich.
+@
+2
+1
+Professor:
+Haha, prima.
+Aber denk dran: keine Dummheiten!
+@
+0
+0
+Verstanden, Professor.
+@

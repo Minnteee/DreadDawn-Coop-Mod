@@ -1,0 +1,116 @@
+Fortsetzen
+Neues Spiel
+Laden
+Einstellungen
+Hilfe
+Beenden
+@
+Einstellungen
+@
+Sprache
+Grafik
+Audio
+Spiel
+@
+XXX
+@
+Helligkeit:
+Filmkörnung:
+Fenstermodus:
+Inventar immer zeigen:
+@
+Lautstärke:
+Hintergrundton:
+@
+Kamera folgt Maus:
+Kamerawackeln:
+Schwierigkeit:
+Anzahl Zombies:
+Überlebensmodus anpassen.
+@
+An
+Aus
+@
+Pausiert
+@
+Fortsetzen
+Speichern
+Laden
+Einstellungen
+Hilfe
+Hauptmenü
+@
+Speichern
+@
+Laden
+@
+Autospeicherung
+@
+Leer
+@
+Ja
+Nein
+@
+Bei niedriger Bildrate prüfe bitte, ob die dedizierte Grafikkarte aktiviert ist.
+Du hast eine laufende Aufgabe und kannst nicht speichern.
+Möchtest du diesen Spielstand überschreiben?
+Das Spiel läuft mit niedriger Bildrate, vermutlich weil die dedizierte Grafikkarte nicht aktiviert ist. Möchtest du sie jetzt aktivieren?
+Die Bildrate ist niedrig, du musst die dedizierte Grafikkarte aktivieren.
+Nicht gespeicherter Fortschritt wird überschrieben. Möchtest du fortfahren?
+Möchtest du diesen Spielstand löschen?
+Achtung! Trainer oder Cheats können Fehler im Spiel verursachen. Bitte mit Vorsicht verwenden.
+Prolog überspringen?
+@
+Story-Modus
+Regiemodus
+Überlebensmodus
+Zombie-Flucht
+@
+Linksklick: erhöhen, Rechtsklick: verringern
+@
+„Leertaste“ zum Fortfahren
+@
+Apokalypse
+Stützpunkt Schule
+Überleben in der Schule
+Krankenhaus
+Evakuierung vorbereiten
+Gefängnis
+Todesturm
+Tödliche Highschool
+Letzte Evakuierung
+@
+Kapitel
+@
+
+(Regiemodus)
+(Überlebensmodus)
+(Zombie-Flucht)
+@
+Bei Tonproblemen starte das Spiel bitte neu.
+@
+Leicht
+Normal
+Schwer
+Realistisch (Höllenstufe)
+@
+*Empfohlene Anzahl an Zombies auf dem Bildschirm: 1200.
+*Eine Änderung der Zombieanzahl auf dem Bildschirm verändert den Schwierigkeitsgrad.
+@
+(Empfohlen)
+@
+Wir empfehlen, zuerst den Story-Modus oder den Überlebensmodus abzuschließen. Der Regiemodus zeigt Inhalte aus späteren Spielabschnitten zu früh, was das schrittweise Spielerlebnis beeinträchtigen kann. Möchtest du trotzdem fortfahren?
+@
+*Cloud-Spielstände*
+*Lokale Spielstände*
+@
+Cloud-Speicher
+Lokaler Speicher
+@
+* Gib das Passwort mit den Zahlentasten ein *
+@
+* Finde den richtigen Winkel und halte die linke Maustaste gedrückt, um das Schloss zu öffnen *
+@
+Dies ist der Prolog vor dem eigentlichen Spielbeginn. Er enthält einen relativ langen Storyabschnitt und geht nicht so schnell in Kämpfe oder freie Erkundung über. Möchtest du fortfahren?
+@
+Spiel wirklich beenden?

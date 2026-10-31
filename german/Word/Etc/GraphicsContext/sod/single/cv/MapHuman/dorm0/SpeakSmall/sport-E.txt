@@ -1,0 +1,21 @@
+3,110,190,0.5
+Uff, ich kann mich nicht mehr rühren.
+@
+0,110,190,0.5
+Du bist so ein Schwächling.
+@
+0,110,190,0.5
+Du musst mehr wie ich sein.
+@
+0,110,190,0.5
+Achtzig Wiederholungen am Stück.
+@
+0,110,190,0.5
+So wird man stark.
+@
+2,180,170,0.5
+Wenn du nicht so fett wärst, würd ich’s dir vielleicht glauben.
+@
+3,180,820,0.5
+Hahahaha!!!
+@

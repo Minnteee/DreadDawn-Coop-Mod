@@ -1,0 +1,33 @@
+0,500,500,0.5
+Verdammt! Das sind doch nichts als Banditen!!!
+@
+1,300,300,0.5
+Die haben meinen Bruder umgebracht, wir müssen uns rächen!
+@
+2,200,200,0.5
+Rächen? Und wie?
+@
+2,300,300,0.5
+Die haben Waffen!!
+@
+0,500,500,0.5
+Ich finde, wir sollten abhauen, gegen die haben wir keine Chance.
+@
+1,300,200,1
+Und was ist mit meinem Bruder? Die haben ihn umgebracht!
+@
+2,200,200,0.5
+Beruhig dich!
+@
+1,300,300,0.5
+Leck mich! Du Feigling!
+@
+2,400,400,0.5
+Das ist dein Bruder, nicht meiner. Ich halt mich da raus.
+@
+0,500,100,0.5
+.....
+@
+1,300,30000,0.5
+Verdammt!!!
+@

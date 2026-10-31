@@ -1,0 +1,53 @@
+2
+1
+Soldat A:
+Hey! Was macht ihr da?
+@
+0
+0
+Sir, es ist dringend. Wir müssen zu einem Freund da drin.
+@
+2
+1
+Soldat A:
+Was? Haltet ihr das hier für ein öffentliches Klo, wo jeder kommen und gehen kann? Verschwindet!
+@
+2
+1
+Soldat B:
+Lass sie rein. Sie riskieren ihr Leben, um ihn zu sehen – vielleicht ist es ihre letzte Chance.
+@
+2
+1
+Soldat A:
+Aber –
+@
+2
+1
+Soldat B:
+Aber was? Kann es da drin noch schlimmer werden?
+@
+2
+1
+Soldat B:
+Vielleicht können sie uns helfen. Ein paar zusätzliche Hände können wir gerade sowieso gut gebrauchen.
+@
+2
+1
+Soldat A:
+Na schön.
+@
+2
+1
+Soldat A:
+Aber wenn sie reinwollen, müssen sie erst kontrolliert werden!
+@
+0
+0
+Keine Sorge, mit uns ist alles in Ordnung.
+@
+2
+1
+Soldat B:
+Kontrollier sie.
+@

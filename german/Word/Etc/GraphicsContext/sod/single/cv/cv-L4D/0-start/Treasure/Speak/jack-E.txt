@@ -1,0 +1,36 @@
+2
+1
+Wartet, ihr Fremden da draußen!
+@
+2
+1
+Habt ihr da draußen jemanden namens JACK gesehen?
+@
+2
+1
+Er trägt graue Kleidung und hat einen Rucksack dabei.
+@
+0
+0
+JACK?
+@
+0
+0
+Nein, nicht gesehen. Da draußen gibt’s nichts außer Zombies.
+@
+2
+1
+Verdammt, er ist schon vor Ewigkeiten los, um Vorräte zu suchen. Wir müssen ihn finden.
+@
+2
+1
+Wenn ihr JACK seht, müsst ihr uns Bescheid sagen.
+@
+2
+1
+Viel Glück.
+@
+0
+0
+Okay, ich versuch’s.
+@

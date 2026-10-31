@@ -1,0 +1,15 @@
+0,300,300,0.5
+Das macht mich wahnsinnig.
+@
+0,300,300,0.5
+Der Elektrozaun versperrt den Weg, wir kommen nicht durch.
+@
+1,300,300,0.5
+Lass uns später nachsehen, wo der Strom herkommt.
+@
+0,300,300,0.5
+Lass uns in ein paar Tagen von hier verschwinden.
+@
+1,300,6000,0.5
+Gut, machen wir uns fertig und brechen morgen auf.
+@

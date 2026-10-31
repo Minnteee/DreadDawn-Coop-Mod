@@ -1,0 +1,27 @@
+118,180,110,0.5
+Wie nervig.
+@
+119,180,120,0.5
+Warum läuft hier dauernd jemand hin und her?
+@
+118,180,90,0.5
+Mann.
+@
+118,180,180,0.5
+Ignorier ihn einfach.
+@
+118,180,180,0.5
+Ist halt ein armer Single.
+@
+-1,180,180,0.5
+??
+@
+117,180,180,0.5
+Kumpel.
+@
+117,180,180,0.5
+Mach dir nichts aus denen.
+@
+117,180,2180,0.5
+Komm, setz dich zu mir~
+@

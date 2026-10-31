@@ -1,0 +1,36 @@
+31,280,280,0.5
+....
+@
+31,280,280,0.5
+.......
+@
+31,280,280,0.5
+Draußen gibt es ein paar geeignete Lager.
+@
+31,280,280,0.5
+Wenn wir uns auf diese Lager verteilen,
+@
+31,280,280,0.5
+wird das Überleben für uns viel leichter.
+@
+4,180,180,0.5
+Sandy
+@
+4,280,280,0.5
+Sind die Lager weit von hier?
+@
+20,280,280,0.5
+Wenn zu viele auf einmal rausgehen, fürchte ich, dass wir massenhaft Zombies anlocken.
+@
+31,280,280,0.5
+Das fürchte ich auch.
+@
+31,280,280,0.5
+Deshalb warte ich ja auf den richtigen Moment.
+@
+4,280,280,0.5
+....
+@
+20,280,2800,0.5
+Okay.
+@

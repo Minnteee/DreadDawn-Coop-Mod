@@ -1,0 +1,36 @@
+134,220,220,0.5
+Wenn wir nicht rechtzeitig rauskommen
+@
+134,220,220,0.5
+kriegen wir eine Atombombe ab
+@
+133,180,230,0.5
+Warum muss das so eilig sein?
+@
+132,220,220,0.5
+Aus Sicherheitsgründen.
+@
+131,220,220,0.5
+Aber ich will doch nur überleben.
+@
+134,220,150,0.5
+Jeder denkt nur daran, am Leben zu bleiben
+@
+134,220,220,0.5
+aber Fakt ist, irgendwer muss Opfer bringen
+@
+132,220,220,0.5
+Ich kenn die anderen Leute nicht mal
+@
+132,220,220,0.5
+Warum soll ich mein Leben riskieren?
+@
+134,220,220,0.5
+Das frag ich mich auch.
+@
+133,220,30,0.5
+....
+@
+132,220,4230,0.5
+....
+@

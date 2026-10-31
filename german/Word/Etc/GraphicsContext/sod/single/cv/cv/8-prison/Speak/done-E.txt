@@ -1,0 +1,33 @@
+3
+1
+(Funkgerät des Soldaten)
+Piep piep piep~
+Das Tor zum Osttrakt ist offen, Jack, super!!
+@
+0
+0
+Ist bei euch jetzt alles okay?
+@
+3
+1
+(Funkgerät des Soldaten)
+Ja, alles okay. Fast hätten uns die Zombies gefressen, aber dir sei Dank.
+@
+0
+0
+Nur ein Dankeschön?
+@
+3
+1
+(Funkgerät des Soldaten)
+Keine Angst, ich hole dich und deine Freunde aus diesem Höllenloch raus.
+@
+0
+0
+Ich hoffe, Sie halten Ihr Wort.
+@
+3
+1
+(Funkgerät des Soldaten)
+Wir tun unser Bestes, aber erst mal müssen wir uns hier einrichten.
+@

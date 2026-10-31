@@ -1,0 +1,48 @@
+25,210,230,0.5
+Warum evakuieren uns die Soldaten immer noch nicht?
+@
+25,220,230,0.5
+Wir warten schon so lange.
+@
+24,250,260,0.5
+Verdammt, die lassen uns doch nicht etwa im Stich, oder?
+@
+29,220,230,0.5
+Hä? Und wenn sie die Schule schon verlassen haben?
+@
+34,220,230,0.5
+Quatsch, der Kommandant hat’s mir gesagt.
+@
+34,220,230,0.5
+Laut Befehl von oben holen sie mich hier auf jeden Fall raus.
+@
+56,260,260,0.5
+Träum weiter, die sind viel zu sehr damit beschäftigt, ihre eigene Haut zu retten.
+@
+56,250,260,0.5
+Ich hab gestern sogar gesehen, wie sie Leichensäcke weggeschafft haben...
+@
+57,240,250,0.5
+Verdammt, jetzt sind wir geliefert.
+@
+30,220,230,0.5
+Hey, keine Panik...
+@
+30,220,230,0.5
+Ihr jagt uns allen noch einen Herzinfarkt ein.
+@
+25,220,230,0.5
+Na ja, überlassen wir’s eben dem Schicksal.
+@
+27,220,30,0.5
+......
+@
+28,220,50,0.5
+........
+@
+33,220,80,0.5
+.....
+@
+26,220,999990,0.5
+....
+@

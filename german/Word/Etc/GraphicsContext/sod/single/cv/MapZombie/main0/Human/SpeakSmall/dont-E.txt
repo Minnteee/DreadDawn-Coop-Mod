@@ -1,0 +1,18 @@
+0,310,200,0.5
+Hey! Du da, fass das Ding nicht an!
+@
+1,200,200,0.5
+Genau, im Ernst, lass die Finger davon!
+@
+-1,210,250,0.5
+Welches Ding?
+@
+0,310,200,0.5
+Das mit dem Signallicht.
+@
+1,200,200,0.5
+Genau, das Ding!
+@
+-1,210,25000,0.5
+Keine Sorge, ich fass nichts an.
+@

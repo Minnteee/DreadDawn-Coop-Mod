@@ -1,0 +1,9 @@
+0,120,220,0.5
+Was zum Teufel?!!!
+@
+0,120,260,0.5
+Wieso ist das verdammte Ding schon wieder kaputt?
+@
+0,120,2200,0.5
+Das nervt so!
+@

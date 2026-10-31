@@ -1,0 +1,21 @@
+13,180,180,0.5
+Komm schon, geh ran...
+@
+13,220,220,0.5
+Warum komm ich nicht durch?
+@
+21,240,240,0.5
+Hey! Sei leise, sonst hören uns die Zombies!
+@
+13,300,300,0.5
+Ich muss meine Frau suchen, sie ist noch da draußen...
+@
+21,200,200,0.5
+Ist dir dein Leben egal?
+@
+11,260,260,0.5
+Bleib hier und warte, bis die Soldaten zurück sind.
+@
+13,220,220000,0.5
+..........
+@

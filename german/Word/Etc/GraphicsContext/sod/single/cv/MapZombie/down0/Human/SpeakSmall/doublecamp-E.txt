@@ -1,0 +1,18 @@
+0,300,300,0.5
+Ich verhungere!
+@
+0,300,300,0.5
+Können wir in den Supermarkt da drüben gehen und was zu essen holen?
+@
+1,400,400,0.5
+Bist du sicher? In dem Supermarkt hängen ein paar harte Typen rum.
+@
+2,300,300,0.5
+Na und? Wir sind mehr Leute, das passt schon.
+@
+1,400,400,0.5
+Die Typen haben Schusswaffen!
+@
+0,300,2000,0.5
+Schon gut, schon gut, dann hungere ich eben noch ein paar Tage.
+@

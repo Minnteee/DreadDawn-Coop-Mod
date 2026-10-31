@@ -1,0 +1,72 @@
+5
+1
+Jack, hast du den Schlüssel gefunden?
+@
+0
+0
+Ja, er hatte ihn bei sich.
+@
+0
+0
+So was mach ich nie wieder, fast hätte ich voll auf die Fresse gekriegt...
+@
+6
+1
+Jack, ich frag dich... ist Gaze... ist er friedlich gestorben?
+@
+0
+0
+Na ja, äh...
+@
+6
+1
+???
+@
+0
+0
+Ich... ich hab’s kurz gemacht. Ein einziger tödlicher Schlag.
+@
+5
+1
+Mein Beileid.
+@
+6
+1
+Ach.
+@
+6
+1
+Gaze war die letzte Familie, die ich auf dieser Welt noch hatte.
+@
+6
+1
+Nachdem man uns im Stich gelassen hatte, hat er sich um mich gekümmert. Auch wenn wir dabei nur krumme Dinger gedreht haben. Ach.
+@
+6
+1
+Ich kann nicht glauben, dass er es nicht geschafft hat.
+@
+0
+0
+Keine Sorge, du hast ja noch uns.
+@
+5
+1
+Kopf hoch, unser Team ist unschlagbar.
+@
+6
+1
+Mhm.
+@
+0
+0
+Gut, jetzt haben wir den Bootsschlüssel. Wir treffen uns später.
+@
+5
+1
+Wir ruhen uns erst mal aus. Bis später.
+@
+6
+1
+Bis gleich.
+@

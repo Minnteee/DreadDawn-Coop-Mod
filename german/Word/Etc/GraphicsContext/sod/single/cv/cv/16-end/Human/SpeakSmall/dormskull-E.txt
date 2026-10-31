@@ -1,0 +1,9 @@
+5,250,250,0.5
+Mit der Zeitung könnte man einen Molotowcocktail basteln.
+@
+16,250,250,0.5
+Aus dem Knochen ließe sich eine ganz brauchbare Waffe machen.
+@
+17,250,250,0.5
+Ich hab eine Schreibtischlampe gefunden, der Fuß dürfte nützlich sein.
+@

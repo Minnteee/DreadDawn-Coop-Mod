@@ -1,0 +1,42 @@
+0,270,270,0.5
+Geh da lieber nicht rein.
+@
+1,270,270,0.8
+Wir haben da drin vorhin nicht alle Zombies erledigt.
+@
+1,270,270,0.8
+Am besten gehst du nicht rein.
+@
+-1,270,270,0.5
+Danke für die Warnung.
+@
+0,270,270,0.5
+Wo willst du hin?
+@
+-1,270,270,0.8
+Ich will mir die Innenstadt ansehen.
+@
+1,270,270,0.8
+Die Innenstadt?
+@
+1,270,270,0.8
+Die Straße dorthin ist gesperrt.
+@
+0,270,270,0.5
+Du kommst nur über den U-Bahnhof hin.
+@
+1,270,270,0.8
+Da kommen wir gerade her.
+@
+1,270,270,0.8
+Am U-Bahn-Ausgang war früher ein Lager.
+@
+1,270,270,0.8
+Jetzt ist es zerstört.
+@
+0,270,270,0.5
+Sei lieber vorsichtig.
+@
+-1,270,2700,0.5
+Danke, mach ich.
+@

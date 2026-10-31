@@ -1,0 +1,24 @@
+0,210,250,0.5
+Nachts hör ich von da drüben Geräusche.
+@
+0,210,250,0.5
+Klingt, als wäre was im Obergeschoss.
+@
+1,200,200,0.5
+Ja, hab ich auch gehört.
+@
+2,210,200,0.5
+Sollen wir mal nachsehen?
+@
+0,210,150,0.5
+Hä?
+@
+2,200,180,0.5
+Nur kurz gucken, dann kommen wir gleich wieder.
+@
+1,210,200,0.5
+Warum siehst du nicht selbst nach?
+@
+2,210,25000,0.5
+Äh, dann lieber doch nicht.
+@

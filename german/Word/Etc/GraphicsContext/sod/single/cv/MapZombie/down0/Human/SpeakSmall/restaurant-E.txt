@@ -1,0 +1,42 @@
+0,500,500,0.5
+Wo zum Teufel ist Kim hin?
+@
+1,300,300,0.5
+Ich schätze, der ist tot.
+@
+2,300,300,0.5
+Halt die Klappe! Du siehst immer alles so schwarz.
+@
+1,300,300,0.5
+Und warum ist er dann noch nicht rausgekommen?
+@
+2,300,300,0.5
+Vielleicht hat er deine Schwarzmalerei nicht mehr ertragen!!
+@
+1,300,300,0.5
+Was? Willst du Streit, oder was?
+@
+2,300,100,0.5
+Von mir aus gern!
+@
+1,300,100,0.5
+Was zum Teufel soll das heißen!
+@
+2,300,100,0.5
+Ich kann dich einfach nicht leiden!
+@
+0,500,500,0.5
+Schon gut, schon gut! Könnt ihr zwei euch mal kurz beruhigen?
+@
+1,300,100,0.5
+......
+@
+2,300,300,0.5
+......
+@
+1,300,100,0.5
+......
+@
+2,300,3000,0.5
+......
+@

@@ -1,0 +1,18 @@
+0,150,150,0.5
+Keine Angst.
+@
+0,250,250,0.5
+Solange wir gut vorbereitet sind,
+@
+0,150,150,0.5
+kann nichts schiefgehen.
+@
+9,250,250,0.5
+Aber ich hab das Gefühl, gleich zu ersticken.
+@
+9,250,250,0.5
+Meine Hände zittern.
+@
+8,250,250,0.5
+Das ist ja noch nervenaufreibender als die Führerscheinprüfung.
+@

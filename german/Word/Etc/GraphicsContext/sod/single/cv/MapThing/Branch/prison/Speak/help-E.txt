@@ -1,0 +1,42 @@
+2
+1
+Kommandant:
+Jack! Kannst du mir einen Gefallen tun?
+@
+0
+0
+Was ist passiert?
+@
+2
+1
+Kommandant:
+Meine Leute haben beim Aufstellen der MG-Geschütze draußen Mist gebaut und beim Rückzug wichtige Dokumente liegen lassen.
+@
+0
+0
+Und? Können Sie die nicht einfach holen?
+@
+2
+1
+Kommandant:
+So einfach ist das nicht. Die Dokumente liegen direkt neben den Geschützen, und die Dinger sind Schrott ohne Freund-Feind-Erkennung.
+@
+2
+1
+Kommandant:
+Mit anderen Worten: Die schießen auf jeden, der in die Nähe kommt.
+@
+0
+0
+Das ist echt knifflig, aber ich versuch’s.
+@
+2
+1
+Kommandant:
+Großartig!
+@
+2
+1
+Kommandant:
+Nimm das. Ich warte hier auf dich, bis du zurück bist.
+@

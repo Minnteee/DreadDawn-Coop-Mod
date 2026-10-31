@@ -1,0 +1,24 @@
+9,150,190,0.5
+Verdammt.
+@
+9,190,220,0.5
+Ich wär lieber in der Schule geblieben.
+@
+9,190,210,0.5
+Ich halt’s hier nicht aus.
+@
+-1,190,200,0.5
+Ich auch nicht.
+@
+-1,220,230,0.5
+Hier gibt’s nicht mal eine Dusche...
+@
+9,190,200,0.5
+Ich halt das nicht aus!!!
+@
+9,190,210,0.5
+Dieses Klo stinkt!
+@
+-1,190,200000,0.5
+.....
+@

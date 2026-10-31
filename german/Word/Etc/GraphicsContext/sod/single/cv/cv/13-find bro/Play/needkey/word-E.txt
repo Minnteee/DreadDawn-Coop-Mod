@@ -1,0 +1,6 @@
+Die Tür ist abgeschlossen.
+Ich brauche einen Schlüssel.
+Hmm~
+Sieht so aus, als lägen alle Schlüssel für dieses Gebäude in einem Haus in der Nähe.
+Das muss ich finden.
+@

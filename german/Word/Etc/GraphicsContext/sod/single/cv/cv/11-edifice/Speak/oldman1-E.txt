@@ -1,0 +1,73 @@
+0
+0
+Entschuldigen Sie, wie komme ich von hier an die Oberfläche?
+@
+2
+1
+Obdachloser:
+Geh einfach den Weg zurück, den du gekommen bist.
+@
+0
+0
+???
+@
+2
+1
+Obdachloser:
+Haha, war nur ein Scherz.
+@
+2
+1
+Obdachloser:
+Du willst zum Redwood-Gebäude, stimmt’s?
+@
+0
+0
+Ja.
+@
+2
+1
+Obdachloser:
+Wie man da hinkommt, weiß ich auch nicht.
+@
+0
+0
+Hä?
+@
+2
+1
+Obdachloser:
+Aber ich kenne einen Weg in eine Gegend, wo lauter Hochhäuser stehen.
+@
+2
+1
+Obdachloser:
+Eine tolle Gegend. Die Leute sind reich, und wenn du sie um was bittest, kriegst du’s auch. Die Mülltonnen sind voller leckerer Sachen, hehe.
+@
+2
+1
+Obdachloser:
+Und außerdem...
+@
+0
+0
+...Schon gut, schon gut, hab’s verstanden. Ich will nur wissen, wie ich da hinkomme.
+@
+2
+1
+Obdachloser:
+Ach so, ach so, ach so – geh nach oben. Da ist eine Leiter, die kannst du hochklettern.
+@
+0
+0
+Vielen, vielen Dank. Ohne Sie wäre ich hier unten vielleicht gestorben.
+@
+2
+1
+Obdachloser:
+Keine Ursache. Ach ja, vergiss nicht, mir auf dem Rückweg was Leckeres aus den Mülltonnen mitzubringen.
+@
+0
+0
+...Äh, klar, kein Problem...
+@

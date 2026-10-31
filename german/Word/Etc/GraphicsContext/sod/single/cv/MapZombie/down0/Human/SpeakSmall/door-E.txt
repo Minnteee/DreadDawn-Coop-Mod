@@ -1,0 +1,6 @@
+0,300,300,1
+Verdammt, die Tür ist blockiert!
+@
+1,300,300,1
+Sei leise, sonst lockst du die Zombies an.
+@

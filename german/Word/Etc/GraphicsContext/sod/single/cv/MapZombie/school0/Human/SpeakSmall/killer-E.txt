@@ -1,0 +1,18 @@
+1,200,200,0.5
+Wenn hier jemand vorbeikommt, wie wär’s, wenn wir ihn einfach ausrauben?
+@
+0,210,200,0.5
+Gute Idee, unsere Vorräte werden eh knapp.
+@
+2,210,200,0.5
+Mal sehen, ob uns ein Trottel direkt in die Falle läuft, haha.
+@
+1,200,200,0.5
+Hahaha.
+@
+0,210,200,0.5
+Haha.
+@
+2,210,600,0.5
+Hahahaha.
+@

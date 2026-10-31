@@ -1,0 +1,6 @@
+Zum Freischalten benötigte Herstellungspunkte:
+Deine Herstellungspunkte:
+Herstellungspunkte erhältst du durch Bücher.
+@
+Du musst zuerst den Gegenstand im roten Kasten herstellen, um dieses Rezept freizuschalten.
+@

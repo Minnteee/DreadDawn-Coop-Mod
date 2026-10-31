@@ -1,0 +1,37 @@
+0
+0
+Hey, alles okay?
+@
+2
+1
+Ich, ich
+@
+2
+1
+Dieser verdammte Zombie hat mich gebissen, verdammt, ich hätte nicht so unvorsichtig sein dürfen...
+@
+0
+0
+Schon gut, ich kann dich zurückbringen, damit du behandelt wirst.
+@
+2
+1
+Nein... ich will niemandem zur Last fallen... Ich will nur noch eine letzte Sache erledigen, bevor ich sterbe...
+@
+0
+0
+Sag schon, ich erledige das für dich.
+@
+2
+1
+Nimm diese Kette... und leg sie auf Alisas Grab... sag ihr, dass ich gekommen bin, um sie zu finden...
+Ich kann dir auch etwas dafür geben, wenn du mir hilfst...
+@
+0
+0
+Okay, ich verspreche dir, ich mach’s.
+@
+2
+1
+Danke, du bist wirklich ein guter Mensch.
+@

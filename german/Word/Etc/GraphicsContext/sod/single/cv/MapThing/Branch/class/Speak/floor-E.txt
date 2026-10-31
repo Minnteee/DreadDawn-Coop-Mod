@@ -1,0 +1,28 @@
+0
+0
+Hey, was ist hier los?
+@
+2
+1
+Die Studenten im oberen Stock haben sich infiziert und sind zu Zombies geworden.
+@
+0
+0
+Was? Die Armen.
+@
+2
+1
+Wir befürchten, dass die Zombies von dort runterkommen, und dann wird’s gefährlich.
+@
+2
+1
+Wir müssen die Zombies im oberen Stock sofort ausschalten.
+@
+0
+0
+Dabei kann ich helfen.
+@
+2
+1
+Da oben sind auch Leute von uns. Nimm diesen Baseballschläger und pass auf dich auf.
+@

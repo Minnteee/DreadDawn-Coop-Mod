@@ -1,0 +1,37 @@
+0
+0
+Hallo, der Hauptmann aus dem Gefängnis schickt mich.
+@
+0
+0
+Er sagt, er hat Ihnen mehrmals Funksprüche geschickt, aber Sie haben nicht geantwortet. Deshalb soll ich nachsehen, was los ist.
+@
+0
+0
+Übrigens sollten Sie wissen, dass das Gefängnis von Unmengen Zombies umzingelt ist.
+@
+2
+1
+Soldat:
+Unser Lager wurde gestern von Zombies angegriffen, wir hatten schwere Verluste. Und das Funkgerät ist auch kaputt.
+@
+2
+1
+Er will wohl, dass wir die vorherige Mission abschließen. Muss dringend sein.
+@
+2
+1
+Mal sehen...
+@
+2
+1
+Kein Problem, wir können bald aufbrechen.
+@
+2
+1
+Ruh dich da drüben aus. Der weite Weg hierher war bestimmt anstrengend. Nimm dir ruhig Medikamente und Vorräte.
+@
+2
+1
+Danach kannst du zurückgehen und ihm sagen, dass hier alles in Ordnung ist.
+@

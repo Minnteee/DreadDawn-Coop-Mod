@@ -1,0 +1,6 @@
+34,250,250,0.5
+Wir werden doch nicht sterben, oder?
+@
+34,250,450,0.5
+Gott steh uns bei, Gott steh uns bei.
+@

@@ -1,0 +1,27 @@
+119,220,220,0.5
+Als ich aus der Richtung kam, hab ich ein riesiges Monster gesehen!
+@
+90,180,230,0.5
+War’s ein Zombie in Polizeiuniform?
+@
+119,220,220,0.5
+Nein, das war noch größer!
+@
+119,220,220,0.5
+Viel größer!
+@
+91,230,280,0.5
+Im Ernst?
+@
+119,220,280,0.5
+Gott, ich wär fast vor Angst gestorben
+@
+90,220,280,0.5
+Verdammt, in dieser Apokalypse gibt’s echt jeden Scheiß
+@
+91,220,380,0.5
+Hoffentlich lauf ich dem nicht über den Weg
+@
+119,220,3080,0.5
+Hoffen wir’s...
+@

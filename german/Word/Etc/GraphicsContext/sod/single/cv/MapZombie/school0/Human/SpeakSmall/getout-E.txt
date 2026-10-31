@@ -1,0 +1,12 @@
+0,210,250,0.5
+Was machen wir jetzt? Die Straßen sind alle gesperrt.
+@
+1,200,100,0.5
+Wir sind verloren.
+@
+2,210,200,0.5
+Wir sollten einfach warten, bis uns jemand rettet.
+@
+0,210,25000,0.5
+Was anderes bleibt uns nicht übrig. So kommen wir hier nicht raus.
+@

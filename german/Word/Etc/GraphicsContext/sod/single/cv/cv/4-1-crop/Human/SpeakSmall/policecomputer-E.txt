@@ -1,0 +1,18 @@
+1,120,220,0.5
+Wie ist der denn kaputtgegangen?
+@
+4,120,260,0.5
+Meiner ist auch kaputt.
+@
+5,120,220,0.5
+Was ist hier los?
+@
+1,420,440,0.5
+Hör zu: Wenn er das nächste Mal hängt, hau nicht auf den Computer!
+@
+4,320,350,0.5
+Ich hab nicht draufgehauen, jedenfalls nicht fest!
+@
+5,320,1600,0.5
+Du natürlich nicht – du hast ja auf den Bildschirm gehauen.
+@

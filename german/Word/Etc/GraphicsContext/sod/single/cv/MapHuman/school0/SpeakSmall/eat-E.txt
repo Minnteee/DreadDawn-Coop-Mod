@@ -1,0 +1,21 @@
+28,150,40,0.5
+Macht mal hin da vorne.
+@
+49,150,60,0.5
+Ich hab so einen Hunger...
+@
+37,150,120,0.5
+Warum ist das noch nicht fertig?
+@
+34,150,160,0.5
+Wie viel ist noch übrig?
+@
+45,150,190,0.5
+Ich verhungere.
+@
+27,150,180,0.5
+Ohne Chili, bitte.
+@
+49,150,180,0.5
+Was soll der Mist?
+@

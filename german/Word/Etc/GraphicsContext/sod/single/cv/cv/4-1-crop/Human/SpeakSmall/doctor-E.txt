@@ -1,0 +1,15 @@
+7,250,250,0.5
+Gibt es noch Hoffnung für mich?
+@
+6,250,250,0.5
+Schwer zu sagen
+@
+6,200,200,0.5
+Die Wunde ist tief
+@
+6,250,250,0.5
+Mit den Mitteln hier kriegen wir das vielleicht nicht hin
+@
+7,250,1250,0.5
+Ach~
+@

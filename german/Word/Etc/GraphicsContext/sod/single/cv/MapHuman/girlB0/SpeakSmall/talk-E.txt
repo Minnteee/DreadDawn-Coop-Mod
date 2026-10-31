@@ -1,0 +1,30 @@
+5,190,210,0.5
+Hey, hast du schon gehört?
+@
+5,220,240,0.5
+Im Netz liest man gerade von lauter krassen Vorfällen.
+@
+5,200,220,0.5
+Und manche Leute werden gebissen.
+@
+6,190,200,0.5
+Hab davon gehört.
+@
+6,200,210,0.5
+Keine Ahnung, ob das stimmt.
+@
+5,230,250,0.5
+Weiß nicht, vielleicht dreht da nur jemand ein Prank-Video.
+@
+6,220,230,0.5
+Haha, die Leute haben echt zu viel Langeweile.
+@
+6,190,150,0.5
+Wenn ihnen langweilig ist, sollen sie halt schlafen.
+@
+5,200,230,0.5
+Pfft, hahahaha.
+@
+6,200,2300000,0.5
+.....
+@

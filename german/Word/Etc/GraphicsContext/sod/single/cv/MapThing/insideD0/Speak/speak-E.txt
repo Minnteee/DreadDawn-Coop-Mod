@@ -1,0 +1,9 @@
+2
+1
+Bandit:
+Raus hier, sonst bring ich dich um!
+@
+0
+0
+Nein!
+@

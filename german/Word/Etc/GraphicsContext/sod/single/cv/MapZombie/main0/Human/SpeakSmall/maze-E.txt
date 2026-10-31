@@ -1,0 +1,21 @@
+1,300,300,0.5
+Sollen wir’s noch mal versuchen?
+@
+1,300,300,0.5
+Vielleicht schicken sie diesmal jemanden, der uns rettet.
+@
+0,300,300,0.5
+Echt?
+@
+0,300,300,0.5
+Den Ort hier kann man gut verteidigen.
+@
+0,300,300,0.5
+Aber wir haben keine Waffen gegen die Zombies.
+@
+1,300,300,0.5
+Aber was sollen wir sonst machen, wenn wir’s nicht versuchen?
+@
+0,300,3000,0.5
+Wir sollten trotzdem vorsichtig sein.
+@

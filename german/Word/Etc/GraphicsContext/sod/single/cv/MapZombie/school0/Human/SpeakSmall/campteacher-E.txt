@@ -1,0 +1,51 @@
+1,300,270,0.5
+Wie können wir diese Zombies töten?
+@
+3,300,130,0.5
+Müssen wir auf den Kopf zielen?
+@
+2,300,300,0.5
+Kopfschüsse?
+@
+0,300,300,0.5
+Nicht unbedingt, man muss nicht immer auf den Kopf zielen.
+@
+2,300,300,0.5
+Aber heißt es in Filmen nicht immer, man muss den Kopf treffen?
+@
+0,300,170,0.5
+Filme? Warum sagst du nicht gleich Spiele?
+@
+1,300,300,0.5
+Und was sollen wir jetzt machen?
+@
+3,300,300,0.5
+Ja, was genau sollen wir machen?
+@
+0,300,300,0.5
+Hört zu, Zombies haben einen schlechten Gleichgewichtssinn.
+@
+0,300,300,0.5
+Wir müssen sie nur schubsen, dann fallen sie um.
+@
+0,300,300,0.5
+Dann könnt ihr mit ihnen machen, was ihr wollt.
+@
+1,300,70,0.5
+??
+@
+3,300,70,0.5
+Hä?
+@
+2,300,300,0.5
+Umschubsen?
+@
+3,300,300,0.5
+Damit hast du so gut wie gar nichts gesagt.
+@
+1,300,300,0.5
+Genau.
+@
+0,300,3000,0.5
+........
+@

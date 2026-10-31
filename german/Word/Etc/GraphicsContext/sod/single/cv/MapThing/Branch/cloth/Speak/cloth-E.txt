@@ -1,0 +1,32 @@
+2
+1
+?? Hey! Wer bist du?!
+@
+0
+0
+Ich bin....
+@
+2
+1
+Komm nicht näher! Ich hab nichts an...
+@
+0
+0
+Hä?... Sorry, das war keine Absicht. Ich dachte, hier ist niemand...
+@
+2
+1
+...Na gut, tu mir einen Gefallen...
+@
+0
+0
+??
+@
+2
+1
+...Kannst du mir meine Sachen holen? Die liegen gleich bei der Tür.
+@
+0
+0
+...Oh, okay...
+@

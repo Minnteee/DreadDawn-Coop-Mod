@@ -1,0 +1,6 @@
+-1,160,250,0.5
+Unheimlich.
+@
+-1,160,25000000,0.5
+Ich bleib lieber draußen.
+@

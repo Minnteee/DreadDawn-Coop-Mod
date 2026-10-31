@@ -1,0 +1,21 @@
+0,300,300,0.5
+Willst du damit sagen, dass keiner geschossen hat?
+@
+1,300,300,0.5
+Natürlich, keiner hat geschossen.
+@
+1,300,300,0.5
+Ich kann Zombies und Menschen auseinanderhalten.
+@
+0,300,300,0.5
+Was zum Teufel war das dann? Ich hab eindeutig Schüsse gehört.
+@
+1,300,300,0.5
+Verdammt, da hat bestimmt jemand Mist gebaut.
+@
+1,300,300,0.5
+Deswegen sind so viele Leute gestorben.
+@
+0,300,1000,0.5
+Warum gibt’s nur so viele Irre? Verdammt.
+@

@@ -1,0 +1,23 @@
+0
+0
+Was ist denn hier passiert?
+@
+2
+1
+Ladenbesitzer:
+Nimm dich vor den Leuten hier in Acht. Die sind hier eingefallen, haben alle Männer umgebracht und nur die Frauen übrig gelassen.
+@
+2
+1
+Ladenbesitzer:
+Was willst du hier?
+@
+0
+0
+Ich hab ein Boot und brauche Benzin und so. Dass es hier so gefährlich ist, wusste ich nicht, als ich reinkam.
+@
+2
+1
+Ladenbesitzer:
+Na dann, viel Glück.
+@

@@ -1,0 +1,12 @@
+0,500,500,0.5
+Ah! Das tut so weh!!!
+@
+1,300,300,0.5
+Halt durch, wir haben keine Medikamente mehr übrig.
+@
+2,300,300,0.5
+Wir müssen sie sofort ins Krankenhaus bringen.
+@
+3,300,300,0.5
+Klappe! Lockt nicht die Zombies an!
+@

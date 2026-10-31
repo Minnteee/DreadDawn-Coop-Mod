@@ -1,0 +1,57 @@
+3,240,240,0.5
+Lass uns Schluss machen!
+@
+4,240,240,0.5
+?? Was soll das denn jetzt wieder?
+@
+3,340,340,0.5
+Ich mein’s ernst, lass uns Schluss machen!
+@
+4,240,240,0.5
+Ach, geht das schon wieder los, ja?
+@
+4,240,240,0.5
+Ich bin doch nicht absichtlich zu spät gekommen.
+@
+4,240,240,0.5
+Das lag am Verkehr.
+@
+4,240,240,0.5
+Seit gestern Nachmittag steht die ganze Stadt im Stau.
+@
+3,240,240,0.5
+Das glaub ich dir nicht, das ist jedes Mal so.
+@
+4,240,240,0.5
+Echt jetzt, schau in die Nachrichten, wenn du mir nicht glaubst.
+@
+4,440,440,0.5
+Die haben irgendwas von Zombies erzählt, einer Zombie-Show, irgendeiner Zombie-Parade oder so.
+@
+4,240,240,0.5
+Ich kapier nicht, was an einer Zombie-Show so toll sein soll.
+@
+4,240,240,0.5
+Ist doch nicht mal echt.
+@
+3,240,240,0.5
+.....
+@
+3,240,240,0.5
+Eine Zombie-Show? Jetzt denkst du dir echt schon was aus.
+@
+3,240,240,0.5
+So oder so, mit uns ist es aus!
+@
+4,240,240,0.5
+.....
+@
+4,240,240,0.5
+.....
+@
+4,240,240,0.5
+.....
+@
+3,240,2400,0.5
+.....
+@

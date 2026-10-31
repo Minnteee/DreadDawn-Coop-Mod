@@ -1,0 +1,24 @@
+29,140,30,0.5
+Was zum Teufel ist das da draußen?
+@
+32,140,80,0.5
+Schaut mal da drüben!
+@
+19,150,170,0.5
+Ist das die Apokalypse?
+@
+15,150,50,0.5
+Mama, hilf mir....
+@
+6,150,80,0.5
+Verdammt, wir sind umzingelt.
+@
+27,150,130,0.5
+Ich trau mich nicht raus.
+@
+8,150,150,0.5
+Verdammt!
+@
+23,150,120,0.5
+O mein Gott!
+@

@@ -1,0 +1,12 @@
+0,300,300,0.5
+Guck mich nicht so an!
+@
+0,300,300,0.5
+Ich war’s nicht!
+@
+0,300,300,0.5
+Er ist selbst auf mich losgegangen.
+@
+0,300,600,0.5
+Ich hatte keine Wahl!!!
+@

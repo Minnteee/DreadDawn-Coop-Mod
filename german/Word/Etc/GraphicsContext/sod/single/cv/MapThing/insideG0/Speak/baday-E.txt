@@ -1,0 +1,32 @@
+0
+0
+Hey, wie geht’s dir?
+@
+2
+1
+Weg von mir! Mörder!
+@
+0
+0
+Was? Ich bin ein guter Mensch.
+@
+2
+1
+Wenn du es bis hierher geschafft hast, musst du jede Menge Zombies getötet haben. Du bist ein Mörder.
+@
+0
+0
+Die Dinger da draußen sind keine Menschen.
+@
+2
+1
+Genug! Du kommst in die Hölle!
+@
+0
+0
+.....
+@
+0
+0
+Das ist doch verrückt.
+@

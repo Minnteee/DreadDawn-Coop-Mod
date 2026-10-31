@@ -1,0 +1,21 @@
+-1,250,200,0.5
+Wie geht’s euch allen?
+@
+0,250,10,0.5
+Alles gut.
+@
+1,250,10,0.5
+Sollen sie nur kommen.
+@
+18,250,10,0.5
+Alles gut.
+@
+15,250,10,0.5
+Ich krieg kaum Luft.
+@
+5,250,10,0.5
+Meine Hände zittern.
+@
+31,250,610,0.5
+Ich hab solche Angst.
+@

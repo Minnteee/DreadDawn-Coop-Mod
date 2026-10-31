@@ -1,0 +1,28 @@
+0
+0
+Ist das die Medizin?
+@
+2
+1
+Hä? Nein, das ist sie nicht!
+@
+0
+0
+Echt? Ich hab das im Zelt gegenüber gefunden.
+@
+2
+1
+Vielleicht ist sie verloren gegangen, verdammt!
+@
+0
+0
+Soll ich noch mal nachsehen?
+@
+2
+1
+Vergiss es, wir hatten eh kaum noch Medizin. Selbst wenn du sie findest, ist da wahrscheinlich nicht viel.
+@
+2
+1
+Trotzdem danke. Du bist der Einzige, der uns helfen wollte. Behalt die Sachen einfach.
+@

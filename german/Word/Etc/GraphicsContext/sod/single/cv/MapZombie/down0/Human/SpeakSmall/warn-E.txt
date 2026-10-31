@@ -1,0 +1,15 @@
+0,300,300,0.5
+Hey, hey, hey! Nicht so laut.
+@
+0,300,300,0.5
+Oben ist irgendwas Komisches!!
+@
+0,300,300,0.5
+Hey, wo kommst du her?
+@
+-1,300,300,0.5
+Ich komme von der Menghom-Universität.
+@
+0,300,3000,0.5
+Verdammt, Mann, du hast echt Mumm.
+@

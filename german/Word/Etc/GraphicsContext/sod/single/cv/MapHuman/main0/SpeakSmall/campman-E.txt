@@ -1,0 +1,21 @@
+0,220,220,0.5
+Das funktioniert einfach nicht!
+@
+1,220,220,0.5
+Warum nicht?
+@
+0,220,220,0.5
+Die Brücke da drüben ist komplett von Zombies blockiert.
+@
+2,180,230,0.5
+Vielleicht können wir mit einem Boot zur Insel fahren.
+@
+2,180,230,0.5
+Von hier ist es nicht weit bis zur Küste.
+@
+0,220,220,0.5
+Das kommt nicht in Frage!
+@
+0,220,2200,0.5
+Ich hab keine Lust, mich umbringen zu lassen.
+@

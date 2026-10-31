@@ -1,0 +1,55 @@
+2
+0
+Soldat:
+Alle mal herhören!
+@
+2
+0
+Soldat:
+Die Schule ist im Moment gefährlich.
+@
+2
+0
+Soldat:
+Wir müssen die Schule absichern.
+@
+2
+0
+Soldat:
+Ab sofort befolgen alle meine Befehle!
+@
+2
+0
+Soldat:
+Wir haben neue Befehle: Innerhalb von 72 Stunden werden wir evakuiert.
+@
+2
+0
+Soldat:
+Bis zur Evakuierung bauen wir in der Schule Verteidigungsanlagen und schlagen ein Lager auf.
+@
+2
+0
+Soldat:
+Wer nicht gehorcht, landet draußen vor dem Schultor!
+@
+2
+0
+Soldat:
+Verstanden?!
+@
+2
+1
+Studenten:
+Verstanden!
+@
+2
+0
+Soldat:
+Gut! Alle zum Nordcampus!
+@
+2
+0
+Soldat:
+Abmarsch!
+@

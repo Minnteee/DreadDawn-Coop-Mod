@@ -1,0 +1,39 @@
+118,220,180,0.5
+Es war an diesem einen Tag.
+@
+118,220,180,0.5
+In den Nachrichten hieß es, es gäbe Zombies.
+@
+118,220,180,0.5
+Deine Mutter und ich haben uns zu Hause versteckt.
+@
+118,220,180,0.5
+Ich hab alle Türen und Fenster mit Brettern vernagelt.
+@
+118,220,180,0.5
+Aber die Dinger sind trotzdem reingekommen.
+@
+118,220,180,0.5
+Sie wurde in den Arm gebissen.
+@
+118,320,380,0.5
+Ich musste tun, was ich getan habe.
+@
+115,180,230,0.5
+Es ist nicht deine Schuld.
+@
+115,230,280,0.5
+Ich hätte an deiner Stelle dasselbe getan.
+@
+118,220,280,0.5
+Ich hoffe, sie kann mir verzeihen.
+@
+115,220,280,0.5
+Mach dir keine Sorgen.
+@
+115,220,380,0.5
+Es wird alles wieder gut.
+@
+118,220,3080,0.5
+......
+@

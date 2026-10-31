@@ -1,0 +1,24 @@
+1,160,220,0.5
+Hey! Wer bist du?
+@
+-1,110,190,0.5
+Sorry, ich wusste nicht, dass hier jemand ist.
+@
+0,110,150,0.5
+Ganz ruhig.
+@
+0,110,150,0.5
+Wir sind nur vorsichtig.
+@
+0,110,190,0.5
+Hier in der Gegend gab’s Überfälle.
+@
+2,110,150,0.5
+Ja, gestern kam eine ganze Gruppe.
+@
+2,110,190,0.5
+Die haben hier alles verwüstet.
+@
+-1,110,19000,0.5
+Passt auf euch auf, Leute.
+@

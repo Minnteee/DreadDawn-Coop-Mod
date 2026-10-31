@@ -1,0 +1,28 @@
+2
+1
+Student
+Hey, willst du Zigaretten kaufen?
+(Leertaste zum Fortfahren)
+@
+2
+1
+Student
+Ich hab hier nur Zigaretten der Spitzenklasse.
+@
+0
+0
+Oh, danke, aber ich rauche nicht.
+@
+2
+1
+Student
+Wie wär’s dann mit ein paar Snacks?
+@
+0
+0
+??? Du verkaufst Snacks im Wohnheim?
+@
+0
+0
+Lass mal sehen.
+@

@@ -1,0 +1,12 @@
+0,300,300,1
+Oh mein Gott, kannst du mal leiser sein?
+@
+1,300,300,1
+Du lockst noch die Zombies an!
+@
+0,300,300,1
+Psst!
+@
+0,300,3000,1
+Klingt, als wäre da etwas ...
+@

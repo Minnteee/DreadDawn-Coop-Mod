@@ -1,0 +1,38 @@
+0
+0
+Sieht aus, als wären da Leute drin.
+@
+0
+0
+Hey!!! Seid ihr Zombies oder Menschen? Antwortet, wenn ihr mich hört!!!
+@
+2
+1
+Gott sei Dank, endlich kommt jemand, um uns zu retten!!!
+@
+0
+0
+Seid ihr euch so sicher, dass ich euch helfe?
+@
+2
+1
+Du musst uns retten. Unser Kumpel hat die Tür von innen abgeschlossen, und jetzt wissen wir nicht, wo er ist!
+Aber keine Sorge, wir haben einen Ersatzschlüssel.
+@
+0
+0
+Wenn ihr einen Ersatzschlüssel habt, warum kommt ihr dann nicht einfach raus?
+@
+2
+1
+Na ja... wir haben ihn irgendwo verlegt, aber er ist ganz sicher hier auf dem Stockwerk.
+Guter Samariter, du musst uns helfen. Ich geb dir dafür jede Menge gute Sachen.
+@
+0
+0
+Schon gut, schon gut. Ihr wartet hier, und ich seh mich mal um.
+@
+2
+1
+Tausend Dank!!!
+@

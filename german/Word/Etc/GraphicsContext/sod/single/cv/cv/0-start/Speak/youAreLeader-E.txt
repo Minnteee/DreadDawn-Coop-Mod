@@ -1,0 +1,82 @@
+0
+0
+Das war echt knapp, fast hätte mich einer gebissen...
+@
+2
+1
+Soldat:
+Zum Glück sind wir schnell gerannt, sonst wären wir jetzt das kalte Büfett...
+@
+2
+1
+Soldat:
+Junge, warst du schon mal beim Militär? Du hast echt was drauf.
+@
+0
+0
+Ich? Ich war noch nie beim Militär.
+@
+2
+1
+Soldat:
+Echt nicht? Du warst so schnell, wir sind kaum hinterhergekommen.
+@
+0
+0
+Hehe, zählen die Pfadfinder? In der Mittelstufe war ich bei den Pfadfindern.
+@
+2
+1
+Soldat:
+Klar, das zählt!
+@
+0
+0
+Sir, warum fragen Sie das?
+@
+2
+1
+Soldat:
+Die Lage ist ernst, wir müssen in der Schule nach weiteren Überlebenden suchen.
+@
+2
+1
+Soldat:
+Wir brauchen jemand Fähigen, der hier auf die Leute aufpasst, und du bist ein guter Kandidat.
+@
+0
+0
+Ich? Ich war doch nur bei den Pfadfindern...
+@
+2
+1
+Soldat:
+Na und? Auch die Pfadfinder haben eine Rangordnung.
+@
+2
+1
+Soldat:
+Du machst das, keine Widerrede.
+@
+0
+0
+Ich??....
+@
+2
+1
+Soldat:
+Wir kommen bald zurück und holen dich. Pass gut auf die Leute hier auf.
+@
+0
+0
+Hä??
+@
+2
+1
+Soldat:
+Hast du mich verstanden?!
+@
+0
+0
+Ja... jawohl, Sir...
+@

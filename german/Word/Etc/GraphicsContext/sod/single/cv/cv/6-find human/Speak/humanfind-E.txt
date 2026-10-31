@@ -1,0 +1,21 @@
+0
+0
+Ich hab Helfer gefunden.
+@
+2
+1
+Sehr gut,
+mein Team wartet schon vor Ort auf dich. Geh zur Straße im Westviertel, dort findest du sie. Sie sagen dir, was zu tun ist.
+@
+2
+1
+Hilf ihnen dabei, dann bekommst du ein Ticket für die Evakuierung.
+@
+0
+0
+Ich hoffe für Sie, dass Sie mich nicht anlügen.
+@
+2
+1
+Natürlich, ich halte mein Versprechen.
+@

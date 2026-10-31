@@ -1,0 +1,15 @@
+0,300,300,0.5
+Wir können einen Zombie herbringen und ihn untersuchen.
+@
+0,300,300,0.5
+Vielleicht kann dieses Gerät Unterschiede feststellen.
+@
+1,300,300,0.5
+Vorsicht, das Gerät steht unter Hochspannung.
+@
+0,300,300,0.5
+Keine Sorge, ich bin seit Jahren Arzt.
+@
+0,300,600,0.5
+Ich kenne das Gerät genau, da gibt’s keinen Kurzschluss.
+@

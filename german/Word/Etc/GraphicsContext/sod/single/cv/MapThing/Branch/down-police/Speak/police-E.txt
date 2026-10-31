@@ -1,0 +1,23 @@
+0
+0
+Hallo, Officer. Gibt es hier in der Nähe irgendwelche Vorräte?
+@
+2
+1
+Polizist:
+Vorräte?
+@
+2
+1
+Polizist:
+Ich kenne ein Haus hier in der Nähe. Als ich aus der Richtung kam, hab ich dort ein paar Leute gesehen. Vielleicht haben die die Vorräte, die du brauchst.
+@
+2
+1
+Polizist:
+Es ist nur ein paar hundert Meter in die Richtung.
+@
+0
+0
+Okay, danke.
+@

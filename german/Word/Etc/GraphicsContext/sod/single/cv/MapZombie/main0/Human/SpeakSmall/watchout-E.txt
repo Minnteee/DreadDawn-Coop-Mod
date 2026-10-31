@@ -1,0 +1,18 @@
+0,300,300,0.5
+Hey, pass auf!
+@
+1,300,300,0.5
+Hier ist es gefährlich!
+@
+-1,300,300,0.5
+Was ist los?
+@
+0,300,300,0.5
+Wir haben oben was Komisches gehört.
+@
+0,300,300,0.5
+Wenn du reingehst, sei auf der Hut.
+@
+-1,300,6000,0.5
+Verstanden, danke.
+@

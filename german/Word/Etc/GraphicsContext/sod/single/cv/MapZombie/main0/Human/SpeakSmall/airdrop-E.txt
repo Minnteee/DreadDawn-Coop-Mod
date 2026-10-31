@@ -1,0 +1,24 @@
+0,300,300,0.5
+Willst du es wirklich noch mal versuchen?
+@
+0,300,200,0.5
+Bist du sicher, dass diesmal Rettung kommt und nicht wieder nur ein Versorgungsabwurf?
+@
+0,300,300,0.5
+Oder noch schlimmer, eine ganze Zombiehorde?
+@
+1,300,300,0.5
+Sicher bin ich nicht, aber wir brauchen Rettung.
+@
+2,300,300,0.5
+Ich finde, wir sollten lieber vorsichtig sein.
+@
+2,300,300,0.5
+Wir sollten das Ding jetzt lieber nicht anrühren.
+@
+2,300,300,0.5
+Darum können wir uns kümmern, wenn wir bereit sind.
+@
+1,300,2000,0.5
+Na gut, lassen wir es erst mal in Ruhe.
+@

@@ -1,0 +1,21 @@
+1,300,300,0.5
+Sind wir hier sicher?
+@
+1,300,300,0.5
+Ich hab ein bisschen Angst.
+@
+0,300,300,0.5
+Keine Sorge, hier kommt von keiner Seite was rein.
+@
+0,300,300,0.5
+Hier sind wir total sicher.
+@
+1,300,300,0.5
+Hoffentlich. Ich will nur nicht, dass es wieder so wird wie letztes Mal …
+@
+1,300,300,0.5
+... als ein Zombie vom Himmel gefallen ist.
+@
+0,300,2000,0.5
+Chill mal, Mann, du wirst langsam paranoid.
+@

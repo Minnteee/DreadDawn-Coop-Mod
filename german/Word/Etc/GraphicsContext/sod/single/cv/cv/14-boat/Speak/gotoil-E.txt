@@ -1,0 +1,24 @@
+0
+0
+Habt ihr hier noch mehr Benzin?
+@
+2
+1
+Nein, das ist alles, was wir haben.
+@
+0
+0
+Na gut, dann fahr ich mit dem Boot eben so weit, wie ich komme. Danke euch allen.
+@
+2
+1
+Wir müssen dir danken. Ohne dich hätten wir es nie aus der Schule rausgeschafft.
+@
+0
+0
+Dann machen wir uns auf den Rückweg.
+@
+2
+1
+Macht’s gut!
+@

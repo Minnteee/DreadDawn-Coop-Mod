@@ -1,0 +1,42 @@
+0,200,200,0.5
+Nein, nein, nein!!
+@
+0,300,300,0.5
+Warum hat Mark uns verlassen?!
+@
+1,300,300,0.5
+Keine Sorge, vielleicht ist er nur kurz weg.
+@
+2,300,300,0.5
+Aber das ist schon über zehn Stunden her.
+@
+0,300,300,0.5
+Verdammt! Dieser undankbare Mistkerl!
+@
+1,300,300,0.5
+Beruhig dich, Mark würde uns nicht einfach so im Stich lassen.
+@
+2,300,200,0.5
+Ich wette, der ist allein abgehauen.
+@
+0,300,100,0.5
+Nein, nein!
+@
+1,300,300,0.5
+Sag so was nicht!!!
+@
+1,300,300,0.5
+Mark hat versprochen, dass er zurückkommt.
+@
+2,300,300,0.5
+Und du glaubst ihm seine Lügen?
+@
+1,300,300,0.5
+...
+@
+0,300,300,0.5
+Neeeein!!!
+@
+0,300,3000,0.5
+Neeeein!!!
+@

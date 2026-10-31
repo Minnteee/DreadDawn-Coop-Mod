@@ -1,0 +1,15 @@
+12,190,200,0.5
+Hey, weißt du was?
+@
+12,210,220,0.5
+Ich bin ein total unschuldiger Mensch, glaubst du das?
+@
+-1,190,200,0.5
+Glaub ich nicht.
+@
+12,220,210,0.5
+Wenn du’s nicht glaubst, warum guckst du dann heimlich auf mein Handy?
+@
+-1,230,2100000,0.5
+Hä? Sorry, ich geh schon...
+@

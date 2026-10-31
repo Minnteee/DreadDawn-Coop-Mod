@@ -1,0 +1,42 @@
+0,300,300,0.5
+Hey! Du da!
+@
+1,300,300,0.5
+Oh, super!
+@
+2,300,300,0.5
+Kannst du uns helfen?
+@
+-1,300,300,0.5
+Was soll ich denn tun?
+@
+0,300,300,0.5
+Wir wollen drinnen nachsehen,
+@
+0,300,300,0.5
+aber wir glauben, das könnte gefährlich sein.
+@
+0,300,300,0.5
+Deshalb hatten wir gehofft, dass du für uns nachsiehst.
+@
+-1,400,400,0.5
+Wieso ich? Könnt ihr nicht selbst gehen?
+@
+0,300,30,0.5
+Ich kann mich nicht bewegen.
+@
+2,300,30,0.5
+Meine Beine machen nicht so richtig mit.
+@
+1,300,300,0.5
+Meine Beine bringen mich um!
+@
+-1,300,300,0.5
+Verdammt, na gut.
+@
+-1,300,300,0.5
+Von euch hab ich eh nicht viel erwartet.
+@
+0,300,2000,0.5
+Na ja, ob du gehst oder nicht, ist deine Sache.
+@

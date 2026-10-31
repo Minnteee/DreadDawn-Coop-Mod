@@ -1,0 +1,63 @@
+0,300,300,0.5
+Verdammt, willst du dich umbringen lassen?!
+@
+1,300,300,0.5
+Es tut mir leid! Ich mach’s nie wieder!
+@
+1,300,300,0.5
+Bitte, verschont mich!
+@
+2,300,200,0.5
+Glaub ihr kein Wort, Boss, wir müssen sie uns vorknöpfen!
+@
+1,300,300,0.5
+Nein, nein!! Bitte, lasst mich gehen!
+@
+0,300,300,0.5
+Dich gehen lassen? Und was ist mit meinem Bruder?
+@
+0,300,300,0.5
+Wegen dir wurde er von einem Zombie gebissen.
+@
+0,300,300,0.5
+Also sag mir, wie willst du das wiedergutmachen?
+@
+1,300,100,0.5
+Es tut mir leid, ich ...
+@
+1,300,100,0.5
+Ich, ich ...
+@
+2,300,300,0.5
+Wie wär’s, wenn wir ein bisschen Spaß mit ihr haben? Haha.
+@
+0,300,200,0.5
+Was meinst du? Hm?
+@
+0,300,200,0.5
+Oder lieber mit ein paar von deinen Freunden? Haha.
+@
+1,300,100,0.5
+Bitte! Buhuhuhu ...
+@
+0,300,200,0.5
+Heulen? Das hilft dir auch nicht!
+@
+0,300,10,0.5
+Hahaha.
+@
+2,300,10,0.5
+Hahaha.
+@
+3,300,300,0.5
+Hahaha.
+@
+0,300,10,0.5
+Hahaha.
+@
+2,300,10,0.5
+Hahaha.
+@
+3,3000,3000,0.5
+Hahaha.
+@

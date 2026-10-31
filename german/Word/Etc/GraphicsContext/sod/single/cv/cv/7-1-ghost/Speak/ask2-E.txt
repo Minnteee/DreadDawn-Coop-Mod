@@ -1,0 +1,41 @@
+0
+0
+Hey, habt ihr hier jemanden in grünen Klamotten vorbeikommen sehen?
+@
+2
+1
+Studentin:
+Jemand in grünen Klamotten? Ich hab gerade jemanden in Grün zur Sporthalle gehen sehen.
+@
+2
+1
+Studentin:
+Warum fragst du eigentlich?
+@
+0
+0
+Das ist übel. Hier hat sich etwas Gefährliches eingeschlichen.
+@
+2
+1
+Studentin:
+Mach mir keine Angst! Was hat sich eingeschlichen?
+@
+0
+0
+Das Ding tarnt sich als Mensch und versteckt sich in der Schule.
+@
+2
+1
+Studentin:
+Im Ernst?!
+@
+0
+0
+Sucht euch schnell ein Versteck und geht allen anderen aus dem Weg.
+@
+2
+1
+Studentin:
+Danke für die Warnung!
+@

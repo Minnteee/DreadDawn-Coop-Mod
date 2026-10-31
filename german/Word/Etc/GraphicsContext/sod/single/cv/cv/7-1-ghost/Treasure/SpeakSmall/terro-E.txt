@@ -1,0 +1,9 @@
+-1,160,250,0.5
+Mann, das Skelett hat mich echt erschreckt.
+@
+-1,160,280,0.5
+Hab ich da was gehört?
+@
+-1,160,25000000,0.5
+Hier ist es echt unheimlich.
+@

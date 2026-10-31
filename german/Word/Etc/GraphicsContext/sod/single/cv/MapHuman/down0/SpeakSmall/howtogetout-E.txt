@@ -1,0 +1,24 @@
+30,280,280,0.5
+Wie kommen wir hier raus?
+@
+21,280,280,0.5
+Wenn wir alle rausgehen, locken wir einen riesigen Zombieschwarm an.
+@
+21,280,280,0.5
+Wir bleiben besser hier.
+@
+27,280,280,0.5
+Aber irgendwann müssen wir raus.
+@
+27,280,280,0.5
+Wo sollen wir sonst unser Essen herkriegen?
+@
+30,180,180,0.5
+.........
+@
+27,180,180,0.5
+.........
+@
+21,180,2800,0.5
+.........
+@

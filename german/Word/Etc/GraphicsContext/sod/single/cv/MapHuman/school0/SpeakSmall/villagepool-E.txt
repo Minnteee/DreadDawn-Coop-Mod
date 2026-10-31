@@ -1,0 +1,45 @@
+96,300,300,0.5
+Ich hab so einen Hunger.
+@
+96,300,300,0.5
+Ich könnte einen ganzen Hai verdrücken.
+@
+101,300,300,0.5
+Da drüben liegt ein toter Hai, warum isst du den nicht?
+@
+96,300,300,0.5
+Den Hai da?
+@
+96,300,300,0.5
+Der stinkt, den fass ich nicht an.
+@
+97,200,200,0.5
+Mal ehrlich.
+@
+97,300,300,0.5
+Wenn ich noch zwei Tage hungere, ess ich den Hai wahrscheinlich doch.
+@
+101,300,300,0.5
+Warum seid ihr so eklig?
+@
+96,200,200,0.5
+Ach komm.
+@
+96,300,300,0.5
+In zwei Tagen frisst du sogar die Maden auf dem Hai.
+@
+96,300,300,0.5
+Mit ’ner Suppe dazu bleiben nicht mal die Knochen übrig, haha.
+@
+101,300,100,0.5
+.........
+@
+97,300,300,0.5
+Würg, hör auf, ich muss gleich kotzen.
+@
+96,300,300,0.5
+.........
+@
+101,300,3000,0.5
+Ekelhaft.
+@

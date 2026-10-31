@@ -1,0 +1,15 @@
+0,170,190,0.5
+Mach schon!
+@
+0,160,220,0.5
+Schnell, schnell! Ich sterbe hier!
+@
+2,110,190,0.5
+Verdammt! Hilf ihm, schnell.
+@
+1,160,230,0.5
+Ich geb dir Deckung, keine Sorge.
+@
+2,110,300,0.5
+.....
+@

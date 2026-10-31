@@ -1,0 +1,15 @@
+0,300,300,0.5
+Hey! Alles okay bei dir?
+@
+1,200,200,0.5
+Mir ist total schlecht.
+@
+1,200,200,0.5
+Als würden Käfer in mir herumkrabbeln.
+@
+0,300,300,0.5
+Verdammt, du bist doch nicht etwa infiziert?
+@
+1,300,300,0.5
+Was? Nein!!
+@

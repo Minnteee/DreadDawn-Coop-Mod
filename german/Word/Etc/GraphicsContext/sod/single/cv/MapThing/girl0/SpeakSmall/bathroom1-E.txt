@@ -1,0 +1,6 @@
+-1,120,190,0.5
+Was mach ich hier eigentlich?...
+@
+-1,120,19000000,0.5
+Ach, egal.
+@

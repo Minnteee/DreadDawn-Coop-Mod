@@ -1,0 +1,6 @@
+-1,310,200,0.5
+Oh mein Gott!
+@
+-1,310,25000,0.5
+Was ist das denn für eine Sauerei?
+@

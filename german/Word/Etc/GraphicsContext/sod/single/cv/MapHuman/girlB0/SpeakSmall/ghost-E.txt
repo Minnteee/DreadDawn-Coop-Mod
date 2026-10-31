@@ -1,0 +1,45 @@
+132,180,180,0.5
+Hey! Kumpel!
+@
+132,230,240,0.5
+Lust, unserem Paranormal-Club beizutreten?
+@
+-1,200,200,0.5
+Was macht ihr denn im Paranormal-Club?
+@
+133,190,200,0.5
+Stehst du auf Geisterjagd?
+@
+-1,190,200,0.5
+Klingt interessant.
+@
+133,230,210,0.5
+Wir wollen uns heute Nacht den Dachboden ansehen.
+@
+134,190,190,0.5
+Ja! Da oben gibt’s immer seltsame Geräusche.
+@
+134,200,200,0.5
+Kommst du nicht mit?
+@
+132,180,180,0.5
+Mitmachen kostet nichts.
+@
+-1,200,210,0.5
+Klar, ich spiel vorher noch ’ne Runde Basketball.
+@
+-1,190,190,0.5
+Ich komm dann später zu euch.
+@
+134,200,10,0.5
+Super.
+@
+132,230,10,0.5
+Juhu!
+@
+133,210,230,0.5
+Du bist ein echter Freund!
+@
+132,230,100000,0.5
+Je mehr, desto lustiger!
+@

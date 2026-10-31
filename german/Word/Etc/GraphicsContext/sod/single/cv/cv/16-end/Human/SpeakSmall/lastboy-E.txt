@@ -1,0 +1,18 @@
+-1,250,200,0.5
+Sind alle bereit?
+@
+37,250,10,0.5
+Kein Problem.
+@
+22,250,10,0.5
+Sollen sie nur kommen.
+@
+7,250,10,0.5
+Kein Problem.
+@
+32,250,10,0.5
+Ein Kinderspiel.
+@
+23,250,610,0.5
+Klar doch, kein Problem.
+@

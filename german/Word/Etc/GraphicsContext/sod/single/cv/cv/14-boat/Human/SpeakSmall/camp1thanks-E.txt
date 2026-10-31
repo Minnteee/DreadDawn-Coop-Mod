@@ -1,0 +1,9 @@
+6,250,250,0.5
+Hey, Jack
+@
+6,250,250,0.5
+Du hast uns echt gerettet!
+@
+-1,250,2500000,0.5
+Gern geschehen!
+@

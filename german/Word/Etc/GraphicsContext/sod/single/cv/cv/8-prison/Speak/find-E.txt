@@ -1,0 +1,28 @@
+0
+0
+Hey! Ich bin zurück!
+@
+2
+1
+Super! Vielen Dank, du bist ein echter Held!
+@
+2
+1
+Sag mal, wie geht es meiner Familie? Was ist mit ihnen?
+@
+0
+0
+Äh... also...
+@
+2
+1
+Was ist mit ihnen passiert?
+@
+0
+0
+Sie, sie... es geht ihnen gut. Sie haben es alle rausgeschafft.
+@
+2
+1
+Gott sei Dank! Das ist ein Wunder! Ich gehe sie sofort suchen!
+@

@@ -1,0 +1,37 @@
+2
+1
+Student:
+Bring mich doch einfach mit diesem Dartpfeil um...
+(Leertaste zum Fortfahren)
+@
+2
+1
+Student:
+Ich will nicht mehr leben!
+@
+0
+0
+Beruhig dich, was ist denn los?
+@
+2
+1
+Student:
+Meine Freundin hat Schluss gemacht.
+@
+0
+0
+Ach komm, davon geht die Welt nicht unter. Andere Mütter haben auch schöne Töchter, Mann.
+@
+2
+1
+Student:
+Das Schlimmste ist, dass sie mich für einen alten Sack verlassen hat...
+@
+0
+0
+Oh Mann...
+@
+0
+0
+Mach dir nichts draus, solche Leute sind es nicht wert.
+@

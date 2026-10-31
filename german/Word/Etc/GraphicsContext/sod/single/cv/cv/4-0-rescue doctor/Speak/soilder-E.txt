@@ -1,0 +1,14 @@
+2
+1
+Soldat:
+Sieh dich nach brauchbaren Vorräten um.
+@
+0
+0
+Wir sind nicht mehr weit vom Haus des Professors entfernt.
+@
+2
+1
+Soldat:
+Gut, weiter so.
+@

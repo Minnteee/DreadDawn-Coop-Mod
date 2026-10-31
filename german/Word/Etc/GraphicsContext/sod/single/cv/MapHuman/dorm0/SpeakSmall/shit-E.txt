@@ -1,0 +1,15 @@
+14,130,210,0.5
+Ekelhaft!
+@
+14,180,280,0.5
+Wer hat das Zeug hier überall verschmiert?
+@
+14,150,280,0.5
+Ich schwör’s, ich bring den Typen um!
+@
+14,170,280,0.5
+Das klebt jetzt überall an meinem Bein!
+@
+14,130,190000000,0.5
+Verdammt!
+@

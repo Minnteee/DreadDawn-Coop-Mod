@@ -1,0 +1,40 @@
+2
+1
+NEIN! Warum? Warum passiert das ausgerechnet mir?...
+@
+0
+0
+Was ist los?
+@
+2
+1
+Ich... ich hab meine Eltern verloren... Letzte Nacht waren wir noch in unserem Wohnhaus in der Stadt...
+@
+2
+1
+Und dann... ist plötzlich ein blutverschmierter Irrer bei uns reingestürmt!...
+@
+2
+1
+In dem Chaos hat meine Mutter mich ausgesperrt.
+@
+2
+1
+Ich bin allein weggerannt, und jetzt weiß ich nicht, ob es ihnen gut geht. 
+@
+0
+0
+Hey, keine Sorge. Ich kann im Wohnhaus nach ihnen sehen.
+@
+2
+1
+Wirklich?! Danke, danke! Als Belohnung bekommst du alles, was ich habe!
+@
+2
+1
+Sie sitzen im Obergeschoss fest. Bitte bring sie zurück.
+@
+0
+0
+Warte hier, ich bin gleich zurück.
+@

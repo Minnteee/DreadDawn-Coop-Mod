@@ -1,0 +1,18 @@
+0,310,230,0.5
+Verdammt, wer hat den Stromschalter umgelegt?
+@
+1,200,230,0.5
+Guck mich nicht an, ich war’s nicht.
+@
+2,210,250,0.5
+Ich hab vorhin geschlafen, nicht mein Problem.
+@
+0,310,230,0.5
+Verdammt, ihr nutzloser Haufen!
+@
+0,200,230,0.5
+Jetzt sitzen wir fest!
+@
+2,210,900,0.5
+...
+@

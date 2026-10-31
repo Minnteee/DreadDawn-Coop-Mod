@@ -1,0 +1,21 @@
+12,120,190,0.5
+Beeil dich!
+@
+12,120,190,0.5
+Ich kann nicht mehr warten!
+@
+10,120,130,0.5
+Warum ist das immer noch nicht fertig?
+@
+11,120,190,0.5
+So langsam.
+@
+11,120,190,0.5
+Los, mach schneller.
+@
+11,120,210,0.5
+Schneller....
+@
+10,120,250,0.5
+Ich halt’s nicht mehr aus.
+@

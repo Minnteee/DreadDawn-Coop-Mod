@@ -1,0 +1,12 @@
+7,250,250,0.5
+Bitte!
+@
+7,250,250,0.5
+Nein, nicht!
+@
+6,250,250,0.5
+Haha!
+@
+6,250,250,0.5
+Träum weiter, gleich bist du dran!
+@

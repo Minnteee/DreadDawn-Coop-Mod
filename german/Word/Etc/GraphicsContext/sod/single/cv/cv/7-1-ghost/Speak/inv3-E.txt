@@ -1,0 +1,33 @@
+2
+1
+Mädchen A:
+Vorhin ist so ein unheimlicher Typ in die Toilette gerannt und kurz danach wieder rausgestürmt.
+@
+2
+1
+Mädchen A:
+Der Typ hatte Blutflecken an sich!
+@
+2
+1
+Mädchen B:
+Ja! Ich hab ihn auch gesehen, aber er war so schnell weg, dass ich sein Gesicht nicht richtig erkennen konnte.
+@
+2
+1
+Mädchen B:
+Er trug Grün und hatte einen Hut auf, glaube ich!
+@
+0
+0
+Seid ihr sicher? Ihr lügt doch nicht, oder?
+@
+2
+1
+Mädchen B:
+Absolut sicher!
+@
+0
+0
+Ich weiß, wer es ist!
+@

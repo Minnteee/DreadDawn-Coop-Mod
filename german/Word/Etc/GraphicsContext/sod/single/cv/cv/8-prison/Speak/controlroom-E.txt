@@ -1,0 +1,34 @@
+3
+1
+(Funkgerät des Soldaten)
+Piep piep piep~
+Wie sieht’s aus? Bist du mit Bereich A fertig?
+@
+0
+0
+Erledigt. Alles sauber.
+@
+3
+1
+(Funkgerät des Soldaten)
+Du bist echt der Hammer! Viel besser als meine nutzlosen Leute.
+@
+3
+1
+(Funkgerät des Soldaten)
+Diese verdammten Idioten haben an den Schaltern rumgespielt und das Tor zum Osttrakt verriegelt. Jetzt klemmt es.
+@
+3
+1
+(Funkgerät des Soldaten)
+Sieh im Kontrollraum nach, wie man das Tor zum Osttrakt aufbekommt.
+@
+3
+1
+(Funkgerät des Soldaten)
+Und beeil dich. Wir sind von Zombies umzingelt!
+@
+0
+0
+Verstanden, ich bin unterwegs!
+@

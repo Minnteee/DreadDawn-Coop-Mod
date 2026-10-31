@@ -1,0 +1,33 @@
+-1,210,110,0.5
+Was ist denn los?
+@
+0,220,120,0.5
+Im Wohnheim ist irgendwas Komisches!
+@
+3,350,150,0.5
+Das ist ein Spanner!
+@
+2,220,20,0.5
+Wie widerlich.
+@
+4,220,160,0.5
+???
+@
+1,220,220,0.5
+Das Ding hat nichts an!
+@
+2,220,220,0.5
+Wie gruselig!
+@
+1,220,120,0.5
+Als ich geduscht hab, hat es durchs Fenster reingeglotzt.
+@
+2,220,120,0.5
+Ich trau mich nicht mehr zurück!
+@
+3,220,220,0.5
+Ich auch nicht.
+@
+4,260,1900000,0.5
+Wir sollten lieber vorsichtig sein.
+@

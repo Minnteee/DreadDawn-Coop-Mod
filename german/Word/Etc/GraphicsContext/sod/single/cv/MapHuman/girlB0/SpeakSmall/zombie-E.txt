@@ -1,0 +1,48 @@
+139,210,220,0.5
+Boah! Morgen hab ich so viel Unterricht.
+@
+139,200,210,0.5
+Ich kann echt nicht mehr....
+@
+140,190,200,0.5
+Ich hab auch viel Unterricht.
+@
+140,200,210,0.5
+Ich hab keinen Bock auf Unterricht...
+@
+138,220,230,0.5
+Wär doch super, wenn die Zombie-Apokalypse ausbricht.
+@
+138,210,230,0.5
+Dann hätten wir jeden Tag frei!
+@
+140,250,250,0.5
+Hey, habt ihr die neuesten Nachrichten gesehen?
+@
+140,230,230,0.5
+Angeblich beißt jemand auf der Straße Leute.
+@
+140,230,230,0.5
+Ob das etwa...?
+@
+139,240,250,0.5
+Ist bestimmt fake, nur irgendein Verrückter.
+@
+138,180,180,0.5
+Hach....
+@
+138,200,210,0.5
+Wär echt super, wenn’s stimmt....
+@
+139,220,220,0.5
+Wenn’s stimmt, ist es mit der Schule vorbei.
+@
+139,230,230,0.5
+Geh einfach schlafen, wir haben morgen Unterricht.
+@
+138,230,230,0.5
+......
+@
+140,240,21000,0.5
+......
+@

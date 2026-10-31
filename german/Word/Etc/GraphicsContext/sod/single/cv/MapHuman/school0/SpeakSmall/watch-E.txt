@@ -1,0 +1,63 @@
+51,210,220,0.5
+Wegen der Lebensmittelknappheit
+@
+51,280,200,0.5
+bekommt ab heute jeder nur noch eine Konserve pro Tag
+@
+48,190,30,0.5
+Was?
+@
+30,190,90,0.5
+???
+@
+31,190,80,0.5
+Dann können wir ja gleich verhungern!
+@
+43,190,80,0.5
+?!?
+@
+28,180,90,0.5
+Soll das ein Witz sein?
+@
+45,190,50,0.5
+Da verhungern wir doch!
+@
+49,190,200,0.5
+????
+@
+46,190,200,0.5
+Chef, wir verhungern hier.
+@
+31,190,220,0.5
+So müssen wir bald Dreck fressen.
+@
+43,190,220,0.5
+Wie soll man da überleben?
+@
+52,190,220,0.5
+Hört mal, seid froh, dass es überhaupt was zu essen gibt!
+@
+52,190,230,0.5
+Wem’s nicht passt, der kann ja rausgehen!
+@
+52,200,210,0.5
+Werdet doch Zombies, dann seid ihr garantiert satt!
+@
+52,200,220,0.5
+Hat sonst noch jemand was zu meckern!?
+@
+45,200,20,0.5
+.....
+@
+28,200,190,0.5
+.....
+@
+41,200,180,0.5
+.....
+@
+44,200,190,0.5
+.....
+@
+31,200,1800000,0.5
+.....
+@

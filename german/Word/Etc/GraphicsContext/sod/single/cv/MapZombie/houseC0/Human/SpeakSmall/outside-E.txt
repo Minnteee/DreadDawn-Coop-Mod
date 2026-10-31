@@ -1,0 +1,18 @@
+1,300,300,0.5
+Klingt, als wäre da draußen was.
+@
+0,300,300,0.5
+Sind das etwa wieder diese Typen?
+@
+1,300,300,0.5
+Bloß nicht, Gott steh uns bei.
+@
+0,300,300,0.5
+Vielleicht ist es auch dieser verdammte Dieb.
+@
+0,300,300,0.5
+Der hat doch schon vor der Katastrophe dauernd geklaut.
+@
+1,300,700,0.5
+Keine Sorge, um den kümmern wir uns später.
+@

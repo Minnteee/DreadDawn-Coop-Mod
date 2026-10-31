@@ -1,0 +1,15 @@
+12,150,150,0.5
+Was stinkt hier so?
+@
+11,150,150,0.5
+Boah! Das stinkt!
+@
+12,150,150,0.5
+Das riecht so eklig!
+@
+11,150,150,0.5
+Wie eine tote Maus
+@
+12,150,260,0.5
+So ein Gestank
+@

@@ -1,0 +1,24 @@
+116,180,180,0.5
+Ich mag dich schon so lange.
+@
+116,180,280,0.5
+Willst du meine Freundin sein?
+@
+115,180,180,0.5
+Ich...
+@
+115,180,180,0.5
+Ich...
+@
+115,190,220,0.5
+Hier sind Leute, das ist mir peinlich.
+@
+116,170,120,0.5
+Hey.
+@
+116,180,220,0.5
+Kannst du mal ein Stück weggehen?
+@
+-1,110,6120,0.5
+Sorry~
+@

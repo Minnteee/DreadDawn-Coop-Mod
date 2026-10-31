@@ -1,0 +1,27 @@
+0,310,200,0.5
+Was zum Teufel? Wie bist du hier reingekommen?
+@
+1,200,200,0.5
+Was ist los?
+@
+2,210,200,0.5
+Hast du da drüben den Strom eingeschaltet?
+@
+-1,210,150,0.5
+Ja, wieso?
+@
+2,210,10,0.5
+Oh nein, das ist übel
+@
+1,210,10,0.5
+Was passiert hier?
+@
+0,210,100,0.5
+Verdammt!!!
+@
+2,210,200,0.5
+Das ist unser Verteidigungssystem, du Idiot!
+@
+-1,210,150000,0.5
+Oh? Sorry, tut mir leid!
+@

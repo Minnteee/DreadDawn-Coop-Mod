@@ -1,0 +1,23 @@
+0
+0
+Gibt’s Neuigkeiten aus dem Gefängnis?
+@
+2
+1
+Soldat:
+Noch nicht. Glaubst du, da ist was schiefgelaufen?
+@
+0
+0
+Mann, warum geht immer im dümmsten Moment was schief?
+@
+2
+1
+Soldat:
+Jetzt können wir nur noch auf Gottes Schutz hoffen.
+@
+2
+1
+Soldat:
+Hoffen wir, dass die Zombies uns nicht wieder angreifen.
+@

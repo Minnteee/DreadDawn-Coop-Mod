@@ -1,0 +1,30 @@
+3,120,120,0.5
+Herr, steh mir bei!
+@
+3,220,260,0.5
+Schick diese Zombies zur Hölle.
+@
+4,150,150,0.5
+Ach komm!
+@
+4,150,150,0.5
+Hast du’s noch nicht gehört?
+@
+4,320,320,0.5
+Die Zombies sind hier auf der Erde, weil die Hölle voll ist.
+@
+3,220,260,1
+Pst, stör mich nicht.
+@
+4,220,220,0.5
+Haha, du bist ja ganz schön fromm.
+@
+4,260,260,1
+Noch hast du genug zu essen, du verschwendest hier nur deine Kraft.
+@
+4,260,260,1
+Mal sehen, was du in ein paar Tagen machst.
+@
+3,220,2260,1
+Halt die Klappe.
+@

@@ -1,0 +1,27 @@
+11,110,190,0.5
+Hey, spielst du jetzt oder nicht?
+@
+12,110,290,0.5
+Ruhig, ruhig, gib mir ’ne Sekunde.
+@
+12,110,290,0.5
+Gleich hab ich’s.
+@
+12,110,290,0.5
+Der Winkel ist echt fies!
+@
+11,110,190,0.5
+Mach schon!
+@
+12,110,390,0.5
+Moment noch.
+@
+11,110,190,0.5
+Wenn du nicht bald anfängst, lass ich jemand anderen spielen.
+@
+11,110,190,0.5
+Hey, Lust auf ’ne Runde?
+@
+-1,110,2222390,0.5
+Billard? Kann ich nicht.
+@

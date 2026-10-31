@@ -1,0 +1,18 @@
+100,300,200,0.5
+Ehrlich gesagt
+@
+100,200,200,0.5
+Die Aussicht hier ist ganz schön
+@
+100,300,300,0.5
+Aber ich will echt keine Sekunde länger bleiben
+@
+104,300,300,0.5
+Entspann dich, Ungeduld bringt doch nichts
+@
+104,300,300,0.5
+Genieß einfach den Meerblick
+@
+100,300,2000,0.5
+Du bist echt optimistisch
+@

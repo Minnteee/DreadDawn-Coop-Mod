@@ -1,0 +1,27 @@
+2
+1
+Trauernde Frau:
+Mein Mann, mein Sohn und meine Tochter sind alle tot.
+@
+0
+0
+Ich kann dir helfen. Brauchst du was zu essen?
+@
+2
+1
+Trauernde Frau:
+Du kannst mir bei gar nichts helfen. Geh einfach weg!
+@
+0
+0
+Ich hab da drüben ein Lager. Ich kann dich hinbringen.
+@
+2
+1
+Trauernde Frau:
+Komm nicht näher, sonst schieße ich. Geh einfach weg!
+@
+0
+0
+Schon gut.
+@

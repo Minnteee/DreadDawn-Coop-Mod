@@ -1,0 +1,24 @@
+62,190,220,0.5
+Mir geht’s so mies.
+@
+71,190,230,0.5
+Mir ist am ganzen Körper heiß.
+@
+72,150,150,0.5
+Mich hat eins von den Dingern gebissen.
+@
+72,150,150,0.5
+Wir werden doch keine Zombies, oder?
+@
+67,160,180,0.5
+Was redest du da für einen Unsinn?
+@
+68,180,230,0.5
+Wenn ich ein Zombie werde,
+@
+68,180,230,0.5
+fress ich dich zuerst.
+@
+73,180,2100,0.5
+...zzz...zzz...
+@

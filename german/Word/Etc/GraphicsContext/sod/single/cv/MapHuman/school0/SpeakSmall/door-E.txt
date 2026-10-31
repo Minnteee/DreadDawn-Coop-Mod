@@ -1,0 +1,39 @@
+22,120,190,0.5
+Meinst du, die Dinger kommen hier nicht rein?
+@
+24,120,190,0.5
+Keine Sorge, hier ist es sicher wie in einer Festung.
+@
+24,120,120,0.5
+Warum machst du dir Sorgen,
+@
+24,150,240,0.5
+an einem Ort voller Soldaten?
+@
+23,160,90,0.5
+Ich bin so stark, wozu also die Sorgen?
+@
+24,120,10,0.5
+Hahaha!!!
+@
+22,120,60,0.5
+Hahaha!
+@
+22,120,240,0.5
+Du?
+@
+22,160,160,0.5
+Glaubst du, Muskeln schützen dich vor einer Infektion?
+@
+22,160,60,0.5
+Am Ende wirst du noch ein muskelbepackter Infizierter.
+@
+24,160,60,0.5
+Hahaha.
+@
+23,160,180,0.5
+Schon gut, schon gut.
+@
+23,160,19000,0.5
+Gegen dich komm ich nicht an.
+@

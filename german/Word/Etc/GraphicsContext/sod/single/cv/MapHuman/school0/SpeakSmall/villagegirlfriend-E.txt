@@ -1,0 +1,30 @@
+102,300,300,0.5
+Was würdest du tun, wenn ich sterbe?
+@
+103,300,300,0.5
+......
+@
+102,200,200,0.5
+Hey? Ich hab dich was gefragt!
+@
+102,300,300,0.5
+Was würdest du tun, wenn ich sterbe?
+@
+103,300,300,0.5
+Kannst du mal aufhören, so blöde Fragen zu stellen?
+@
+103,300,300,0.5
+Solange ich da bin, passiert dir nichts, okay?
+@
+102,300,200,0.5
+Du bist so süß, Schatz.
+@
+103,300,300,0.5
+Äh, da krieg ich ja Gänsehaut.
+@
+103,200,200,0.5
+Stopp, stopp.
+@
+103,300,3000,0.5
+Da lauscht jemand.
+@

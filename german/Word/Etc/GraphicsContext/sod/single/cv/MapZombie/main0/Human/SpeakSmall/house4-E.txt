@@ -1,0 +1,18 @@
+1,310,200,0.5
+Sind wir hier sicher?
+@
+0,200,200,0.5
+Klar sind wir das, wir sind ganz weit drinnen.
+@
+1,200,250,0.5
+Sollten wir nicht irgendwelche Verteidigungsanlagen bauen oder so?
+@
+0,200,200,0.5
+Ach was, worüber sollen wir uns Sorgen machen?
+@
+0,200,200,0.5
+Wenn was passiert, erwischt es zuerst die draußen.
+@
+1,200,2500,0.5
+Stimmt.
+@

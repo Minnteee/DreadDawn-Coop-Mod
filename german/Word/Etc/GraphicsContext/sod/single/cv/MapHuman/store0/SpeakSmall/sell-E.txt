@@ -1,0 +1,9 @@
+0,320,20,0.5
+Was möchtest du kaufen?
+@
+1,380,10,0.5
+Komm zu mir, ich hab erstklassige Agrarprodukte.
+@
+2,350,999990,0.5
+Waffen? Ich hab alles, was du brauchst.
+@

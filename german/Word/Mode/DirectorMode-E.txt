@@ -1,0 +1,34 @@
+Bauten,Menschen,Zombies,Gegenstände,Wetter,Optionen,Schließen
+@
+Typen,Aktionen,Waffen,Beziehung,Spieler
+Zivilisten,Begleiter,Feinde
+@
+Typen,Zustand
+Ruhend,Aufgebracht,Liegend
+@
+Zeit:,Früher Morgen,Morgen,Mittag,Nachmittag,Abend,Nacht,Mitternacht
+Regen:,Kein Regen,Leichter Regen,Mäßiger Regen,Starker Regen,Wolkenbruch
+Wetter:,Bedeckt,Bewölkt,Normal,Heiter,Sonnig
+Wind:,Windstill,Leichter Wind,Starker Wind
+Zeitverlauf,Wetterwechsel
+@
+Unverwundbar,Schnell bewegen (G),Pause,Unsichtbar
+Karte zurücksetzen,Alle Zombies entfernen,Alle Menschen entfernen,Alle Gegenstände entfernen
+Speichern,Letzten Speicherpunkt laden,Als Spielstand exportieren
+Zombiewellen deaktivieren,Wellengröße,Zombiewellen spawnen,Belagerungswellen
+Zombiehorden,Blutdämonen-Virus injizieren,Zombievirus injizieren,Normales Zombievirus injizieren
+@
+Aus,An
+@
+Spawnpunkte für Zombiewellen wählen
+@
+Klein,Mittel,Groß
+@
+Spawnpunkte für Zombiehorden wählen
+@
+Blutdämonen-Virus injizieren
+@
+Zombievirus injizieren
+@
+Normales Zombievirus injizieren
+@

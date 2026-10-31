@@ -1,0 +1,33 @@
+0,300,300,0.5
+Wieso riecht es hier nach brennendem Benzin?
+@
+1,300,300,0.5
+Ich riech’s auch.
+@
+0,300,300,0.5
+Hast du nachgesehen, ob alle Benzinfässer dicht sind?
+@
+1,300,300,0.5
+Natürlich sind die dicht. Bei so was bin ich sehr sorgfältig.
+@
+0,300,300,0.5
+Ich weiß, dass du sorgfältig bist, 
+@
+0,200,200,0.5
+aber
+@
+0,200,200,0.5
+ich rieche es wirklich.
+@
+1,300,300,0.5
+Schon gut, schon gut. Ich seh gleich nach!
+@
+1,300,300,0.5
+Okay?
+@
+0,300,300,0.5
+Gut.
+@
+1,300,1000,0.5
+........
+@

@@ -1,0 +1,7 @@
+Führe die Soldaten für die Mission zum Supermarkt.
+Schiebe die Vorratskisten an die markierte Stelle.
+Suche im Supermarkt nach Vorratskisten und schiebe sie an die markierte Stelle. 0/4
+Suche im Supermarkt nach Vorratskisten und schiebe sie an die markierte Stelle. 1/4
+Suche im Supermarkt nach Vorratskisten und schiebe sie an die markierte Stelle. 2/4
+Suche im Supermarkt nach Vorratskisten und schiebe sie an die markierte Stelle. 3/4
+Lass keine Zombies in den Supermarkt.

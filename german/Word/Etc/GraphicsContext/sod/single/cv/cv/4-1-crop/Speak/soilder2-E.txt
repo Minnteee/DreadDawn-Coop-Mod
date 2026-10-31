@@ -1,0 +1,19 @@
+2
+1
+Soldat:
+Was willst du hier?
+@
+0
+1
+Ich suche einen Freund. Er wurde vorhin hierhergebracht.
+@
+2
+1
+Soldat:
+Lass dich erst da drüben untersuchen!
+@
+2
+1
+Soldat:
+Gut, du kannst rein.
+@

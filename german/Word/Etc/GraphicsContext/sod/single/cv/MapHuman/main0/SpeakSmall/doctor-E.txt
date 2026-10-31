@@ -1,0 +1,30 @@
+100,220,180,0.5
+Doktor, ich werde doch kein Zombie, oder?
+@
+117,180,230,0.5
+Keine Sorge, Ihr Zustand ist stabil.
+@
+117,230,280,0.5
+Nur Ihre Temperatur ist zu hoch.
+@
+100,220,280,0.5
+Mir ist seit ein paar Tagen abwechselnd heiß und kalt.
+@
+117,220,280,0.5
+Wir machen gleich ein paar Tests mit Ihnen.
+@
+100,220,180,0.5
+Gott, steh mir bei!
+@
+117,220,380,0.5
+Sie müssen der Wissenschaft vertrauen.
+@
+100,220,380,0.5
+Und wie erklären Sie dann diese Zombies?
+@
+117,220,280,0.5
+.........
+@
+117,220,1580,0.5
+Jedenfalls müssen Sie der Wissenschaft vertrauen.
+@

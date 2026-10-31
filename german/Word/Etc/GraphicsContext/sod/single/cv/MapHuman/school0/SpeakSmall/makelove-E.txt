@@ -1,0 +1,21 @@
+8,110,120,0.5
+Hey, sei doch nicht so.
+@
+8,110,120,0.5
+Das ist nicht meine Schuld.
+@
+8,110,120,0.5
+Daran ist nur er schuld.
+@
+7,110,120,0.5
+Hör auf, dich rauszureden.
+@
+7,90,100,0.5
+Du gibst doch nur an.
+@
+7,90,100,0.5
+Du Nichtsnutz.
+@
+8,120,450,0.5
+.........
+@

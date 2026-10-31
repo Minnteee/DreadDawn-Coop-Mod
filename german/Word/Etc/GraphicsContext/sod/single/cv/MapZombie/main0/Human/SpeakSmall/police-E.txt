@@ -1,0 +1,33 @@
+0,300,300,0.5
+Lass uns schnell zurück zur Polizeiwache und nach ihnen sehen.
+@
+0,300,300,0.5
+Die sind gerade in Gefahr.
+@
+1,300,300,0.5
+Scheiß drauf! Ich verrecke da draußen nicht.
+@
+1,300,300,0.5
+Wenn du hinwillst, geh allein.
+@
+2,300,300,0.5
+Guck mich nicht so an, ich verrecke da draußen auch nicht.
+@
+2,300,200,0.5
+Sag’s den Vorgesetzten.
+@
+2,300,300,0.5
+Sag einfach, mich hat ein Zombie gebissen.
+@
+1,300,300,0.5
+Ja, sag, mich hat’s auch erwischt.
+@
+0,300,300,0.5
+Und was ist mit mir?
+@
+2,300,300,0.5
+Nicht mein Problem.
+@
+1,300,2000,0.5
+Meins auch nicht.
+@

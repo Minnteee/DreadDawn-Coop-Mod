@@ -1,0 +1,72 @@
+0,500,500,0.5
+Was machen wir? In die Rote Zone fliehen?
+@
+1,300,300,0.5
+Rote Zone? Bloß nicht, da kommen wir gerade her.
+@
+2,250,250,0.5
+Und was ist mit dem Westviertel?
+@
+2,250,250,0.5
+Im Radio hieß es, dort gibt’s eine Zuflucht.
+@
+3,250,250,0.5
+Klar, wenn du in Stücke gerissen werden willst, bitte.
+@
+3,250,250,0.5
+Da ist doch schon längst alles verloren.
+@
+0,300,300,0.5
+Und was machen wir jetzt? Nach Osten geht’s nicht, nach Westen auch nicht.
+@
+1,200,200,0.5
+Willst du die Wahrheit hören?
+@
+2,300,10,0.5
+Was?
+@
+3,300,10,0.5
+Sag schon.
+@
+0,300,300,0.5
+??
+@
+1,300,200,0.5
+Die ganze Stadt ist am Ende!!!
+@
+1,300,300,0.5
+Hier kommen wir nie im Leben raus!!
+@
+2,250,250,0.5
+Kannst du nicht mal was Positiveres sagen?
+@
+0,300,300,0.5
+Mann, er hat aber recht, wir sitzen fest.
+@
+3,300,300,0.5
+Uff~
+@
+2,250,250,0.5
+Jetzt bleibt uns nur noch der Wasserweg.
+@
+3,300,300,0.5
+Aber wo sollen wir ein brauchbares Boot herkriegen?
+@
+1,300,300,0.5
+Lasst uns erst mal zum Fluss oder zur Küste gehen und dann weitersehen.
+@
+1,300,300,0.5
+Oder wir bleiben vielleicht einfach, wo wir sind.
+@
+3,300,300,0.5
+Sieht aus, als bliebe uns nichts anderes übrig. Hoffentlich geht nichts schief.
+@
+2,300,100,0.5
+...........
+@
+1,250,150,0.5
+.........
+@
+0,300,3000,0.5
+.....
+@

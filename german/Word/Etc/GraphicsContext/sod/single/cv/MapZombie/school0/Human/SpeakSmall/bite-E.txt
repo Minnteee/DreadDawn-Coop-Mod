@@ -1,0 +1,24 @@
+0,200,200,0.5
+Ah! Das tut so weh!!!
+@
+0,200,200,0.5
+Verdammt, dieser Hurensohn hat mich gebissen!!
+@
+1,300,300,0.5
+Halt still, ich verbinde dich!
+@
+2,300,200,0.5
+Mich hat’s auch erwischt, verbind mich auch
+@
+1,300,200,0.5
+Okay, du kommst gleich dran
+@
+2,300,200,0.5
+Das tut so verdammt weh
+@
+1,300,100,0.5
+Hör auf zu schreien, du bist gleich dran
+@
+0,200,200,0.5
+Ah, ah, ah!
+@

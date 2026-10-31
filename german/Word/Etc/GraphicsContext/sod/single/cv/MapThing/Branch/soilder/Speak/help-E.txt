@@ -1,0 +1,69 @@
+2
+1
+Deprimierter Soldat:
+Wääh~
+@
+0
+0
+Was ist passiert?
+@
+2
+1
+Deprimierter Soldat:
+Ich bin geliefert. Der Chef macht mich garantiert zur Schnecke, wääh~
+@
+0
+0
+Was ist denn los?
+@
+2
+1
+Deprimierter Soldat:
+Ich hab bei der Evakuierung das Funkgerät im Stützpunkt liegen lassen.
+@
+2
+1
+Deprimierter Soldat:
+Jetzt sind da Zombies, und ich komm nicht mehr ran, wääh.
+@
+2
+1
+Deprimierter Soldat:
+Wenn der Chef das rausfindet, bin ich erledigt!
+@
+0
+0
+Keine Sorge. Ich kann dir helfen, es zurückzuholen.
+@
+2
+1
+Deprimierter Soldat:
+Echt? Vielen Dank!
+@
+0
+0
+Dann los.
+@
+2
+1
+Deprimierter Soldat:
+Ich, ich, ich, ich...
+@
+2
+1
+Deprimierter Soldat:
+Ich trau mich nicht.
+@
+0
+0
+Warum bist du so ein Angsthase?
+@
+2
+1
+Deprimierter Soldat:
+Ich kann dir eine Belohnung geben, wenn du mir hilfst.
+@
+0
+0
+Na gut, dann geh ich eben allein.
+@

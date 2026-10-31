@@ -1,0 +1,9 @@
+49,190,210,0.5
+Boah! Wie nervig!
+@
+49,200,230,0.5
+Der Typ schnarcht viel zu laut.
+@
+49,190,210000,0.5
+Ich halt’s nicht mehr aus...
+@

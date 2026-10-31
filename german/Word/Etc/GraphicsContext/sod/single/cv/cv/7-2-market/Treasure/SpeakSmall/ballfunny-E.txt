@@ -1,0 +1,9 @@
+-1,260,280,0.5
+Cool!
+@
+-1,250,250,0.5
+Das erinnert mich an meine Kindheit!
+@
+-1,260,2800000,0.5
+Wenn man doch nur die Zeit zurückdrehen könnte.
+@

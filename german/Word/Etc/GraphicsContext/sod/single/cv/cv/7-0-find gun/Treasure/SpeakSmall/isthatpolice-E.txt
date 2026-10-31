@@ -1,0 +1,6 @@
+-1,260,260,0.5
+Ist das der Polizist?
+@
+-1,190,25000000,0.5
+Verdammt!
+@

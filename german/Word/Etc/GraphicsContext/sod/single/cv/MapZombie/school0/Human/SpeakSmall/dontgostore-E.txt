@@ -1,0 +1,24 @@
+-1,210,250,0.5
+Kann ich in den Laden rein?
+@
+1,200,200,0.5
+Ja, aber ich würd’s dir nicht empfehlen.
+@
+0,210,200,0.5
+Aber wenn du echt neugierig bist, kannst du’s ja versuchen.
+@
+2,310,230,0.5
+Dann wärst du halt unser Versuchskaninchen.
+@
+1,200,10,0.5
+Haha!
+@
+0,210,20,0.5
+Hahahahaha!
+@
+2,210,200,0.5
+Haha!
+@
+-1,210,250000,0.5
+???
+@

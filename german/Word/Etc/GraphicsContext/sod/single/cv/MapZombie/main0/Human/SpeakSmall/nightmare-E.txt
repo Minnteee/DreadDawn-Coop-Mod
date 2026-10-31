@@ -1,0 +1,21 @@
+0,310,300,0.5
+Wir sollten morgen draußen lieber vorsichtig sein!
+@
+0,310,300,0.5
+Ich hab die großen Dinger wieder gesehen.
+@
+1,200,200,0.5
+Was?
+@
+1,200,200,0.5
+Die Dinger sind immer noch nicht tot?
+@
+2,210,250,0.5
+Wir sollten zusehen, dass wir hier wegkommen.
+@
+2,210,250,0.5
+Am besten morgen, ohne zu zögern.
+@
+0,310,3000,0.5
+Ich glaub, ich hab gerade was gehört.
+@

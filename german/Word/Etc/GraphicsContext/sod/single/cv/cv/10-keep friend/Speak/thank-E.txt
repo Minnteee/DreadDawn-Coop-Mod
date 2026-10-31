@@ -1,0 +1,36 @@
+2
+1
+Vielen, vielen Dank. Ohne dich wäre ich jetzt tot.
+@
+2
+1
+Nachbarin
+Nanu? Bist du nicht Jack? Der Jack von nebenan?
+@
+0
+0
+Ja, ich bin’s, Jack.
+@
+2
+1
+Nachbarin
+Jack! Ich bin so froh, dich zu sehen.
+@
+0
+0
+Übrigens, wissen Sie, wo meine Familie hin ist?
+@
+2
+1
+Nachbarin
+Ich weiß noch, dass sie vor dem Ausbruch mit einer Gruppe Soldaten weggegangen sind. Sie wollten mich mitnehmen, aber ich dachte, hier wäre es sicher, also bin ich geblieben. Das bereue ich jetzt!
+@
+0
+0
+Das ist ja toll. Dann sind sie jetzt bestimmt in Sicherheit!
+@
+2
+1
+Nachbarin
+Jedenfalls danke, Jack, dass du mich gerettet hast. Hier, das ist für dich. Nimm es ruhig, keine falsche Scheu.
+@

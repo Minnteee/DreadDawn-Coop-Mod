@@ -1,0 +1,18 @@
+0,310,300,0.5
+Wann gehen wir rein schlafen?
+@
+1,200,200,0.5
+Schlafen?
+@
+1,300,300,0.5
+Ich trau mich gerade nicht, wieder schlafen zu gehen.
+@
+1,300,300,0.5
+Seit gestern früh hör ich von oben komische Geräusche.
+@
+1,300,300,0.5
+Wir warten besser, bis das da oben vorbei ist, was auch immer es ist.
+@
+0,310,2000,0.5
+Na gut, lieber verzichte ich auf Schlaf, als von einem Monster gefressen zu werden.
+@

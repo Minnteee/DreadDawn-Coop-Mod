@@ -1,0 +1,12 @@
+0,300,300,0.5
+So kalt~
+@
+0,300,300,0.5
+Mir ist so kalt~
+@
+0,300,300,0.5
+Ich halt’s nicht mehr lange aus
+@
+0,300,300,0.5
+Beeilung
+@

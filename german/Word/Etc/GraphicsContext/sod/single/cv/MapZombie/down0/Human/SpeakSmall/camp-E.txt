@@ -1,0 +1,27 @@
+0,300,300,0.5
+Ich verhungere, lass uns im Laden was zu essen holen.
+@
+1,300,300,1
+Du Idiot, der Laden hat eine Alarmanlage.
+@
+0,300,300,0.5
+Ich weiß, aber ich hab echt Hunger.
+@
+2,300,200,0.5
+Ich verhungere auch.
+@
+2,300,300,1
+Verdammt, wieso hat der Laden überhaupt eine Alarmanlage?
+@
+2,300,200,1
+Verdammt.
+@
+2,300,200,0.5
+Vielleicht finden wir woanders was zu essen?
+@
+1,300,200,0.5
+Warten wir bis morgen früh.
+@
+1,300,2000,0.5
+Heute Nacht müssen wir eben hungern.
+@

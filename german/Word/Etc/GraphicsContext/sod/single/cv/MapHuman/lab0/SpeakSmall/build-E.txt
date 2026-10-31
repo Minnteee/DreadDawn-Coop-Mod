@@ -1,0 +1,6 @@
+-1,130,50,0.5
+Hallo, Doktor.
+@
+0,130,190000,0.5
+Was soll ich dir herstellen?
+@

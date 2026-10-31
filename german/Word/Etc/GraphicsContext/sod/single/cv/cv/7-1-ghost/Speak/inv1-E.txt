@@ -1,0 +1,54 @@
+2
+1
+Student A:
+Herr Offizier! Ich hab vorhin jemanden aus der Toilette schleichen sehen.
+@
+2
+1
+Soldat:
+Wer war es?
+@
+2
+1
+Student A:
+Ich trau mich nicht, das zu sagen. Ich hab Angst, dass er sich rächt.
+@
+2
+1
+Student B:
+Ich hab’s auch gesehen, und er ist in die Umkleide gegangen!
+@
+2
+1
+Student C:
+In die Umkleide? Da war ich die ganze Zeit, und es ist keiner reingekommen.
+@
+2
+1
+Student C:
+Ihr zwei lügt doch nicht etwa?
+@
+2
+1
+Student A:
+Du bist hier der Lügner! Ich hab’s genau gesehen – vielleicht warst du das ja!
+@
+2
+1
+Student B:
+Genau! Der war’s bestimmt!
+@
+2
+1
+Student C:
+Leck mich! Hört auf, mich zu beschuldigen!
+@
+2
+1
+Soldat:
+Klappe, alle drei! Und jetzt schön der Reihe nach!
+@
+0
+0
+Ich frag erst mal die anderen.
+@

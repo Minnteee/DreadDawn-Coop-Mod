@@ -1,0 +1,18 @@
+0,310,300,0.5
+Wie werden wir diese Dinger los?
+@
+1,300,300,0.5
+Wir brauchen Benzin, Molotowcocktails gehen auch
+@
+2,310,350,0.5
+Nein, die Dinger stehen auf, wenn wir sie bewegen
+@
+2,310,350,0.5
+Wir sollten sie uns lieber einzeln vornehmen
+@
+0,310,300,0.5
+Drinnen liegen ein paar große
+@
+0,310,2000,0.5
+Wenn die aufstehen, gibt’s eine Katastrophe
+@

@@ -1,0 +1,42 @@
+71,140,200,0.5
+Hört zu, das ist unser Plan.
+@
+72,130,180,0.5
+Moment mal.
+@
+72,130,180,0.5
+Ich hab eine Frage.
+@
+72,130,180,0.5
+Warum gehen wir nicht einfach direkt raus?
+@
+71,140,200,0.5
+Idiot!
+@
+71,140,200,0.5
+Wenn wir einfach rausgehen, sieht man uns doch sofort!
+@
+74,140,200,0.5
+Wozu sollten wir jetzt überhaupt rausgehen?
+@
+75,140,160,0.5
+Das ist viel zu gruselig.
+@
+73,140,170,0.5
+Wir bleiben besser in der Schule.
+@
+74,140,190,0.5
+Bleiben wir einfach in der Schule.
+@
+74,140,200,0.5
+In der Schule zu bleiben ist das Beste.
+@
+72,150,200,0.5
+....
+@
+71,150,20000000,0.5
+......
+@
+73,150,20000000,0.5
+.....
+@

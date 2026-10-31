@@ -1,0 +1,9 @@
+12,210,210,0.5
+Verdammt, was für ein Chaos.
+@
+12,260,260,0.5
+Laut den Nachrichten wimmelt es in der Stadt nur so von denen.
+@
+14,260,2600000,0.5
+Mann, wie konnte es nur so weit kommen?
+@

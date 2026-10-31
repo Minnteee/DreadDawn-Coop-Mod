@@ -1,0 +1,18 @@
+0,300,300,0.5
+Es tut mir leid, ich mach’s nie wieder.
+@
+1,300,300,0.5
+Nie wieder? Glaubst du etwa, es gibt ein nächstes Mal?
+@
+2,300,300,0.5
+Sieht so aus, als müssten wir dir diesmal eine richtige Lektion erteilen.
+@
+0,300,300,0.5
+Nein, nein, nein!
+@
+0,300,300,0.5
+Bitte, ich flehe euch an, verschont mich!!
+@
+0,300,300,0.5
+NEIN!
+@

@@ -1,0 +1,19 @@
+2
+1
+Soldat:
+Gut, alles in Ordnung. Du kannst rein.
+@
+0
+1
+Sir, wird er denn nicht auch kontrolliert?
+@
+2
+1
+Soldat:
+Den kenn ich. Das ist ein Obdachloser, und er stinkt fürchterlich. Halt ihn mir bloß vom Leib.
+@
+2
+1
+Soldat:
+Jetzt geht schon rein!
+@

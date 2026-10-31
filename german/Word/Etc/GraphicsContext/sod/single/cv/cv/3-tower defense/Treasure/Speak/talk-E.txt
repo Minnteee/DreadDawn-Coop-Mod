@@ -1,0 +1,25 @@
+2
+1
+Soldat
+Hört zu! Ihr befolgt ab jetzt unsere Befehle und arbeitet hart.
+@
+2
+1
+Soldat
+Bis heute Abend muss alles fertig sein!
+@
+2
+1
+Soldat
+Ist das klar?!!!
+@
+2
+1
+Studenten
+Verstanden!
+@
+2
+1
+Soldat
+Gut! Und jetzt raus aufs Gelände, erledigt eure Aufgaben!
+@

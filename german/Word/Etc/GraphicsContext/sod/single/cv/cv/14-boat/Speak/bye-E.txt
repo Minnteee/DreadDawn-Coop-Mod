@@ -1,0 +1,32 @@
+0
+0
+Ich hab das Benzin, vielen Dank.
+@
+2
+1
+Anführerin der Nachbarschule:
+Das sieht nicht nach viel Benzin aus.
+@
+0
+0
+Mehr war nicht drin. Ich fahr, so weit ich komme, und such unterwegs nach mehr.
+@
+2
+1
+Anführerin der Nachbarschule:
+Pass auf: Wenn das Benzin reicht, kannst du mit dem Boot zum Menghom-Resort fahren. Mein Vater ist dort.
+@
+2
+1
+Anführerin der Nachbarschule:
+Sag ihm einfach, dass ich dich schicke, dann tut er alles, um dir zu helfen.
+@
+0
+0
+Super, ich mach mich gleich auf den Weg.
+@
+2
+1
+Anführerin der Nachbarschule:
+Viel Glück!!
+@

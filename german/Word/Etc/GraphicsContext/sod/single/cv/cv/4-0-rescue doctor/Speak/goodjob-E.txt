@@ -1,0 +1,32 @@
+2
+1
+Professor:
+Gut gemacht, Junge. Du hast echtes Talent.
+@
+2
+1
+Professor:
+Hättest du damals nur halb so viel Ehrgeiz gehabt, hättest du lauter Einsen geschrieben.
+@
+0
+0
+Mir bleibt keine Wahl. Hier geht’s um Leben und Tod, und diesmal will ich nicht durchfallen.
+@
+0
+0
+Im Leben gibt’s schließlich keine Nachprüfung.
+@
+2
+1
+Professor:
+Gut, kannst du das Maschinengewehr wieder zerlegen und mir die Teile zurückbringen?
+@
+2
+1
+Professor:
+Uns geht das Material aus.
+@
+0
+0
+Klar.
+@

@@ -1,0 +1,24 @@
+14,250,250,0.5
+Willst du eine Abreibung?
+@
+15,250,250,0.5
+Es tut mir leid, ich mach’s nie wieder.
+@
+14,250,250,0.5
+Zu spät, gleich wirst du bestraft!
+@
+15,250,250,0.5
+Bitte, ich flehe dich an
+@
+15,250,250,0.5
+Bitte
+@
+15,250,250,0.5
+Bitte
+@
+15,250,250,0.5
+Bitte
+@
+14,250,1250,0.5
+Hahaha!
+@

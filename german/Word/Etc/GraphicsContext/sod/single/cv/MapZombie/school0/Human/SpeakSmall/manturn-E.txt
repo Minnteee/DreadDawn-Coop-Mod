@@ -1,0 +1,30 @@
+0,200,200,0.5
+Ah! Das tut so weh!!!
+@
+1,300,300,0.5
+Keine Sorge, gleich ist das verbunden.
+@
+0,300,300,0.5
+Glaubst du, ich werde zum Zombie?
+@
+1,300,300,0.5
+Hör auf, du wirst wieder gesund!
+@
+2,300,300,0.5
+Sie wurde von einem Zombie gebissen, die verwandelt sich garantiert!
+@
+2,300,200,0.5
+Wenn ihr mich fragt, sollten wir sie sofort rauswerfen!!!
+@
+0,300,100,0.5
+Nein!!!
+@
+1,400,400,0.5
+Halt die Klappe, Bill! Was bist du nur für ein Mistkerl?!
+@
+2,200,200,0.5
+Schon gut, schon gut, wie du meinst!
+@
+2,300,300,0.5
+Komm mir später bloß nicht angeheult!!
+@

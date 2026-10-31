@@ -1,0 +1,31 @@
+0
+0
+??? Hallo?
+@
+2
+1
+Obdachloser:
+??? Hey, Kleiner, wie hat’s dich denn hierher verschlagen?
+@
+0
+0
+Ich will zum Redwood-Gebäude und bin hier unten durchgekommen.
+@
+0
+0
+Jetzt hab ich mich verlaufen und weiß nicht mehr weiter...
+@
+2
+1
+Obdachloser:
+Geh hoch in den Kontrollraum. Da liegt ein Schlüssel, mit dem du die Tür hier unten aufkriegst.
+@
+2
+1
+Obdachloser:
+Dann komm hintenrum wieder zu mir, und ich sag dir, wie du hier rauskommst.
+@
+0
+0
+Super, vielen Dank.
+@

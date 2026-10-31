@@ -1,0 +1,18 @@
+0
+0
+Sir, wie läuft die Evakuierung?
+@
+2
+1
+Soldat:
+Tja, vom Hauptquartier gibt’s noch keine Neuigkeiten.
+@
+2
+1
+Soldat:
+Sieht so aus, als müssten wir vorerst in der Schule bleiben.
+@
+0
+0
+Alles klar, danke, Sir.
+@
