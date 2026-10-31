@@ -1,10 +1,10 @@
-Geh zum Überlebendenlager und such nach Vorräten.
+Geh zum Überlebenden-Lager und such nach Vorräten.
 Finde einen Weg an den Lagerwachen vorbei.
 Erledige alle Zombies im Lagerhaus.
 Untersuche die Lagerhaustür.
-Finde den Lagerhausschlüssel.
+Finde den Lagerhaus-Schlüssel.
 Kehr zum Lagerhaus zurück und such nach Vorräten.
 Kehr zur Nachbarschule zurück.
-Bau Verteidigungsanlagen.
-Lock die Zombies im Klassenzimmer zu den Verteidigungsanlagen und erledige sie.
+Bau Abwehranlagen.
+Lock die Zombies im Klassenzimmer zu den Abwehranlagen und erledige sie.
 Geh zurück ins Klassenzimmer, such den Bruder des Glatzkopfs und schalte ihn aus.

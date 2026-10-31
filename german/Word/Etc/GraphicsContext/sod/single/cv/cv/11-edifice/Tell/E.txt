@@ -11,7 +11,7 @@ Finde den Ausgang.
 Finde den Weg hinauf zum Gebäude.
 Versuch, den Aufzug einzuschalten.
 Nimm die Treppe in die oberen Stockwerke.
-Such den Schlüssel in den weißen Aktenschränken.
+Such den Schlüssel in den weißen Akten-Schränken.
 Such im Obergeschoss des Gebäudes nach dem Bruder des Glatzkopfs.
 Hol den mutierten Zombie ein.
 Verlass das Gebäude.

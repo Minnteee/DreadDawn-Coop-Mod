@@ -1,11 +1,11 @@
 Geh zum Gefängnis im Osten der Stadt.
 Erledige die Zombiehorde im Gefängnis!
-Hol im Gefängnisbunker deine Ausrüstung.
+Hol im Gefängnis-Bunker deine Ausrüstung.
 Erledige alle Infizierten in Bereich A.
-Geh zum Hauptkontrollraum des Gefängnisses.
+Geh zum Haupt-Kontrollraum des Gefängnisses.
 Erledige alle Infizierten in Bereich B.
-Finde den Gefängniswärter.
+Finde den Gefängnis-Wärter.
 Hol den Schlüssel aus dem Haus des Wärters.
 Kehr ins Gefängnis zurück und befreie den Wärter.
-Betätige den Schalter im Hauptkontrollraum.
+Betätige den Schalter im Haupt-Kontrollraum.
 Erledige alle mutierten Zombies!

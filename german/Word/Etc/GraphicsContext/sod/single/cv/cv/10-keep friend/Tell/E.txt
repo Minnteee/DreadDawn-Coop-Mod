@@ -1,7 +1,7 @@
 Geh zur Polizeiwache im Westviertel.
 Erledige alle Zombies in der Polizeiwache und rette deine Begleiter.
 Geh zum Bootssteg.
-Durchsuche den Lebensmittelladen nach Vorräten.
+Durchsuche den Lebensmittel-Laden nach Vorräten.
 Durchsuche die Häuser nach Vorräten.
 Durchsuche die Wohnung nach Vorräten.
 Geh in die Bar.
