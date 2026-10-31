@@ -1,8 +1,8 @@
 # Build output (contains a jar made from the game files - never upload)
-build/
+/build/
 # Local paths and private notes
-local.env
-notes/
+/local.env
+/notes/
 # Python
 __pycache__/
 *.pyc
