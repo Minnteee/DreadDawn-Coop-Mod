@@ -96,9 +96,9 @@ The result is in `build/`: `coop-mod.jar`, the co-op package `DreadDawn-Coop-Mod
 
 ## License
 
-**MIT** – see [LICENSE](LICENSE). You may use, change and extend the mod and its source code, also in your own projects. The only condition: keep the copyright notice, i.e. **credit Minnteee with a link to [github.com/Minnteee](https://github.com/Minnteee)** when you use this source code.
+**MIT** – see [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt). You may use, change and extend the mod and its source code, also in your own projects. The only condition: keep the copyright notice, i.e. **credit Minnteee with a link to [github.com/Minnteee](https://github.com/Minnteee)** when you use this source code.
 
-Dread Dawn belongs to its rights holders; this repository contains no files of the game. The German texts are a fan translation of the game's texts. The mod contains the library ASM (BSD-3-Clause, license text in [LICENSE](LICENSE)).
+Dread Dawn belongs to its rights holders; this repository contains no files of the game. The German texts are a fan translation of the game's texts. The mod contains the library ASM (BSD-3-Clause, license text in [NOTICE.txt](NOTICE.txt)).
 
 ---
 

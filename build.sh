@@ -86,7 +86,7 @@ rm -f "$B/DreadDawn-Coop-Mod.zip"
 (cd "$B/pkg" && "$JDK/bin/jar" --create --no-manifest --file "$(w "$B/DreadDawn-Coop-Mod.zip")" .)
 # source snapshot (to change the mod later)
 rm -f "$B/coop-mod-source.zip"
-(cd "$HERE" && "$JDK/bin/jar" --create --no-manifest --file "$(w "$B/coop-mod-source.zip")" src tools dist build.sh README.md LICENSE)
+(cd "$HERE" && "$JDK/bin/jar" --create --no-manifest --file "$(w "$B/coop-mod-source.zip")" src tools dist build.sh README.md LICENSE NOTICE.txt)
 
 # 5b) German language pack: "Dread Dawn DEUTSCH.bat" + deutsch/deutsch-mod.jar + deutsch/Word/... (texts)
 rm -rf "$B/pkg-de"
