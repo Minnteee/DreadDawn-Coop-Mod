@@ -12,8 +12,33 @@ public final class Patches {
     static final String V = "()V";
     static final String Z = "()Z";
 
+    /** calls that open a text file by a path String (the path is their last argument) */
+    static final String[] LANG_FILE_OPEN = {
+        "java/io/File.<init>(Ljava/lang/String;)V",
+        "java/io/FileInputStream.<init>(Ljava/lang/String;)V",
+        "java/io/FileReader.<init>(Ljava/lang/String;)V",
+    };
+
     public static GamePatcher create() {
+        return create(false);
+    }
+
+    /** langOnly: the German language pack started without the co-op mod (deutsch-mod.jar) */
+    public static GamePatcher create(boolean langOnly) {
         GamePatcher g = new GamePatcher();
+
+        // ---- German language pack (coop.Lang): English text files are read from the German copies ----
+        for (String t : LANG_FILE_OPEN) {
+            g.add(optional(new Patch("*", "*", null, Kind.ARG_FILTER, "coop/Lang.map", "(Ljava/lang/String;)Ljava/lang/String;",
+                    false, false, t, false)));
+        }
+        String ldc = "(Ljava/lang/String;)Ljava/lang/String;";
+        g.add(optional(new Patch(P, "<init>", null, Kind.LDC_STRING, "coop/Lang.ldc", ldc, false, false, "English", false)));
+        g.add(optional(new Patch("Game/Packview", "*", null, Kind.LDC_STRING, "coop/Lang.ldc", ldc, false, false, " (Day ", false)));
+        g.add(optional(new Patch(P, "*", null, Kind.LDC_STRING, "coop/Lang.ldc", ldc, false, false, "LOADING...", false)));
+        if (langOnly) {
+            return g;
+        }
 
         // ---- window / test setup -------------------------------------------------------
         g.add(redirect(P, "<clinit>", null, "java/awt/Toolkit.getScreenSize()Ljava/awt/Dimension;",
@@ -63,6 +88,9 @@ public final class Patches {
             g.add(new Patch(m[0], m[1], V, Kind.LOOP_SKIP_SLOT, "skipSlot", "(I)Z", false, false, null, false));
         }
         g.add(new Patch("Game/Humanrespawn", "selecthuman", "()I", Kind.REPLACE_300, "aiLimit", "()I", false, false, null, false));
+        // the other player's figure is not knocked down here (kicks, slides): his own machine decides
+        g.add(cancel(P, "counterfall", "(IDD)V", "puppetFall", "(IDD)Z", false, true));
+        g.add(cancel(P, "counterfallback", "(IDD)V", "puppetFall", "(IDD)Z", false, true));
         // remote player looks like the remote player's character
         g.add(before("Game/Bone", "drawcounter", "(I)V", "Game/MyPanel.lookout_height(I)D", "boneSkin", "(LGame/Bone;)V", true));
 
@@ -171,6 +199,10 @@ public final class Patches {
         g.add(cancel(P, "boommer", "(I)V", "boomerHead", "(I)Z", false, true));
         g.add(head(P, "barrel", V, "barrelHead", V, false, false));
         g.add(head(P, "barrelcreater", "(DDI)Z", "barrelCreating", "(DDI)V", false, true));
+        // traps and their impact never react to the other player's figure (his own machine decides about him)
+        for (String[] m : new String[][] {{P, "blade"}, {"Game/Craft", "mine"}, {"Game/Craft", "log"}}) {
+            g.add(optional(new Patch(m[0], m[1], V, Kind.LOOP_SKIP_SLOT, "skipSlot", "(I)Z", false, false, "301", false)));
+        }
         g.add(head(P, "blade", V, "bladeHead", "(LGame/MyPanel;)V", true, false));
         g.add(head(P, "trapnail", V, "nailHead", "(LGame/MyPanel;)V", true, false));
         g.add(redirect(P, "spiter", V, "Game/MyPanel.spiterdamage(I)Z", "spiterDamage", "(I)Z"));
@@ -184,6 +216,15 @@ public final class Patches {
         g.add(head(P, "skatepickup", "(I)V", "skatePickupHead", "(I)V", false, true));
         g.add(tail(P, "skatepickup", "(I)V", "skatePickupTail", "(I)V", false, true));
 
+        // ---- the other player as a yellow dot on the minimap and the map (MapMarkers) ----
+        g.add(redirect(P, "rad", V, "Game/MyPanel.getradcoordinate(DDIZ)V", "radCoord", "(LGame/MyPanel;DDIZ)V"));
+        g.add(fieldAfter(P, "page3", V, "Game/MyPanel.radtime", "radarDrawn", V));
+        for (String m : new String[] {"smallmap", "mapview"}) {
+            g.add(before("Game/MapView", m, V, "Game/MapView.draw_mission_button(I)V", "mapPartner", "(LGame/MapView;)V", true));
+        }
+        // a dead player who watches his partner may open the map
+        g.add(new Patch(P, "unity", V, Kind.FIELD_GET, "unityDeathed", Z, false, false, "deathed:Z", false));
+
         // ---- the pause menu does not stop the world while playing together ----
         g.add(head(P, "game", V, "gameHead", V, false, false));
 
@@ -192,7 +233,7 @@ public final class Patches {
             {"Game/Zombierespawn", "unity", V}, {"Game/Zombierespawn", "fake", "(Z)V"},
             {"Game/Humanrespawn", "unity", "(Z)V"}, {"Game/Humanrespawn", "fake", "(Z)V"},
             {"Game/Humanrespawn", "move", V}, {"Game/Humanrespawn", "movecar", V},
-            {"Game/Function", "bot", V}, {P, "eye", V}, {P, "runaim", V}, {P, "runmove", V},
+            {P, "eye", V}, {P, "runaim", V}, {P, "runmove", V},
             {"Game/Use", "unity_terrorist", V}, {P, "zombierush", "(IIID)V"},
             {"Game/DirectorMode", "director_mode_only", V}, {"Game/L4DMode", "l4d_mode_only", V},
             {"Game/Change", "zombie_into_wall", V},
@@ -211,11 +252,25 @@ public final class Patches {
         for (String[] m : noAi) {
             g.add(cancel(m[0], m[1], m[2], "clientNoAI", Z, false, false));
         }
+        // the AI steering of the own figure in command mode (Q) / build mode still runs on the client (QMode)
+        g.add(cancel("Game/Function", "bot", V, "clientBot", "(LGame/Function;)Z", true, false));
         // the clock, sieges, rushes, crops etc. run on the host; the client only checks level-ups
         g.add(cancel(P, "realtime", V, "clientRealtime", Z, false, false));
         // the client never writes save slots
         g.add(cancel(P, "savestock", "(IZ)V", "clientNoSave", Z, false, false));
         g.add(cancel(P, "savestock_cloud", "(IZ)V", "clientNoSave", Z, false, false));
+
+        // ---- down / revive: E next to the downed partner, his body is never looted (DeathSync) ----
+        g.add(cancel(P, "opendialog", V, "openDialogHead", Z, false, false));
+        g.add(cancel(P, "counterDialog", "(I)Z", "counterDialogHead", "(I)Z", false, true));
+        // a save made while down / dead stores the player alive; the save slot in play is remembered (SaveSync)
+        g.add(head("Game/Save", "saveOther", "(Z)V", "saveOtherHead", V, false, false));
+        g.add(tail("Game/Save", "saveOther", "(Z)V", "saveOtherTail", V, false, false));
+        g.add(head("Game/SaveStock", "<init>", "(Ljava/lang/String;Ljava/lang/String;Z)V", "saveStockHead",
+                "(Ljava/lang/String;Ljava/lang/String;Z)V", false, true));
+        // a dead player may open the save menu; the guest's F5 saves on the host
+        g.add(new Patch(P, "page4", V, Kind.FIELD_GET, "page4Deathed", Z, false, false, "deathed:Z", false));
+        g.add(head(P, "backfire", V, "backfireHead", "(LGame/MyPanel;)V", true, false));
 
         // ---- damage routing -------------------------------------------------------------------
         g.add(cancel(P, "ctdamage", "(IDDZZ)V", "ctdamage", "(IDDZZ)Z", false, true));
@@ -238,6 +293,14 @@ public final class Patches {
         // host: the story waits while a picture, a notice or the inventory is open (as in single player,
         // where the whole world pauses then; in co-op the world keeps running)
         g.add(cancel("Game/Direction", "targetouch", V, "hostStoryHold", Z, false, false));
+        // host: map events wait while the guest loads the world (replayed afterwards)
+        g.add(cancel("Game/MapThing", "treasure", "(Z)V", "treasureGate", "(Z)Z", false, true));
+        g.add(cancel("Game/MapThing", "treasurewait", V, "treasureWaitGate", Z, false, false));
+        // "watch or skip this scene?" (asked only on the host): in co-op both watch it
+        g.add(redirect("Game/Direction", "targetouch", V, "Game/NoticeView.notice_yesno(Ljava/lang/String;I)V", "storyYesNo",
+                "(LGame/NoticeView;Ljava/lang/String;I)V"));
+        // the host skips / closes a story dialog: the guest's copy closes too
+        g.add(tail("Game/HeadDialog", "close", V, "headDialogClosed", V, false, false));
         // story pictures, hint texts and sounds
         g.add(head("Game/Direction", "photo", "(Ljava/lang/String;)V", "storyPhoto", "(Ljava/lang/String;)V", false, true));
         g.add(head("Game/MapThing", "treasureUSE", "(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V",

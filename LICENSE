@@ -1,32 +1,43 @@
-DREAD DAWN COOP-MOD - LIZENZ / LICENSE
-======================================
-Copyright (c) 2026 Minnteee. Alle Rechte vorbehalten. All rights reserved.
+MIT License
 
-ERLAUBT
-- den Mod herunterladen, installieren und spielen
-- das unveraenderte Mod-Paket (die Zip) an Freunde weitergeben
-- den Quellcode ansehen
+Copyright (c) 2026 Minnteee (https://github.com/Minnteee)
 
-NICHT ERLAUBT ohne schriftliche Erlaubnis von Minnteee
-- veraenderte Versionen des Mods oder des Quellcodes weitergeben oder veroeffentlichen
-- den Quellcode ganz oder teilweise in andere Projekte uebernehmen
-- den Mod oder Teile davon verkaufen
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-English summary: You may download, play and share the unmodified mod and read
-the source code. Sharing or publishing modified versions, reusing the code in
-other projects and selling the mod are not allowed without written permission.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Der Mod wird ohne Gewaehr bereitgestellt; die Nutzung erfolgt auf eigene
-Verantwortung. / Provided "as is", without warranty of any kind.
-
-Dread Dawn und alle Dateien des Spiels gehoeren ihren Rechteinhabern. Der Mod
-enthaelt keine Dateien des Spiels; er liest beim Start die eigene Installation
-des Spielers.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ------------------------------------------------------------------------------
-ENTHALTENE FREMDE SOFTWARE / THIRD-PARTY SOFTWARE
+CREDIT
 
-coop-mod.jar enthaelt ASM 9.11.1 (https://asm.ow2.io) unter dieser Lizenz:
+You are welcome to extend this mod and to use its source code in your own
+projects. When you do, keep the copyright notice above, i.e. credit Minnteee
+with a link to https://github.com/Minnteee (for example in your README).
+
+------------------------------------------------------------------------------
+NOT COVERED BY THIS LICENSE
+
+Dread Dawn and all of its files belong to their rights holders. This
+repository and the co-op mod contain no files of the game; the mod reads the
+player's own installation of the game when it starts.
+
+------------------------------------------------------------------------------
+THIRD-PARTY SOFTWARE
+
+coop-mod.jar contains ASM 9.11.1 (https://asm.ow2.io) under this license:
 
  ASM: a very small and fast Java bytecode manipulation framework
  Copyright (c) 2000-2011 INRIA, France Telecom

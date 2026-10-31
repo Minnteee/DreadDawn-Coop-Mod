@@ -1,0 +1,130 @@
+DREAD DAWN CO-OP - WHAT IS SYNCHRONISED?   (version 1.2)
+Format:  No. Topic  |  single player  ->  co-op
+[NEW] = new or improved in version 1.2.
+
+CONNECTION & MENU
+ 1. Main menu | Continue/New Game/Load/... -> also "Host co-op" and "Join co-op"
+    (dialog: name, IP, port 7777; the host sees his Radmin IP 26.x).
+ 2. Joining | - -> the host saves and sends his whole world; the guest loads it into Save\coop
+    (the guest's own saves stay untouched) and stands next to the host.
+ 3. Settings | each his own -> the host's difficulty and number of zombies count for both
+    (only during the session, not saved on the guest's PC).
+ 4. Versions | - -> the same game and mod version are needed, otherwise rejected with a message.
+ 5. [NEW] Texts | - -> the mod speaks English; with the German language pack installed German.
+
+PLAYERS
+ 6. Seeing each other | - -> the other player's figure with walking/running/jumping/falling, aim,
+    weapon in hand, shot/hit animation, muzzle flash + weapon sound, flashlight.
+    [NEW] Much smoother over the internet: movement is replayed with the sender's timing
+    (VPN lines deliver in bursts), the legs walk in the walking direction, short stalls no
+    longer switch between walking and standing, falls play once.
+ 7. Name above the head | - -> name + small health bar above the partner, "(dead)" when dead.
+    Own name off by default (showOwnName=true in coop.properties).
+ 8. [NEW] Partner on the map | - -> yellow dot on the minimap (stays on the rim when far away)
+    and on the big map; off screen a yellow arrow with name and distance points to him.
+ 9. Look | story: Jack / survival: chosen character -> host as usual, the guest gets his own
+    random look (saved), so you can tell each other apart.
+10. Guest's character | - -> bag, equipment, health/hunger/thirst/stamina, level/XP belong to the
+    guest and are saved in the host's save (back on the next join). Starting kit like in
+    single player per mode (survival: a starting melee weapon + flashlight, Zombie Escape: the
+    mode's loadout + first aid kit + 2 magazines, story/director: baseball bat, M-1911 + 24
+    rounds, flashlight, 2 bread, soda), only on the very first join into this host's world.
+    All progress of the guest is kept through every map change: armour, sleep, kills,
+    weapon/melee/body levels, unlocked recipes and skills.
+    [NEW] The guest's character is sent at once when his bag changes, before he goes down and
+    with every map change (also when he is dead), so nothing gets lost.
+11. Damage to players | only the player -> each manages his own health; hits of zombies,
+    bandits, explosions, fire and acid on the guest are calculated by the host.
+12. XP / kills | the player gets XP for kills -> the guest too (own XP, own level).
+13. No friendly fire | - -> players cannot hurt each other.
+14. Bullets | - -> every bullet of the other machine (players, NPCs, turrets) flies as a visible
+    tracer, stops at walls/zombies with sparks/blood; damage counts once.
+15. Speech bubbles | - -> sentences above heads (NPCs, story, players) are seen by both.
+
+DOWN, DEATH, REVIVE  [NEW]
+16. Down | death screen -> at 0 health the player goes down and lies on the ground. Above the body
+    a 15 s countdown, the partner sees "[E] Revive" next to him and revives him with E
+    (he gets up with 30 % health). Without help he is dead after 15 s.
+17. Dead | - -> the dead player watches his partner (camera follows him) and can open the map.
+    His body can never be looted. He comes back at the next map change (with his whole bag)
+    or when a cutscene starts.
+18. Nobody standing | - -> both down/dead (or a mission failed): the normal death screen, the host
+    presses Space -> last autosave, the guest loads with him.
+19. Fixed: a dead host never came back (now on map change / cutscene); a dead host could jump but
+    not walk after a save or cutscene; a dead host lost his bag when the guest changed the map.
+
+ZOMBIES & PEOPLE
+20. Zombies | local -> only the host simulates them (spawns, AI, attacks, hordes); the guest sees
+    all zombies near him 20x/s with speed prediction.
+21. Zombies hunt both | only the player -> zombies chase and attack both players.
+22. The guest hits zombies | - -> hits show at once on the guest, damage is applied by the host ->
+    the zombie dies the same for both. Burning zombies burn on the guest too.
+23. Zombie AI near the guest | only near the player's screen -> the area around the guest is
+    simulated by the host exactly like his own screen, however far apart you are (same map).
+24. NPC people | local -> only the host simulates them; the guest sees them with weapons, shots and
+    sentences; the guest's hits on NPCs go to the host.
+25. Trading | - -> the guest trades with traders and survivors himself (buy, sell, repair); the
+    trader's stock is the same for both.
+26. Companions | - -> the guest can hire (from level 2 like in single player), dismiss, command in
+    command mode (Q: storm, go to, follow, hold, fire at will on/off) and use the companion menu
+    (C). Companions belong to the player who hired or last commanded them.
+    [NEW] The guest's companions travel along when the host changes the map.
+27. [NEW] Command mode (Q) and build mode for the guest | - -> the guest's own figure walks to the
+    hold point / build site like in single player (it used to walk away and building failed).
+28. Grenades, stones, molotovs, smoke, flamethrower, acid | local -> thrown by one, seen by both;
+    damage by the host.
+29. Explosions, barrels, boomer gas | local -> seen by both, damage counts once.
+30. Traps | local -> blade, nail, mine and log traps hurt only once.
+    [NEW] The other player's figure never sets off traps.
+31. Flame jets | only on the player's screen -> burn when only the guest stands in front of them.
+32. RC cars and skateboards | local -> the driver steers himself, the other sees it smoothly.
+33. Chickens | local -> state from the host (4x/s).
+
+STORY & MISSIONS
+34. Cutscenes | - -> run for both at the same time (same camera, each in his own language).
+    Skipping (Space/arrow right) only when BOTH pressed.
+    [NEW] The guest no longer misses cutscenes after map changes: the story waits until the
+    guest has loaded the new map (max. 45 s) and then starts the scene for both. "Watch or skip
+    this scene?" is not asked in co-op (both watch, skipping works by voting).
+35. Story dialogs | - -> for both; the next line comes only when both pressed Space.
+    [NEW] Skipping the prologue closes the dialog for the guest too.
+36. Story pictures, hints, sounds | - -> for both.
+37. Story & missions | - -> the host leads the story; the guest sees the same objective. Story
+    goals and map events can be triggered by the guest too; rewards and rests for both.
+38. Yellow guidance arrow, mission list, zombie area, air drop, camp siege | - -> for both.
+
+WORLD
+39. Time of day & weather | local -> the host decides, the guest follows every second.
+40. Sleeping | time jumps 7 hours -> only when BOTH slept (within one minute).
+41. Map changes | - -> always together. Very frequent (every building is a map of its own).
+    [NEW] The guest is told at once when the host leaves; his open containers close, so nothing
+    is put into a box that is already gone.
+42. Items on the ground | local -> picked up / dropped by both, visible to both.
+43. Boxes, cupboards, bodies, air drops | loot rolled on opening -> only the host rolls;
+    opened containers have the same contents for both, live.
+    [NEW] Reworked: the guest's changes are merged slot by slot into the host's box (nothing is
+    overwritten), updates never arrive while an item is being dragged, items are no longer lost.
+44. Locks, keys, doors, power lines | local -> for both.
+45. Building & tearing down, trees, harvesting, bonfires, feeding & watering, rain barrels | local
+    -> for both.
+
+PAUSE & SAVING
+46. Pause menu / inventory open | world pauses -> the world keeps running (otherwise the other
+    player would freeze). The story waits while the host has a picture, message or inventory open.
+47. Saving | the player saves -> the host saves (autosave, F5, slots).
+    [NEW] The guest can save for the host (F5 or "Save" in his pause menu): the host saves into
+    the slot he loaded or saved last, otherwise the autosave. A dead host can save too; a save
+    made while dead stores him alive next to his partner.
+48. Disconnection | - -> the host plays on and waits; the guest returns to the main menu.
+
+GENERAL CHANGES
+49. "Low FPS" warning (closes the game) | active -> off in co-op.
+50. Mouse cursor jump after cutscenes (the game moves the real mouse) | active -> always off.
+51. Crash guard | an error while drawing stops the game -> the error is caught.
+52. Mini-games | PC games, football, car race, girlfriend scene -> blocked in co-op (they switch to
+    a map of their own, the other player would be alone); a message says so.
+
+NOT SYNCHRONISED (known limits)
+ - Zombies appear on the guest with about 50-100 ms delay (hardly visible thanks to prediction).
+ - Rope, taser and fire hose: only the user sees them; tying up a zombie only works for the host.
+ - Fishing: each player fishes for himself.

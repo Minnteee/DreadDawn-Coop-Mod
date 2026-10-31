@@ -15,7 +15,7 @@ public final class Log {
     }
 
     public static synchronized void error(String where, Throwable t) {
-        System.out.println(LocalTime.now().format(F) + " [coop] FEHLER in " + where + ": " + t);
+        System.out.println(LocalTime.now().format(F) + " [coop] ERROR in " + where + ": " + t);
         t.printStackTrace(System.out);
         System.out.flush();
     }

@@ -129,7 +129,7 @@ public final class Hooks {
     public static void onStartHead(MyPanel p, Stage s) {
         panel = p;
         stage = s;
-        Log.info("Dread Dawn Coop " + Coop.VERSION + " gestartet (Spielversion " + MyPanel.verision + ")");
+        Log.info("Dread Dawn Coop " + Coop.VERSION + " started (game version " + MyPanel.verision + ")");
     }
 
     public static void stageSetX(Stage s, double x) {
@@ -175,7 +175,7 @@ public final class Hooks {
             long now = System.currentTimeMillis();
             if (now - lastDrawError > 3000) {
                 lastDrawError = now;
-                Log.error("draw (abgefangen, Spiel laeuft weiter)", t);
+                Log.error("draw (caught, the game keeps running)", t);
             }
         }
     }
@@ -187,7 +187,7 @@ public final class Hooks {
             long now = System.currentTimeMillis();
             if (now - lastGameError > 3000) {
                 lastGameError = now;
-                Log.error("game (abgefangen, Spiel laeuft weiter)", t);
+                Log.error("game (caught, the game keeps running)", t);
             }
         }
     }
@@ -199,7 +199,7 @@ public final class Hooks {
             long now = System.currentTimeMillis();
             if (now - lastUnityError > 3000) {
                 lastUnityError = now;
-                Log.error("unity (abgefangen, Spiel laeuft weiter)", t);
+                Log.error("unity (caught, the game keeps running)", t);
             }
         }
     }
@@ -246,6 +246,10 @@ public final class Hooks {
     public static void hintTail() {
         if (Puppet.active()) {
             MyPanel.ctgroup[Puppet.K] = 0;
+            // the other player's body is never offered for looting ("press E" is our revive prompt)
+            if (panel != null && panel.counterhintnum == Puppet.K) {
+                panel.counterhintnum = -1;
+            }
         }
     }
 
@@ -259,6 +263,16 @@ public final class Hooks {
         } catch (Throwable t) {
             Log.error("drawHead", t);
         }
+        try {
+            Puppet.fxRefresh();
+        } catch (Throwable t) {
+            Log.rare("fxRefresh " + t);
+        }
+    }
+
+    /** MyPanel.counterfall / counterfallback: the other player's figure is only knocked down by his own machine */
+    public static boolean puppetFall(int x, double px, double py) {
+        return x == Puppet.K && Puppet.active() && Coop.playing();
     }
 
     /** FX thread, end of every frame: status text, dialogs. */
@@ -806,7 +820,7 @@ public final class Hooks {
     public static boolean loadHead() {
         try {
             if (WorldTransfer.blockClientLoad()) {
-                Log.info("load() auf dem Client unterdrueckt (warte auf Host)");
+                Log.info("load() suppressed on the client (waiting for the host)");
                 if (!MyPanel.deathed && Net.connected()) {
                     // e.g. "Continue" in the menu: get the host's current world
                     Net.send(new coop.net.Msg(coop.net.Proto.WORLD_REQUEST));
@@ -975,7 +989,8 @@ public final class Hooks {
 
     public static boolean hostStoryHold() {
         try {
-            return Net.isHost() && Coop.playing() && (MyPanel.PHOTO || MyPanel.NOTICE || MyPanel.packnum != -1);
+            return Net.isHost() && (Coop.playing() && (MyPanel.PHOTO || MyPanel.NOTICE || MyPanel.packnum != -1)
+                    || WorldTransfer.hostAwaitingGuest());
         } catch (Throwable t) {
             return false;
         }
@@ -1108,6 +1123,136 @@ public final class Hooks {
             Travel.afterTraveling();
         } catch (Throwable t) {
             Log.error("afterTraveling", t);
+        }
+    }
+
+    // ------------------------------------------------------------------ minimap / map (MapMarkers)
+
+    public static void radCoord(MyPanel p, double x, double y, int kind, boolean out) {
+        if (coop.ui.MapMarkers.skipRadar(x, y)) {
+            return;
+        }
+        p.getradcoordinate(x, y, kind, out);
+    }
+
+    public static void radarDrawn() {
+        try {
+            coop.ui.MapMarkers.radar();
+        } catch (Throwable t) {
+            Log.rare("radar " + t);
+        }
+    }
+
+    public static void mapPartner(Game.MapView mv) {
+        try {
+            coop.ui.MapMarkers.bigMap(mv);
+        } catch (Throwable t) {
+            Log.rare("map partner " + t);
+        }
+    }
+
+    public static boolean unityDeathed() {
+        return coop.sync.DeathSync.unityDeathed();
+    }
+
+    /** Function.bot: on the client only the own figure's command-mode steering (QMode), the rest runs on the host */
+    public static boolean clientBot(Game.Function f) {
+        if (!(Net.isClient() && Coop.clientSimOff())) {
+            return false;
+        }
+        try {
+            coop.sync.QMode.clientTick(f);
+        } catch (Throwable t) {
+            Log.rare("QMode " + t);
+        }
+        return true;
+    }
+
+    // ------------------------------------------------------------------ down / revive / saving (DeathSync, SaveSync)
+
+    /** MyPanel.opendialog (E): next to the downed partner E revives him */
+    public static boolean openDialogHead() {
+        try {
+            return DeathSync.tryRevive();
+        } catch (Throwable t) {
+            Log.rare("tryRevive " + t);
+            return false;
+        }
+    }
+
+    /** MyPanel.counterDialog: the other player's figure has no dialog and can never be looted */
+    public static boolean counterDialogHead(int x) {
+        return x == Puppet.K && Puppet.active();
+    }
+
+    public static void saveStockHead(String source, String target, boolean insave) {
+        try {
+            if (Net.isHost() || !Net.active()) {
+                coop.sync.SaveSync.slotCopy(source, target, insave);
+            }
+        } catch (Throwable t) {
+            Log.rare("slotCopy " + t);
+        }
+    }
+
+    public static void saveOtherHead() {
+        try {
+            DeathSync.beforeSave();
+        } catch (Throwable t) {
+            Log.rare("beforeSave " + t);
+        }
+    }
+
+    public static void saveOtherTail() {
+        try {
+            DeathSync.afterSave();
+        } catch (Throwable t) {
+            Log.rare("afterSave " + t);
+        }
+    }
+
+    public static boolean page4Deathed() {
+        return coop.sync.SaveSync.menuDeathed();
+    }
+
+    public static void backfireHead(MyPanel p) {
+        try {
+            coop.sync.SaveSync.clientF5(p);
+        } catch (Throwable t) {
+            Log.rare("clientF5 " + t);
+        }
+    }
+
+    // ------------------------------------------------------------------ story waits for the guest (StorySync)
+
+    /** MapThing.treasure / treasurewait on the host while the guest loads the world */
+    public static boolean treasureGate(boolean fore) {
+        try {
+            return Net.isHost() && WorldTransfer.holdMapEvents(fore);
+        } catch (Throwable t) {
+            return false;
+        }
+    }
+
+    public static boolean treasureWaitGate() {
+        return treasureGate(false);
+    }
+
+    /** "watch the scene or skip it?" in co-op: always watched by both (skipping works by voting with space) */
+    public static void storyYesNo(Game.NoticeView nv, String word, int kind) {
+        if (kind == 4 && Net.isHost() && Coop.playing() && MyPanel.Direction != null) {
+            MyPanel.Direction.playjump(false);
+            return;
+        }
+        nv.notice_yesno(word, kind);
+    }
+
+    /** HeadDialog.close on the host (e.g. the prologue is skipped): the guest's copy closes too */
+    public static void headDialogClosed() {
+        try {
+            coop.sync.StorySync.hostDialogClosed();
+        } catch (Throwable t) {
+            Log.rare("hostDialogClosed " + t);
         }
     }
 }

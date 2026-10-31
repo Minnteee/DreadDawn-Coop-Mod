@@ -11,12 +11,14 @@ import java.util.Properties;
 public final class Config {
     private Config() {}
 
-    public static String name = "Spieler";
+    public static String name = "Player";
     public static String lastIp = "";
     public static int port = 7777;
     /** maximum distance (world units) the two players may be apart; 0 = no limit */
     public static int leash = 0;
     public static boolean showOwnName = false;
+    /** host: save slot played last (-1 none, 1000+ = cloud slot) */
+    public static int lastSlot = -1;
 
     static Path file() {
         String root = System.getProperty("coop.root");
@@ -51,6 +53,11 @@ public final class Config {
             leash = 0;
         }
         showOwnName = Boolean.parseBoolean(p.getProperty("showOwnName", "false").trim());
+        try {
+            lastSlot = Integer.parseInt(p.getProperty("lastSlot", "-1").trim());
+        } catch (NumberFormatException e) {
+            lastSlot = -1;
+        }
         if (System.getProperty("coop.name") != null) {
             name = clean(System.getProperty("coop.name"));
         }
@@ -63,6 +70,7 @@ public final class Config {
         p.setProperty("port", String.valueOf(port));
         p.setProperty("leash", String.valueOf(leash));
         p.setProperty("showOwnName", String.valueOf(showOwnName));
+        p.setProperty("lastSlot", String.valueOf(lastSlot));
         try {
             Path f = file();
             Files.createDirectories(f.getParent());
@@ -75,18 +83,18 @@ public final class Config {
     }
 
     static String defaultName() {
-        String u = System.getProperty("user.name", "Spieler");
-        return u.isBlank() ? "Spieler" : u;
+        String u = System.getProperty("user.name", "Player");
+        return u.isBlank() ? "Player" : u;
     }
 
     public static String clean(String s) {
         if (s == null) {
-            return "Spieler";
+            return "Player";
         }
         s = s.replaceAll("[\\r\\n\\t]", " ").trim();
         if (s.length() > 20) {
             s = s.substring(0, 20);
         }
-        return s.isEmpty() ? "Spieler" : s;
+        return s.isEmpty() ? "Player" : s;
     }
 }

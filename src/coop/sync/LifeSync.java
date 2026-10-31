@@ -6,6 +6,7 @@ import coop.Log;
 import coop.net.Msg;
 import coop.net.Net;
 import coop.net.Proto;
+import coop.T;
 
 /**
  * Everyday things the guest does that change the shared world:
@@ -109,7 +110,7 @@ public final class LifeSync {
         if (Net.isClient()) {
             Net.send(new Msg(Proto.LIFE, 8).u8(L_SLEEP).u8(h));
             MyPanel.realtime -= h * 60; // cancels the "+= 420" after it, the host decides the clock
-            note("Die Zeit vergeht erst, wenn auch " + Net.peerName + " schlaeft.");
+            note(T.s("Time only passes when {0} sleeps too.", Net.peerName));
             return;
         }
         hostSleptAt = now;
@@ -117,10 +118,10 @@ public final class LifeSync {
             guestSleptAt = 0;
             hostSleptAt = 0;
             MyPanel.addhour(h); // both slept: the night passes
-            Log.info("Beide haben geschlafen: " + h + " Stunden vergehen");
+            Log.info("both slept: " + h + " hours pass");
         } else {
             MyPanel.realtime -= h * 60;
-            note("Die Zeit vergeht erst, wenn auch " + Net.peerName + " schlaeft.");
+            note(T.s("Time only passes when {0} sleeps too.", Net.peerName));
         }
     }
 
@@ -140,9 +141,9 @@ public final class LifeSync {
             hostSleptAt = 0;
             MyPanel.addhour(h);
             MyPanel.realtime += h * 60;
-            Log.info("Beide haben geschlafen: " + h + " Stunden vergehen");
+            Log.info("both slept: " + h + " hours pass");
         } else {
-            Coop.message(Net.peerName + " schlaeft - die Zeit vergeht, wenn du auch schlaefst.");
+            Coop.message(T.s("{0} is sleeping - time passes when you sleep too.", Net.peerName));
         }
     }
 
@@ -159,7 +160,7 @@ public final class LifeSync {
         long now = System.currentTimeMillis();
         if (now - lastBlock > 3000) {
             lastBlock = now;
-            Coop.message("Minispiele gehen im Coop nicht.");
+            Coop.message(T.s("Mini-games are not available in co-op."));
         }
         return true;
     }

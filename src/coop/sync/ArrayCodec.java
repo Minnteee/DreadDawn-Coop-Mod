@@ -81,7 +81,7 @@ final class ArrayCodec {
                 o.writeLong(v);
             }
         } else {
-            throw new IOException("Typ nicht unterstuetzt: " + c);
+            throw new IOException("type not supported: " + c);
         }
     }
 
@@ -111,7 +111,7 @@ final class ArrayCodec {
             o.writeByte(10);
             o.writeLong((Long) v);
         } else {
-            throw new IOException("Skalar nicht unterstuetzt: " + v);
+            throw new IOException("scalar not supported: " + v);
         }
     }
 
@@ -134,7 +134,7 @@ final class ArrayCodec {
             case 10:
                 return in.readLong();
             default:
-                throw new IOException("Skalar-Typ unbekannt");
+                throw new IOException("unknown scalar type");
         }
     }
 
@@ -224,7 +224,7 @@ final class ArrayCodec {
                 return a;
             }
             default:
-                throw new IOException("Array-Typ unbekannt: " + t);
+                throw new IOException("unknown array type: " + t);
         }
     }
 

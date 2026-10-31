@@ -1,0 +1,25 @@
+DREAD DAWN - DEUTSCH-MOD
+========================
+Macht Dread Dawn deutsch: Menüs, Items, Bauen und Herstellen, Hinweise, Story-Dialoge und
+Zwischensequenzen. Die Originaldateien des Spiels werden nicht verändert.
+
+INSTALLATION
+1. Den Inhalt dieses Pakets in den Dread-Dawn-Ordner entpacken, also dorthin, wo der Ordner
+   "Word" liegt. Danach gibt es dort "Dread Dawn DEUTSCH.bat" und den Ordner "deutsch".
+2. Im Spiel die Sprache "English" eingestellt lassen: das Paket ersetzt die englischen Texte.
+
+SPIELEN
+- Allein: "Dread Dawn DEUTSCH.bat" starten.
+- Coop: wie gewohnt "Dread Dawn COOP.bat" starten. Ist das Deutsch-Paket installiert, ist auch
+  der Coop deutsch, samt Coop-Meldungen. Jeder Spieler sieht die Sprache, die bei ihm
+  installiert ist (dein Freund kann also auf Englisch spielen, wenn er das Paket nicht hat).
+- Den Coop trotz Paket auf Englisch: in "Dread Dawn COOP.bat" hinter coop-mod.jar"
+  den Schalter  -Dcoop.lang=en  anhängen.
+
+GUT ZU WISSEN
+- Beim ersten Start baut das Paket einmalig die angepasste Spielversion (deutsch\cache).
+  Nach einem Spiel-Update passiert das automatisch neu.
+- Texte, die im Spiel als Bild vorliegen (z. B. die Tastatur-Hilfe), bleiben englisch.
+- Entfernen: "Dread Dawn DEUTSCH.bat" und den Ordner "deutsch" löschen.
+
+Übersetzung und Mod erstellt mit Claude Opus 5.5 (Anthropic).

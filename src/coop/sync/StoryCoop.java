@@ -110,7 +110,7 @@ public final class StoryCoop {
         if (d != null && d.missionhead && now - lastStartRequest > 1000 && Coop.playing()) {
             lastStartRequest = now;
             Net.send(new Msg(Proto.STORY2, 16).u8(S_MISSION_START).i32(d.missionuming).i32(d.missionheadnow));
-            Log.info("Mission angefragt: " + d.missionuming + "/" + d.missionheadnow);
+            Log.info("mission requested: " + d.missionuming + "/" + d.missionheadnow);
         }
         return true;
     }
@@ -122,7 +122,7 @@ public final class StoryCoop {
             return;
         }
         d.startmission();
-        Log.info("Mission vom Gast gestartet: " + mission + "/" + head);
+        Log.info("mission started by the guest: " + mission + "/" + head);
     }
 
     // ------------------------------------------------------------------ map events the guest walks into
@@ -183,7 +183,7 @@ public final class StoryCoop {
                 mt.treasureUSE(kind, mission, branch, option, zonetime);
             }
             MyPanel.treasureTIME = 0.0;
-            Log.info("Karten-Ereignis durch den Gast ausgeloest (Art " + kind + ")");
+            Log.info("map event triggered by the guest (kind " + kind + ")");
             return;
         }
     }
@@ -250,9 +250,9 @@ public final class StoryCoop {
                         applying.set(true);
                         try {
                             MyPanel.Direction.give(path);
-                            Log.info("Story-Belohnung erhalten: " + new File(path).getName());
+                            Log.info("story reward received: " + new File(path).getName());
                         } catch (Throwable e) {
-                            Log.error("Story-Belohnung", e);
+                            Log.error("story reward", e);
                         } finally {
                             applying.set(false);
                         }

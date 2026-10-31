@@ -103,7 +103,7 @@ public final class HazardSync {
                 MyPanel.smokebloodtime[MyPanel.smokebloodnuming - 1] = 0.01f;
             }
         } catch (Throwable t) {
-            Log.rare("Gaswolke " + t);
+            Log.rare("gas cloud " + t);
         } finally {
             applying.set(false);
         }

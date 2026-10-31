@@ -120,7 +120,7 @@ public final class ShotSync {
                 try {
                     Coop.panel.shootcreater(x, y, s[3], s[4], s[5], (byte) s[6], 0, GHOST);
                 } catch (Throwable t) {
-                    Log.rare("Geist-Kugel " + t);
+                    Log.rare("ghost bullet " + t);
                 } finally {
                     applying.set(false);
                 }
@@ -162,7 +162,7 @@ public final class ShotSync {
                         0.2 + Math.random() * 0.5, 300 + Math.random() * 80, (Math.random() - 0.5), true);
             }
         } catch (Throwable t) {
-            Log.rare("Geist-Treffer " + t);
+            Log.rare("ghost hit " + t);
         }
         return -1;
     }

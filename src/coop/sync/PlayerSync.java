@@ -21,6 +21,10 @@ public final class PlayerSync {
     public static final int F_DEAD = 1 << 8;
     public static final int F_CAR = 1 << 9;
     public static final int F_INGAME = 1 << 10;
+    /** down: lying on the ground, the partner can revive him (State.downLeft = ms left) */
+    public static final int F_DOWN = 1 << 11;
+    /** the sender's figure plays its walk animation (Bone.ctmoved[300]) */
+    public static final int F_MOVED = 1 << 12;
 
     /** One received sample. */
     public static final class State {
@@ -48,6 +52,8 @@ public final class PlayerSync {
         public float viewR;
         public float viewT;
         public float viewB;
+        /** down: time left to be revived, in 1/10 s */
+        public int downLeft;
     }
 
     /** counts the local player's shots (Combat.shootcreater) */
@@ -85,8 +91,14 @@ public final class PlayerSync {
         if (MyPanel.deathed || MyPanel.ctheal[p] <= 0 || DeathSync.localDead()) {
             flags |= F_DEAD;
         }
+        if (DeathSync.localDown()) {
+            flags |= F_DOWN;
+        }
         if (MyPanel.carmode) {
             flags |= F_CAR;
+        }
+        if (MyPanel.Bone != null && MyPanel.Bone.ctmoved != null && MyPanel.Bone.ctmoved[p]) {
+            flags |= F_MOVED;
         }
         flags |= F_INGAME;
         boolean use = MyPanel.Bone != null && MyPanel.Bone.ctuse[p];
@@ -106,12 +118,13 @@ public final class PlayerSync {
         double[] f = MyPanel.pFAST;
         m.f32((float) (f[0] + MyPanel.keyxed)).f32((float) (f[1] + MyPanel.keyxed));
         m.f32((float) (f[2] + MyPanel.keyyed * MyPanel.flatex)).f32((float) (f[3] + MyPanel.keyyed * MyPanel.flatex));
+        m.i64(coop.net.Clock.now());
+        m.i16((int) Math.min(30000, DeathSync.downLeftMs() / 100));
         return m;
     }
 
     public static void receive(Msg m) {
         State s = new State();
-        s.time = System.currentTimeMillis();
         s.x = m.f64();
         s.y = m.f64();
         s.ang = m.f32();
@@ -135,6 +148,9 @@ public final class PlayerSync {
         s.viewR = m.f32();
         s.viewT = m.f32();
         s.viewB = m.f32();
+        // replay with the sender's timing, not with the (bursty) arrival times
+        s.time = coop.net.Clock.toLocal(m.i64(), m.arrivedAt);
+        s.downLeft = m.i16();
         Puppet.name = name;
         if (Net.peerName.isEmpty()) {
             Net.peerName = name;

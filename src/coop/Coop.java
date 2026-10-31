@@ -25,7 +25,7 @@ import javafx.stage.Stage;
 public final class Coop {
     private Coop() {}
 
-    public static final String VERSION = "1.1";
+    public static final String VERSION = "1.2";
 
     public static MyPanel panel;
     public static Stage stage;
@@ -51,7 +51,8 @@ public final class Coop {
         stage = s;
         testMode = System.getProperty("coop.window") != null || System.getProperty("coop.debugPort") != null;
         Config.load();
-        Log.info("Coop.init: Name=" + Config.name + " Port=" + Config.port + " Fenster " + MyPanel.screen_save_X + "x"
+        coop.sync.SaveSync.restoreFromConfig();
+        Log.info("Coop.init: Name=" + Config.name + " Port=" + Config.port + " window " + MyPanel.screen_save_X + "x"
                 + MyPanel.screen_save_Y + " render=" + MyPanel.screensizex + "x" + MyPanel.screensizey);
         DebugServer.startIfEnabled();
     }
@@ -82,8 +83,12 @@ public final class Coop {
     static void pauseMenuFrame() {
         int p = MyPanel.page;
         if (p != lastPage) {
-            if (lastPage == 3 && p == 5 && Net.isClient() && clientInWorld) {
-                message("Speichern macht im Coop der Host (dein Charakter wird dabei mitgespeichert).");
+            if (p == 5 && lastPage != 5 && Net.isClient() && clientInWorld && Net.connected()) {
+                // the guest's "Save": the host saves the shared game (the guest's character is saved with it)
+                coop.sync.SaveSync.clientAsk();
+                MyPanel.page = 4;
+                MyPanel.lastpage = 3;
+                p = 4;
             }
             if (lastPage == 3 && pausedInCoop()) {
                 // keys held when the menu opened would keep the player walking
@@ -209,8 +214,9 @@ public final class Coop {
         long now = System.nanoTime();
         coop.sync.SpeechSync.flush();
         coop.sync.ShotSync.flush();
-        if (now - lastPlayerSend > 33_000_000L) {
-            lastPlayerSend = now;
+        if (now - lastPlayerSend >= 33_333_333L) {
+            // steady rhythm: the next one is due 33 ms after the last due time, not after this frame
+            lastPlayerSend = now - lastPlayerSend > 100_000_000L ? now : lastPlayerSend + 33_333_333L;
             Net.send(PlayerSync.capture());
         }
         if (Net.isHost()) {
@@ -242,12 +248,12 @@ public final class Coop {
 
     static void loadHead() {
         loading = true;
-        Log.info("load() startet: Karte=" + MyPanel.select + " client=" + clientInWorld);
+        Log.info("load() start: map=" + MyPanel.select + " client=" + clientInWorld);
     }
 
     static void loadTail() {
         loading = false;
-        Log.info("load() fertig: Karte=" + MyPanel.select + MyPanel.selectid);
+        Log.info("load() done: map=" + MyPanel.select + MyPanel.selectid);
         Puppet.reset();
         ZombieSync.reset();
         HumanSync.reset();
@@ -261,7 +267,7 @@ public final class Coop {
                 coop.sync.TeamSync.load(WorldTransfer.gamePath("Save\\auto\\coop"),
                         coop.sync.Profile.fileName(Net.peerName).replace(".profile", ""));
             } catch (Throwable t) {
-                Log.error("Begleiter des Gasts", t);
+                Log.error("guest companions", t);
             }
         } else {
             coop.sync.TeamSync.reset();
@@ -271,7 +277,7 @@ public final class Coop {
         } else if (Net.isHost()) {
             if (Net.connected()) {
                 // a reload (death, menu continue, load) changes the world: send it again
-                WorldTransfer.requestSend("Neu geladen", false);
+                WorldTransfer.requestSend("reloaded", false);
             }
         }
     }
@@ -345,6 +351,9 @@ public final class Coop {
             case Proto.TRAVEL_REQUEST:
                 Travel.handle(m);
                 break;
+            case Proto.SAVE:
+                coop.sync.SaveSync.handle(m);
+                break;
             case Proto.GRENADE:
                 coop.sync.Projectiles.handle(m);
                 break;
@@ -352,6 +361,7 @@ public final class Coop {
             case Proto.MAPACK:
             case Proto.CONTAINER_REQ:
             case Proto.CONTAINER_DATA:
+            case Proto.CONTAINER_EDIT:
                 WorldSync.handle(m);
                 break;
             case Proto.PROFILE:
@@ -392,7 +402,7 @@ public final class Coop {
                 coop.sync.GuestEdits.handle(m);
                 break;
             default:
-                Log.rare("unbekannte Nachricht " + m.type);
+                Log.rare("unknown message " + m.type);
         }
     }
 
@@ -428,7 +438,7 @@ public final class Coop {
     public static void onPartnerLost(String why) {
         clientPlaying = false;
         runSim(Puppet::despawn);
-        message("Mitspieler hat das Spiel verlassen (" + why + ")");
+        message(T.s("Your partner left the game ({0})", why));
     }
 
     public static void message(String text) {
@@ -551,7 +561,7 @@ public final class Coop {
                 return "OK";
             }
             default:
-                return "ERR unbekannter Befehl: " + a[0];
+                return "ERR unknown command: " + a[0];
         }
     }
 }

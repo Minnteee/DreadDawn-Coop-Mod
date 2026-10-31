@@ -17,8 +17,9 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
+import coop.T;
 
-/** Two extra main menu entries ("Coop hosten", "Coop beitreten") and the small input dialog. */
+/** Two extra main menu entries ("Host co-op", "Join co-op") and the small input dialog. */
 public final class MenuUI {
     private MenuUI() {}
 
@@ -50,8 +51,8 @@ public final class MenuUI {
         if (o == null || o.length < 8) {
             return;
         }
-        o[ROW_HOST] = Net.isHost() ? "Coop: Hosten beenden" : "Coop hosten";
-        o[ROW_JOIN] = Net.isClient() ? "Coop: Trennen" : "Coop beitreten";
+        o[ROW_HOST] = Net.isHost() ? T.s("Co-op: stop hosting") : T.s("Host co-op");
+        o[ROW_JOIN] = Net.isClient() ? T.s("Co-op: disconnect") : T.s("Join co-op");
     }
 
     private static int hoverRow() {
@@ -86,14 +87,14 @@ public final class MenuUI {
         if (row == ROW_HOST) {
             MyPanel.click = false;
             if (Net.isHost()) {
-                Net.stop("Host beendet");
+                Net.stop("host stopped");
             } else {
                 openDialog(true);
             }
         } else if (row == ROW_JOIN) {
             MyPanel.click = false;
             if (Net.isClient()) {
-                Net.stop("Verbindung getrennt");
+                Net.stop("disconnected");
             } else {
                 openDialog(false);
             }
@@ -120,10 +121,10 @@ public final class MenuUI {
     }
 
     private static String hostInfo() {
-        StringBuilder sb = new StringBuilder("Deine IP für den Freund: ");
+        StringBuilder sb = new StringBuilder(T.s("Your IP for your friend: "));
         java.util.List<String> ips = Net.localAddresses();
         sb.append(ips.isEmpty() ? "?" : String.join("  /  ", ips));
-        sb.append("\n(Radmin-VPN-Adressen beginnen mit 26.)");
+        sb.append("\n").append(T.s("(Radmin VPN addresses start with 26.)"));
         return sb.toString();
     }
 
@@ -138,7 +139,7 @@ public final class MenuUI {
                 + " -fx-border-color: rgba(120,120,120,0.7); -fx-border-radius: 6;";
         String btnStyle = "-fx-background-color: rgba(70,25,25,0.95); -fx-text-fill: #eeeeee; -fx-background-radius: 6;";
 
-        Label title = new Label(host ? "Coop-Spiel hosten" : "Coop-Spiel beitreten");
+        Label title = new Label(host ? T.s("Host a co-op game") : T.s("Join a co-op game"));
         title.setFont(Font.font(MyPanel.languageFONT[MyPanel.language], FontWeight.BOLD, fs * 1.3));
         title.setStyle("-fx-text-fill: #e0e0e0;");
 
@@ -146,23 +147,23 @@ public final class MenuUI {
         portField = field(String.valueOf(Config.port), fieldStyle, font);
         VBox box = new VBox(fs * 0.6);
         box.getChildren().add(title);
-        box.getChildren().add(row("Dein Name:", nameField, font));
+        box.getChildren().add(row(T.s("Your name:"), nameField, font));
         if (!host) {
             ipField = field(Config.lastIp, fieldStyle, font);
-            ipField.setPromptText("z.B. 26.123.45.67");
-            box.getChildren().add(row("IP des Hosts:", ipField, font));
+            ipField.setPromptText(T.s("e.g. 26.123.45.67"));
+            box.getChildren().add(row(T.s("Host IP:"), ipField, font));
         } else {
             ipField = null;
         }
         box.getChildren().add(row("Port:", portField, font));
-        info = new Label(host ? hostInfo() : "Beide brauchen Radmin VPN im selben Netzwerk.\nDer Host muss zuerst \"Coop hosten\" wählen.");
+        info = new Label(host ? hostInfo() : T.s("Both players need Radmin VPN in the same network.\nThe host has to choose \"Host co-op\" first."));
         info.setFont(Font.font(MyPanel.languageFONT[MyPanel.language], FontWeight.NORMAL, fs * 0.8));
         info.setStyle("-fx-text-fill: #aaaaaa;");
         info.setWrapText(true);
         box.getChildren().add(info);
 
-        Button ok = new Button(host ? "Hosten" : "Verbinden");
-        Button cancel = new Button("Abbrechen");
+        Button ok = new Button(host ? T.s("Host") : T.s("Connect"));
+        Button cancel = new Button(T.s("Cancel"));
         for (Button b : new Button[] {ok, cancel}) {
             b.setFont(font);
             b.setStyle(btnStyle);
@@ -227,18 +228,18 @@ public final class MenuUI {
         if (dialogHost) {
             Config.save();
             Net.host(Config.port);
-            Coop.message("Coop-Host gestartet. Wähle jetzt Continue, New Game oder Load.");
-            Log.info("Host gestartet von " + Config.name);
+            Coop.message(T.s("Co-op host started. Now choose Continue, New Game or Load."));
+            Log.info("host started by " + Config.name);
         } else {
             String ip = ipField.getText().trim();
             if (ip.isEmpty()) {
-                info.setText("Bitte die IP des Hosts eingeben.");
+                info.setText(T.s("Please enter the host's IP."));
                 return;
             }
             Config.lastIp = ip;
             Config.save();
             Net.join(ip, Config.port);
-            Log.info("Verbinde mit " + ip + ":" + Config.port + " als " + Config.name);
+            Log.info("connecting to " + ip + ":" + Config.port + " as " + Config.name);
         }
         closeDialog();
     }

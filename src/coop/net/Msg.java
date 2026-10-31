@@ -6,6 +6,8 @@ import java.util.Arrays;
 /** Growable binary message buffer (big endian) used for writing and reading network messages. */
 public final class Msg {
     public final int type;
+    /** our clock (Clock.now) when the message arrived */
+    public long arrivedAt;
     private byte[] b;
     private int len;
     private int pos;

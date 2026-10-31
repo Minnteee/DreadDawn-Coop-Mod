@@ -11,6 +11,7 @@ import coop.net.Msg;
 import coop.net.Net;
 import coop.net.Proto;
 import java.io.File;
+import coop.T;
 
 /**
  * Story presentation for both players:
@@ -102,6 +103,8 @@ public final class StorySync {
         if (applying.get() || a == null || !a.play || !Net.isHost() || !Coop.playing() || privateScene(path)) {
             return;
         }
+        // the host is down or dead: the story goes on with him
+        DeathSync.requestRespawn(a.inplaying(300, 0));
         Msg m = new Msg(Proto.CUT_START, 256).str(toTemplate(path)).str(lang()).bool(smooth);
         int n = a.playnuming;
         m.u8(n);
@@ -113,7 +116,7 @@ public final class StorySync {
         hostWasPlaying = true;
         lastHostTime = a.playtimeall;
         clearVotes();
-        Log.info("Zwischensequenz an Mitspieler: " + toTemplate(path));
+        Log.info("cutscene to the partner: " + toTemplate(path));
     }
 
     /** FX thread, every frame: the host keeps the client's cutscene clock in step. */
@@ -206,7 +209,7 @@ public final class StorySync {
                 MyPanel.doucount[1][300] = ny;
                 MyPanel.ctspeed[0][300] = 0;
                 MyPanel.ctspeed[1][300] = 0;
-                Log.info("Nach der Zwischensequenz neben den Host gestellt");
+                Log.info("placed next to the host after the cutscene");
                 return;
             }
         }
@@ -220,20 +223,22 @@ public final class StorySync {
         }
         String path = fromTemplate(template, senderLang);
         if (!new File(path + "move.txt").exists()) {
-            Log.info("Zwischensequenz fehlt: " + path);
+            Log.info("cutscene missing: " + path);
             return;
         }
         applying.set(true);
         try {
             a.playfore(path, smooth);
         } catch (Throwable e) {
-            Log.error("Zwischensequenz starten " + path, e);
+            Log.error("starting cutscene " + path, e);
         } finally {
             applying.set(false);
         }
         if (!a.play) {
             return;
         }
+        // a dead / downed guest comes back for the scene (beside the host)
+        DeathSync.requestRespawn(false);
         // the figures of the host's script: the host's own player is our puppet
         for (int z = 0; z < MyPanel.te && z < a.tplayid.length; z++) {
             a.tplayid[z] = -1;
@@ -279,7 +284,7 @@ public final class StorySync {
         mirrored = true;
         endBesideHost = hide;
         clearVotes();
-        Log.info("Zwischensequenz vom Host: " + path);
+        Log.info("cutscene from the host: " + path);
     }
 
     /** client: this figure is moved by the running cutscene (kind 0 = human, 1 = zombie) */
@@ -401,7 +406,7 @@ public final class StorySync {
         }
         String path = fromTemplate(template, senderLang);
         if (!new File(path).exists()) {
-            Log.info("Dialog fehlt: " + path);
+            Log.info("dialog missing: " + path);
             return;
         }
         applying.set(true);
@@ -535,7 +540,7 @@ public final class StorySync {
             try {
                 MyPanel.Animation.sound(new javafx.scene.media.Media(f.toURI().toString()));
             } catch (Throwable t) {
-                Log.error("Story-Ton " + f, t);
+                Log.error("story sound " + f, t);
             }
         }
     }
@@ -603,10 +608,10 @@ public final class StorySync {
         boolean mine = myKind != 0 && now - myAt < VOTE_TTL;
         boolean partner = partnerKind != 0 && now - partnerAt < VOTE_TTL;
         if (mine && !partner) {
-            return "Warte auf " + Net.peerName + " (Leertaste) ...";
+            return T.s("Waiting for {0} (Space) ...", Net.peerName);
         }
         if (partner && !mine) {
-            return Net.peerName + " ist bereit - Leertaste druecken";
+            return T.s("{0} is ready - press Space", Net.peerName);
         }
         return null;
     }
@@ -744,5 +749,14 @@ public final class StorySync {
         endBesideHost = false;
         besideAt = 0;
         clearVotes();
+    }
+
+    /** host: HeadDialog.close (prologue skip, mission change): close the guest's copy of the dialog too */
+    public static void hostDialogClosed() {
+        if (applying.get() || !Net.isHost() || !Coop.playing() || !sharedDialog) {
+            return;
+        }
+        HeadDialog d = MyPanel.HeadDialog;
+        Net.send(new Msg(Proto.DIALOG_STEP).i32(d == null ? 0 : d.wordnuming).bool(true));
     }
 }

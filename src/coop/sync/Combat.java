@@ -171,7 +171,7 @@ public final class Combat {
                 break;
             }
             default:
-                Log.rare("Combat: unbekannt " + m.type);
+                Log.rare("Combat: unknown " + m.type);
         }
     }
 }

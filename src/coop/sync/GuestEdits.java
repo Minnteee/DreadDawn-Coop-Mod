@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import coop.T;
 
 /**
  * Shared world rules that are not plain object lists:
@@ -114,7 +115,7 @@ public final class GuestEdits {
                     int h = k.lastIndexOf('#');
                     Net.send(new Msg(Proto.GUEST, 64).u8(G_AREA_UNLOCK).str(k.substring(0, h))
                             .i32(Integer.parseInt(k.substring(h + 1))));
-                    Log.info("Bereich aufgeschlossen -> Host: " + k);
+                    Log.info("area unlocked -> host: " + k);
                 }
             }
             areaSeen = now;
@@ -286,7 +287,7 @@ public final class GuestEdits {
                             if (name.equals(MyPanel.areanameing[i]) && MyPanel.areaiding[i] == id) {
                                 MyPanel.areanameing[i] = null;
                                 MyPanel.area();
-                                Log.info("Bereich vom Gast aufgeschlossen: " + name + id);
+                                Log.info("area unlocked by the guest: " + name + id);
                                 break;
                             }
                         }
@@ -315,7 +316,7 @@ public final class GuestEdits {
                     Coop.runSim(() -> {
                         if (MyPanel.Key != null && id >= 0 && id < MyPanel.Key.keytaked.length && MyPanel.Key.keytaked[id] == 0) {
                             MyPanel.Key.takekey(id);
-                            Log.info("Schluessel vom Gast genommen: " + id);
+                            Log.info("key taken by the guest: " + id);
                         }
                     });
                 }
@@ -451,7 +452,7 @@ public final class GuestEdits {
                     Coop.runSim(() -> {
                         if (MyPanel.Mission != null) {
                             MyPanel.Mission.jump_camp();
-                            Coop.message(Net.peerName + " ruft die Belagerung jetzt.");
+                            Coop.message(T.s("{0} starts the siege now.", Net.peerName));
                         }
                     });
                 }

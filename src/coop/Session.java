@@ -33,21 +33,21 @@ final class Session {
                 String name = Config.clean(m.str());
                 String err = null;
                 if (magic != Proto.PROTOCOL_MAGIC || proto != Net.PROTOCOL) {
-                    err = "Unterschiedliche Coop-Mod-Version (Host " + Coop.VERSION + " #" + Net.PROTOCOL + ", du " + modVer
-                            + " #" + proto + "). Bitte beide dieselbe coop-mod.jar benutzen.";
+                    err = T.s("Different co-op mod version (host {0} #{1}, you {2} #{3}). Both players need the same coop-mod.jar.",
+                            Coop.VERSION, Net.PROTOCOL, modVer, proto);
                 } else if (!MyPanel.verision.equals(gameVer)) {
-                    err = "Unterschiedliche Spielversion (Host " + MyPanel.verision + ", du " + gameVer + ").";
+                    err = T.s("Different game version (host {0}, you {1}).", MyPanel.verision, gameVer);
                 }
                 if (err != null) {
                     Net.send(new Msg(Proto.REJECT).str(err));
-                    Log.info("Client abgewiesen: " + err);
-                    Coop.message("Mitspieler abgewiesen: " + err);
+                    Log.info("Client rejected: " + err);
+                    Coop.message(T.s("Partner rejected: {0}", err));
                     return;
                 }
                 Net.send(new Msg(Proto.WELCOME).str(Config.name).i32(MyPanel.te));
                 Net.handshakeDone(name);
-                Coop.message(name + " ist beigetreten");
-                WorldTransfer.requestSend("Mitspieler beigetreten", true);
+                Coop.message(T.s("{0} joined", name));
+                WorldTransfer.requestSend("partner joined", true);
                 break;
             }
             case Proto.WELCOME: {
@@ -58,15 +58,15 @@ final class Session {
                 int te = m.i32();
                 Coop.forcedTe = te;
                 Net.handshakeDone(name);
-                Net.status = "Verbunden mit " + name + " - warte auf die Welt des Hosts ...";
-                Coop.message("Verbunden mit " + name);
+                Net.status = T.s("Connected to {0} - waiting for the host's world ...", name);
+                Coop.message(T.s("Connected to {0}", name));
                 break;
             }
             case Proto.REJECT: {
                 String why = m.str();
-                Coop.message("Abgewiesen: " + why);
-                Net.stop("abgewiesen: " + why);
-                Net.status = "Abgewiesen: " + why;
+                Coop.message(T.s("Rejected: {0}", why));
+                Net.stop("rejected: " + why);
+                Net.status = T.s("Rejected: {0}", why);
                 break;
             }
             case Proto.PING:
@@ -78,10 +78,10 @@ final class Session {
             case Proto.BYE: {
                 String why = m.str();
                 if (Net.isClient()) {
-                    Coop.message("Host hat das Spiel beendet (" + why + ")");
-                    Net.stop("Host beendet: " + why);
+                    Coop.message(T.s("The host ended the game ({0})", why));
+                    Net.stop("host ended: " + why);
                 } else if (Net.conn != null) {
-                    Net.conn.close("Mitspieler hat verlassen");
+                    Net.conn.close("partner left");
                 }
                 break;
             }

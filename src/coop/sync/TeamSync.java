@@ -211,7 +211,7 @@ public final class TeamSync {
                     break;
             }
         }
-        Log.info("Befehl " + kind + " vom Gast an " + ids.length + " Begleiter");
+        Log.info("command " + kind + " from the guest to " + ids.length + " companions");
     }
 
     /** host: the host commands a companion itself -> it is the host's again */
@@ -332,19 +332,19 @@ public final class TeamSync {
                     .u8(MyPanel.ctcontrolkind[x]).bool(MyPanel.ctfight[x]).bool(MyPanel.ctfireatwill[x])
                     .i32(MyPanel.ctpositionreal[0][x]).i32(MyPanel.ctpositionreal[1][x]).str(MyPanel.ctname[x])
                     .i32(MyPanel.Humanrespawn.action[x]).str(MyPanel.ctcode[x]));
-            Log.info("NPC " + x + " vom Gast geaendert (" + Integer.toBinaryString(f) + ")");
+            Log.info("NPC " + x + " changed by the guest (" + Integer.toBinaryString(f) + ")");
         }
         if (which == DIALOG && MyPanel.missionmodekind != s.mission && MyPanel.missionmodekind == 1) {
             int page = MyPanel.zombieareaAIRDROP ? 14 : 7;
             Net.send(new Msg(Proto.TEAM, 32).u8(EV_MISSION).u8(page).i32(MyPanel.towerid).i32(MyPanel.airdropid));
-            Log.info("Mission im Dialog gestartet (Seite " + page + ") -> Host");
+            Log.info("mission started in a dialog (page " + page + ") -> Host");
         }
     }
 
     private static void hostEdit(int x, String code, int f, int team, int control, boolean fight, boolean fire, int px, int py,
             String name, int action, String newCode) {
         if (x < 0 || x >= Puppet.K || code == null || !code.equals(MyPanel.ctcode[x])) {
-            Log.info("NPC-Aenderung vom Gast verworfen (" + x + ")");
+            Log.info("NPC change from the guest dropped (" + x + ")");
             return;
         }
         if ((f & F_GONE) != 0) {
@@ -401,7 +401,7 @@ public final class TeamSync {
         } else {
             setOwner(x, false, false);
         }
-        Log.info("NPC " + x + " vom Gast: Team " + MyPanel.cteamatekind[x] + " Befehl " + MyPanel.ctcontrolkind[x]);
+        Log.info("NPC " + x + " from the guest: team " + MyPanel.cteamatekind[x] + " command " + MyPanel.ctcontrolkind[x]);
     }
 
     private static void hostMission(int page, int tower, int airdrop) {
@@ -419,7 +419,7 @@ public final class TeamSync {
         } finally {
             d.PressNUMBER = false;
         }
-        Log.info("Mission vom Gast gestartet (Seite " + page + ")");
+        Log.info("mission started by the guest (page " + page + ")");
     }
 
     // ------------------------------------------------------------------ messages
@@ -485,7 +485,7 @@ public final class TeamSync {
         try {
             Files.write(dir.resolve(guestName + ".team"), sb.toString().getBytes(StandardCharsets.UTF_8));
         } catch (Exception e) {
-            Log.error("Begleiter speichern", e);
+            Log.error("saving companions", e);
         }
     }
 
@@ -511,13 +511,22 @@ public final class TeamSync {
                 }
             }
         } catch (Exception e) {
-            Log.error("Begleiter laden", e);
+            Log.error("loading companions", e);
         }
     }
 
     public static void reset() {
         for (int x = 0; x < 300; x++) {
             setOwner(x, false, false);
+        }
+    }
+
+    /** host, before a map change: companions walking to the guest (command 2) would stay behind; they follow (3) */
+    public static void beforeHostTravel() {
+        for (int x = 0; x < Puppet.K; x++) {
+            if (guestOwned[x] && guestFollow[x] && sameCode(x) && MyPanel.ctcontrolkind[x] == 2) {
+                MyPanel.ctcontrolkind[x] = 3;
+            }
         }
     }
 }

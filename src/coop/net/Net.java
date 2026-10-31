@@ -11,6 +11,7 @@ import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import coop.T;
 
 /**
  * Hosting and joining. Exactly two players: the host (owns the world) and one client.
@@ -18,7 +19,7 @@ import java.util.List;
 public final class Net {
     private Net() {}
 
-    public static final int PROTOCOL = 5;
+    public static final int PROTOCOL = 6;
 
     public enum Role { NONE, HOST, CLIENT }
 
@@ -52,10 +53,10 @@ public final class Net {
     // ------------------------------------------------------------------ host
 
     public static synchronized void host(int port) {
-        stop("neu");
+        stop("new");
         role = Role.HOST;
         state = State.LISTENING;
-        status = "Starte Server auf Port " + port + " ...";
+        status = T.s("Starting server on port {0} ...", port);
         Thread t = new Thread(() -> acceptLoop(port), "coop-accept");
         t.setDaemon(true);
         t.start();
@@ -67,8 +68,8 @@ public final class Net {
             String bind = System.getProperty("coop.bind");
             ss.bind(bind != null ? new InetSocketAddress(bind, port) : new InetSocketAddress(port));
             server = ss;
-            status = "Warte auf Mitspieler ... (" + String.join(" / ", localAddresses()) + " : " + port + ")";
-            Log.info("Host lauscht auf Port " + port + " " + localAddresses());
+            status = T.s("Waiting for your partner ... ({0} : {1})", String.join(" / ", localAddresses()), port);
+            Log.info("Host listening on port " + port + " " + localAddresses());
             while (role == Role.HOST) {
                 Socket s;
                 try {
@@ -81,9 +82,9 @@ public final class Net {
                     // only one partner
                     try (s) {
                         Connection c = new Connection(s);
-                        c.send(new Msg(Proto.REJECT).str("Es ist bereits ein Mitspieler verbunden."));
+                        c.send(new Msg(Proto.REJECT).str(T.s("A partner is already connected.")));
                         Thread.sleep(300);
-                        c.close("abgewiesen");
+                        c.close("rejected");
                     } catch (Exception ignored) {
                         // ignore
                     }
@@ -91,13 +92,13 @@ public final class Net {
                 }
                 state = State.HANDSHAKE;
                 conn = new Connection(s);
-                Log.info("Verbindung von " + conn.remoteAddress());
-                status = "Mitspieler verbindet sich ...";
+                Log.info("Connection from " + conn.remoteAddress());
+                status = T.s("Your partner is connecting ...");
             }
         } catch (Exception e) {
             if (role == Role.HOST) {
                 state = State.FAILED;
-                status = "Server-Fehler: " + e.getMessage() + " (Port " + port + " belegt?)";
+                status = T.s("Server error: {0} (is port {1} in use?)", e.getMessage(), port);
                 Log.error("acceptLoop", e);
             }
         } finally {
@@ -108,17 +109,17 @@ public final class Net {
     // ------------------------------------------------------------------ client
 
     public static synchronized void join(String ip, int port) {
-        stop("neu");
+        stop("new");
         role = Role.CLIENT;
         state = State.CONNECTING;
-        status = "Verbinde mit " + ip + ":" + port + " ...";
+        status = T.s("Connecting to {0}:{1} ...", ip, port);
         Thread t = new Thread(() -> {
             try {
                 Socket s = new Socket();
                 s.connect(new InetSocketAddress(ip, port), 8000);
                 conn = new Connection(s);
                 state = State.HANDSHAKE;
-                status = "Verbunden, melde an ...";
+                status = T.s("Connected, logging in ...");
                 conn.send(Proto.hello());
             } catch (Exception e) {
                 state = State.FAILED;
@@ -173,9 +174,10 @@ public final class Net {
 
     /** Called by the handshake code once both sides agreed. */
     public static void handshakeDone(String name) {
+        Clock.reset();
         peerName = name;
         state = State.CONNECTED;
-        status = "Verbunden mit " + name;
+        status = T.s("Connected to {0}", name);
         Log.info("Handshake ok, Partner: " + name);
     }
 
@@ -193,16 +195,16 @@ public final class Net {
                 conn = null;
                 peerName = "";
                 state = State.LISTENING;
-                status = "Mitspieler getrennt (" + why + "). Warte auf Mitspieler ...";
+                status = T.s("Partner disconnected ({0}). Waiting for your partner ...", why);
                 Coop.onPartnerLost(why);
             } else {
                 stop("Verbindung verloren: " + why);
-                Coop.message("Verbindung zum Host verloren: " + why);
+                Coop.message(T.s("Connection to the host lost: {0}", why));
             }
             return false;
         }
         if (System.currentTimeMillis() - c.lastReceive > 15000) {
-            c.close("Zeitüberschreitung");
+            c.close("timeout");
         }
         return state == State.CONNECTED;
     }

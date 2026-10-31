@@ -44,7 +44,7 @@ public final class Exe4j {
             }
         }
         if (best == null) {
-            throw new IOException("Kein Spiel-JAR in " + exe + " gefunden");
+            throw new IOException("No game JAR found in " + exe);
         }
         return best;
     }
@@ -67,7 +67,7 @@ public final class Exe4j {
         ByteBuffer bb = ByteBuffer.wrap(d).order(ByteOrder.LITTLE_ENDIAN);
         int pe = bb.getInt(0x3c);
         if (pe <= 0 || pe + 24 > d.length || d[pe] != 'P' || d[pe + 1] != 'E') {
-            throw new IOException("Keine gueltige EXE-Datei");
+            throw new IOException("Not a valid EXE file");
         }
         int nsec = bb.getShort(pe + 6) & 0xffff;
         int optSize = bb.getShort(pe + 20) & 0xffff;

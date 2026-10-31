@@ -62,11 +62,11 @@ public final class Status {
                         if (MyPanel.position.findposition((int) zx, (int) zy, o) && MyPanel.checkpointseeFAST(cx, cy, zx, zy)) {
                             simCommand("zombie", new String[] {"sim", "zombie", String.valueOf(zx - MyPanel.doucount[0][300]),
                                 String.valueOf(zy - MyPanel.doucount[1][300])});
-                            Log.info("Test-Zombie in Sicht von " + c + " bei Winkel " + i);
+                            Log.info("test zombie in view of " + c + " at angle " + i);
                             return;
                         }
                     }
-                    Log.info("kein freier Platz fuer Test-Zombie");
+                    Log.info("no free slot for a test zombie");
                     break;
                 }
                 case "zombie": {
@@ -85,7 +85,7 @@ public final class Status {
                         MyPanel.zombierun[x] = true;
                         MyPanel.Imterro[x] = (byte) MyPanel.Bone.get_random_normal_zombie();
                         MyPanel.Zombierespawn.getzombieweapon(x);
-                        Log.info("Test-Zombie " + x + " hp=" + MyPanel.theal[x]);
+                        Log.info("test zombie " + x + " hp=" + MyPanel.theal[x]);
                     }
                     break;
                 }
@@ -109,7 +109,7 @@ public final class Status {
                     int amount = a.length > 3 ? Integer.parseInt(a[3]) : 1;
                     MyPanel.stuffcreater.mapnumcreater(name, amount, (int) MyPanel.doucount[0][300] + 40,
                             (int) MyPanel.doucount[1][300], false);
-                    Log.info("Test-Item " + name + " x" + amount + " abgelegt, Bodenitems=" + MyPanel.mapacknuming);
+                    Log.info("test item " + name + " x" + amount + " dropped, ground items=" + MyPanel.mapacknuming);
                     break;
                 }
                 case "packadd": {
@@ -126,12 +126,12 @@ public final class Status {
                 case "bag": {
                     MyPanel.sleepingbagcreater((int) MyPanel.doucount[0][300] + Integer.parseInt(a.length > 2 ? a[2] : "50"),
                             (int) MyPanel.doucount[1][300]);
-                    Log.info("Schlafsack gebaut, Anzahl=" + MyPanel.sleepingbagnuming);
+                    Log.info("sleeping bag built, count=" + MyPanel.sleepingbagnuming);
                     break;
                 }
                 case "pickupall": {
                     MyPanel.mapacktaker.mapacktaker(300, 0, 0);
-                    Log.info("aufgehoben, Bodenitems=" + MyPanel.mapacknuming);
+                    Log.info("picked up, ground items=" + MyPanel.mapacknuming);
                     break;
                 }
                 case "nearcase": {
@@ -145,7 +145,7 @@ public final class Status {
                             best = x;
                         }
                     }
-                    Log.info("naechstes Moebel " + best + " Abstand " + (int) Math.sqrt(bd));
+                    Log.info("nearest furniture " + best + " distance " + (int) Math.sqrt(bd));
                     if (best > -1) {
                         coop.Coop.panel.caseDialog(best);
                     }
@@ -163,9 +163,9 @@ public final class Status {
                         }
                     }
                     if (best > -1) {
-                        Log.info("Tuer " + best + " offen=" + MyPanel.Other.dooropen[best] + " key=" + MyPanel.Other.doorkey[best]);
+                        Log.info("door " + best + " open=" + MyPanel.Other.dooropen[best] + " key=" + MyPanel.Other.doorkey[best]);
                         MyPanel.Other.opendoor(best);
-                        Log.info("Tuer " + best + " jetzt offen=" + MyPanel.Other.dooropen[best]);
+                        Log.info("door " + best + " now open=" + MyPanel.Other.dooropen[best]);
                     }
                     break;
                 }
@@ -205,7 +205,7 @@ public final class Status {
                         MyPanel.carmode = true;
                         MyPanel.carnumber = slot;
                     }
-                    Log.info("Test-Auto Platz " + slot);
+                    Log.info("test car slot " + slot);
                     break;
                 }
                 case "skate": {
@@ -233,7 +233,7 @@ public final class Status {
                             MyPanel.skatetime[y] = 40;
                             MyPanel.ctskateing[300] = true;
                             MyPanel.ctskateid[300] = (byte) y;
-                            Log.info("Test-Skateboard Platz " + y);
+                            Log.info("test skateboard slot " + y);
                             break;
                         }
                     }
@@ -276,7 +276,7 @@ public final class Status {
                         MyPanel.ctcontrolkind[x] = 0;
                         MyPanel.ctfight[x] = true;
                     }
-                    Log.info("Test-NPC " + a[2] + " Platz " + x + " Code " + MyPanel.ctcode[x]);
+                    Log.info("test NPC " + a[2] + " slot " + x + " code " + MyPanel.ctcode[x]);
                     break;
                 }
                 case "zavoid": {
@@ -347,7 +347,7 @@ public final class Status {
                     }
                     if (best >= 0) {
                         MyPanel.boxlocked[best] = a[2].equals("1");
-                        Log.info("Kiste " + best + " bei " + MyPanel.box[0][best] + "," + MyPanel.box[1][best] + " locked="
+                        Log.info("box " + best + " at " + MyPanel.box[0][best] + "," + MyPanel.box[1][best] + " locked="
                                 + MyPanel.boxlocked[best]);
                     }
                     break;
@@ -377,7 +377,7 @@ public final class Status {
                     break;
                 }
                 default:
-                    Log.info("unbekannte sim-Aktion " + what);
+                    Log.info("unknown sim action " + what);
             }
         } catch (Throwable t) {
             Log.error("simCommand " + what, t);

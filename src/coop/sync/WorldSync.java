@@ -288,7 +288,7 @@ public final class WorldSync {
                     fl.setAccessible(true);
                     s.f.put(n, fl);
                 } catch (Exception e) {
-                    Log.info("WorldSync: Feld " + s.name + "." + n + " fehlt - System wird ausgelassen");
+                    Log.info("WorldSync: field " + s.name + "." + n + " missing - system skipped");
                     s.f.clear();
                     break;
                 }
@@ -585,7 +585,7 @@ public final class WorldSync {
             for (int r = have; r < e.getValue(); r++) {
                 Net.send(new Msg(Proto.WORLD_EVENT).u8(EV_REMOVE).u8(s.id).str(e.getKey()));
                 changed = true;
-                Log.info("Client entfernt " + s.name + " " + e.getKey());
+                Log.info("client removes " + s.name + " " + e.getKey());
             }
         }
         // added by the client
@@ -600,7 +600,7 @@ public final class WorldSync {
                 if (idx > before.getOrDefault(k, 0)) {
                     Net.send(encodeAdd(s, i));
                     changed = true;
-                    Log.info("Client baut " + s.name + " " + k);
+                    Log.info("client builds " + s.name + " " + k);
                 }
             }
         }
@@ -795,7 +795,7 @@ public final class WorldSync {
                 }
             }
             afterApply(s, null);
-            Log.info("Host: " + Net.peerName + " hat " + s.name + " gebaut");
+            Log.info("Host: " + Net.peerName + " built " + s.name);
         } catch (Throwable t) {
             Log.error("hostAdd " + s.name, t);
         }
@@ -853,7 +853,7 @@ public final class WorldSync {
                 ((boolean[]) s.get(s.existName))[found] = false;
             }
             afterApply(s, null);
-            Log.info("Host: " + Net.peerName + " hat " + s.name + " entfernt");
+            Log.info("Host: " + Net.peerName + " removed " + s.name);
         } catch (Throwable t) {
             Log.error("hostRemove " + s.name, t);
         }

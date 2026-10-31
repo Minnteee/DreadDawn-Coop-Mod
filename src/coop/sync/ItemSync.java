@@ -38,6 +38,8 @@ public final class ItemSync {
     static final int EV_DROP_OPEN = 26;
     static final int EV_DROP_READY = 27;
     static final int EV_CONTAINER_CLOSE = 28;
+    /** host -> client: the host leaves the map right now (the guest closes containers, no drops until loaded) */
+    static final int EV_HOST_TRAVEL = 29;
 
     /** one ground item */
     static final class G {
@@ -168,7 +170,10 @@ public final class ItemSync {
     static void clientTick(boolean full) {
         try {
             long now = System.currentTimeMillis();
-            if (full && applied != null) {
+            if (switching && System.currentTimeMillis() - switchingSince > 20_000) {
+                switching = false; // the new world never came: back to normal
+            }
+            if (full && applied != null && !switching) {
                 List<G> cur = readMapack();
                 Map<String, Integer> was = multiset(applied);
                 Map<String, Integer> is = multiset(cur);
@@ -282,11 +287,91 @@ public final class ItemSync {
 
     /** client: container currently open in the inventory screen */
     private static String clientOpen;
+    /** client: the host's state the own view is based on (null = the host's copy has not arrived yet) */
     private static String clientSig;
+    /** client: the own view when the container was opened (edits made before the host's copy arrived) */
+    private static String clientBase;
+    private static int clientSeq;
     /** host: container the client has open */
     private static volatile String hostOpen;
     private static String hostSig;
+    private static volatile int hostAck;
     private static Runnable reopen;
+    /** client: the host is changing the map: no container edits / drops until the new world is loaded */
+    static volatile boolean switching;
+    private static volatile long switchingSince;
+
+    /** host: the guest is told at once when the host leaves the map */
+    public static void hostLeavesMap() {
+        if (Net.isHost() && Net.connected()) {
+            Net.send(new Msg(Proto.WORLD_EVENT, 4).u8(EV_HOST_TRAVEL));
+        }
+    }
+
+    /** a pack string as slot -> "kind@item" */
+    private static java.util.TreeMap<Integer, String> slots(String s, int[] size) {
+        java.util.TreeMap<Integer, String> m = new java.util.TreeMap<>();
+        size[0] = 0;
+        if (s == null || s.isEmpty()) {
+            return m;
+        }
+        String[] p = s.split("@");
+        try {
+            size[0] = Integer.parseInt(p[0]);
+        } catch (NumberFormatException e) {
+            return m;
+        }
+        int i = 1;
+        while (i + 1 < p.length) {
+            if (p[i].isEmpty()) {
+                i++;
+                continue;
+            }
+            String[] h = p[i].split(",");
+            try {
+                m.put(Integer.parseInt(h[0]), h[1] + "@" + p[i + 1]);
+            } catch (RuntimeException e) {
+                // skip a broken entry
+            }
+            i += 2;
+        }
+        return m;
+    }
+
+    /** the host's state h with the slots the guest changed from base to now */
+    static String merge(String h, String base, String now) {
+        int[] hs = new int[1];
+        int[] bs = new int[1];
+        int[] ns = new int[1];
+        java.util.TreeMap<Integer, String> hm = slots(h, hs);
+        java.util.TreeMap<Integer, String> bm = slots(base, bs);
+        java.util.TreeMap<Integer, String> nm = slots(now, ns);
+        java.util.Set<Integer> keys = new java.util.TreeSet<>(bm.keySet());
+        keys.addAll(nm.keySet());
+        for (int k : keys) {
+            String b = bm.get(k);
+            String n = nm.get(k);
+            if (!Objects.equals(b, n)) {
+                if (n == null) {
+                    hm.remove(k);
+                } else {
+                    hm.put(k, n);
+                }
+            }
+        }
+        int size = Math.max(hs[0], ns[0]);
+        if (size == 0) {
+            size = Math.max(bs[0], 4);
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append(size).append('@');
+        for (java.util.Map.Entry<Integer, String> e : hm.entrySet()) {
+            String v = e.getValue();
+            int a = v.indexOf('@');
+            sb.append(e.getKey()).append(',').append(v, 0, a).append('@').append(v.substring(a + 1)).append('@');
+        }
+        return sb.toString();
+    }
 
     private static String openContainerCode() {
         String c = MyPanel.packleft;
@@ -297,27 +382,82 @@ public final class ItemSync {
     }
 
     private static void clientContainerTick() {
+        if (switching) {
+            return;
+        }
         String c = openContainerCode();
         if (!Objects.equals(c, clientOpen)) {
             if (clientOpen != null) {
-                String s = Profile.packToString(clientOpen);
-                Net.send(new Msg(Proto.CONTAINER_DATA).str(clientOpen).str(s == null ? "" : s).bool(true));
+                String cur = Profile.packToString(clientOpen);
+                String base = clientSig != null ? clientSig : clientBase;
+                clientSeq++;
+                if (cur != null && base != null && !cur.equals(base)) {
+                    Net.send(new Msg(Proto.CONTAINER_EDIT).str(clientOpen).str(base).str(cur).i32(clientSeq).bool(true));
+                } else {
+                    Net.send(new Msg(Proto.CONTAINER_EDIT).str(clientOpen).str("").str("").i32(clientSeq).bool(true));
+                }
             }
             clientOpen = c;
             clientSig = null;
+            clientBase = c == null ? null : Profile.packToString(c);
             if (c != null) {
-                Net.send(new Msg(Proto.CONTAINER_REQ).str(c));
+                clientSeq++;
+                Net.send(new Msg(Proto.CONTAINER_REQ).str(c).i32(clientSeq));
             }
             return;
         }
         if (c == null || clientSig == null) {
-            return; // wait for the host's contents first
+            return; // wait for the host's contents first (edits meanwhile are merged when it arrives)
         }
         String s = Profile.packToString(c);
         if (s != null && !s.equals(clientSig)) {
+            clientSeq++;
+            Net.send(new Msg(Proto.CONTAINER_EDIT).str(c).str(clientSig).str(s).i32(clientSeq).bool(false));
             clientSig = s;
-            Net.send(new Msg(Proto.CONTAINER_DATA).str(c).str(s).bool(false));
         }
+    }
+
+    /** client FX thread: a host copy of a container */
+    private static void applyHostCopy(String code, String data, int ack, int tries) {
+        if (!code.equals(clientOpen)) {
+            if (!data.isEmpty()) {
+                Profile.packFromStringInPlace(code, data);
+            }
+            return;
+        }
+        if (MyPanel.click && tries < 120) {
+            // the player is dragging an item right now: after the release
+            Coop.runFx(() -> applyHostCopy(code, data, ack, tries + 1));
+            return;
+        }
+        if (ack < clientSeq) {
+            return; // older than the own newest edit: the host answers that one with a fresh copy
+        }
+        String cur = Profile.packToString(code);
+        if (clientSig == null) {
+            // the first copy after opening: keep what the player already did meanwhile
+            String result = data;
+            if (clientBase != null && cur != null && !cur.equals(clientBase)) {
+                result = merge(data, clientBase, cur);
+            }
+            if (!result.isEmpty()) {
+                Profile.packFromStringInPlace(code, result);
+            }
+            clientSig = data;
+            if (!result.equals(data)) {
+                clientSeq++;
+                Net.send(new Msg(Proto.CONTAINER_EDIT).str(code).str(data).str(result).i32(clientSeq).bool(false));
+                clientSig = result;
+            }
+            return;
+        }
+        if (cur != null && !cur.equals(clientSig)) {
+            return; // an own newer edit goes to the host first
+        }
+        if (!data.isEmpty()) {
+            Profile.packFromStringInPlace(code, data);
+        }
+        clientSig = data;
     }
 
     private static String hostPackString(String code) {
@@ -347,7 +487,7 @@ public final class ItemSync {
         String s = Profile.packToString(c);
         if (s != null && !s.equals(hostSig)) {
             hostSig = s;
-            Net.send(new Msg(Proto.CONTAINER_DATA).str(c).str(s).bool(false));
+            Net.send(new Msg(Proto.CONTAINER_DATA).str(c).str(s).i32(hostAck));
         }
     }
 
@@ -376,7 +516,8 @@ public final class ItemSync {
                     }
                     pendingList = l;
                     if (applied == null) {
-                        applied = l;
+                        // compare the guest's own pick-ups / drops with what this machine really has
+                        applied = readMapack();
                     }
                 } catch (IOException e) {
                     Log.error("MAPACK", e);
@@ -385,38 +526,60 @@ public final class ItemSync {
             }
             case Proto.CONTAINER_REQ: {
                 String code = m.str();
+                int seq = m.i32();
                 if (!Net.isHost()) {
                     return;
                 }
                 Coop.runSim(() -> {
                     hostOpen = code;
+                    hostAck = seq;
                     String s = hostPackString(code);
                     hostSig = s;
-                    Net.send(new Msg(Proto.CONTAINER_DATA).str(code).str(s == null ? "" : s).bool(false));
+                    Net.send(new Msg(Proto.CONTAINER_DATA).str(code).str(s == null ? "" : s).i32(seq));
+                });
+                break;
+            }
+            case Proto.CONTAINER_EDIT: {
+                String code = m.str();
+                String base = m.str();
+                String now = m.str();
+                int seq = m.i32();
+                boolean closed = m.bool();
+                if (!Net.isHost()) {
+                    return;
+                }
+                Coop.runSim(() -> {
+                    if (!base.isEmpty() || !now.isEmpty()) {
+                        String h = hostPackString(code);
+                        String merged = merge(h == null ? base : h, base, now);
+                        Profile.packFromStringInPlace(code, merged);
+                        hostSig = merged;
+                    }
+                    hostAck = seq;
+                    if (closed) {
+                        if (code.equals(hostOpen)) {
+                            hostOpen = null;
+                        }
+                    } else if (code.equals(hostOpen)) {
+                        String s = Profile.packToString(code);
+                        hostSig = s;
+                        Net.send(new Msg(Proto.CONTAINER_DATA).str(code).str(s == null ? "" : s).i32(seq));
+                    }
                 });
                 break;
             }
             case Proto.CONTAINER_DATA: {
                 String code = m.str();
                 String data = m.str();
-                boolean closed = m.bool();
-                Coop.runSim(() -> {
-                    if (Net.isHost()) {
-                        if (!data.isEmpty()) {
-                            Profile.packFromString(code, data);
-                            hostSig = data;
-                        }
-                        if (closed && code.equals(hostOpen)) {
-                            hostOpen = null;
-                        }
-                    } else {
-                        if (!data.isEmpty()) {
-                            Profile.packFromString(code, data);
-                        }
-                        if (code.equals(clientOpen)) {
-                            String s = Profile.packToString(code);
-                            clientSig = s == null ? "" : s;
-                        }
+                int ack = m.i32();
+                if (Net.isHost()) {
+                    return;
+                }
+                Coop.runFx(() -> {
+                    try {
+                        applyHostCopy(code, data, ack, 0);
+                    } catch (Throwable t) {
+                        Log.error("container copy", t);
                     }
                 });
                 break;
@@ -429,6 +592,23 @@ public final class ItemSync {
     /** WORLD_EVENT sub-types handled here */
     static void handleEvent(int ev, Msg m) {
         switch (ev) {
+            case EV_HOST_TRAVEL: {
+                if (!Net.isClient()) {
+                    return;
+                }
+                // whatever the guest would put into boxes now would land on the host's new map: close it all
+                switching = true;
+                switchingSince = System.currentTimeMillis();
+                clientOpen = null;
+                clientSig = null;
+                Coop.runFx(() -> {
+                    if (MyPanel.packnum != -1) {
+                        MyPanel.packnum = -1;
+                    }
+                });
+                Log.info("host changes the map: containers closed");
+                break;
+            }
             case EV_TAKE: {
                 int x = m.i32();
                 int y = m.i32();
@@ -459,7 +639,7 @@ public final class ItemSync {
                                 MyPanel.ObjectCase.createbox(x);
                             }
                         } catch (Throwable t) {
-                            Log.error("createbox fuer Client", t);
+                            Log.error("createbox for the client", t);
                         }
                         WorldSync.hostTick();
                         Net.send(new Msg(Proto.WORLD_EVENT).u8(EV_CASE_READY).i32(x));
@@ -489,7 +669,7 @@ public final class ItemSync {
                             Net.send(new Msg(Proto.WORLD_EVENT).u8(EV_CORPSE_READY).i32(x).str(code == null ? "" : code)
                                     .str(s == null ? "" : s));
                         } catch (Throwable t) {
-                            Log.error("createzombiepack fuer Client", t);
+                            Log.error("createzombiepack for the client", t);
                         }
                     });
                 }
@@ -504,7 +684,7 @@ public final class ItemSync {
                     if (!code.isEmpty()) {
                         MyPanel.tcode[x] = code;
                         if (!data.isEmpty()) {
-                            Profile.packFromString(code, data);
+                            Profile.packFromStringInPlace(code, data);
                         }
                         Coop.panel.terroristDialog(x);
                     }
@@ -520,7 +700,7 @@ public final class ItemSync {
                                 MyPanel.MapThing.createdrop(x);
                             }
                         } catch (Throwable t) {
-                            Log.error("createdrop fuer Client", t);
+                            Log.error("createdrop for the client", t);
                         }
                         WorldSync.hostTick();
                         String code = MyPanel.dropcode[x];
@@ -540,7 +720,7 @@ public final class ItemSync {
                     if (!code.isEmpty()) {
                         MyPanel.dropcode[x] = code;
                         if (!data.isEmpty()) {
-                            Profile.packFromString(code, data);
+                            Profile.packFromStringInPlace(code, data);
                         }
                         Coop.panel.dropDialog(x);
                     }
@@ -564,9 +744,11 @@ public final class ItemSync {
         pendingDrops.clear();
         clientOpen = null;
         clientSig = null;
+        clientBase = null;
         hostOpen = null;
         hostSig = null;
         reopen = null;
+        switching = false;
         waitingCase = -1;
         waitingCorpse = -1;
         waitingDrop = -1;

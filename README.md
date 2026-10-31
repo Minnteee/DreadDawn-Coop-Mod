@@ -1,88 +1,105 @@
-# Dread Dawn – Coop-Mod für 2 Spieler
+# Dread Dawn – Co-op Mod for 2 Players
 
-Mit diesem Mod spielt ihr **Dread Dawn zu zweit in derselben Welt**: Einer hostet, ein Freund tritt bei. Verbunden wird über das Netzwerk, zum Beispiel mit **Radmin VPN** oder im LAN.
+This mod lets you play **Dread Dawn together in the same world**: one player hosts, a friend joins. You connect over the network, for example with **Radmin VPN** or in a LAN.
 
-- **Version:** 1.1
-- **Keine Originaldateien werden verändert.** Der Mod liest beim Start das installierte Spiel und baut daraus im Ordner `coop\cache` die Coop-Version. Nach einem Spiel-Update passiert das automatisch neu.
-- **Kein extra Java nötig.** Die Startdateien benutzen das Java, das beim Spiel dabei ist.
+- **Version:** 1.2
+- **No original file is changed.** On start the mod reads the installed game and builds the co-op version from it in `coop\cache`. After a game update this happens again automatically.
+- **No extra Java needed.** The start files use the Java that comes with the game.
+- **Optional German language pack** that translates the whole game (see below).
 
 ## Installation
 
-1. Unter **[Releases](https://github.com/Minnteee/DreadDawn-Coop-Mod/releases/latest)** die Datei `DreadDawn-Coop-Mod-1.1.zip` herunterladen.
-2. Den Inhalt in den Dread-Dawn-Ordner entpacken, also dorthin, wo der Ordner `Word` liegt. Danach liegen dort:
-   - `Dread Dawn COOP.bat` (normaler Start)
-   - `Dread Dawn COOP (Fenster 800x600).bat` (kleines Fenster, z. B. zum Testen)
-   - der Ordner `coop` mit `coop-mod.jar`, Anleitung (`LIESMICH.txt`), Coop-Liste und Lizenz
-3. Beide Spieler brauchen dieselbe Spielversion und genau dieselbe `coop-mod.jar`. Sonst wird die Verbindung mit einer Meldung abgewiesen.
+1. Download `DreadDawn-Coop-Mod-1.2.zip` from **[Releases](https://github.com/Minnteee/DreadDawn-Coop-Mod/releases/latest)**.
+2. Unpack it into the Dread Dawn folder, i.e. where the folder `Word` is. Afterwards it contains:
+   - `Dread Dawn COOP.bat` (normal start)
+   - `Dread Dawn COOP (Fenster 800x600).bat` (small window, e.g. for testing)
+   - the folder `coop` with `coop-mod.jar`, instructions (`README.txt`), the co-op list and the license
+3. Both players need the same game version and exactly the same `coop-mod.jar`. Otherwise the connection is rejected with a message.
 
-**Entfernen:** die zwei `.bat`-Dateien und den Ordner `coop` löschen (beim Freund zusätzlich `Save\coop`).
+**Removing:** delete the two `.bat` files and the `coop` folder (on the friend's PC also `Save\coop`).
 
-## Spielen
+## Playing
 
-1. Beide starten Radmin VPN und sind im selben Netzwerk.
-2. Beide starten `Dread Dawn COOP.bat`.
-3. **Host:** Hauptmenü → **Coop hosten** → Namen eingeben → **Hosten**. Danach wie gewohnt *Continue*, *New Game* oder *Load* wählen. Das Fenster zeigt deine IP an (Radmin-Adressen beginnen mit `26.`). Fragt die Windows-Firewall nach „Java“: **zulassen**, am besten für private und öffentliche Netzwerke.
-4. **Freund:** Hauptmenü → **Coop beitreten** → Namen und IP des Hosts eingeben → **Verbinden**. Er bekommt automatisch die Welt des Hosts und erscheint neben ihm.
+1. Both start Radmin VPN and join the same network.
+2. Both start `Dread Dawn COOP.bat`.
+3. **Host:** main menu → **Host co-op** → enter a name → **Host**. Then choose *Continue*, *New Game* or *Load* as usual. The dialog shows your IP (Radmin addresses start with `26.`). If the Windows firewall asks about "Java": **allow** it, best for private and public networks.
+4. **Friend:** main menu → **Join co-op** → enter a name and the host's IP → **Connect**. He receives the host's world automatically and appears next to him.
 
-Port: `7777` (TCP), änderbar im Dialog oder in `coop\coop.properties`.
+Port: `7777` (TCP), can be changed in the dialog or in `coop\coop.properties`.
 
-Die Welt gehört dem Host und wird in **seinem** Spielstand gespeichert, auch der Charakter des Freundes (Inventar, Ausrüstung, Werte, Aussehen). Beim nächsten Beitritt ist alles wieder da. Die eigenen Spielstände des Freundes werden nicht angefasst.
+The world belongs to the host and is saved in **his** save, together with the friend's character (bag, equipment, stats, look, companions). Next time the friend joins, everything is back. The friend's own saves are never touched.
 
-## Was synchronisiert wird
+## What is synchronised
 
-Der Host führt das Spiel: Er berechnet Zombies, NPCs, Story und Welt. Der Gast sieht alles live und schickt seine eigenen Aktionen an den Host. Die ausführliche Liste mit allen 58 Punkten steht in [`COOP-LISTE.txt`](dist/coop/COOP-LISTE.txt).
+The host runs the game: he simulates zombies, NPCs, story and world. The guest sees everything live and sends his own actions to the host. The full list with all points is in [`COOP-LIST.txt`](dist/coop/COOP-LIST.txt).
 
-| Bereich | Was beide gleich sehen und erleben |
+| Area | What both see and experience |
 |---|---|
-| **Spieler** | Figur des anderen mit allen Bewegungen, Waffe, Schüssen, Schlägen, Mündungsfeuer, Sound und Taschenlampe · Name und Lebensbalken über dem Kopf · Kugel-Linien (auch von NPCs und Geschützen) · Sprechblasen · kein Friendly Fire |
-| **Gast-Charakter** | Eigenes Inventar, Ausrüstung, Leben, Hunger, Durst, Level, Fertigkeiten und Aussehen · Startausrüstung wie im Einzelspieler · alles wird beim Host mitgespeichert |
-| **Zombies & NPCs** | Gleiche Positionen bei beiden · Zombies jagen beide Spieler · volle Zombie-KI auch rund um den Gast, egal wie weit ihr auseinander seid · Treffer des Gasts zählen beim Host · brennende Zombies |
-| **Handel & Begleiter** | Der Gast handelt selbst (Kaufen, Verkaufen, Reparieren) · Begleiter anheuern, entlassen und kommandieren |
-| **Kampf & Gefahren** | Granaten, Molotows, Flammenwerfer, Säure, Explosionen, Fässer, Boomer-Gas, Fallen, Flammendüsen · Schaden zählt nur einmal |
-| **RC-Autos & Skateboards** | Wer fährt, steuert selbst; der andere sieht es flüssig |
-| **Story & Missionen** | Zwischensequenzen und Story-Dialoge bei beiden, weiter geht es erst, wenn beide gedrückt haben · Story-Ziele, Ereignisse und Missionen kann auch der Gast auslösen · Belohnungen für beide · gelber Ziel-Pfeil · Zombie-Gebiet, Abwurf und Lager-Belagerung |
-| **Welt** | Tageszeit und Wetter · Schlafen nur, wenn beide schlafen · Kartenwechsel immer gemeinsam · Items am Boden, Kisten, Schränke, Leichen und Airdrops mit gleichem Inhalt · Schlösser, Schlüssel, Türen, Stromleitungen · Bauen, Abreißen, Bäume fällen, Ernten, Lagerfeuer, Hühner, Regentonnen |
-| **Tod, Pause & Speichern** | Wer stirbt, schaut dem anderen zu · sind beide tot, lädt der Host den letzten Autosave und der Gast lädt mit · Pausemenü und Inventar halten die Welt nicht an · gespeichert wird beim Host · bei Verbindungsabbruch spielt der Host weiter |
-| **Einstellungen** | Schwierigkeit und Zombie-Anzahl des Hosts gelten für beide |
+| **Players** | The other figure with all movements, weapon, shots, hits, muzzle flash, sound and flashlight · name and health bar above the head · bullet tracers (also of NPCs and turrets) · speech bubbles · no friendly fire |
+| **Finding each other** | The partner is a yellow dot on the minimap and the map · off screen a yellow arrow with his name and distance points to him |
+| **Down & revive** | At 0 health you go down: 15 s countdown at the body, the partner revives you with **E** · without help you are dead, watch your partner (map allowed) and come back at the next map change or cutscene |
+| **Guest's character** | Own bag, equipment, health, hunger, thirst, level, skills and look · starting kit like in single player · all saved in the host's save |
+| **Zombies & NPCs** | Same positions for both · zombies hunt both players · full zombie AI around the guest, however far apart you are · the guest's hits count on the host · burning zombies |
+| **Trading & companions** | The guest trades himself (buy, sell, repair) · hire, dismiss and command companions · command mode (Q) and build mode for both |
+| **Combat & hazards** | Grenades, molotovs, flamethrower, acid, explosions, barrels, boomer gas, traps, flame jets · damage counts once · the partner never sets off traps |
+| **RC cars & skateboards** | The driver steers himself, the other sees it smoothly |
+| **Story & missions** | Cutscenes and story dialogs for both, continue only when both pressed · the story waits for the guest after map changes, so nobody misses a scene · the guest can trigger story goals, events and missions · rewards for both · yellow guidance arrow, zombie area, air drop, camp siege |
+| **World** | Time of day and weather · sleeping only when both sleep · map changes always together · items on the ground, boxes, cupboards, bodies and air drops with the same contents · locks, keys, doors, power lines · building, tearing down, trees, harvesting, bonfires, chickens, rain barrels |
+| **Saving** | The host saves as usual · the guest can save for the host (F5 or "Save" in the pause menu) into the host's current slot · a dead host can save too |
+| **Pause & disconnect** | Pause menu and inventory do not stop the world · if the connection drops, the host plays on |
+| **Settings** | The host's difficulty and number of zombies count for both |
 
-**Bekannte Grenzen**
+**Known limits**
 
-- Zombies erscheinen beim Gast mit etwa 50–100 ms Verzögerung (durch eine Vorhersage kaum sichtbar).
-- Seil, Taser und Feuerwehrschlauch sieht nur, wer sie benutzt.
-- Angeln macht jeder für sich.
-- Minispiele (PC-Spiele, Fußball, Autorennen) und die Freundin-Szene sind im Coop gesperrt, weil sie auf eine eigene Karte wechseln.
+- Zombies appear on the guest with about 50–100 ms delay (hardly visible thanks to prediction).
+- Rope, taser and fire hose are only seen by the player using them.
+- Fishing is done by each player for himself.
+- Mini-games (PC games, football, car race) and the girlfriend scene are blocked in co-op, because they switch to a map of their own.
 
-## Wie der Mod funktioniert
+## New in 1.2
 
-| Teil | Ordner | Aufgabe |
+- **Down & revive** with a 15 s countdown and E, death and respawn at map changes / cutscenes for host and guest alike.
+- **Smooth partner figure** over the internet: replay with the sender's timing, adaptive delay, correct leg animation, no more jittering.
+- **Partner markers:** yellow dot on the minimap and the map, arrow with name at the screen edge; a dead player can open the map.
+- **Guest saves for the host;** the host's current save slot is remembered; saves made while dead are safe.
+- **No more lost items:** container changes are merged instead of overwritten, the guest's character is sent at once when his bag changes, a dead traveller keeps his bag, companions travel along.
+- **No more missed cutscenes:** the story waits for the guest after map changes.
+- **Command mode (Q) and build mode** work for the guest; the partner no longer sets off traps; a dead body can't be looted.
+- The mod speaks **English** (German with the language pack).
+
+## German language pack (Deutsch-Mod)
+
+`DreadDawn-German-Pack-1.2.zip` (in the releases) makes the whole game German: menus, items, crafting, hints, story dialogs, cutscenes and the co-op messages. Unpack it into the Dread Dawn folder; then start `Dread Dawn DEUTSCH.bat` for single player, or `Dread Dawn COOP.bat` as usual – with the pack installed the co-op game is German too. Each player sees the language installed on his own PC. It works by reading German copies of the game's English text files (`deutsch\Word\...`); the original files stay untouched, and texts that exist only as pictures stay English. The German texts are in [`german/`](german/).
+
+## How the mod works
+
+| Part | Folder | Job |
 |---|---|---|
-| Launcher | `src/coop/launcher` | Wird von der `.bat` mit dem Java des Spiels gestartet, holt das Spiel aus `Dread dawn.exe`, patcht es beim ersten Start und startet es. |
-| Patcher | `src/coop/patcher` | Verändert den Bytecode des Spiels mit [ASM](https://asm.ow2.io) und hängt an ausgewählten Stellen Aufrufe in den Mod ein. `Patches.java` listet alle Eingriffe. |
-| Hooks | `src/coop/Hooks.java` | Die Einstiegspunkte, die das gepatchte Spiel aufruft. |
-| Netzwerk | `src/coop/net` | Eigenes TCP-Protokoll (Port 7777) mit Versionsprüfung beim Verbinden. |
-| Synchronisierung | `src/coop/sync` | Ein Modul pro Bereich, z. B. `PlayerSync`, `ZombieSync`, `HumanSync`, `StorySync`, `ItemSync`, `VehicleSync`, `WorldSync`. |
-| Oberfläche | `src/coop/ui` | Coop-Menü und Anzeigen im Spiel. |
-| Test-Werkzeuge | `src/coop/debug`, `tools/` | Fernsteuerung für automatische Tests mit zwei Spielen auf einem PC. Nur aktiv mit `-Dcoop.debugPort=…` und nur vom eigenen PC aus erreichbar. |
+| Launcher | `src/coop/launcher` | Started by the `.bat` with the game's Java, takes the game out of `Dread dawn.exe`, patches it on the first start and starts it. |
+| Patcher | `src/coop/patcher` | Changes the game's bytecode with [ASM](https://asm.ow2.io) and hooks calls into the mod at chosen places. `Patches.java` lists every change. |
+| Hooks | `src/coop/Hooks.java` | The entry points the patched game calls. |
+| Network | `src/coop/net` | Own TCP protocol (port 7777) with a version check; `Clock` maps the partner's send times onto the own clock. |
+| Synchronisation | `src/coop/sync` | One module per area, e.g. `PlayerSync`, `Puppet`, `ZombieSync`, `HumanSync`, `StorySync`, `ItemSync`, `DeathSync` (down/revive), `SaveSync`, `QMode`, `VehicleSync`, `WorldSync`. |
+| Interface | `src/coop/ui` | Co-op menu, overlay (names, revive countdown, edge arrow), `MapMarkers` (minimap and map dots). |
+| Languages | `src/coop/T.java`, `src/coop/Lang.java` | Player-visible texts in English with a German table; the German pack redirects the game's text files. |
+| Test tools | `src/coop/debug`, `tools/` | Remote control for automated tests with two games on one PC (only active with `-Dcoop.debugPort=…`, only reachable from the own PC); `-Dcoop.simLag=40,60` simulates a slow internet line. |
 
-## Selbst bauen
+## Building
 
-Du brauchst Windows mit Git Bash, ein JDK 21 und ein installiertes Dread Dawn. Der Mod wird gegen das Spiel kompiliert; Dateien des Spiels sind nicht in diesem Repository.
+You need Windows with Git Bash, a JDK 21 and an installed Dread Dawn. The mod is compiled against the game; no game files are in this repository.
 
 ```bash
-JDK="/c/Program Files/Java/jdk-21" GAME="/d/Spiele/Dread Dawn" ./build.sh
+JDK="/c/Program Files/Java/jdk-21" GAME="/d/Games/Dread Dawn" ./build.sh
 ```
 
-Das Ergebnis liegt in `build/`: `coop-mod.jar` und das fertige Paket `DreadDawn-Coop-Mod.zip`. Mit `./build.sh install` wird der Mod zusätzlich in den Spielordner kopiert. Die beiden Pfade kannst du auch in eine Datei `local.env` neben `build.sh` schreiben.
+The result is in `build/`: `coop-mod.jar`, the co-op package `DreadDawn-Coop-Mod.zip`, `deutsch-mod.jar` and the German package `DreadDawn-Deutsch-Mod.zip`. `./build.sh install` also copies everything into the game folder. You can put the two paths into a file `local.env` next to `build.sh` instead.
 
-## Lizenz
+## License
 
-**Alle Rechte vorbehalten**, siehe [LICENSE](LICENSE).
+**MIT** – see [LICENSE](LICENSE). You may use, change and extend the mod and its source code, also in your own projects. The only condition: keep the copyright notice, i.e. **credit Minnteee with a link to [github.com/Minnteee](https://github.com/Minnteee)** when you use this source code.
 
-- Erlaubt: den Mod herunterladen und spielen, ihn unverändert an Freunde weitergeben, den Quellcode ansehen.
-- Nicht erlaubt ohne Erlaubnis: veränderte Versionen weitergeben oder veröffentlichen, den Code in andere Projekte übernehmen, den Mod verkaufen.
-
-Dread Dawn gehört seinen Rechteinhabern; dieses Repository enthält keine Dateien des Spiels. Der Mod enthält die Bibliothek ASM (BSD-3-Clause, Lizenztext in [LICENSE](LICENSE)).
+Dread Dawn belongs to its rights holders; this repository contains no files of the game. The German texts are a fan translation of the game's texts. The mod contains the library ASM (BSD-3-Clause, license text in [LICENSE](LICENSE)).
 
 ---
 
-Dieser Mod wurde mit **Claude Opus 5.5** von Anthropic erstellt.
+Made by [Minnteee](https://github.com/Minnteee) with **Claude Opus 5.5** by Anthropic.

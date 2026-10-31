@@ -33,8 +33,9 @@ public final class Launcher {
         } catch (Throwable t) {
             t.printStackTrace();
             try {
-                JOptionPane.showMessageDialog(null, "Dread Dawn Coop konnte nicht starten:\n" + t.getMessage(),
-                        "Dread Dawn Coop", JOptionPane.ERROR_MESSAGE);
+                String what = langOnly() ? "Dread Dawn Deutsch" : "Dread Dawn Co-op";
+                JOptionPane.showMessageDialog(null, what + " could not start:\n" + t.getMessage(), what,
+                        JOptionPane.ERROR_MESSAGE);
             } catch (Throwable ignored) {
                 // headless
             }
@@ -49,7 +50,8 @@ public final class Launcher {
         Path panelDir = root.resolve("Word").resolve("Etc").resolve("doot").resolve("effc").resolve("MyPanel");
         Path exe = panelDir.resolve("Dread dawn.exe");
         if (!Files.isRegularFile(exe)) {
-            throw new IOException("Spiel nicht gefunden: " + exe + "\nDer Ordner 'coop' muss im Dread-Dawn-Ordner liegen.");
+            throw new IOException("Game not found: " + exe + "\nThe '" + coopDir.getFileName()
+                    + "' folder must be inside the Dread Dawn folder.");
         }
         Path cache = coopDir.resolve("cache");
         Files.createDirectories(cache);
@@ -68,9 +70,9 @@ public final class Launcher {
             }
         }
         if (!upToDate || force) {
-            System.out.println("[coop] Patche Spiel aus " + exe);
+            System.out.println("[coop] Patching the game from " + exe);
             byte[] jar = Exe4j.extractGameJar(exe);
-            GamePatcher gp = Patches.create();
+            GamePatcher gp = Patches.create(langOnly());
             byte[] out = gp.patchJar(jar, true);
             Path tmp = cache.resolve("game-patched.jar.tmp");
             Files.write(tmp, out);
@@ -130,12 +132,17 @@ public final class Launcher {
                 }
             }
         }
-        System.out.println("[coop] Spiel gestartet (PID " + p.pid() + ")");
+        System.out.println("[coop] Game started (PID " + p.pid() + ")");
         for (String a : args) {
             if (a.equals("--wait")) {
                 System.exit(p.waitFor());
             }
         }
+    }
+
+    /** deutsch-mod.jar contains only the language pack, not the co-op mod */
+    static boolean langOnly() {
+        return Launcher.class.getResource("/coop/Hooks.class") == null;
     }
 
     static String sha256(Path p) throws Exception {

@@ -67,7 +67,7 @@ public final class DebugServer extends Thread {
     @Override
     public void run() {
         try (ServerSocket ss = new ServerSocket(port, 4, InetAddress.getLoopbackAddress())) {
-            Log.info("Debug-Steuerung auf 127.0.0.1:" + port);
+            Log.info("Debug control on 127.0.0.1:" + port);
             while (true) {
                 Socket s = ss.accept();
                 Thread t = new Thread(() -> handle(s), "coop-debug-client");

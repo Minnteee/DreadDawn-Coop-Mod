@@ -17,6 +17,7 @@ import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
+import coop.T;
 
 /**
  * The host's world (Save\auto) is zipped and sent to the client whenever the client joins and
@@ -49,6 +50,45 @@ public final class WorldTransfer {
     private static volatile long requestedAt;
     private static volatile boolean saveFirst;
     private static long sentAt;
+
+    /** reason of a world sent for a map change (the client keeps its newest character then) */
+    public static final String REASON_TRAVEL = "map change";
+
+    private static volatile long waitSince;
+    /** host: map-entry events that waited for the guest */
+    private static volatile boolean pendingMapEntry;
+
+    /**
+     * Host: the guest has not loaded the current world yet (map change, reload, join). The story waits
+     * meanwhile, so cutscenes and dialogs start on both machines; at most 45 s.
+     */
+    public static boolean hostAwaitingGuest() {
+        if (!Net.isHost() || !Net.connected() || Net.peerName.isEmpty()) {
+            waitSince = 0;
+            return false;
+        }
+        boolean waiting = Coop.loading || sendPending || sending || !Coop.clientPlaying;
+        if (!waiting) {
+            waitSince = 0;
+            return false;
+        }
+        long now = System.currentTimeMillis();
+        if (waitSince == 0) {
+            waitSince = now;
+        }
+        return now - waitSince < 45_000;
+    }
+
+    /** host: MapThing.treasure while the guest loads: map-entry events wait and are replayed afterwards */
+    public static boolean holdMapEvents(boolean fore) {
+        if (!hostAwaitingGuest()) {
+            return false;
+        }
+        if (fore) {
+            pendingMapEntry = true;
+        }
+        return true;
+    }
 
     /**
      * @param save true: save the current state first (join, map change). false: the world was just
@@ -89,7 +129,7 @@ public final class WorldTransfer {
                 Profile.hostWriteProfiles();
                 new Game.SaveGame();
             } catch (Throwable t) {
-                Log.error("SaveGame vor Weltversand", t);
+                Log.error("SaveGame before sending the world", t);
             }
         } else {
             Profile.forgetHostProfiles();
@@ -108,7 +148,7 @@ public final class WorldTransfer {
         try {
             files = readDir(dir);
         } catch (IOException e) {
-            Log.error("Welt lesen", e);
+            Log.error("reading the world", e);
             sending = false;
             sendPending = true;
             return;
@@ -128,8 +168,8 @@ public final class WorldTransfer {
                 }
                 Net.send(new Msg(Proto.WORLD_END).i32(zip.length));
                 sentAt = System.currentTimeMillis();
-                Log.info("Welt gesendet: " + meta.map + meta.mapId + " (" + zip.length / 1024 + " KB, " + meta.reason + ")");
-                Net.status = "Welt an " + Net.peerName + " gesendet, warte bis geladen ...";
+                Log.info("world sent: " + meta.map + meta.mapId + " (" + zip.length / 1024 + " KB, " + meta.reason + ")");
+                Net.status = T.s("World sent to {0}, waiting until it is loaded ...", Net.peerName);
             } catch (Throwable e) {
                 Log.error("Weltversand", e);
                 sendPending = true;
@@ -193,8 +233,8 @@ public final class WorldTransfer {
                 // positions received before this world are from the old world
                 Puppet.forget();
                 progress = 0;
-                Net.status = "Empfange Welt vom Host ...";
-                Log.info("Empfange Welt " + meta.map + meta.mapId + " (" + meta.size / 1024 + " KB, " + meta.reason + ")");
+                Net.status = T.s("Receiving the host's world ...");
+                Log.info("receiving world " + meta.map + meta.mapId + " (" + meta.size / 1024 + " KB, " + meta.reason + ")");
                 break;
             }
             case Proto.WORLD_CHUNK: {
@@ -209,7 +249,7 @@ public final class WorldTransfer {
             case Proto.WORLD_END: {
                 int size = m.i32();
                 if (incoming == null || incoming.size() != size) {
-                    Log.info("Welt unvollstaendig, fordere neu an");
+                    Log.info("world incomplete, requesting it again");
                     Net.send(new Msg(Proto.WORLD_REQUEST));
                     incoming = null;
                     return;
@@ -224,15 +264,33 @@ public final class WorldTransfer {
             }
             case Proto.WORLD_LOADED: {
                 if (Net.isHost()) {
+                    if (sendPending || sending) {
+                        // the guest finished an older world; the newer one is on its way
+                        Log.info("late WORLD_LOADED ignored (a newer world is pending)");
+                        break;
+                    }
                     Coop.clientPlaying = true;
-                    Net.status = "Verbunden mit " + Net.peerName;
-                    Log.info("Client hat die Welt geladen (" + (System.currentTimeMillis() - sentAt) + " ms)");
-                    Coop.message(Net.peerName + " ist im Spiel");
+                    waitSince = 0;
+                    if (pendingMapEntry) {
+                        pendingMapEntry = false;
+                        Coop.runSim(() -> {
+                            try {
+                                if (MyPanel.MapThing != null) {
+                                    MyPanel.MapThing.treasure(true);
+                                }
+                            } catch (Throwable t) {
+                                Log.error("map events after the guest loaded", t);
+                            }
+                        });
+                    }
+                    Net.status = T.s("Connected to {0}", Net.peerName);
+                    Log.info("client loaded the world (" + (System.currentTimeMillis() - sentAt) + " ms)");
+                    Coop.message(T.s("{0} is in the game", Net.peerName));
                 }
                 break;
             }
             case Proto.WORLD_REQUEST:
-                requestSend("Client fordert Welt an", true);
+                requestSend("client requests the world", true);
                 break;
             default:
                 break;
@@ -284,8 +342,8 @@ public final class WorldTransfer {
                 }
             }
         } catch (Throwable t) {
-            Log.error("Welt entpacken", t);
-            Coop.message("Fehler beim Entpacken der Welt: " + t.getMessage());
+            Log.error("unpacking the world", t);
+            Coop.message(T.s("Error unpacking the world: {0}", t.getMessage()));
             return;
         }
         current = meta;
@@ -301,14 +359,14 @@ public final class WorldTransfer {
     private static void startLoad(Meta meta) {
         keepMap = null;
         Profile.travelCarry = null;
-        boolean travel = "Kartenwechsel".equals(meta.reason) && Coop.clientInWorld && MyPanel.ctcode != null
-                && MyPanel.ctheal[300] > 0 && !DeathSync.localDead();
+        boolean travel = REASON_TRAVEL.equals(meta.reason) && Coop.clientInWorld && MyPanel.ctcode != null && !DeathSync.gameOver();
         if (travel) {
             try {
-                // the own character as it is right now (the host's copy can be a few seconds old)
-                Profile.travelCarry = Profile.capture();
+                // the own character as it is right now (the host's copy can be a few seconds old);
+                // a dead or downed guest comes back with this bag on the new map
+                Profile.travelCarry = DeathSync.localDead() ? Profile.capture(DeathSync.respawnHp()) : Profile.capture();
             } catch (Throwable t) {
-                Log.error("Profil mitnehmen", t);
+                Log.error("carrying the profile", t);
             }
             keepMap = MyPanel.select + MyPanel.selectid;
             keepX = MyPanel.doucount[0][300];
@@ -329,8 +387,8 @@ public final class WorldTransfer {
         Puppet.reset();
         MyPanel.page = 3;
         MyPanel.dir1 = true;
-        Net.status = "Lade die Welt des Hosts ...";
-        Log.info("Starte Laden der Host-Welt " + meta.map + meta.mapId);
+        Net.status = T.s("Loading the host's world ...");
+        Log.info("start loading the host world " + meta.map + meta.mapId);
     }
 
     /** Client, end of load(): place the player next to the host and report. */
@@ -363,8 +421,8 @@ public final class WorldTransfer {
         MyPanel.ctname[300] = Config.name;
         Profile.clientApplyAfterLoad();
         Net.send(new Msg(Proto.WORLD_LOADED));
-        Net.status = "Verbunden mit " + Net.peerName;
-        Log.info("Host-Welt geladen, Spieler bei " + (int) px + "," + (int) py);
+        Net.status = T.s("Connected to {0}", Net.peerName);
+        Log.info("host world loaded, player at " + (int) px + "," + (int) py);
     }
 
     /** a walkable place next to the host that the host can see (not behind a wall) */
@@ -429,7 +487,7 @@ public final class WorldTransfer {
         if (Coop.forcedDifficulty >= 0) {
             Coop.forcedDifficulty = -1;
         }
-        Log.info("Coop-Welt verlassen");
+        Log.info("left the co-op world");
     }
 
     public static boolean redirectActive() {

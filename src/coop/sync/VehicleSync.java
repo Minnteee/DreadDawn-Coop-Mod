@@ -585,7 +585,7 @@ public final class VehicleSync {
             HazardSync.sharedEnter();
             MyPanel.explodecreater(x, y, 300.0, 800.0, 500.0, false);
         } catch (Throwable t) {
-            Log.rare("Auto-Explosion " + t);
+            Log.rare("car explosion " + t);
         } finally {
             HazardSync.sharedExit();
             Combat.envDepth--;
@@ -678,7 +678,7 @@ public final class VehicleSync {
                     } finally {
                         applying.set(false);
                     }
-                    Log.info("Auto des Gasts aufgestellt (Platz " + slot + ")");
+                    Log.info("guest car placed (slot " + slot + ")");
                 });
                 break;
             }

@@ -51,11 +51,32 @@ public final class Profile {
         return s.toString();
     }
 
+    /**
+     * Replaces the contents of pack "code" and keeps its pack index (the inventory screen remembers
+     * indices while the player drags an item). Creates the pack if it does not exist.
+     */
+    public static int packFromStringInPlace(String code, String data) {
+        int num = MyPanel.gethumpacknameid(code);
+        if (num < 0) {
+            return packFromString(code, data);
+        }
+        MyPanel.clearpackwithoutname(num);
+        String[] parts = data.split("@");
+        MyPanel.humanpackstocknuming[num] = Integer.parseInt(parts[0]);
+        fill(num, parts);
+        return num;
+    }
+
     /** Replaces the pack "code" with the given contents. Returns the pack index. */
     public static int packFromString(String code, String data) {
         MyPanel.clearpack(code);
         String[] parts = data.split("@");
         int num = MyPanel.packcreater(code, Integer.parseInt(parts[0]));
+        fill(num, parts);
+        return num;
+    }
+
+    private static void fill(int num, String[] parts) {
         int slot = -1;
         for (int i = 1; i < parts.length; i++) {
             if (parts[i].isEmpty()) {
@@ -76,17 +97,68 @@ public final class Profile {
                 slot = -1;
             }
         }
-        return num;
     }
 
     // ------------------------------------------------------------------ client
 
-    /** Client worker thread: send the character to the host every few seconds. */
-    public static void clientTick() {
-        long now = System.currentTimeMillis();
-        if (now - lastSend < 5000 || DeathSync.localDead()) {
+    /** client: send the own character right now (before going down, before a map change ...) */
+    public static void sendNow() {
+        if (!Net.isClient() || !Coop.clientInWorld) {
             return;
         }
+        try {
+            Net.send(new Msg(Proto.PROFILE).str(Config.name).blob(capture()));
+            lastSend = System.currentTimeMillis();
+            lastHash = bagHash();
+        } catch (Throwable t) {
+            Log.error("Profile.sendNow", t);
+        }
+    }
+
+    /** client: send at the next tick */
+    public static void sendSoon() {
+        lastSend = 0;
+    }
+
+    private static int lastHash;
+
+    /** what is in the bag and on the body (cheap, to notice changes) */
+    static int bagHash() {
+        int h = 17;
+        try {
+            int num = MyPanel.gethumpacknameid(MyPanel.ctcode[300]);
+            if (num >= 0) {
+                for (int x = 0; x < MyPanel.humanpackstocknuming[num]; x++) {
+                    h = h * 31 + MyPanel.humanpackstockind[x][num];
+                    h = h * 31 + MyPanel.humanpackid[x][num];
+                }
+            }
+            for (int i = 0; i < MyPanel.bodypackid.length; i++) {
+                h = h * 31 + MyPanel.bodypackstockind[i];
+                h = h * 31 + MyPanel.bodypackid[i];
+            }
+        } catch (Throwable t) {
+            // pack not ready
+        }
+        return h;
+    }
+
+    /** Client worker thread: send the character to the host every few seconds, and at once when the bag changed. */
+    public static void clientTick() {
+        long now = System.currentTimeMillis();
+        if (DeathSync.localDead()) {
+            return;
+        }
+        if (now - lastSend < 5000) {
+            if (now - lastSend < 1000) {
+                return;
+            }
+            int h = bagHash();
+            if (h == lastHash) {
+                return;
+            }
+        }
+        lastHash = bagHash();
         lastSend = now;
         try {
             Net.send(new Msg(Proto.PROFILE).str(Config.name).blob(capture()));
@@ -96,12 +168,18 @@ public final class Profile {
     }
 
     static byte[] capture() throws IOException {
+        return capture(-1);
+    }
+
+    /** aliveHp > 0: the character as he will stand up (a dead / downed player comes back with this health) */
+    static byte[] capture(double aliveHp) throws IOException {
         ByteArrayOutputStream b = new ByteArrayOutputStream();
         DataOutputStream o = new DataOutputStream(b);
         o.writeInt(MAGIC);
         o.writeInt(3);
-        o.writeDouble(MyPanel.healplayer > 0 ? MyPanel.healplayer : MyPanel.ctheal[300]);
-        o.writeDouble(MyPanel.ctheal[300]);
+        double hp = aliveHp > 0 ? aliveHp : MyPanel.ctheal[300];
+        o.writeDouble(aliveHp > 0 ? aliveHp : (MyPanel.healplayer > 0 ? MyPanel.healplayer : MyPanel.ctheal[300]));
+        o.writeDouble(hp);
         o.writeDouble(MyPanel.kevlarplayer);
         o.writeDouble(MyPanel.ctkevlar[300]);
         o.writeFloat(MyPanel.cthunger[300]);
@@ -198,7 +276,7 @@ public final class Profile {
                 MyPanel.ProduceView.produce_crafted[x] = false;
             }
         } catch (Throwable t) {
-            Log.error("Startwerte", t);
+            Log.error("start values", t);
         }
         refreshDerived();
     }
@@ -247,7 +325,7 @@ public final class Profile {
                 data = Files.readAllBytes(f);
             }
         } catch (IOException e) {
-            Log.error("Profil lesen", e);
+            Log.error("reading profile", e);
         }
         String code = MyPanel.getcode();
         MyPanel.ctcode[300] = code;
@@ -257,10 +335,10 @@ public final class Profile {
             data = carry; // own, newest state through a map change
         }
         if (data != null && apply(data, code)) {
-            Log.info("Eigener Charakter geladen (" + data.length + " Bytes)");
+            Log.info("own character loaded (" + data.length + " bytes)");
         } else {
             starterKit(code);
-            Log.info("Neuer Coop-Charakter mit Startausruestung");
+            Log.info("new co-op character with the starting kit");
         }
         MyPanel.selection = Math.max(0, Math.min(7, MyPanel.selection));
         refreshHand();
@@ -345,7 +423,7 @@ public final class Profile {
             refreshDerived();
             return true;
         } catch (Throwable t) {
-            Log.error("Profil anwenden", t);
+            Log.error("applying profile", t);
             return false;
         }
     }
@@ -386,7 +464,7 @@ public final class Profile {
                 return kit.toArray(new int[0][]);
             }
         } catch (Throwable t) {
-            Log.error("Startausruestung fuer Modus " + MyPanel.modeKIND, t);
+            Log.error("starting kit for mode " + MyPanel.modeKIND, t);
         }
         return BASIC_KIT;
     }
@@ -395,12 +473,12 @@ public final class Profile {
         int num = MyPanel.packcreater(code, 24);
         int stock = 0;
         int[][] items = kitForMode();
-        Log.info("Startausruestung (Modus " + MyPanel.modeKIND + "): " + java.util.Arrays.deepToString(items));
+        Log.info("starting kit (mode " + MyPanel.modeKIND + "): " + java.util.Arrays.deepToString(items));
         for (int[] it : items) {
             try {
                 MyPanel.stuffcreater.unitynumcreater(it[0], it[1], stock++, num);
             } catch (Throwable t) {
-                Log.error("Startausruestung " + it[0], t);
+                Log.error("starting kit " + it[0], t);
             }
         }
         for (int i = 0; i < MyPanel.bodypackid.length; i++) {
@@ -459,7 +537,7 @@ public final class Profile {
                 Files.write(dir.resolve(fileName(e.getKey())), e.getValue());
                 TeamSync.save(dir, fileName(e.getKey()).replace(".profile", ""));
             } catch (IOException ex) {
-                Log.error("Profil schreiben", ex);
+                Log.error("writing profile", ex);
             }
         }
     }

@@ -6,6 +6,7 @@ import coop.Log;
 import coop.net.Msg;
 import coop.net.Net;
 import coop.net.Proto;
+import coop.T;
 
 /**
  * Both players always stay on the same map. Map changes are done by the host; when the client
@@ -17,7 +18,6 @@ public final class Travel {
     private static long lastRequest;
     /** host: executing a travel the client asked for */
     private static volatile boolean remoteTravel;
-    private static boolean savedDeathed;
 
     static boolean busy() {
         return remoteTravel;
@@ -33,8 +33,8 @@ public final class Travel {
             if (now - lastRequest > 3000) {
                 lastRequest = now;
                 Net.send(new Msg(Proto.TRAVEL_REQUEST).str(map).i32(id).i32(x).i32(y));
-                Coop.message("Reise wird beim Host gestartet ...");
-                Log.info("Reise angefragt: " + map + id);
+                Coop.message(T.s("The host starts the trip ..."));
+                Log.info("trip requested: " + map + id);
             }
             return true;
         }
@@ -46,6 +46,13 @@ public final class Travel {
      * map exit or using a door/stair/hole does not go through travel(), only through this.
      */
     public static boolean travelingHead(String map, int x, int y, int id) {
+        if (Net.isHost() && Coop.playing()) {
+            DeathSync.respawnBeforeTravel();
+            // from now on the guest needs the new map: the story (map-entry scenes!) waits for him
+            WorldTransfer.requestSend(WorldTransfer.REASON_TRAVEL, true);
+            ItemSync.hostLeavesMap();
+            TeamSync.beforeHostTravel();
+        }
         if (!Net.isClient() || !Coop.clientInWorld || !Net.connected()) {
             return false;
         }
@@ -53,8 +60,8 @@ public final class Travel {
         if (now - lastRequest > 3000) {
             lastRequest = now;
             Net.send(new Msg(Proto.TRAVEL_REQUEST).str(map).i32(id).i32(x).i32(y));
-            Coop.message("Reise wird beim Host gestartet ...");
-            Log.info("Kartenwechsel angefragt: " + map + id + " (" + x + "," + y + ")");
+            Coop.message(T.s("The host starts the trip ..."));
+            Log.info("map change requested: " + map + id + " (" + x + "," + y + ")");
         }
         return true;
     }
@@ -71,11 +78,11 @@ public final class Travel {
             if (!Coop.inGame()) {
                 return;
             }
-            Log.info("Client moechte reisen: " + map + id + " -> Host reist mit");
-            Coop.message(Net.peerName + " geht nach " + map + " - ihr reist gemeinsam.");
+            Log.info("client wants to travel: " + map + id + " -> the host travels along");
+            Coop.message(T.s("{0} goes to {1} - you travel together.", Net.peerName, map));
             remoteTravel = true;
-            // a dead host would block the map change; the dead state comes back afterwards
-            savedDeathed = MyPanel.deathed;
+            // a dead host would block the map change: he stands up first (traveling() -> travelingHead)
+            DeathSync.respawnBeforeTravel();
             MyPanel.deathed = false;
             MyPanel.travel(map, id, x, y);
         });
@@ -85,12 +92,9 @@ public final class Travel {
     public static void afterTraveling() {
         if (remoteTravel) {
             remoteTravel = false;
-            if (savedDeathed) {
-                MyPanel.deathed = true;
-            }
         }
         if (Net.isHost() && Net.connected()) {
-            WorldTransfer.requestSend("Kartenwechsel", true);
+            WorldTransfer.requestSend(WorldTransfer.REASON_TRAVEL, true);
         }
     }
 }

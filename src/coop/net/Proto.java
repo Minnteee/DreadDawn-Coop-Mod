@@ -68,6 +68,10 @@ public final class Proto {
     public static final int STORY2 = 64;
     public static final int LIFE = 65;
     public static final int GUEST = 66;
+    /** the guest asks the host to save (SaveSync) */
+    public static final int SAVE = 67;
+    /** client -> host: the guest changed an open container (state before + after, the host merges the changed slots) */
+    public static final int CONTAINER_EDIT = 68;
 
     public static Msg hello() {
         return new Msg(HELLO).i32(PROTOCOL_MAGIC).i32(Net.PROTOCOL).str(Coop.VERSION).str(MyPanel.verision).str(Config.name);

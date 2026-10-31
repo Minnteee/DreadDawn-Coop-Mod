@@ -109,10 +109,27 @@ public final class GamePatcher implements Opcodes {
          * before a TABLESWITCH over local S: hook(S, a1, a2...) returns the new switch value
          * (target = "S:a1,a2", all int locals)
          */
-        SWITCH_ARG
+        SWITCH_ARG,
+        /**
+         * right before every call to target whose last argument is a String: pass that String through
+         * hook(String)String (owner/method may be "*"), e.g. to redirect file paths
+         */
+        ARG_FILTER
     }
 
     public static final String HOOKS = "coop/Hooks";
+
+    /** the static call to a patch's hook: Hooks.name, or Owner.name for hook names like "coop/Lang.map" */
+    private static MethodInsnNode hookCall(Patch p) {
+        String owner = HOOKS;
+        String name = p.hookName;
+        int dot = name.lastIndexOf('.');
+        if (name.indexOf('/') >= 0 && dot > 0) {
+            owner = name.substring(0, dot);
+            name = name.substring(dot + 1);
+        }
+        return new MethodInsnNode(INVOKESTATIC, owner, name, p.hookDesc, false);
+    }
 
     private final List<Patch> patches = new ArrayList<>();
     private final Map<String, String> superOf = new HashMap<>();
@@ -181,7 +198,7 @@ public final class GamePatcher implements Opcodes {
                 log.append(p.applied > 0 ? "OK   " : (p.optional ? "skip " : "FAIL ")).append(p).append(" x").append(p.applied).append('\n');
             }
             if (missing.length() > 0) {
-                throw new IOException("Diese Spielversion passt nicht zum Coop-Mod. Fehlende Stellen:\n" + missing);
+                throw new IOException("This game version does not match the co-op mod. Missing places:\n" + missing);
             }
         }
         return bout.toByteArray();
@@ -246,13 +263,13 @@ public final class GamePatcher implements Opcodes {
         switch (p.kind) {
             case HEAD: {
                 InsnList il = loadArgs(cn, mn, p, isStatic);
-                il.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+                il.add(hookCall(p));
                 insertHead(mn, il);
                 return 1;
             }
             case HEAD_CANCEL: {
                 InsnList il = loadArgs(cn, mn, p, isStatic);
-                il.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+                il.add(hookCall(p));
                 LabelNode cont = new LabelNode();
                 il.add(new JumpInsnNode(IFEQ, cont));
                 InsnList r = defaultReturn(ret);
@@ -268,7 +285,7 @@ public final class GamePatcher implements Opcodes {
                     int op = in.getOpcode();
                     if (op >= IRETURN && op <= RETURN && !injectedReturns.contains(in)) {
                         InsnList il = loadArgs(cn, mn, p, isStatic);
-                        il.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+                        il.add(hookCall(p));
                         mn.instructions.insertBefore(in, il);
                         n++;
                     }
@@ -277,7 +294,8 @@ public final class GamePatcher implements Opcodes {
             }
             case REDIRECT:
             case AFTER_CALL:
-            case BEFORE_CALL: {
+            case BEFORE_CALL:
+            case ARG_FILTER: {
                 int n = 0;
                 for (AbstractInsnNode in = mn.instructions.getFirst(); in != null; in = in.getNext()) {
                     if (!(in instanceof MethodInsnNode)) {
@@ -287,13 +305,15 @@ public final class GamePatcher implements Opcodes {
                     if (!(mi.owner + "." + mi.name + mi.desc).equals(p.target)) {
                         continue;
                     }
-                    if (p.kind == Kind.REDIRECT) {
-                        MethodInsnNode repl = new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false);
+                    if (p.kind == Kind.ARG_FILTER) {
+                        mn.instructions.insertBefore(mi, hookCall(p));
+                    } else if (p.kind == Kind.REDIRECT) {
+                        MethodInsnNode repl = hookCall(p);
                         mn.instructions.set(mi, repl);
                         in = repl;
                     } else {
                         InsnList il = loadArgs(cn, mn, p, isStatic);
-                        il.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+                        il.add(hookCall(p));
                         if (p.kind == Kind.AFTER_CALL) {
                             AbstractInsnNode last = il.getLast();
                             mn.instructions.insert(mi, il);
@@ -331,7 +351,7 @@ public final class GamePatcher implements Opcodes {
                         LabelNode skip = new LabelNode();
                         LabelNode end = new LabelNode();
                         InsnList pre = new InsnList();
-                        pre.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+                        pre.add(hookCall(p));
                         pre.add(new JumpInsnNode(IFNE, skip));
                         mn.instructions.insertBefore(in, pre);
                         AbstractInsnNode pop = init.getNext();
@@ -352,7 +372,7 @@ public final class GamePatcher implements Opcodes {
                     if ((in.getOpcode() == PUTFIELD || in.getOpcode() == PUTSTATIC)
                             && (((FieldInsnNode) in).owner + "." + ((FieldInsnNode) in).name).equals(p.target)) {
                         InsnList il = loadArgs(cn, mn, p, isStatic);
-                        il.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+                        il.add(hookCall(p));
                         AbstractInsnNode last = il.getLast();
                         mn.instructions.insert(in, il);
                         in = last;
@@ -377,7 +397,7 @@ public final class GamePatcher implements Opcodes {
                             continue;
                         }
                     }
-                    MethodInsnNode repl = new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false);
+                    MethodInsnNode repl = hookCall(p);
                     mn.instructions.set(in, repl);
                     in = repl;
                     n++;
@@ -402,7 +422,7 @@ public final class GamePatcher implements Opcodes {
                     for (String a : args) {
                         il.add(new VarInsnNode(ILOAD, Integer.parseInt(a.trim())));
                     }
-                    il.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+                    il.add(hookCall(p));
                     mn.instructions.insert(ld, il);
                     n++;
                 }
@@ -415,7 +435,7 @@ public final class GamePatcher implements Opcodes {
                 for (AbstractInsnNode in = mn.instructions.getFirst(); in != null; in = in.getNext()) {
                     if (in.getOpcode() == GETSTATIC && ((FieldInsnNode) in).name.equals(name)
                             && ((FieldInsnNode) in).desc.equals(fdesc)) {
-                        MethodInsnNode call = new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false);
+                        MethodInsnNode call = hookCall(p);
                         mn.instructions.set(in, call);
                         in = call;
                         n++;
@@ -428,7 +448,7 @@ public final class GamePatcher implements Opcodes {
                 for (AbstractInsnNode in = mn.instructions.getFirst(); in != null; in = in.getNext()) {
                     if (in.getOpcode() == LDC && ((LdcInsnNode) in).cst instanceof String
                             && ((String) ((LdcInsnNode) in).cst).contains(p.target)) {
-                        MethodInsnNode call = new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false);
+                        MethodInsnNode call = hookCall(p);
                         mn.instructions.insert(in, call);
                         in = call;
                         n++;
@@ -526,7 +546,7 @@ public final class GamePatcher implements Opcodes {
             mn.instructions.insertBefore(inc, skip);
             InsnList il = new InsnList();
             il.add(new VarInsnNode(ILOAD, inc.var));
-            il.add(new MethodInsnNode(INVOKESTATIC, HOOKS, p.hookName, p.hookDesc, false));
+            il.add(hookCall(p));
             il.add(new JumpInsnNode(IFNE, skip));
             mn.instructions.insert(jump.label, il);
         }

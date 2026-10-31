@@ -3,6 +3,7 @@
 #   tools/testrun.sh            start both
 #   tools/testrun.sh host       only host
 #   tools/testrun.sh kill       stop both
+#   COOP_EXTRA="-Dcoop.simLag=40,60" tools/testrun.sh   extra JVM options for both (e.g. simulated lag)
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
 if [ -z "${GAME:-}" ] && [ -f "$HERE/local.env" ]; then . "$HERE/local.env"; fi
 GAME="${GAME:?set GAME to the Dread Dawn folder (environment or local.env)}"
@@ -32,7 +33,7 @@ start() {
   prep_root "$tag"
   out=$("$JAVA" -jar "$MOD" -Dcoop.window=800x600 -Dcoop.windowPos=$x,30 -Dcoop.renderSize=1280x720 \
     -Dcoop.title="DD $tag" -Dcoop.logtag=$tag -Dcoop.debugPort=$port -Dcoop.saveRoot="Save\\cooptest\\$tag" \
-    -Dcoop.config=coop-test-$tag.properties -Dcoop.name=$name -Dcoop.bind=127.0.0.1 2>&1)
+    -Dcoop.config=coop-test-$tag.properties -Dcoop.name=$name -Dcoop.bind=127.0.0.1 $COOP_EXTRA 2>&1)
   echo "$out" | tail -2
   pid=$(echo "$out" | grep -o 'PID [0-9]*' | grep -o '[0-9]*')
   [ -n "$pid" ] && echo "$pid" > "$PIDS/$tag.pid"
